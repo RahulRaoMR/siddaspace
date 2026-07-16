@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Instant Estimate | Sidda Space</title>
+  <meta name="description" content="Get an instant Sidda Space home interior estimate by selecting your BHK type, rooms, package, and contact details.">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="estimator-page">
+  <main>
+    <section class="estimate-wizard" id="estimate" aria-label="Get instant interior estimate">
+      <a class="estimate-home-link" href="index.html" aria-label="Back to Sidda Space home">
+        <img src="assets/sidda-space-logo-on-light.png" alt="Sidda Space">
+      </a>
+
+      <div class="wizard-progress" aria-label="Estimate progress">
+        <button class="wizard-progress-step is-active" type="button" data-step-jump="0">
+          <span>1</span>
+          <strong>BHK Type</strong>
+        </button>
+        <button class="wizard-progress-step" type="button" data-step-jump="1">
+          <span>2</span>
+          <strong>Rooms to Design</strong>
+        </button>
+        <button class="wizard-progress-step" type="button" data-step-jump="2">
+          <span>3</span>
+          <strong>Package</strong>
+        </button>
+        <button class="wizard-progress-step" type="button" data-step-jump="3">
+          <span>4</span>
+          <strong>Get Quote</strong>
+        </button>
+      </div>
+
+      <div class="wizard-card">
+        <form class="estimate-form">
+          <div class="wizard-step is-active" data-step="0">
+            <div class="wizard-heading">
+              <h2>Select your BHK type</h2>
+              <p>Choose the home size for your Sidda Space estimate.</p>
+            </div>
+
+            <div class="option-list bhk-options">
+              <label class="choice-row">
+                <input type="radio" name="bhkType" value="1 BHK" required>
+                <span>1 BHK</span>
+              </label>
+              <label class="choice-row">
+                <input type="radio" name="bhkType" value="2 BHK">
+                <span>2 BHK</span>
+              </label>
+              <label class="choice-row">
+                <input type="radio" name="bhkType" value="3 BHK">
+                <span>3 BHK</span>
+              </label>
+              <label class="choice-row">
+                <input type="radio" name="bhkType" value="4 BHK">
+                <span>4 BHK</span>
+              </label>
+              <label class="choice-row">
+                <input type="radio" name="bhkType" value="5 BHK+">
+                <span>5 BHK+</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="wizard-step" data-step="1">
+            <div class="wizard-heading">
+              <h2>Select the rooms you'd like us to design</h2>
+              <p>Adjust the quantity for each room or area.</p>
+            </div>
+
+            <div class="room-list">
+              <div class="room-row" data-room="Living Room">
+                <span>Living Room</span>
+                <div class="counter">
+                  <button class="counter-btn" type="button" data-counter-action="minus" aria-label="Reduce living room count">-</button>
+                  <output data-count>1</output>
+                  <button class="counter-btn" type="button" data-counter-action="plus" aria-label="Increase living room count">+</button>
+                </div>
+              </div>
+              <div class="room-row" data-room="Kitchen">
+                <span>Kitchen</span>
+                <div class="counter">
+                  <button class="counter-btn" type="button" data-counter-action="minus" aria-label="Reduce kitchen count">-</button>
+                  <output data-count>1</output>
+                  <button class="counter-btn" type="button" data-counter-action="plus" aria-label="Increase kitchen count">+</button>
+                </div>
+              </div>
+              <div class="room-row" data-room="Bedroom">
+                <span>Bedroom</span>
+                <div class="counter">
+                  <button class="counter-btn" type="button" data-counter-action="minus" aria-label="Reduce bedroom count">-</button>
+                  <output data-count>2</output>
+                  <button class="counter-btn" type="button" data-counter-action="plus" aria-label="Increase bedroom count">+</button>
+                </div>
+              </div>
+              <div class="room-row" data-room="Bathroom">
+                <span>Bathroom</span>
+                <div class="counter">
+                  <button class="counter-btn" type="button" data-counter-action="minus" aria-label="Reduce bathroom count">-</button>
+                  <output data-count>2</output>
+                  <button class="counter-btn" type="button" data-counter-action="plus" aria-label="Increase bathroom count">+</button>
+                </div>
+              </div>
+              <div class="room-row" data-room="Dining">
+                <span>Dining</span>
+                <div class="counter">
+                  <button class="counter-btn" type="button" data-counter-action="minus" aria-label="Reduce dining count">-</button>
+                  <output data-count>1</output>
+                  <button class="counter-btn" type="button" data-counter-action="plus" aria-label="Increase dining count">+</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="wizard-step" data-step="2">
+            <div class="wizard-heading compact">
+              <h2>Pick your package</h2>
+              <p>Select the finish level that best fits your home.</p>
+            </div>
+
+            <div class="package-options">
+              <label class="package-option">
+                <input type="radio" name="packageType" value="Essentials" required>
+                <span class="package-option-content">
+                  <strong>Essentials</strong>
+                  <small>Practical home interior solutions for essential spaces.</small>
+                  <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&q=80" alt="Essential living room interior">
+                  <span>Affordable pricing</span>
+                  <span>Convenient designs</span>
+                  <span>Basic accessories</span>
+                </span>
+              </label>
+              <label class="package-option">
+                <input type="radio" name="packageType" value="Premium">
+                <span class="package-option-content">
+                  <strong>Premium</strong>
+                  <small>Refined interiors with enhanced finishes and details.</small>
+                  <img src="https://images.unsplash.com/photo-1600566753151-384129cf4e3e?auto=format&fit=crop&w=900&q=80" alt="Premium kitchen and living interior">
+                  <span>Mid-range pricing</span>
+                  <span>Premium designs</span>
+                  <span>Wide range of accessories</span>
+                </span>
+              </label>
+              <label class="package-option">
+                <input type="radio" name="packageType" value="Luxe">
+                <span class="package-option-content">
+                  <strong>Luxe</strong>
+                  <small>High-end interiors for a polished complete-home experience.</small>
+                  <img src="https://images.unsplash.com/photo-1600210491369-e753d80a41f3?auto=format&fit=crop&w=900&q=80" alt="Luxury home interior">
+                  <span>Elite finish selection</span>
+                  <span>Custom design details</span>
+                  <span>Extensive accessory range</span>
+                </span>
+              </label>
+            </div>
+          </div>
+
+          <div class="wizard-step" data-step="3">
+            <div class="wizard-heading">
+              <h2>Your estimate is almost ready</h2>
+              <p>Share your details and we will send everything to WhatsApp.</p>
+            </div>
+
+            <div class="quote-fields">
+              <label>
+                <span>Name</span>
+                <input type="text" name="estimateName" placeholder="Name" required>
+              </label>
+              <label>
+                <span>Email ID</span>
+                <input type="email" name="estimateEmail" placeholder="Email ID" required>
+              </label>
+              <label>
+                <span>Phone number</span>
+                <input type="tel" name="estimatePhone" placeholder="Phone number" required>
+              </label>
+              <label class="check-row">
+                <input type="checkbox" name="whatsappUpdates" checked>
+                <span>Send me updates on WhatsApp</span>
+              </label>
+              <label>
+                <span>City</span>
+                <select name="estimateCity" required>
+                  <option value="">Select City</option>
+                  <option>Bengaluru</option>
+                  <option>Mysuru</option>
+                  <option>Mangaluru</option>
+                  <option>Hubballi-Dharwad</option>
+                  <option>Belagavi</option>
+                  <option>Other Karnataka city</option>
+                </select>
+              </label>
+            </div>
+
+            <p class="form-note">By submitting this form, you agree to be contacted by Sidda Space for your interior design estimate.</p>
+          </div>
+
+          <div class="wizard-actions">
+            <button class="wizard-back" type="button">Back</button>
+            <button class="wizard-next" type="button">Next</button>
+            <button class="wizard-submit" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

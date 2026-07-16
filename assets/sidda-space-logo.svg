@@ -1,0 +1,23 @@
+<svg width="940" height="214" viewBox="0 0 940 214" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Sidda Space</title>
+  <desc id="desc">Sidda Space logo with Beyond Ideas tagline</desc>
+  <style>
+    .wordmark {
+      fill: #ffca0a;
+      font-family: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
+      font-size: 116px;
+      font-weight: 700;
+      letter-spacing: 8px;
+    }
+
+    .tagline {
+      fill: #242329;
+      font-family: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
+      font-size: 45px;
+      font-weight: 700;
+      letter-spacing: 13px;
+    }
+  </style>
+  <text class="wordmark" x="470" y="119" text-anchor="middle">SiDDA SPACE</text>
+  <text class="tagline" x="470" y="199" text-anchor="middle">BEYOND IDEAS</text>
+</svg>

@@ -1,0 +1,9 @@
+{
+  "name": "sidda-space",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sidda Space interior design landing page",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
