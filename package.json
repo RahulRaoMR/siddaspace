@@ -4,6 +4,7 @@
   "private": true,
   "description": "Sidda Space interior design landing page",
   "scripts": {
+    "build": "node build.js",
     "start": "node server.js"
   }
 }
