@@ -1,0 +1,9 @@
+{
+  "name": "sidda-space",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static website for Sidda Space.",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
