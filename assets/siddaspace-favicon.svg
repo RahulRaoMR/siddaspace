@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title">
+  <title>Siddaspace</title>
+  <rect width="96" height="96" rx="18" fill="#242329"/>
+  <path fill="#ffca0a" d="M20 31.4 48 14l28 17.4v10.2L48 24.2 20 41.6V31.4Z"/>
+  <path fill="#ffffff" d="M48 82c-12.9 0-24.4-7.3-30-18.9l8.6-4.1A23.5 23.5 0 0 0 48 72.5c13 0 23.5-10.5 23.5-23.5h9.5c0 18.2-14.8 33-33 33Z"/>
+</svg>
