@@ -2300,12 +2300,15 @@ button.contact-btn {
   width: 62px;
   height: 62px;
   place-items: center;
-  color: var(--paper);
-  background: #2cc85f;
-  border: 6px solid var(--paper);
-  border-radius: 8px;
+  background: transparent;
+  border-radius: 50%;
   box-shadow: 0 12px 32px rgba(23, 22, 26, 0.22);
-  font-weight: 900;
+}
+
+.whatsapp-float img {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .back-to-top {
@@ -2738,7 +2741,6 @@ button.contact-btn {
     bottom: 118px;
     width: 54px;
     height: 54px;
-    border-width: 5px;
   }
 
 }
@@ -2928,7 +2930,6 @@ button.contact-btn {
     bottom: 96px;
     width: 50px;
     height: 50px;
-    border-width: 4px;
   }
 
   .back-to-top {
