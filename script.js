@@ -22,6 +22,39 @@ const comparisonRanges = document.querySelectorAll(".comparison-range");
 const backToTopButton = document.querySelector(".back-to-top");
 const navLinks = document.querySelectorAll(".site-nav a");
 
+const consultationFormMarkup = `
+  <h2>Free Design Consultation</h2>
+  <p>Share a few details and our design expert will call you back.</p>
+  <div class="consultation-benefits" aria-label="Consultation benefits">
+    <span><strong>&#10003;</strong> Expert Interior Designer</span>
+    <span><strong>&#10003;</strong> 45-Day Delivery</span>
+    <span><strong>&#10003;</strong> Free Site Visit</span>
+    <span><strong>&#10003;</strong> Transparent Pricing</span>
+  </div>
+  <label>
+    Full name
+    <input type="text" name="name" placeholder="Enter your name" required>
+  </label>
+  <label>
+    Mobile number
+    <input type="tel" name="phone" placeholder="Enter mobile number" required>
+  </label>
+  <label>
+    Home type
+    <select name="homeType" required>
+      <option value="">Select home type</option>
+      <option>1 BHK</option>
+      <option>2 BHK</option>
+      <option>3 BHK</option>
+      <option>4 BHK</option>
+      <option>Villa</option>
+      <option>Commercial space</option>
+    </select>
+  </label>
+  <button class="form-submit" type="submit">Book Your Consultation</button>
+  <small>No spam. Only a professional consultation call.</small>
+`;
+
 function showToast(message) {
   if (!toast) {
     return;
@@ -34,6 +67,144 @@ function showToast(message) {
     toast.classList.remove("is-visible");
   }, 3200);
 }
+
+function getConsultationMessage(form) {
+  const formData = new FormData(form);
+  const name = formData.get("name");
+  const phone = formData.get("phone");
+  const homeType = formData.get("homeType");
+
+  return [
+    "Hello Sidda Space, I want to book a free consultation.",
+    "",
+    `Name: ${name}`,
+    `Mobile number: ${phone}`,
+    `Home type: ${homeType}`
+  ].join("\n");
+}
+
+function submitConsultationForm(form) {
+  const whatsappUrl = `https://wa.me/917624881416?text=${encodeURIComponent(getConsultationMessage(form))}`;
+
+  window.open(whatsappUrl, "_blank", "noopener");
+  form.reset();
+  showToast("Opening WhatsApp with your consultation details.");
+}
+
+function createConsultationWidget() {
+  if (document.querySelector(".consultation-float")) {
+    return;
+  }
+
+  const launcher = document.createElement("button");
+  launcher.className = "consultation-float";
+  launcher.type = "button";
+  launcher.setAttribute("aria-label", "Open free design consultation");
+  launcher.setAttribute("aria-expanded", "false");
+  launcher.innerHTML = `
+    <span class="consultation-float-icon" aria-hidden="true">
+      <span class="consultation-window"></span>
+      <span class="consultation-door"></span>
+    </span>
+    <span class="consultation-float-text">Free Consultation</span>
+  `;
+
+  const modal = document.createElement("div");
+  modal.className = "consultation-modal";
+  modal.setAttribute("aria-hidden", "true");
+  modal.innerHTML = `
+    <div class="consultation-backdrop" data-consultation-close></div>
+    <section class="consultation-dialog" role="dialog" aria-modal="false" aria-labelledby="consultation-title">
+      <button class="consultation-close" type="button" aria-label="Close consultation form" data-consultation-close>&times;</button>
+      <form class="consultation-popup-card" aria-label="Get free interior design quote">
+        ${consultationFormMarkup.replace("<h2>", "<h2 id=\"consultation-title\">")}
+      </form>
+    </section>
+  `;
+
+  document.body.append(launcher, modal);
+
+  const popupForm = modal.querySelector(".consultation-popup-card");
+  const focusableSelector = "button, input, select, textarea, a[href], [tabindex]:not([tabindex='-1'])";
+  let lastFocusedElement = null;
+
+  const closeModal = () => {
+    modal.classList.remove("is-open");
+    modal.setAttribute("aria-hidden", "true");
+    launcher.setAttribute("aria-expanded", "false");
+
+    if (lastFocusedElement) {
+      lastFocusedElement.focus();
+    }
+  };
+
+  const openModal = () => {
+    lastFocusedElement = document.activeElement;
+    modal.classList.add("is-open");
+    modal.setAttribute("aria-hidden", "false");
+    launcher.setAttribute("aria-expanded", "true");
+    window.setTimeout(() => modal.querySelector("input")?.focus(), 140);
+  };
+
+  launcher.addEventListener("click", () => {
+    if (modal.classList.contains("is-open")) {
+      closeModal();
+      return;
+    }
+
+    openModal();
+  });
+
+  document.querySelectorAll('a[href="#quote"]').forEach((quoteLink) => {
+    quoteLink.addEventListener("click", (event) => {
+      event.preventDefault();
+      openModal();
+    });
+  });
+
+  modal.querySelectorAll("[data-consultation-close]").forEach((closeButton) => {
+    closeButton.addEventListener("click", closeModal);
+  });
+
+  modal.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      closeModal();
+      return;
+    }
+
+    if (event.key !== "Tab") {
+      return;
+    }
+
+    const focusableElements = Array.from(modal.querySelectorAll(focusableSelector))
+      .filter((element) => !element.disabled && element.offsetParent !== null);
+    const firstElement = focusableElements[0];
+    const lastElement = focusableElements[focusableElements.length - 1];
+
+    if (!firstElement || !lastElement) {
+      return;
+    }
+
+    if (event.shiftKey && document.activeElement === firstElement) {
+      event.preventDefault();
+      lastElement.focus();
+      return;
+    }
+
+    if (!event.shiftKey && document.activeElement === lastElement) {
+      event.preventDefault();
+      firstElement.focus();
+    }
+  });
+
+  popupForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    submitConsultationForm(popupForm);
+    closeModal();
+  });
+}
+
+createConsultationWidget();
 
 if (header && menuToggle) {
   const updateHeaderShadow = () => {
@@ -245,22 +416,7 @@ if (backToTopButton) {
 if (quoteForm) {
   quoteForm.addEventListener("submit", (event) => {
     event.preventDefault();
-    const formData = new FormData(quoteForm);
-    const name = formData.get("name");
-    const phone = formData.get("phone");
-    const homeType = formData.get("homeType");
-    const message = [
-      "Hello Sidda Space, I want to book a free consultation.",
-      "",
-      `Name: ${name}`,
-      `Mobile number: ${phone}`,
-      `Home type: ${homeType}`
-    ].join("\n");
-    const whatsappUrl = `https://wa.me/917624881416?text=${encodeURIComponent(message)}`;
-
-    window.open(whatsappUrl, "_blank", "noopener");
-    quoteForm.reset();
-    showToast("Opening WhatsApp with your consultation details.");
+    submitConsultationForm(quoteForm);
   });
 }
 
