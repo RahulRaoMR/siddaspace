@@ -1822,6 +1822,34 @@ h1 {
   color: #c8a96a;
 }
 
+.project-video-section {
+  padding-top: clamp(18px, 3vw, 34px);
+}
+
+.project-video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(220px, 360px));
+  justify-content: center;
+  gap: clamp(20px, 4vw, 42px);
+}
+
+.project-video-card {
+  overflow: hidden;
+  background: #1f1b24;
+  border: 1px solid rgba(200, 169, 106, 0.28);
+  border-radius: 14px;
+  box-shadow: 0 24px 58px rgba(24, 20, 18, 0.16);
+}
+
+.project-video-card video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  max-height: min(680px, 78vh);
+  background: #15131a;
+  object-fit: cover;
+}
+
 .seo-band {
   width: min(1180px, calc(100% - 40px));
   margin: clamp(26px, 4vw, 46px) auto clamp(72px, 9vw, 116px);
@@ -2967,8 +2995,14 @@ button.contact-btn {
   .comparison-grid,
   .about-intro,
   .seo-grid,
+  .project-video-grid,
   .review-cards {
     grid-template-columns: 1fr;
+  }
+
+  .project-video-grid {
+    max-width: 430px;
+    margin: 0 auto;
   }
 
   .about-statement {
