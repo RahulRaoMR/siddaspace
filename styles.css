@@ -270,14 +270,14 @@ select {
   z-index: 1;
   display: flex;
   align-items: center;
-  width: min(1180px, calc(100% - 40px));
+  width: min(1280px, calc(100% - 56px));
   min-height: calc(100vh - 94px);
   margin: 0 auto;
   padding: 72px 0 64px;
 }
 
 .hero-copy {
-  max-width: 790px;
+  max-width: 860px;
 }
 
 .eyebrow {
@@ -301,7 +301,7 @@ p {
 }
 
 h1 {
-  max-width: 820px;
+  max-width: 900px;
   margin-bottom: 20px;
   font-size: clamp(2.45rem, 5.6vw, 4.85rem);
   line-height: 1.04;
@@ -3056,11 +3056,12 @@ button.contact-btn {
 
   .hero-content {
     width: min(100% - 28px, 1180px);
-    padding: 58px 0 44px;
+    padding: 42px 0 34px;
   }
 
   h1 {
-    font-size: clamp(2.25rem, 11vw, 3.55rem);
+    font-size: clamp(2.05rem, 9.8vw, 3rem);
+    line-height: 1.06;
   }
 
   .hero-actions,
@@ -3211,17 +3212,23 @@ button.contact-btn {
   }
 
   .consultation-float {
-    --consultation-full-width: 80px;
-    --consultation-peek-width: 22px;
-    --consultation-height: 72vh;
-    --consultation-icon-width: 76px;
-    --consultation-window-width: 58px;
-    --consultation-door-width: 46px;
-    top: 50%;
+    --consultation-full-width: 76px;
+    --consultation-peek-width: 26px;
+    --consultation-height: clamp(260px, 44dvh, 340px);
+    --consultation-icon-width: 72px;
+    --consultation-window-width: 54px;
+    --consultation-door-width: 42px;
+    top: 56%;
     bottom: auto;
     height: min(var(--consultation-height), calc(100dvh - 104px));
-    min-height: min(360px, calc(100dvh - 104px));
+    min-height: 0;
     border-radius: 28px 0 0 28px;
+    animation: none;
+  }
+
+  .consultation-float::before,
+  .consultation-float::after {
+    animation: none;
   }
 
   .consultation-float:hover,
@@ -3421,7 +3428,7 @@ button.contact-btn {
 
   .hero-content {
     width: min(100% - 24px, 1180px);
-    padding: 42px 0 34px;
+    padding: 32px 0 28px;
   }
 
   .about-hero {
@@ -3436,16 +3443,22 @@ button.contact-btn {
   }
 
   h1 {
-    font-size: clamp(2rem, 14vw, 3.05rem);
-    line-height: 1.08;
+    font-size: clamp(1.85rem, 10.5vw, 2.48rem);
+    line-height: 1.07;
   }
 
   .hero-lede {
-    font-size: 1.05rem;
+    margin-bottom: 18px;
+    font-size: 0.98rem;
   }
 
   .hero-actions {
     gap: 12px;
+  }
+
+  .hero-highlights {
+    gap: 10px;
+    margin-bottom: 24px;
   }
 
   .primary-btn,
@@ -3587,17 +3600,23 @@ button.contact-btn {
   }
 
   .consultation-float {
-    --consultation-full-width: 76px;
-    --consultation-peek-width: 20px;
-    --consultation-height: 78vh;
-    --consultation-icon-width: 72px;
-    --consultation-window-width: 56px;
-    --consultation-door-width: 46px;
-    top: 50%;
+    --consultation-full-width: 68px;
+    --consultation-peek-width: 24px;
+    --consultation-height: clamp(230px, 38dvh, 300px);
+    --consultation-icon-width: 64px;
+    --consultation-window-width: 50px;
+    --consultation-door-width: 40px;
+    top: 56%;
     bottom: auto;
     height: min(var(--consultation-height), calc(100dvh - 98px));
-    min-height: min(430px, calc(100dvh - 98px));
+    min-height: 0;
     border-radius: 26px 0 0 26px;
+    animation: none;
+  }
+
+  .consultation-float::before,
+  .consultation-float::after {
+    animation: none;
   }
 
   .consultation-float-icon {
