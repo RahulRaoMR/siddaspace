@@ -127,27 +127,93 @@ function createConsultationWidget() {
   const popupForm = modal.querySelector(".consultation-popup-card");
   const focusableSelector = "button, input, select, textarea, a[href], [tabindex]:not([tabindex='-1'])";
   let lastFocusedElement = null;
+  const door = launcher.querySelector(".consultation-door");
+  const doorAnimationDuration = 650;
+  let isDoorOpen = false;
+  let isPopupOpen = false;
+  let isAnimating = false;
 
-  const closeModal = () => {
+  const waitForDoorAnimation = () => new Promise((resolve) => {
+    let isResolved = false;
+
+    const finish = () => {
+      if (isResolved) {
+        return;
+      }
+
+      isResolved = true;
+      door.removeEventListener("transitionend", handleTransitionEnd);
+      window.clearTimeout(animationFallback);
+      resolve();
+    };
+
+    const handleTransitionEnd = (event) => {
+      if (event.target === door && event.propertyName === "transform") {
+        finish();
+      }
+    };
+
+    const animationFallback = window.setTimeout(finish, doorAnimationDuration + 120);
+    door.addEventListener("transitionend", handleTransitionEnd);
+  });
+
+  const setDoorOpen = async (shouldOpen) => {
+    if (isDoorOpen === shouldOpen) {
+      return;
+    }
+
+    isAnimating = true;
+    const doorAnimation = waitForDoorAnimation();
+    launcher.setAttribute("aria-expanded", "true");
+    launcher.classList.toggle("is-door-open", shouldOpen);
+    await doorAnimation;
+    isDoorOpen = shouldOpen;
+
+    if (!shouldOpen && !isPopupOpen) {
+      launcher.setAttribute("aria-expanded", "false");
+    }
+
+    isAnimating = false;
+  };
+
+  const hideModal = () => {
+    isPopupOpen = false;
     modal.classList.remove("is-open");
     modal.setAttribute("aria-hidden", "true");
-    launcher.setAttribute("aria-expanded", "false");
+  };
+
+  const closeModal = async () => {
+    if (!isPopupOpen || isAnimating) {
+      return;
+    }
+
+    hideModal();
+    await setDoorOpen(false);
 
     if (lastFocusedElement) {
       lastFocusedElement.focus();
     }
   };
 
-  const openModal = () => {
-    lastFocusedElement = document.activeElement;
+  const showModal = () => {
+    isPopupOpen = true;
     modal.classList.add("is-open");
     modal.setAttribute("aria-hidden", "false");
-    launcher.setAttribute("aria-expanded", "true");
     window.setTimeout(() => modal.querySelector("input")?.focus(), 140);
   };
 
+  const openModal = async () => {
+    if (isPopupOpen || isAnimating) {
+      return;
+    }
+
+    lastFocusedElement = document.activeElement;
+    await setDoorOpen(true);
+    showModal();
+  };
+
   launcher.addEventListener("click", () => {
-    if (modal.classList.contains("is-open")) {
+    if (isPopupOpen) {
       closeModal();
       return;
     }
@@ -164,6 +230,18 @@ function createConsultationWidget() {
 
   modal.querySelectorAll("[data-consultation-close]").forEach((closeButton) => {
     closeButton.addEventListener("click", closeModal);
+  });
+
+  document.addEventListener("pointerdown", (event) => {
+    if (!isPopupOpen || isAnimating) {
+      return;
+    }
+
+    if (modal.contains(event.target) || launcher.contains(event.target)) {
+      return;
+    }
+
+    closeModal();
   });
 
   modal.addEventListener("keydown", (event) => {
