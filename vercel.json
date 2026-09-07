@@ -8,6 +8,18 @@
   "trailingSlash": false,
   "rewrites": [
     {
+      "source": "/login",
+      "destination": "/login.html"
+    },
+    {
+      "source": "/live-projects",
+      "destination": "/api/live-projects"
+    },
+    {
+      "source": "/live-projects.html",
+      "destination": "/api/live-projects"
+    },
+    {
       "source": "/estimate",
       "destination": "/estimate.html"
     }

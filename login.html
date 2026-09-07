@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Siddaspace</title>
+  <meta name="description" content="Secure login for Siddaspace Live Projects.">
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/svg+xml" href="/assets/siddaspace-favicon.svg?v=4">
+  <link rel="icon" href="/favicon.ico?v=4" sizes="any">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="seo-page login-page">
+  <header class="site-header" id="top">
+    <a class="brand" href="/" aria-label="Siddaspace home"><img class="brand-logo" src="/assets/sidda-space-logo-on-light.png" alt="Siddaspace"></a>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="/index.html">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/services.html">Services</a>
+      <a href="/projects.html">Projects</a>
+      <a href="/gallery.html">Sofa & Living</a>
+      <a href="/packages.html">Packages</a>
+      <a href="/blog.html">Blog</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+    <a class="header-cta" href="/contact.html">Office Location</a>
+  </header>
+
+  <main class="login-main">
+    <section class="login-panel" aria-labelledby="login-title">
+      <p class="eyebrow">Private access</p>
+      <h1 id="login-title">Live Projects Login</h1>
+      <p>Sign in to access private project updates and the future live camera view.</p>
+      <form class="auth-form" data-login-form novalidate>
+        <label for="login-username">Username</label>
+        <input id="login-username" name="username" type="text" autocomplete="username" required>
+        <label for="login-password">Password</label>
+        <input id="login-password" name="password" type="password" autocomplete="current-password" required>
+        <p class="auth-error" data-login-error role="alert" hidden></p>
+        <button class="primary-btn" type="submit">Log In</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="/login.js"></script>
+  <script src="/script.js"></script>
+</body>
+</html>
