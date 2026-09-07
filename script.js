@@ -84,7 +84,7 @@ function getConsultationMessage(form) {
 }
 
 function submitConsultationForm(form) {
-  const whatsappUrl = `https://wa.me/917624881416?text=${encodeURIComponent(getConsultationMessage(form))}`;
+  const whatsappUrl = `https://wa.me/916364309874?text=${encodeURIComponent(getConsultationMessage(form))}`;
 
   window.open(whatsappUrl, "_blank", "noopener");
   form.reset();
@@ -502,7 +502,7 @@ if (contactCallButton && contactPhoneNumber) {
   contactCallButton.addEventListener("click", () => {
     contactPhoneNumber.hidden = false;
     contactCallButton.setAttribute("aria-expanded", "true");
-    showToast("Call Sidda Space at +91 7624881416.");
+    showToast("Call Sidda Space at +91 6364309874.");
   });
 }
 
@@ -649,7 +649,7 @@ estimateForm.addEventListener("submit", (event) => {
     `City: ${formData.get("estimateCity")}`,
     `WhatsApp updates: ${formData.get("whatsappUpdates") ? "Yes" : "No"}`
   ].join("\n");
-  const whatsappUrl = `https://wa.me/917624881416?text=${encodeURIComponent(message)}`;
+  const whatsappUrl = `https://wa.me/916364309874?text=${encodeURIComponent(message)}`;
 
   window.open(whatsappUrl, "_blank", "noopener");
   showToast("Opening WhatsApp with your complete estimate details.");
