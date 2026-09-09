@@ -22,6 +22,61 @@ const comparisonRanges = document.querySelectorAll(".comparison-range");
 const backToTopButton = document.querySelector(".back-to-top");
 const navLinks = document.querySelectorAll(".site-nav a");
 
+const footerMarkup = `
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div class="footer-company">
+        <img class="footer-brand-logo" src="/assets/sidda-space-logo-on-dark.png" alt="Sidda Space">
+        <p>Karnataka-based premium interiors for modern homes, crafted with elegant design, smart functionality, and reliable execution.</p>
+        <div class="footer-socials" aria-label="Sidda Space social links">
+          <a href="https://www.instagram.com/siddaspace/?hl=en" aria-label="Instagram" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2zm8.4 2H7.8A3.8 3.8 0 0 0 4 7.8v8.4A3.8 3.8 0 0 0 7.8 20h8.4a3.8 3.8 0 0 0 3.8-3.8V7.8A3.8 3.8 0 0 0 16.2 4zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"></path></svg>
+          </a>
+          <a href="https://www.youtube.com/@SiddaSpaceTrend" aria-label="YouTube" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.58 7.2a2.73 2.73 0 0 0-1.92-1.93C17.97 4.82 12 4.82 12 4.82s-5.97 0-7.66.45A2.73 2.73 0 0 0 2.42 7.2 28.43 28.43 0 0 0 2 12a28.43 28.43 0 0 0 .42 4.8 2.73 2.73 0 0 0 1.92 1.93c1.69.45 7.66.45 7.66.45s5.97 0 7.66-.45a2.73 2.73 0 0 0 1.92-1.93A28.43 28.43 0 0 0 22 12a28.43 28.43 0 0 0-.42-4.8zM10 15.2V8.8l5.5 3.2L10 15.2z"></path></svg>
+          </a>
+          <a href="https://x.com/Siddaspace" aria-label="X" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.15 10.16 22.6 0h-2l-7.34 8.82L7.4 0H.64l8.86 13.3L.64 24h2l7.75-9.33L16.58 24h6.76l-9.19-13.84zm-2.74 3.3-.9-1.33L3.37 1.55h3.07l5.77 8.55.9 1.33 7.49 11.1h-3.07l-6.12-9.07z"></path></svg>
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=61592084728599" aria-label="Facebook" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8.5V6.25c0-.62.5-1.12 1.12-1.12H17V2h-2.75A4.25 4.25 0 0 0 10 6.25V8.5H7v3.5h3v10h4V12h2.75l.65-3.5H14z"></path></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/services.html">Services</a>
+        <a href="/projects.html">Projects</a>
+        <a href="/gallery.html">Sofa & Living</a>
+        <a href="/live-projects.html">Live Projects</a>
+        <a href="/packages.html">Packages</a>
+        <a href="/blog.html">Blog</a>
+        <a href="/products.html">Products</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/privacy-policy.html">Privacy Policy</a>
+      </div>
+      <div>
+        <h3>Services</h3>
+        <a href="/services/home-interiors.html">Home Interiors</a>
+        <a href="/services/office-interiors.html">Office Interiors</a>
+        <a href="/services/restaurant-interiors.html">Restaurant Interiors</a>
+        <a href="/services.html">Construction & Interiors</a>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p><strong>Phone</strong><br><a href="tel:+916364309878">+91 6364309878</a></p>
+        <p><strong>Email</strong><br><a href="mailto:Info@siddaspace.com">Info@siddaspace.com</a></p>
+        <p><strong>Location</strong><br><a href="https://www.google.com/maps/dir/?api=1&amp;destination=Siddaspace%2C%201st%20floor%20Parallel8%2F20%2F21%2C%203rd%20Floor%2C%20Chunchaghatta%20Main%20Roadto%2C%20Kanakapura%20Main%20Rd%2C%20Ganapathipura%2C%20Bengaluru%2C%20Karnataka%20560078" target="_blank" rel="noopener">Siddaspace, 1st floor Parallel8/20/21, 3rd Floor, Chunchaghatta Main Roadto, Kanakapura Main Rd, Ganapathipura, Bengaluru, Karnataka 560078</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Sidda Space. All Rights Reserved.</p>
+    </div>
+  </footer>
+`;
+
 const consultationFormMarkup = `
   <h2>Free Design Consultation</h2>
   <p>Share a few details and our design expert will call you back.</p>
@@ -89,6 +144,24 @@ function submitConsultationForm(form) {
   window.open(whatsappUrl, "_blank", "noopener");
   form.reset();
   showToast("Opening WhatsApp with your consultation details.");
+}
+
+function createSiteFooter() {
+  if (document.querySelector(".site-footer")) {
+    return;
+  }
+
+  const main = document.querySelector("main");
+  const template = document.createElement("template");
+  template.innerHTML = footerMarkup.trim();
+  const footer = template.content.firstElementChild;
+
+  if (main) {
+    main.insertAdjacentElement("afterend", footer);
+    return;
+  }
+
+  document.body.append(footer);
 }
 
 function createConsultationWidget() {
@@ -282,6 +355,7 @@ function createConsultationWidget() {
   });
 }
 
+createSiteFooter();
 createConsultationWidget();
 
 if (header && menuToggle) {
