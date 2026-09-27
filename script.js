@@ -50,7 +50,6 @@ const footerMarkup = `
         <a href="/services.html">Services</a>
         <a href="/projects.html">Projects</a>
         <a href="/gallery.html">Sofa & Living</a>
-        <a href="/team.html">Our Team</a>
         <a href="/live-projects.html">Live Projects</a>
         <a href="/packages.html">Packages</a>
         <a href="/blog.html">Blog</a>
