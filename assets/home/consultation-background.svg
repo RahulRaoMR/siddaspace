@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="360" viewBox="0 0 1600 360" fill="none" stroke="#cba254" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+  <defs>
+    <g id="concrete-frame">
+      <!-- Open concrete floor plates and paired structural columns. -->
+      <path d="M6 60h84l30-18H36ZM6 60v5h84v-5M90 60l30-18v5L90 65"/>
+      <path d="M6 116h84l30-18M6 116v5h84v-5M90 116l30-18v5M90 121l30-18"/>
+      <path d="M6 172h84l30-18M6 172v5h84v-5M90 172l30-18v5M90 177l30-18"/>
+      <path d="M6 228h84l30-18M6 228v5h84v-5M90 228l30-18v5M90 233l30-18"/>
+      <path d="M12 65v51m6-51v51m27-51v51m6-51v51m27-51v51m6-51v51M108 47v51m6-51v51"/>
+      <path d="M12 121v51m6-51v51m27-51v51m6-51v51m27-51v51m6-51v51M108 103v51m6-51v51"/>
+      <path d="M12 177v51m6-51v51m27-51v51m6-51v51m27-51v51m6-51v51M108 159v51m6-51v51"/>
+      <path d="M12 233v53h6v-53m27 0v53h6v-53m27 0v53h6v-53M108 215v53h6v-53"/>
+      <path d="M0 286h90l36-20M0 292h90l36-20M0 286v6m90-6v6M126 266v6"/>
+      <!-- Reinforcing bars project above the unfinished top floor. -->
+      <path d="M12 60V32m6 28V32m27 28V25m6 35V25m27 35V32m6 28V32M108 42V14m6 28V14"/>
+      <path d="M9 39h12m21-7h12m21 7h12m18-18h12M9 47h12m21-7h12m21 7h12m18-10h12"/>
+      <!-- Scaffold platforms and diagonal bracing. -->
+      <path d="M124 76v220m18-220v220M120 96h27m-27 48h27m-27 48h27m-27 48h27m-27 48h27"/>
+      <path d="m124 96 18 48-18 48 18 48-18 48m18-192-18 48 18 48-18 48 18 48"/>
+      <path d="M122 82h22M122 300h22"/>
+    </g>
+    <g id="tower-crane">
+      <path d="M78 50v245h12V50M74 295h20m-23 5h26"/>
+      <path d="m78 58 12 23-12 23 12 23-12 23 12 23-12 23 12 23-12 23 12 23-12 23"/>
+      <path d="M12 42h162v10H12ZM78 42l6-34 6 34M84 8 18 42m66-34 84 34"/>
+      <path d="m18 42 12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10"/>
+      <path d="M36 52v69m-5 0h10m-5 0v8c0 8-9 8-9 1M144 52v18h24V52m-18 0v18m12-18v18"/>
+      <path d="M30 139h12l5 8H25Z"/>
+    </g>
+    <g id="site-frame">
+      <path d="M0 18h112v4H0ZM0 49h112v4H0ZM4 22v27m5-27v27m29-27v27m5-27v27m29-27v27m5-27v27m29-27v27m5-27v27"/>
+      <path d="M4 53v24h5V53m29 0v24h5V53m29 0v24h5V53m29 0v24h5V53M-4 77h120"/>
+      <path d="M4 18V5m5 13V5m29 13V0m5 18V0m29 18V5m5 13V5m29 13V0m5 18V0"/>
+      <path d="M119 27v50m16-50v50M116 33h22m-22 22h22m-22 22h22m-19-44 16 22-16 22m16-44-16 22 16 22"/>
+    </g>
+    <g id="materials">
+      <path d="M0 14h36v7H0ZM4 7h36v7H4ZM8 0h36v7H8M5 14v7m10-7v7m10-7v7M9 7v7m10-7v7m10-7v7"/>
+      <path d="M51 17h39m-36 4h39m-36 4h39M54 17l-3 8m21-8-3 8m21-8-3 8"/>
+    </g>
+  </defs>
+  <g stroke-opacity=".37">
+    <use href="#concrete-frame" x="2" y="0"/>
+    <use href="#concrete-frame" transform="translate(1598 4) scale(-1 1)"/>
+  </g>
+  <g stroke-opacity=".28">
+    <use href="#tower-crane" x="1438" y="-8"/>
+    <use href="#tower-crane" transform="translate(-26 -21) scale(.6)"/>
+  </g>
+  <g stroke-opacity=".25" stroke-width="1.15">
+    <use href="#site-frame" transform="translate(160 303) scale(.64)"/>
+    <use href="#materials" transform="translate(265 335) scale(.62)"/>
+    <use href="#site-frame" transform="translate(390 303) scale(.64)"/>
+    <use href="#materials" transform="translate(493 335) scale(.62)"/>
+    <use href="#site-frame" transform="translate(1050 303) scale(.64)"/>
+    <use href="#materials" transform="translate(1153 335) scale(.62)"/>
+    <use href="#site-frame" transform="translate(1270 303) scale(.64)"/>
+    <use href="#materials" transform="translate(1373 335) scale(.62)"/>
+    <path d="M150 355h180m48 0h180m482 0h180m38 0h180"/>
+  </g>
+  <g stroke-opacity=".14" stroke-width="1">
+    <use href="#site-frame" transform="translate(300 -39) scale(.7)"/>
+    <use href="#site-frame" transform="translate(1140 -39) scale(.7)"/>
+  </g>
+</svg>

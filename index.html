@@ -28,7 +28,7 @@
 <body class="home-page">
   <header class="site-header" id="top">
     <a class="brand" href="#top" aria-label="Sidda Space home">
-      <img class="brand-logo" src="assets/sidda-space-logo-on-light.png" alt="Sidda Space">
+      <img class="brand-logo" src="assets/sidda-space-logo-on-dark.png" alt="Sidda Space">
     </a>
 
     <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
@@ -43,6 +43,7 @@
       <a href="/services.html">Services</a>
       <a href="/projects.html">Projects</a>
       <a href="/gallery.html">Sofa & Living</a>
+      <a href="/team.html">Our Team</a>
       <a href="/live-projects.html">Live Projects</a>
       <a href="/packages.html">Packages</a>
       <a href="/blog.html">Blog</a>
@@ -50,7 +51,17 @@
       <a href="/contact.html">Contact</a>
     </nav>
 
-    <a class="header-cta" href="https://www.google.com/maps/dir/?api=1&amp;destination=Siddaspace%2C%201st%20floor%20Parallel8%2F20%2F21%2C%203rd%20Floor%2C%20Chunchaghatta%20Main%20Roadto%2C%20Kanakapura%20Main%20Rd%2C%20Ganapathipura%2C%20Bengaluru%2C%20Karnataka%20560078" target="_blank" rel="noopener">Office Location</a>
+    <a class="header-brand" href="/" aria-label="Sidda Space home"><img src="/assets/sidda-space-symbol.png" alt="Sidda Space"></a>
+    <div class="header-location" role="note" aria-label="Service locations: Bangalore, Tumakur and Mysore">
+      <span class="header-location-window" aria-hidden="true">
+        <span class="header-location-track">
+          <span><span class="header-location-city-icon"><img src="/assets/icons/city-bangalore.png" alt="" width="52" height="26"></span><span class="header-location-name">Bangalore</span></span>
+          <span><span class="header-location-city-icon"><span class="header-location-icon"></span></span><span class="header-location-name">Tumakur</span></span>
+          <span><span class="header-location-city-icon"><img src="/assets/icons/city-mysore.png" alt="" width="52" height="26"></span><span class="header-location-name">Mysore</span></span>
+          <span><span class="header-location-city-icon"><img src="/assets/icons/city-bangalore.png" alt="" width="52" height="26"></span><span class="header-location-name">Bangalore</span></span>
+        </span>
+      </span>
+    </div>
   </header>
 
   <main>
@@ -64,7 +75,7 @@
         <div class="hero-copy">
           <h1>
             <span>Transform Your Space</span>
-            <span>Into A Dream</span>
+            <span>Into a Dream</span>
           </h1>
           <p class="hero-lede">
             <span>Construction and Interiors</span>
@@ -75,22 +86,199 @@
             <span><strong aria-hidden="true">&#10003;</strong> Superior Quality</span>
             <span><strong aria-hidden="true">&#10003;</strong> On-Time Delivery</span>
           </div>
-          <div class="hero-actions">
-            <a class="budget-btn" href="estimate.html">Calculate My Budget</a>
-          </div>
         </div>
 
       </div>
     </section>
 
-    <section class="hero-stats" aria-label="Sidda Space achievements">
-      <div>
-        <strong data-counter-target="100" data-counter-suffix="+">100+</strong>
-        <span>Projects Completed</span>
+    <section class="consultation-bookings" id="consultations" aria-label="Book a Sidda Space consultation" aria-roledescription="carousel">
+      <div class="booking-carousel-row">
+      <button class="booking-navigation booking-previous" type="button" aria-label="Previous consultation" title="Previous consultation" hidden></button>
+      <div class="booking-viewport">
+      <div class="consultation-bookings-grid">
+        <button class="booking-card" type="button" data-consultation-service="Interior Design Consultant" data-consultation-description="Design &amp; Space Planning Consultation" data-consultation-fee="999" aria-label="Book an Interior Design Consultant for Rs 999 per hour">
+          <img class="booking-photo" src="/assets/consultations/interior-designer.jpg" alt="" loading="lazy" decoding="async">
+          <span class="booking-icon" aria-hidden="true"><span style="mask-image: url('/assets/icons/lucide/sofa.svg')"></span></span>
+          <span class="booking-title">Book an<strong>Interior Design Consultant</strong><span>Design &amp; Space Planning Consultation</span></span>
+          <span class="booking-action"><span class="booking-price">&#8377;999 / hour</span><span class="booking-arrow" aria-hidden="true"></span></span>
+        </button>
+        <button class="booking-card" type="button" data-consultation-service="Civil Design Consultant" data-consultation-description="Civil Drawings &amp; Planning Consultation" data-consultation-fee="1499" aria-label="Book a Civil Design Consultant for Rs 1,499 per hour">
+          <img class="booking-photo" src="/assets/consultations/site-consultation.jpg" alt="" loading="lazy" decoding="async">
+          <span class="booking-icon" aria-hidden="true"><span style="mask-image: url('/assets/icons/lucide/building-2.svg')"></span></span>
+          <span class="booking-title">Book a<strong>Civil Design Consultant</strong><span>Civil Drawings &amp; Planning Consultation</span></span>
+          <span class="booking-action"><span class="booking-price">&#8377;1,499 / hour</span><span class="booking-arrow" aria-hidden="true"></span></span>
+        </button>
+        <button class="booking-card" type="button" data-consultation-service="Structural Design Consultant" data-consultation-description="Structural Design &amp; Safety Consultation" data-consultation-fee="2999" aria-label="Book a Structural Design Consultant for Rs 2,999 per hour">
+          <img class="booking-photo" src="/assets/consultations/structural-designer.jpg" alt="" loading="lazy" decoding="async">
+          <span class="booking-icon" aria-hidden="true"><span style="mask-image: url('/assets/icons/lucide/hard-hat.svg')"></span></span>
+          <span class="booking-title">Book a<strong>Structural Design Consultant</strong><span>Structural Design &amp; Safety Consultation</span></span>
+          <span class="booking-action"><span class="booking-price">&#8377;2,999 / hour</span><span class="booking-arrow" aria-hidden="true"></span></span>
+        </button>
+        <button class="booking-card" type="button" data-consultation-service="MEP Consultant" data-consultation-description="Electrical, Plumbing &amp; Services Consultation" data-consultation-fee="1499" aria-label="Book an MEP Consultant for Rs 1,499 per hour">
+          <img class="booking-photo" src="/assets/consultations/office-interior.jpg" alt="" loading="lazy" decoding="async">
+          <span class="booking-icon" aria-hidden="true"><span style="mask-image: url('/assets/icons/service-mep.svg')"></span></span>
+          <span class="booking-title">Book an<strong>MEP Consultant</strong><span>Electrical, Plumbing &amp; Services Consultation</span></span>
+          <span class="booking-action"><span class="booking-price">&#8377;1,499 / hour</span><span class="booking-arrow" aria-hidden="true"></span></span>
+        </button>
+        <button class="booking-card" type="button" data-consultation-service="Waterproofing Consultant" data-consultation-description="Leakage &amp; Waterproofing Consultation" data-consultation-fee="999" aria-label="Book a Waterproofing Consultant for Rs 999 per hour">
+          <img class="booking-photo" src="/assets/consultations/renovation-expert.jpg" alt="" loading="lazy" decoding="async">
+          <span class="booking-icon" aria-hidden="true"><span style="mask-image: url('/assets/icons/service-waterproofing.svg')"></span></span>
+          <span class="booking-title">Book a<strong>Waterproofing Consultant</strong><span>Leakage &amp; Waterproofing Consultation</span></span>
+          <span class="booking-action"><span class="booking-price">&#8377;999 / hour</span><span class="booking-arrow" aria-hidden="true"></span></span>
+        </button>
       </div>
-      <div>
-        <strong data-counter-target="100">100</strong>
-        <span>Happy Clients</span>
+      </div>
+      <button class="booking-navigation booking-next" type="button" aria-label="Next consultation" title="Next consultation" hidden></button>
+      </div>
+      <div class="booking-controls" hidden></div>
+    </section>
+
+    <section class="sidda-introduction" id="our-people" aria-label="Discover Sidda Space and our people">
+      <div class="sidda-introduction-inner">
+        <nav class="sidda-discover-grid" aria-label="Explore Sidda Space">
+          <a class="sidda-discover-card" href="/projects.html">
+            <img class="sidda-discover-photo" src="/assets/projects/project-22.jpeg" alt="" loading="lazy" decoding="async">
+            <span class="sidda-discover-icon" aria-hidden="true" style="--discover-icon: url('/assets/icons/lucide/building-2.svg')"></span>
+            <h2>Our <strong>Projects</strong></h2>
+            <span class="sidda-discover-footer"><span>Spaces we've built. Stories we're proud of.</span><span class="sidda-link-arrow" aria-hidden="true"></span></span>
+          </a>
+          <a class="sidda-discover-card" href="/products.html">
+            <img class="sidda-discover-photo" src="/assets/home/product-materials.jpg" alt="" loading="lazy" decoding="async">
+            <span class="sidda-discover-icon" aria-hidden="true" style="--discover-icon: url('/assets/icons/lucide/package.svg')"></span>
+            <h2>Our <strong>Products</strong></h2>
+            <span class="sidda-discover-footer"><span>Premium materials. Smarter solutions.</span><span class="sidda-link-arrow" aria-hidden="true"></span></span>
+          </a>
+          <a class="sidda-discover-card" href="/gallery.html">
+            <img class="sidda-discover-photo" src="/assets/home/art-and-craft.jpg" alt="" loading="lazy" decoding="async">
+            <span class="sidda-discover-icon" aria-hidden="true" style="--discover-icon: url('/assets/icons/lucide/palette.svg')"></span>
+            <h2>Art &amp; <strong>Craft</strong></h2>
+            <span class="sidda-discover-footer"><span>Craftsmanship that brings spaces to life.</span><span class="sidda-link-arrow" aria-hidden="true"></span></span>
+          </a>
+        </nav>
+
+        <div class="sidda-people-layout">
+          <div class="sidda-people-copy">
+            <p class="sidda-people-eyebrow">Meet Our People</p>
+            <h2>Our People<br>Are Our Brand<span>.</span></h2>
+            <p>A passionate team turning ideas into spaces you'll love.</p>
+            <a class="sidda-team-link" href="/team.html">Know Our Team<span aria-hidden="true"></span></a>
+          </div>
+          <div class="sidda-people-slider" role="region" aria-label="Sidda Space team portraits">
+          <div class="sidda-people-grid" id="sidda-people-track" tabindex="0" aria-label="Team members">
+            <article class="sidda-person">
+              <div class="sidda-person-photo"><img src="/assets/team/yashas-v2.png" alt="Yashas Sidda" loading="lazy" decoding="async" width="1254" height="1254"></div>
+              <h3>Yashas Sidda</h3>
+              <p>Founder</p>
+            </article>
+            <article class="sidda-person">
+              <div class="sidda-person-photo"><img src="/assets/team/viswaradhya.png" alt="Viswaradhya" loading="lazy" decoding="async" width="1254" height="1254"></div>
+              <h3>Viswaradhya</h3>
+              <p>Co-Founder</p>
+            </article>
+            <article class="sidda-person">
+              <div class="sidda-person-photo"><img src="/assets/team/haribabu-g.png" alt="Haribabu G" loading="lazy" decoding="async" width="1254" height="1254"></div>
+              <h3>Haribabu G</h3>
+              <p><abbr title="Chief Technology Officer">CTO</abbr></p>
+            </article>
+            <article class="sidda-person">
+              <div class="sidda-person-photo"><img src="/assets/team/manoj.png" alt="Manoj M" loading="lazy" decoding="async" width="1254" height="1254"></div>
+              <h3>Manoj M</h3>
+              <p>Design</p>
+            </article>
+            <article class="sidda-person">
+              <div class="sidda-person-photo"><img src="/assets/team/amrutha.png" alt="Amrutha D R" loading="lazy" decoding="async" width="1254" height="1254"></div>
+              <h3>Amrutha D R</h3>
+              <p>Finance &amp; Operations</p>
+            </article>
+            <article class="sidda-person">
+              <div class="sidda-person-photo"><img src="/assets/team/shankar.png" alt="Shankar C" loading="lazy" decoding="async" width="1254" height="1254"></div>
+              <h3>Shankar C</h3>
+              <p>Execution</p>
+            </article>
+          </div>
+          <div class="sidda-people-controls" hidden>
+            <button class="sidda-people-arrow sidda-people-previous" type="button" aria-label="Previous team members" title="Previous team members" aria-controls="sidda-people-track"></button>
+            <button class="sidda-people-arrow sidda-people-next" type="button" aria-label="Next team members" title="Next team members" aria-controls="sidda-people-track"></button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="consultation-bookings home-service-bookings" id="home-services" aria-label="Book a Sidda Space home service" aria-roledescription="carousel">
+      <div class="booking-carousel-row">
+      <button class="booking-navigation booking-previous" type="button" aria-label="Previous home service" title="Previous home service" hidden></button>
+      <div class="booking-viewport">
+      <div class="consultation-bookings-grid">
+        <button class="booking-card" type="button" data-consultation-service="Painter" data-consultation-description="Wall Painting &amp; Finishing" aria-label="Book Painter: Wall Painting &amp; Finishing">
+          <img class="booking-photo" src="/assets/home-services/painter.jpg" alt="" loading="lazy" decoding="async">
+          <span class="booking-icon" aria-hidden="true"><span style="mask-image: url('/assets/icons/lucide/paint-roller.svg')"></span></span>
+          <span class="booking-title">Book a Service<strong>Painter</strong><span>Wall Painting &amp; Finishing</span></span>
+          <span class="booking-action"><span class="booking-price">Book Service</span><span class="booking-arrow" aria-hidden="true"></span></span>
+        </button>
+        <button class="booking-card" type="button" data-consultation-service="Waterproofing" data-consultation-description="Leak Detection &amp; Waterproofing Solutions" aria-label="Book Waterproofing: Leak Detection &amp; Waterproofing Solutions">
+          <img class="booking-photo" src="/assets/home-services/waterproofing.jpg" alt="" loading="lazy" decoding="async">
+          <span class="booking-icon" aria-hidden="true"><span style="mask-image: url('/assets/icons/service-waterproofing.svg')"></span></span>
+          <span class="booking-title">Book a Service<strong>Waterproofing</strong><span>Leak Detection &amp; Waterproofing Solutions</span></span>
+          <span class="booking-action"><span class="booking-price">Book Service</span><span class="booking-arrow" aria-hidden="true"></span></span>
+        </button>
+        <button class="booking-card" type="button" data-consultation-service="Carpenter" data-consultation-description="Custom Woodwork &amp; Installation" aria-label="Book Carpenter: Custom Woodwork &amp; Installation">
+          <img class="booking-photo" src="/assets/home-services/carpenter.jpg" alt="" loading="lazy" decoding="async">
+          <span class="booking-icon" aria-hidden="true"><span style="mask-image: url('/assets/icons/lucide/hammer.svg')"></span></span>
+          <span class="booking-title">Book a Service<strong>Carpenter</strong><span>Custom Woodwork &amp; Installation</span></span>
+          <span class="booking-action"><span class="booking-price">Book Service</span><span class="booking-arrow" aria-hidden="true"></span></span>
+        </button>
+        <button class="booking-card" type="button" data-consultation-service="Electrician" data-consultation-description="Electrical Repairs &amp; Installation" aria-label="Book Electrician: Electrical Repairs &amp; Installation">
+          <img class="booking-photo" src="/assets/home-services/electrician.jpg" alt="" loading="lazy" decoding="async">
+          <span class="booking-icon" aria-hidden="true"><span style="mask-image: url('/assets/icons/service-mep.svg')"></span></span>
+          <span class="booking-title">Book a Service<strong>Electrician</strong><span>Electrical Repairs &amp; Installation</span></span>
+          <span class="booking-action"><span class="booking-price">Book Service</span><span class="booking-arrow" aria-hidden="true"></span></span>
+        </button>
+        <button class="booking-card" type="button" data-consultation-service="Plumber" data-consultation-description="Plumbing Repairs &amp; Installation" aria-label="Book Plumber: Plumbing Repairs &amp; Installation">
+          <img class="booking-photo" src="/assets/home-services/plumber.jpg" alt="" loading="lazy" decoding="async">
+          <span class="booking-icon" aria-hidden="true"><span style="mask-image: url('/assets/icons/service-plumbing.svg')"></span></span>
+          <span class="booking-title">Book a Service<strong>Plumber</strong><span>Plumbing Repairs &amp; Installation</span></span>
+          <span class="booking-action"><span class="booking-price">Book Service</span><span class="booking-arrow" aria-hidden="true"></span></span>
+        </button>
+        <button class="booking-card" type="button" data-consultation-service="Granite &amp; Marble" data-consultation-description="Polishing &amp; Restoration" aria-label="Book Granite &amp; Marble: Polishing &amp; Restoration">
+          <img class="booking-photo" src="/assets/home-services/stone-cleaning.jpg" alt="" loading="lazy" decoding="async">
+          <span class="booking-icon" aria-hidden="true"><span style="mask-image: url('/assets/icons/service-stone-cleaning.svg')"></span></span>
+          <span class="booking-title">Book a Service<strong>Granite &amp; Marble</strong><span>Polishing &amp; Restoration</span></span>
+          <span class="booking-action"><span class="booking-price">Book Service</span><span class="booking-arrow" aria-hidden="true"></span></span>
+        </button>
+        <button class="booking-card" type="button" data-consultation-service="Deep Cleaning" data-consultation-description="Home &amp; Commercial Deep Cleaning" aria-label="Book Deep Cleaning: Home &amp; Commercial Deep Cleaning">
+          <img class="booking-photo" src="/assets/home-services/deep-cleaning.jpg" alt="" loading="lazy" decoding="async">
+          <span class="booking-icon" aria-hidden="true"><span style="mask-image: url('/assets/icons/service-deep-cleaning.svg')"></span></span>
+          <span class="booking-title">Book a Service<strong>Deep Cleaning</strong><span>Home &amp; Commercial Deep Cleaning</span></span>
+          <span class="booking-action"><span class="booking-price">Book Service</span><span class="booking-arrow" aria-hidden="true"></span></span>
+        </button>
+      </div>
+      </div>
+      <button class="booking-navigation booking-next" type="button" aria-label="Next home service" title="Next home service" hidden></button>
+      </div>
+      <div class="booking-controls" hidden></div>
+    </section>
+
+    <section class="home-project-videos" id="project-videos" aria-label="Sidda Space project walkthrough videos">
+      <div class="home-project-video-grid">
+        <div class="home-project-video-card">
+          <video controls autoplay muted loop playsinline preload="metadata" poster="/assets/videos/project-showcase-01-poster.jpg" aria-label="Sidda Space lobby and lounge walkthrough">
+            <source src="https://media.githubusercontent.com/media/RahulRaoMR/siddaspace/main/assets/videos/project-showcase-01.mp4" type="video/mp4">
+            <a href="https://media.githubusercontent.com/media/RahulRaoMR/siddaspace/main/assets/videos/project-showcase-01.mp4">Watch the lobby and lounge walkthrough</a>
+          </video>
+        </div>
+        <div class="home-project-video-card">
+          <video controls autoplay muted loop playsinline preload="metadata" poster="/assets/videos/project-showcase-02-poster.jpg" aria-label="Sidda Space executive office walkthrough">
+            <source src="https://media.githubusercontent.com/media/RahulRaoMR/siddaspace/main/assets/videos/project-showcase-02.mp4" type="video/mp4">
+            <a href="https://media.githubusercontent.com/media/RahulRaoMR/siddaspace/main/assets/videos/project-showcase-02.mp4">Watch the executive office walkthrough</a>
+          </video>
+        </div>
+        <div class="home-project-video-card">
+          <video controls autoplay muted loop playsinline preload="metadata" poster="/assets/videos/project-showcase-03-poster.jpg" aria-label="Sidda Space reception and seating walkthrough">
+            <source src="https://media.githubusercontent.com/media/RahulRaoMR/siddaspace/main/assets/videos/project-showcase-03.mp4" type="video/mp4">
+            <a href="https://media.githubusercontent.com/media/RahulRaoMR/siddaspace/main/assets/videos/project-showcase-03.mp4">Watch the reception and seating walkthrough</a>
+          </video>
+        </div>
       </div>
     </section>
 
@@ -630,11 +818,14 @@
   </main>
 
   <footer class="site-footer">
-    <div class="footer-grid">
-      <div class="footer-company">
-        <img class="footer-brand-logo" src="assets/sidda-space-logo-on-dark.png" alt="Sidda Space">
-        <p>Karnataka-based premium interiors for modern homes, crafted with elegant design, smart functionality, and reliable execution.</p>
-        <div class="footer-socials" aria-label="Sidda Space social links">
+    <div class="footer-main">
+      <div class="footer-grid">
+        <div class="footer-company">
+          <a class="footer-logo-frame" href="/" aria-label="Sidda Space home">
+            <img class="footer-brand-logo" src="/assets/sidda-space-footer-logo.png" alt="Sidda Space - Beyond Ideas">
+          </a>
+          <p>Karnataka-based premium interiors for modern homes and workspaces, crafted with elegant design, smart functionality, and reliable execution.</p>
+          <div class="footer-socials" aria-label="Sidda Space social links">
           <a href="https://www.instagram.com/siddaspace/?hl=en" aria-label="Instagram" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2zm8.4 2H7.8A3.8 3.8 0 0 0 4 7.8v8.4A3.8 3.8 0 0 0 7.8 20h8.4a3.8 3.8 0 0 0 3.8-3.8V7.8A3.8 3.8 0 0 0 16.2 4zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"></path></svg>
           </a>
@@ -648,37 +839,53 @@
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8.5V6.25c0-.62.5-1.12 1.12-1.12H17V2h-2.75A4.25 4.25 0 0 0 10 6.25V8.5H7v3.5h3v10h4V12h2.75l.65-3.5H14z"></path></svg>
           </a>
         </div>
-      </div>
-      <div>
-        <h3>Quick Links</h3>
-        <a href="/">Home</a>
-        <a href="/about.html">About</a>
-        <a href="/services.html">Services</a>
-        <a href="/projects.html">Projects</a>
-        <a href="/gallery.html">Sofa & Living</a>
-        <a href="/live-projects.html">Live Projects</a>
-        <a href="/packages.html">Packages</a>
-        <a href="/blog.html">Blog</a>
-        <a href="/products.html">Products</a>
-        <a href="/contact.html">Contact</a>
-        <a href="/privacy-policy.html">Privacy Policy</a>
-      </div>
-      <div>
-        <h3>Services</h3>
-        <a href="/services/home-interiors.html">Home Interiors</a>
-        <a href="/services/office-interiors.html">Office Interiors</a>
-        <a href="/services/restaurant-interiors.html">Restaurant Interiors</a>
-        <a href="/services.html">Construction & Interiors</a>
-      </div>
-      <div>
-        <h3>Contact</h3>
-        <p><strong>Phone</strong><br><a href="tel:+916364309878">+91 6364309878</a></p>
-        <p><strong>Email</strong><br><a href="mailto:Info@siddaspace.com">Info@siddaspace.com</a></p>
-        <p><strong>Location</strong><br><a href="https://www.google.com/maps/dir/?api=1&amp;destination=Siddaspace%2C%201st%20floor%20Parallel8%2F20%2F21%2C%203rd%20Floor%2C%20Chunchaghatta%20Main%20Roadto%2C%20Kanakapura%20Main%20Rd%2C%20Ganapathipura%2C%20Bengaluru%2C%20Karnataka%20560078" target="_blank" rel="noopener">Siddaspace, 1st floor Parallel8/20/21, 3rd Floor, Chunchaghatta Main Roadto, Kanakapura Main Rd, Ganapathipura, Bengaluru, Karnataka 560078</a></p>
+        </div>
+        <div class="footer-column">
+          <h3>Explore</h3>
+          <nav class="footer-links" aria-label="Explore Sidda Space">
+            <a href="/"><span class="footer-icon" data-footer-icon="house" aria-hidden="true"></span>Home</a>
+            <a href="/about.html"><span class="footer-icon" data-footer-icon="user" aria-hidden="true"></span>About</a>
+            <a href="/projects.html"><span class="footer-icon" data-footer-icon="layout-grid" aria-hidden="true"></span>Projects</a>
+            <a href="/team.html"><span class="footer-icon" data-footer-icon="users" aria-hidden="true"></span>Our Team</a>
+            <a href="/blog.html"><span class="footer-icon" data-footer-icon="newspaper" aria-hidden="true"></span>Blog</a>
+            <a href="/products.html"><span class="footer-icon" data-footer-icon="package" aria-hidden="true"></span>Products</a>
+            <a href="/contact.html"><span class="footer-icon" data-footer-icon="phone" aria-hidden="true"></span>Contact</a>
+          </nav>
+        </div>
+        <div class="footer-column">
+          <h3>Services</h3>
+          <nav class="footer-links" aria-label="Sidda Space services">
+            <a href="/services/home-interiors.html"><span class="footer-icon" data-footer-icon="house" aria-hidden="true"></span>Home Interiors</a>
+            <a href="/services/office-interiors.html"><span class="footer-icon" data-footer-icon="building-2" aria-hidden="true"></span>Office Interiors</a>
+            <a href="/services/restaurant-interiors.html"><span class="footer-icon" data-footer-icon="utensils" aria-hidden="true"></span>Restaurant Interiors</a>
+            <a href="/services.html"><span class="footer-icon" data-footer-icon="hard-hat" aria-hidden="true"></span>Construction &amp; Interiors</a>
+            <a href="/gallery.html"><span class="footer-icon" data-footer-icon="sofa" aria-hidden="true"></span>Sofa &amp; Living</a>
+            <a href="/packages.html"><span class="footer-icon" data-footer-icon="layers" aria-hidden="true"></span>Packages</a>
+          </nav>
+        </div>
+        <div class="footer-column footer-contact">
+          <h3>Contact</h3>
+          <div class="footer-contact-row">
+            <span class="footer-contact-badge"><span class="footer-icon" data-footer-icon="phone" aria-hidden="true"></span></span>
+            <div><span class="footer-contact-label">Phone</span><a href="tel:+916364309878">+91 6364309878</a></div>
+          </div>
+          <div class="footer-contact-row">
+            <span class="footer-contact-badge"><span class="footer-icon" data-footer-icon="mail" aria-hidden="true"></span></span>
+            <div><span class="footer-contact-label">Email</span><a href="mailto:Info@siddaspace.com">Info@siddaspace.com</a></div>
+          </div>
+          <div class="footer-contact-row">
+            <span class="footer-contact-badge"><span class="footer-icon" data-footer-icon="map-pin" aria-hidden="true"></span></span>
+            <address><span class="footer-contact-label">Location</span><a href="https://www.google.com/maps/dir/?api=1&amp;destination=Siddaspace%2C%201st%20floor%20Parallel8%2F20%2F21%2C%203rd%20Floor%2C%20Chunchaghatta%20Main%20Roadto%2C%20Kanakapura%20Main%20Rd%2C%20Ganapathipura%2C%20Bengaluru%2C%20Karnataka%20560078" target="_blank" rel="noopener">Siddaspace, 1st floor,<br>Parallel8/20/21, 3rd Floor,<br>Chunchaghatta Main Road,<br>Kanakapura Main Rd,<br>Ganapathipura,<br>Bengaluru, Karnataka 560078</a></address>
+          </div>
+        </div>
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2026 Sidda Space. All Rights Reserved.</p>
+      <div class="footer-bottom-content">
+        <p>&copy; 2026 Siddaspace. All rights reserved.</p>
+        <nav class="footer-legal" aria-label="Legal"><a href="/privacy-policy.html">Privacy Policy</a><a href="/terms">Terms &amp; Conditions</a></nav>
+        <p class="footer-tagline"><span class="footer-icon" data-footer-icon="house" aria-hidden="true"></span>Spaces for a Better Tomorrow</p>
+      </div>
     </div>
   </footer>
 

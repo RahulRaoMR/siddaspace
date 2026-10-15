@@ -46,6 +46,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.siddaspace.com/team</loc>
+    <lastmod>2026-09-27</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.siddaspace.com/packages</loc>
     <lastmod>2026-07-18</lastmod>
     <priority>0.8</priority>
@@ -99,5 +104,10 @@
     <loc>https://www.siddaspace.com/estimate</loc>
     <lastmod>2026-07-18</lastmod>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.siddaspace.com/terms</loc>
+    <lastmod>2026-10-13</lastmod>
+    <priority>0.4</priority>
   </url>
 </urlset>
