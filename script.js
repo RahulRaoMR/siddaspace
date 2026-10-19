@@ -12,14 +12,64 @@ const contactCallButton = document.querySelector(".contact-call-btn");
 const contactPhoneNumber = document.querySelector("#contact-phone-number");
 const projectFilters = document.querySelectorAll(".project-filter");
 const projectCards = document.querySelectorAll(".project-card");
-const counterElements = document.querySelectorAll("[data-counter-target]");
-const testimonialTrack = document.querySelector(".testimonial-track");
-const testimonialCards = document.querySelectorAll(".testimonial-card");
-const testimonialPrev = document.querySelector(".slider-arrow.prev");
-const testimonialNext = document.querySelector(".slider-arrow.next");
-const testimonialDots = document.querySelector(".testimonial-dots");
 const comparisonRanges = document.querySelectorAll(".comparison-range");
 const backToTopButton = document.querySelector(".back-to-top");
+
+// Store only public path context, never contact details or URL query strings.
+document.addEventListener("click", (event) => {
+  const link = event.target.closest('a[href]');
+  if (link && new URL(link.href).origin === window.location.origin && new URL(link.href).pathname === "/estimate") {
+    try { sessionStorage.setItem("siddaspace-estimate-source", window.location.pathname); } catch {}
+  }
+});
+
+function leadSource() {
+  if (window.location.pathname.replace(/\.html$/, "") === "/estimate") {
+    try {
+      const source = sessionStorage.getItem("siddaspace-estimate-source");
+      if (source && /^\/[a-z0-9/-]*$/i.test(source)) return source;
+    } catch {}
+  }
+  return window.location.pathname;
+}
+
+function validatePhoneFields(form) {
+  let valid = true;
+  form.querySelectorAll('input[type="tel"]').forEach((input) => {
+    const digits = input.value.replace(/\D/g, "");
+    const invalid = input.value && (digits.length < 7 || digits.length > 15);
+    input.setCustomValidity(invalid ? "Enter a phone number with 7 to 15 digits, including the country code if used." : "");
+    if (invalid) valid = false;
+  });
+  return valid;
+}
+
+function prepareVideos() {
+  const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const saveData = navigator.connection?.saveData;
+  const start = (video, userInitiated = false) => {
+    if ((reducedMotion || saveData) && video.autoplay && !userInitiated) return;
+    if (!video.dataset.sourceReady) {
+      video.querySelectorAll("source[data-src]").forEach((source) => { source.src = source.dataset.src; });
+      video.dataset.sourceReady = "true";
+      video.load();
+    }
+    if (video.autoplay && (!reducedMotion && !saveData || userInitiated)) video.play().catch(() => {});
+  };
+  const observer = "IntersectionObserver" in window ? new IntersectionObserver((entries) => {
+    entries.forEach(({ target, isIntersecting }) => {
+      if (isIntersecting) start(target);
+      else if (target.autoplay) target.pause();
+    });
+  }, { rootMargin: "100px", threshold: 0.1 }) : null;
+  document.querySelectorAll("video").forEach((video) => {
+    video.addEventListener("pointerdown", () => start(video, true), { once: true });
+    video.addEventListener("focus", () => start(video, true), { once: true });
+    if (video.classList.contains("hero-bg")) requestAnimationFrame(() => requestAnimationFrame(() => start(video)));
+    else if (observer) observer.observe(video);
+    else if (video.autoplay) start(video);
+  });
+}
 function createSiteNavigation() {
   const nav = header?.querySelector(".site-nav");
   if (!nav) {
@@ -50,20 +100,20 @@ function createSiteNavigation() {
   }
 
   const items = [
-    { label: "Home", href: "/index.html" },
-    { label: "About", href: "/about.html" },
-    { label: "Services", href: "/services.html" },
-    { label: "Projects", href: "/projects.html", children: [
-      ["Projects", "/projects.html"],
-      ["Live Projects", "/live-projects.html"]
+    { label: "Home", href: "/" },
+    { label: "About", href: "/about" },
+    { label: "Services", href: "/services" },
+    { label: "Projects", href: "/projects", children: [
+      ["Projects", "/projects"],
+      ["Live Projects", "/live-projects"]
     ] },
-    { label: "Products", href: "/products.html", children: [
-      ["Sofa & Living", "/gallery.html"],
-      ["Products", "/products.html"]
+    { label: "Products", href: "/products", children: [
+      ["Sofa & Living", "/gallery"],
+      ["Products", "/products"]
     ] },
-    { label: "Our Team", href: "/team.html" },
-    { label: "Blog", href: "/blog.html" },
-    { label: "Contact", href: "/contact.html" }
+    { label: "Our Team", href: "/team" },
+    { label: "Blog", href: "/blog" },
+    { label: "Contact", href: "/contact" }
   ];
   const normalizePath = (path) => path.replace(/\.html$/, "").replace(/\/$/, "") || "/index";
   const currentPath = normalizePath(window.location.pathname);
@@ -71,7 +121,7 @@ function createSiteNavigation() {
   const productPaths = ["/office-chairs", "/workstations", "/conference-tables", "/reception-tables", "/storage-solutions"];
   nav.innerHTML = items.map(({ label, href, children }) => {
     const currentPage = normalizePath(href) === currentPath;
-    const active = currentPage || children?.some(([, childHref]) => normalizePath(childHref) === currentPath) || (label === "Services" && currentPath.startsWith("/services/")) || (label === "Products" && productPaths.includes(currentPath));
+    const active = currentPage || children?.some(([, childHref]) => normalizePath(childHref) === currentPath) || (label === "Services" && currentPath.startsWith("/services/")) || (label === "Products" && productPaths.includes(currentPath)) || (label === "Blog" && currentPath.startsWith("/blog/")) || (label === "Contact" && currentPath.startsWith("/locations/"));
     const submenuId = `nav-${label.toLowerCase()}-submenu`;
     return `
       <div class="nav-item${children ? " nav-dropdown" : ""}">
@@ -168,11 +218,11 @@ const footerMarkup = `
     <div class="footer-main">
       <div class="footer-grid">
         <div class="footer-company">
-          <a class="footer-logo-frame" href="/" aria-label="Sidda Space home">
-            <img class="footer-brand-logo" src="/assets/sidda-space-footer-logo.png" alt="Sidda Space - Beyond Ideas">
+          <a class="footer-logo-frame" href="/" aria-label="Siddaspace home">
+            <img class="footer-brand-logo" src="/assets/sidda-space-footer-logo.png" alt="Siddaspace - Beyond Ideas">
           </a>
           <p>Karnataka-based premium interiors for modern homes and workspaces, crafted with elegant design, smart functionality, and reliable execution.</p>
-          <div class="footer-socials" aria-label="Sidda Space social links">
+          <div class="footer-socials" aria-label="Siddaspace social links">
           <a href="https://www.instagram.com/siddaspace/?hl=en" aria-label="Instagram" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2zm8.4 2H7.8A3.8 3.8 0 0 0 4 7.8v8.4A3.8 3.8 0 0 0 7.8 20h8.4a3.8 3.8 0 0 0 3.8-3.8V7.8A3.8 3.8 0 0 0 16.2 4zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"></path></svg>
           </a>
@@ -189,7 +239,7 @@ const footerMarkup = `
         </div>
         <div class="footer-column">
           <h3>Explore</h3>
-          <nav class="footer-links" aria-label="Explore Sidda Space">
+          <nav class="footer-links" aria-label="Explore Siddaspace">
             <a href="/"><span class="footer-icon" data-footer-icon="house" aria-hidden="true"></span>Home</a>
             <a href="/about.html"><span class="footer-icon" data-footer-icon="user" aria-hidden="true"></span>About</a>
             <a href="/projects.html"><span class="footer-icon" data-footer-icon="layout-grid" aria-hidden="true"></span>Projects</a>
@@ -201,7 +251,7 @@ const footerMarkup = `
         </div>
         <div class="footer-column">
           <h3>Services</h3>
-          <nav class="footer-links" aria-label="Sidda Space services">
+          <nav class="footer-links" aria-label="Siddaspace services">
             <a href="/services/home-interiors.html"><span class="footer-icon" data-footer-icon="house" aria-hidden="true"></span>Home Interiors</a>
             <a href="/services/office-interiors.html"><span class="footer-icon" data-footer-icon="building-2" aria-hidden="true"></span>Office Interiors</a>
             <a href="/services/restaurant-interiors.html"><span class="footer-icon" data-footer-icon="utensils" aria-hidden="true"></span>Restaurant Interiors</a>
@@ -242,17 +292,18 @@ const consultationFormMarkup = `
   <p>Share a few details and our design expert will call you back.</p>
   <div class="consultation-benefits" aria-label="Consultation benefits">
     <span><strong>&#10003;</strong> Expert Interior Designer</span>
-    <span><strong>&#10003;</strong> 45-Day Delivery</span>
-    <span><strong>&#10003;</strong> Free Site Visit</span>
+    <span><strong>&#10003;</strong> Agreed Project Schedule</span>
+    <span><strong>&#10003;</strong> Site Measurements</span>
     <span><strong>&#10003;</strong> Transparent Pricing</span>
   </div>
   <label>
     Full name
-    <input type="text" name="name" placeholder="Enter your name" required>
+    <input type="text" name="name" placeholder="Enter your name" autocomplete="name" required>
   </label>
   <label>
     Mobile number
-    <input type="tel" name="phone" placeholder="Enter mobile number" required>
+    <input type="tel" name="phone" placeholder="Enter mobile number" autocomplete="tel" inputmode="tel" maxlength="24" aria-describedby="phone-hint" required>
+    <small id="phone-hint">Include your country code if needed.</small>
   </label>
   <label>
     Home type
@@ -294,7 +345,7 @@ function getConsultationMessage(form) {
   const isHomeService = Boolean(service && !fee);
 
   return [
-    service ? `Hello Sidda Space, I want to book a ${isHomeService ? "home service" : "consultation"}.` : "Hello Sidda Space, I want to book a free consultation.",
+    service ? `Hello Siddaspace, I want to book a ${isHomeService ? "home service" : "consultation"}.` : "Hello Siddaspace, I want to book a free consultation.",
     "",
     ...(service ? [
       `Service: ${service}`,
@@ -304,11 +355,14 @@ function getConsultationMessage(form) {
     ] : []),
     `Name: ${name}`,
     `Mobile number: ${phone}`,
-    `Home type: ${homeType}`
+    `Home type: ${homeType}`,
+    `Source page: ${leadSource()}`
   ].join("\n");
 }
 
 function submitConsultationForm(form) {
+  validatePhoneFields(form);
+  if (!form.reportValidity()) return;
   const whatsappUrl = `https://wa.me/916364309878?text=${encodeURIComponent(getConsultationMessage(form))}`;
 
   window.open(whatsappUrl, "_blank", "noopener");
@@ -358,6 +412,12 @@ function createConsultationWidget() {
   document.body.append(modal);
 
   const popupForm = modal.querySelector(".consultation-popup-card");
+  popupForm.addEventListener("input", (event) => {
+    if (event.target.matches('input[type="tel"]')) event.target.setCustomValidity("");
+  });
+  popupForm.addEventListener("input", (event) => {
+    if (event.target.matches('input[type="tel"]')) event.target.setCustomValidity("");
+  });
   const setConsultationService = (service = "", fee = "", description = "") => {
     popupForm.elements.consultationService.value = service;
     popupForm.elements.consultationDescription.value = description;
@@ -417,7 +477,7 @@ function createConsultationWidget() {
     showModal();
   };
 
-  document.querySelectorAll('a[href="#quote"]').forEach((quoteLink) => {
+  document.querySelectorAll('[data-open-consultation], a[href="#quote"]').forEach((quoteLink) => {
     quoteLink.addEventListener("click", (event) => {
       event.preventDefault();
       setConsultationService();
@@ -800,7 +860,9 @@ function createProjectImageViewer() {
   const showImage = (index) => {
     currentImageIndex = (index + galleryImages.length) % galleryImages.length;
     const image = galleryImages[currentImageIndex];
-    preview.src = image.src;
+    preview.src = image.dataset.originalSrc || image.src;
+    preview.width = Number(image.getAttribute("width")) || image.naturalWidth;
+    preview.height = Number(image.getAttribute("height")) || image.naturalHeight;
     preview.alt = image.alt;
     title.textContent = image.alt || "Project image";
   };
@@ -853,6 +915,7 @@ function createProjectImageViewer() {
 
 createProjectImageViewer();
 createSiteFooter();
+prepareVideos();
 document.querySelectorAll("[data-footer-icon]").forEach((icon) => {
   icon.style.maskImage = `url("/assets/icons/lucide/${icon.dataset.footerIcon}.svg")`;
 });
@@ -958,95 +1021,6 @@ if (projectFilters.length && projectCards.length) {
   });
 }
 
-if (counterElements.length) {
-  const formatCounter = (value, decimals, suffix) => `${value.toFixed(decimals)}${suffix}`;
-
-  const animateCounter = (counter) => {
-    if (counter.dataset.counterAnimated) {
-      return;
-    }
-
-    counter.dataset.counterAnimated = "true";
-
-    const target = Number(counter.dataset.counterTarget);
-    const decimals = Number(counter.dataset.counterDecimals || 0);
-    const suffix = counter.dataset.counterSuffix || "";
-    const duration = 1400;
-    const startTime = performance.now();
-
-    const tick = (now) => {
-      const progress = Math.min((now - startTime) / duration, 1);
-      const eased = 1 - Math.pow(1 - progress, 3);
-      const currentValue = target * eased;
-
-      counter.textContent = formatCounter(currentValue, decimals, suffix);
-
-      if (progress < 1) {
-        requestAnimationFrame(tick);
-        return;
-      }
-
-      counter.textContent = formatCounter(target, decimals, suffix);
-    };
-
-    requestAnimationFrame(tick);
-  };
-
-  if ("IntersectionObserver" in window) {
-    const counterObserver = new IntersectionObserver((entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          animateCounter(entry.target);
-          observer.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.35 });
-
-    counterElements.forEach((counter) => counterObserver.observe(counter));
-  } else {
-    counterElements.forEach(animateCounter);
-  }
-}
-
-if (testimonialTrack && testimonialCards.length) {
-  let activeTestimonial = 0;
-  const dotButtons = [];
-
-  const updateTestimonials = () => {
-    testimonialTrack.style.transform = `translateX(-${activeTestimonial * 100}%)`;
-
-    dotButtons.forEach((dot, index) => {
-      dot.classList.toggle("is-active", index === activeTestimonial);
-      dot.setAttribute("aria-current", index === activeTestimonial ? "true" : "false");
-    });
-  };
-
-  testimonialCards.forEach((card, index) => {
-    const dot = document.createElement("button");
-    dot.type = "button";
-    dot.setAttribute("aria-label", `Show testimonial ${index + 1}`);
-    dot.addEventListener("click", () => {
-      activeTestimonial = index;
-      updateTestimonials();
-    });
-
-    testimonialDots.appendChild(dot);
-    dotButtons.push(dot);
-  });
-
-  testimonialPrev.addEventListener("click", () => {
-    activeTestimonial = (activeTestimonial - 1 + testimonialCards.length) % testimonialCards.length;
-    updateTestimonials();
-  });
-
-  testimonialNext.addEventListener("click", () => {
-    activeTestimonial = (activeTestimonial + 1) % testimonialCards.length;
-    updateTestimonials();
-  });
-
-  updateTestimonials();
-}
-
 comparisonRanges.forEach((range) => {
   const slider = range.closest(".comparison-slider");
 
@@ -1088,11 +1062,14 @@ if (contactCallButton && contactPhoneNumber) {
   contactCallButton.addEventListener("click", () => {
     contactPhoneNumber.hidden = false;
     contactCallButton.setAttribute("aria-expanded", "true");
-    showToast("Call Sidda Space at +91 6364309878.");
+    showToast("Call Siddaspace at +91 6364309878.");
   });
 }
 
 if (estimateForm) {
+  estimateForm.addEventListener("input", (event) => {
+    if (event.target.matches('input[type="tel"]')) event.target.setCustomValidity("");
+  });
   let currentWizardStep = 0;
 
 function getCheckedValue(name) {
@@ -1209,6 +1186,7 @@ progressSteps.forEach((step) => {
 
 estimateForm.addEventListener("submit", (event) => {
   event.preventDefault();
+  validatePhoneFields(estimateForm);
 
   if (!estimateForm.reportValidity()) {
     return;
@@ -1223,7 +1201,7 @@ estimateForm.addEventListener("submit", (event) => {
     .filter(Boolean)
     .join(", ");
   const message = [
-    "Hello Sidda Space, I want an instant interior estimate.",
+    "Hello Siddaspace, I want an instant interior estimate.",
     "",
     `BHK type: ${formData.get("bhkType")}`,
     `Rooms to design: ${rooms || "Not selected"}`,
@@ -1233,7 +1211,8 @@ estimateForm.addEventListener("submit", (event) => {
     `Email: ${formData.get("estimateEmail")}`,
     `Phone number: ${formData.get("estimatePhone")}`,
     `City: ${formData.get("estimateCity")}`,
-    `WhatsApp updates: ${formData.get("whatsappUpdates") ? "Yes" : "No"}`
+    `WhatsApp updates: ${formData.get("whatsappUpdates") ? "Yes" : "No"}`,
+    `Source page: ${leadSource()}`
   ].join("\n");
   const whatsappUrl = `https://wa.me/916364309878?text=${encodeURIComponent(message)}`;
 

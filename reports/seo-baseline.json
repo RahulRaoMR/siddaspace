@@ -1,0 +1,251 @@
+{
+  "auditedOn": "2026-10-19",
+  "environment": "Local headless browser; external stock imagery and GitHub video downloads blocked. Lab observations are not field Core Web Vitals or Lighthouse scores.",
+  "results": [
+    {
+      "route": "/",
+      "width": 390,
+      "title": "Interior Designers in Bangalore | Siddaspace",
+      "h1": [
+        "Interior Designers in Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 99,
+      "imagesWithoutDimensions": 90,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 13930902,
+      "lab": {
+        "lcp": 796,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": false,
+      "unnamedInputs": 0,
+      "mobileMenu": true,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/about",
+      "width": 390,
+      "title": "Interior Design Company in Bangalore | About Siddaspace",
+      "h1": [
+        "Beyond ideas. Built with clarity, craft, and execution discipline."
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 7,
+      "imagesWithoutDimensions": 4,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 1621694,
+      "lab": {
+        "lcp": 72,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": false,
+      "unnamedInputs": 0,
+      "mobileMenu": true,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/services/home-interiors",
+      "width": 390,
+      "title": "Home Interior Designers in Bangalore | Siddaspace",
+      "h1": [
+        "Home interior designers in Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 10,
+      "imagesWithoutDimensions": 7,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 1878368,
+      "lab": {
+        "lcp": 176,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": false,
+      "unnamedInputs": 0,
+      "mobileMenu": true,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/gallery",
+      "width": 390,
+      "title": "Sofa & Living Room Design Gallery Bangalore | Siddaspace",
+      "h1": [
+        "Find a sofa that feels made for your home."
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 101,
+      "imagesWithoutDimensions": 98,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 6324458,
+      "lab": {
+        "lcp": 52,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": false,
+      "unnamedInputs": 0,
+      "mobileMenu": true,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/estimate",
+      "width": 390,
+      "title": "Home Interior Cost Calculator Bangalore | Siddaspace",
+      "h1": [
+        "Home interior cost calculator for Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 6,
+      "imagesWithoutDimensions": 6,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 304909,
+      "lab": {
+        "lcp": 56,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": false,
+      "unnamedInputs": 0,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "title": "Interior Designers in Bangalore | Siddaspace",
+      "h1": [
+        "Interior Designers in Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 99,
+      "imagesWithoutDimensions": 90,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 14108165,
+      "lab": {
+        "lcp": 280,
+        "cls": 0.00043950061557402275
+      },
+      "mainLandmarks": 1,
+      "skipLink": false,
+      "unnamedInputs": 0,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/about",
+      "width": 1440,
+      "title": "Interior Design Company in Bangalore | About Siddaspace",
+      "h1": [
+        "Beyond ideas. Built with clarity, craft, and execution discipline."
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 7,
+      "imagesWithoutDimensions": 4,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 1803726,
+      "lab": {
+        "lcp": 88,
+        "cls": 0.00043950061557402275
+      },
+      "mainLandmarks": 1,
+      "skipLink": false,
+      "unnamedInputs": 0,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/services/home-interiors",
+      "width": 1440,
+      "title": "Home Interior Designers in Bangalore | Siddaspace",
+      "h1": [
+        "Home interior designers in Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 10,
+      "imagesWithoutDimensions": 7,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 2060400,
+      "lab": {
+        "lcp": 104,
+        "cls": 0.00043950061557402275
+      },
+      "mainLandmarks": 1,
+      "skipLink": false,
+      "unnamedInputs": 0,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/gallery",
+      "width": 1440,
+      "title": "Sofa & Living Room Design Gallery Bangalore | Siddaspace",
+      "h1": [
+        "Find a sofa that feels made for your home."
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 101,
+      "imagesWithoutDimensions": 98,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 18080264,
+      "lab": {
+        "lcp": 92,
+        "cls": 0.00043950061557402275
+      },
+      "mainLandmarks": 1,
+      "skipLink": false,
+      "unnamedInputs": 0,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/estimate",
+      "width": 1440,
+      "title": "Home Interior Cost Calculator Bangalore | Siddaspace",
+      "h1": [
+        "Home interior cost calculator for Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 6,
+      "imagesWithoutDimensions": 6,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 485230,
+      "lab": {
+        "lcp": 84,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": false,
+      "unnamedInputs": 0,
+      "runtimeErrors": []
+    }
+  ],
+  "failures": []
+}

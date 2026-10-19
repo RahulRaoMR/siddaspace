@@ -1,0 +1,59 @@
+[
+  {
+    "slug": "executive-office",
+    "source": "https://www.siddaspace.com/#projects",
+    "localSource": "index.html: transformation section",
+    "image": "/assets/transformations/office-after.jpeg",
+    "supportedFacts": {
+      "location": "Bangalore",
+      "type": "Office interior",
+      "scope": "Custom storage, desk planning, wall finishes and lighting"
+    },
+    "omitted": [
+      "Client identity",
+      "Specific neighbourhood",
+      "Budget",
+      "Project dates",
+      "Area measurements and completion periods pending owner verification",
+      "Unpublished challenges or measured outcomes"
+    ]
+  },
+  {
+    "slug": "lobby-lounge",
+    "source": "https://www.siddaspace.com/#projects",
+    "localSource": "index.html: transformation section",
+    "image": "/assets/transformations/lobby-after.jpeg",
+    "supportedFacts": {
+      "location": "Bangalore",
+      "type": "Commercial lobby / lounge",
+      "scope": "Seating layout, wall features, lighting and coordinated furniture"
+    },
+    "omitted": [
+      "Client identity",
+      "Specific neighbourhood",
+      "Budget",
+      "Project dates",
+      "Area measurements and completion periods pending owner verification",
+      "Unpublished challenges or measured outcomes"
+    ]
+  },
+  {
+    "slug": "restaurant-dining",
+    "source": "https://www.siddaspace.com/#projects",
+    "localSource": "index.html: transformation section",
+    "image": "/assets/transformations/restaurant-after.jpeg",
+    "supportedFacts": {
+      "location": "Bangalore",
+      "type": "Restaurant interior",
+      "scope": "Dining arrangement, service counter, lighting and finishes"
+    },
+    "omitted": [
+      "Client identity",
+      "Specific neighbourhood",
+      "Budget",
+      "Project dates",
+      "Area measurements and completion periods pending owner verification",
+      "Unpublished challenges or measured outcomes"
+    ]
+  }
+]

@@ -3,6 +3,7 @@ const path = require("path");
 const auth = require("../auth");
 
 module.exports = function liveProjects(request, response) {
+  response.setHeader("X-Robots-Tag", "noindex, nofollow");
   if (request.method !== "GET" && request.method !== "HEAD") {
     response.writeHead(405, { "Content-Type": "text/plain; charset=utf-8" });
     response.end("405 Method Not Allowed");

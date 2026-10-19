@@ -1,0 +1,14 @@
+dist/
+node_modules/
+.git/
+.agents/
+.codex/
+.aws/
+.env
+.env.*
+.tmp-*
+reports/
+scripts/
+SEO.md
+AUTHENTICATION.md
+gallery-contact-sheet.jpg

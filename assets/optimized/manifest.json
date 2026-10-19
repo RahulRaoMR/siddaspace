@@ -1,0 +1,5578 @@
+{
+  "/assets/sidda-space-logo-on-light.png": {
+    "hash": "a100a90826",
+    "width": 973,
+    "height": 256,
+    "originalBytes": 98764,
+    "variants": []
+  },
+  "/assets/sidda-space-symbol.png": {
+    "hash": "5621b31e4e",
+    "width": 500,
+    "height": 500,
+    "originalBytes": 34125,
+    "variants": []
+  },
+  "/assets/sidda-space-footer-logo.png": {
+    "hash": "1c2fc975ed",
+    "width": 1169,
+    "height": 649,
+    "originalBytes": 33437,
+    "variants": []
+  },
+  "/assets/whatsapp-logo.svg": {
+    "hash": "f0f8f8f3d3",
+    "width": 150,
+    "height": 150,
+    "originalBytes": 925,
+    "variants": []
+  },
+  "/assets/projects/project-24.jpeg": {
+    "hash": "31f4871c8d",
+    "width": 1280,
+    "height": 720,
+    "originalBytes": 101470,
+    "variants": [
+      {
+        "width": 320,
+        "height": 180,
+        "src": "/assets/optimized/conference-room-interior-31f4871c8d-320.webp",
+        "bytes": 11614
+      },
+      {
+        "width": 640,
+        "height": 360,
+        "src": "/assets/optimized/conference-room-interior-31f4871c8d-640.webp",
+        "bytes": 32808
+      },
+      {
+        "width": 960,
+        "height": 540,
+        "src": "/assets/optimized/conference-room-interior-31f4871c8d-960.webp",
+        "bytes": 55014
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "src": "/assets/optimized/conference-room-interior-31f4871c8d-1280.webp",
+        "bytes": 85390
+      }
+    ]
+  },
+  "/assets/projects/project-11.jpeg": {
+    "hash": "65932e3b09",
+    "width": 1280,
+    "height": 720,
+    "originalBytes": 101843,
+    "variants": [
+      {
+        "width": 320,
+        "height": 180,
+        "src": "/assets/optimized/conference-table-and-office-chairs-by-siddaspace-65932e3b09-320.webp",
+        "bytes": 11710
+      },
+      {
+        "width": 640,
+        "height": 360,
+        "src": "/assets/optimized/conference-table-and-office-chairs-by-siddaspace-65932e3b09-640.webp",
+        "bytes": 31982
+      },
+      {
+        "width": 960,
+        "height": 540,
+        "src": "/assets/optimized/conference-table-and-office-chairs-by-siddaspace-65932e3b09-960.webp",
+        "bytes": 53848
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "src": "/assets/optimized/conference-table-and-office-chairs-by-siddaspace-65932e3b09-1280.webp",
+        "bytes": 84016
+      }
+    ]
+  },
+  "/assets/sidda-space-logo-on-dark.png": {
+    "hash": "c1ac75834f",
+    "width": 973,
+    "height": 256,
+    "originalBytes": 113072,
+    "variants": []
+  },
+  "/assets/icons/city-bangalore.png": {
+    "hash": "e4f7159ba5",
+    "width": 1774,
+    "height": 887,
+    "originalBytes": 483645,
+    "variants": []
+  },
+  "/assets/icons/city-mysore.png": {
+    "hash": "aac4e7515f",
+    "width": 1989,
+    "height": 791,
+    "originalBytes": 685943,
+    "variants": []
+  },
+  "/assets/projects/project-01.jpeg": {
+    "hash": "b09a457e99",
+    "width": 1280,
+    "height": 960,
+    "originalBytes": 168287,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/restaurant-dining-interior-b09a457e99-320.webp",
+        "bytes": 17690
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/restaurant-dining-interior-b09a457e99-640.webp",
+        "bytes": 53672
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/restaurant-dining-interior-b09a457e99-960.webp",
+        "bytes": 92720
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/restaurant-dining-interior-b09a457e99-1280.webp",
+        "bytes": 149544
+      }
+    ]
+  },
+  "/assets/consultations/interior-designer.jpg": {
+    "hash": "0e1fe78c69",
+    "width": 1600,
+    "height": 552,
+    "originalBytes": 163792,
+    "variants": [
+      {
+        "width": 320,
+        "height": 110,
+        "src": "/assets/optimized/interior-designer-0e1fe78c69-320.webp",
+        "bytes": 7538
+      },
+      {
+        "width": 640,
+        "height": 221,
+        "src": "/assets/optimized/interior-designer-0e1fe78c69-640.webp",
+        "bytes": 21804
+      },
+      {
+        "width": 960,
+        "height": 331,
+        "src": "/assets/optimized/interior-designer-0e1fe78c69-960.webp",
+        "bytes": 46950
+      },
+      {
+        "width": 1280,
+        "height": 442,
+        "src": "/assets/optimized/interior-designer-0e1fe78c69-1280.webp",
+        "bytes": 65566
+      },
+      {
+        "width": 1600,
+        "height": 552,
+        "src": "/assets/optimized/interior-designer-0e1fe78c69-1600.webp",
+        "bytes": 102604
+      }
+    ]
+  },
+  "/assets/consultations/site-consultation.jpg": {
+    "hash": "3e2d1c94d6",
+    "width": 1600,
+    "height": 533,
+    "originalBytes": 141614,
+    "variants": [
+      {
+        "width": 320,
+        "height": 107,
+        "src": "/assets/optimized/site-consultation-3e2d1c94d6-320.webp",
+        "bytes": 8250
+      },
+      {
+        "width": 640,
+        "height": 213,
+        "src": "/assets/optimized/site-consultation-3e2d1c94d6-640.webp",
+        "bytes": 22952
+      },
+      {
+        "width": 960,
+        "height": 320,
+        "src": "/assets/optimized/site-consultation-3e2d1c94d6-960.webp",
+        "bytes": 42796
+      },
+      {
+        "width": 1280,
+        "height": 426,
+        "src": "/assets/optimized/site-consultation-3e2d1c94d6-1280.webp",
+        "bytes": 59430
+      },
+      {
+        "width": 1600,
+        "height": 533,
+        "src": "/assets/optimized/site-consultation-3e2d1c94d6-1600.webp",
+        "bytes": 83496
+      }
+    ]
+  },
+  "/assets/consultations/structural-designer.jpg": {
+    "hash": "1ad60429eb",
+    "width": 1600,
+    "height": 533,
+    "originalBytes": 201053,
+    "variants": [
+      {
+        "width": 320,
+        "height": 107,
+        "src": "/assets/optimized/structural-designer-1ad60429eb-320.webp",
+        "bytes": 8632
+      },
+      {
+        "width": 640,
+        "height": 213,
+        "src": "/assets/optimized/structural-designer-1ad60429eb-640.webp",
+        "bytes": 27766
+      },
+      {
+        "width": 960,
+        "height": 320,
+        "src": "/assets/optimized/structural-designer-1ad60429eb-960.webp",
+        "bytes": 59668
+      },
+      {
+        "width": 1280,
+        "height": 426,
+        "src": "/assets/optimized/structural-designer-1ad60429eb-1280.webp",
+        "bytes": 89408
+      },
+      {
+        "width": 1600,
+        "height": 533,
+        "src": "/assets/optimized/structural-designer-1ad60429eb-1600.webp",
+        "bytes": 141818
+      }
+    ]
+  },
+  "/assets/consultations/office-interior.jpg": {
+    "hash": "4b0dac229c",
+    "width": 1600,
+    "height": 539,
+    "originalBytes": 159705,
+    "variants": [
+      {
+        "width": 320,
+        "height": 108,
+        "src": "/assets/optimized/office-interior-4b0dac229c-320.webp",
+        "bytes": 7430
+      },
+      {
+        "width": 640,
+        "height": 216,
+        "src": "/assets/optimized/office-interior-4b0dac229c-640.webp",
+        "bytes": 22246
+      },
+      {
+        "width": 960,
+        "height": 323,
+        "src": "/assets/optimized/office-interior-4b0dac229c-960.webp",
+        "bytes": 44536
+      },
+      {
+        "width": 1280,
+        "height": 431,
+        "src": "/assets/optimized/office-interior-4b0dac229c-1280.webp",
+        "bytes": 64158
+      },
+      {
+        "width": 1600,
+        "height": 539,
+        "src": "/assets/optimized/office-interior-4b0dac229c-1600.webp",
+        "bytes": 99932
+      }
+    ]
+  },
+  "/assets/consultations/renovation-expert.jpg": {
+    "hash": "35b0e4ff0e",
+    "width": 1600,
+    "height": 533,
+    "originalBytes": 137302,
+    "variants": [
+      {
+        "width": 320,
+        "height": 107,
+        "src": "/assets/optimized/renovation-expert-35b0e4ff0e-320.webp",
+        "bytes": 6842
+      },
+      {
+        "width": 640,
+        "height": 213,
+        "src": "/assets/optimized/renovation-expert-35b0e4ff0e-640.webp",
+        "bytes": 19498
+      },
+      {
+        "width": 960,
+        "height": 320,
+        "src": "/assets/optimized/renovation-expert-35b0e4ff0e-960.webp",
+        "bytes": 37814
+      },
+      {
+        "width": 1280,
+        "height": 426,
+        "src": "/assets/optimized/renovation-expert-35b0e4ff0e-1280.webp",
+        "bytes": 54522
+      },
+      {
+        "width": 1600,
+        "height": 533,
+        "src": "/assets/optimized/renovation-expert-35b0e4ff0e-1600.webp",
+        "bytes": 81778
+      }
+    ]
+  },
+  "/assets/projects/project-22.jpeg": {
+    "hash": "0203369c7b",
+    "width": 1280,
+    "height": 960,
+    "originalBytes": 134752,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/commercial-office-lounge-seating-by-siddaspace-0203369c7b-320.webp",
+        "bytes": 14450
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/commercial-office-lounge-seating-by-siddaspace-0203369c7b-640.webp",
+        "bytes": 41924
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/commercial-office-lounge-seating-by-siddaspace-0203369c7b-960.webp",
+        "bytes": 73258
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/commercial-office-lounge-seating-by-siddaspace-0203369c7b-1280.webp",
+        "bytes": 117256
+      }
+    ]
+  },
+  "/assets/home/product-materials.jpg": {
+    "hash": "99fc308a8a",
+    "width": 1200,
+    "height": 675,
+    "originalBytes": 165952,
+    "variants": [
+      {
+        "width": 320,
+        "height": 180,
+        "src": "/assets/optimized/product-materials-99fc308a8a-320.webp",
+        "bytes": 11882
+      },
+      {
+        "width": 640,
+        "height": 360,
+        "src": "/assets/optimized/product-materials-99fc308a8a-640.webp",
+        "bytes": 41186
+      },
+      {
+        "width": 960,
+        "height": 540,
+        "src": "/assets/optimized/product-materials-99fc308a8a-960.webp",
+        "bytes": 70274
+      },
+      {
+        "width": 1200,
+        "height": 675,
+        "src": "/assets/optimized/product-materials-99fc308a8a-1200.webp",
+        "bytes": 113906
+      }
+    ]
+  },
+  "/assets/home/art-and-craft.jpg": {
+    "hash": "7726f12450",
+    "width": 1200,
+    "height": 675,
+    "originalBytes": 140821,
+    "variants": [
+      {
+        "width": 320,
+        "height": 180,
+        "src": "/assets/optimized/art-and-craft-7726f12450-320.webp",
+        "bytes": 13818
+      },
+      {
+        "width": 640,
+        "height": 360,
+        "src": "/assets/optimized/art-and-craft-7726f12450-640.webp",
+        "bytes": 38022
+      },
+      {
+        "width": 960,
+        "height": 540,
+        "src": "/assets/optimized/art-and-craft-7726f12450-960.webp",
+        "bytes": 59884
+      },
+      {
+        "width": 1200,
+        "height": 675,
+        "src": "/assets/optimized/art-and-craft-7726f12450-1200.webp",
+        "bytes": 89624
+      }
+    ]
+  },
+  "/assets/team/yashas-v2.png": {
+    "hash": "e3586af6a0",
+    "width": 1254,
+    "height": 1254,
+    "originalBytes": 1690567,
+    "variants": [
+      {
+        "width": 320,
+        "height": 320,
+        "src": "/assets/optimized/yashas-sidda-e3586af6a0-320.webp",
+        "bytes": 9900
+      },
+      {
+        "width": 640,
+        "height": 640,
+        "src": "/assets/optimized/yashas-sidda-e3586af6a0-640.webp",
+        "bytes": 30038
+      },
+      {
+        "width": 960,
+        "height": 960,
+        "src": "/assets/optimized/yashas-sidda-e3586af6a0-960.webp",
+        "bytes": 51304
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "src": "/assets/optimized/yashas-sidda-e3586af6a0-1254.webp",
+        "bytes": 83628
+      }
+    ]
+  },
+  "/assets/team/viswaradhya.png": {
+    "hash": "ae03372560",
+    "width": 1254,
+    "height": 1254,
+    "originalBytes": 1591157,
+    "variants": [
+      {
+        "width": 320,
+        "height": 320,
+        "src": "/assets/optimized/viswaradhya-ae03372560-320.webp",
+        "bytes": 10370
+      },
+      {
+        "width": 640,
+        "height": 640,
+        "src": "/assets/optimized/viswaradhya-ae03372560-640.webp",
+        "bytes": 29952
+      },
+      {
+        "width": 960,
+        "height": 960,
+        "src": "/assets/optimized/viswaradhya-ae03372560-960.webp",
+        "bytes": 50412
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "src": "/assets/optimized/viswaradhya-ae03372560-1254.webp",
+        "bytes": 82222
+      }
+    ]
+  },
+  "/assets/team/haribabu-g.png": {
+    "hash": "cafd95b2dc",
+    "width": 1254,
+    "height": 1254,
+    "originalBytes": 1711616,
+    "variants": [
+      {
+        "width": 320,
+        "height": 320,
+        "src": "/assets/optimized/haribabu-g-cafd95b2dc-320.webp",
+        "bytes": 10516
+      },
+      {
+        "width": 640,
+        "height": 640,
+        "src": "/assets/optimized/haribabu-g-cafd95b2dc-640.webp",
+        "bytes": 35212
+      },
+      {
+        "width": 960,
+        "height": 960,
+        "src": "/assets/optimized/haribabu-g-cafd95b2dc-960.webp",
+        "bytes": 65080
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "src": "/assets/optimized/haribabu-g-cafd95b2dc-1254.webp",
+        "bytes": 114054
+      }
+    ]
+  },
+  "/assets/team/manoj.png": {
+    "hash": "dc16d673e0",
+    "width": 1254,
+    "height": 1254,
+    "originalBytes": 1483738,
+    "variants": [
+      {
+        "width": 320,
+        "height": 320,
+        "src": "/assets/optimized/manoj-m-dc16d673e0-320.webp",
+        "bytes": 9018
+      },
+      {
+        "width": 640,
+        "height": 640,
+        "src": "/assets/optimized/manoj-m-dc16d673e0-640.webp",
+        "bytes": 24484
+      },
+      {
+        "width": 960,
+        "height": 960,
+        "src": "/assets/optimized/manoj-m-dc16d673e0-960.webp",
+        "bytes": 39488
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "src": "/assets/optimized/manoj-m-dc16d673e0-1254.webp",
+        "bytes": 60820
+      }
+    ]
+  },
+  "/assets/team/amrutha.png": {
+    "hash": "e21de408f3",
+    "width": 1254,
+    "height": 1254,
+    "originalBytes": 1417222,
+    "variants": [
+      {
+        "width": 320,
+        "height": 320,
+        "src": "/assets/optimized/amrutha-d-r-e21de408f3-320.webp",
+        "bytes": 9188
+      },
+      {
+        "width": 640,
+        "height": 640,
+        "src": "/assets/optimized/amrutha-d-r-e21de408f3-640.webp",
+        "bytes": 23730
+      },
+      {
+        "width": 960,
+        "height": 960,
+        "src": "/assets/optimized/amrutha-d-r-e21de408f3-960.webp",
+        "bytes": 37706
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "src": "/assets/optimized/amrutha-d-r-e21de408f3-1254.webp",
+        "bytes": 57998
+      }
+    ]
+  },
+  "/assets/team/shankar.png": {
+    "hash": "ebe4d5349d",
+    "width": 1254,
+    "height": 1254,
+    "originalBytes": 1430034,
+    "variants": [
+      {
+        "width": 320,
+        "height": 320,
+        "src": "/assets/optimized/shankar-c-ebe4d5349d-320.webp",
+        "bytes": 8428
+      },
+      {
+        "width": 640,
+        "height": 640,
+        "src": "/assets/optimized/shankar-c-ebe4d5349d-640.webp",
+        "bytes": 20828
+      },
+      {
+        "width": 960,
+        "height": 960,
+        "src": "/assets/optimized/shankar-c-ebe4d5349d-960.webp",
+        "bytes": 33210
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "src": "/assets/optimized/shankar-c-ebe4d5349d-1254.webp",
+        "bytes": 51466
+      }
+    ]
+  },
+  "/assets/home-services/painter.jpg": {
+    "hash": "815c53cc4b",
+    "width": 1983,
+    "height": 793,
+    "originalBytes": 161815,
+    "variants": [
+      {
+        "width": 320,
+        "height": 128,
+        "src": "/assets/optimized/painter-815c53cc4b-320.webp",
+        "bytes": 6516
+      },
+      {
+        "width": 640,
+        "height": 256,
+        "src": "/assets/optimized/painter-815c53cc4b-640.webp",
+        "bytes": 18584
+      },
+      {
+        "width": 960,
+        "height": 384,
+        "src": "/assets/optimized/painter-815c53cc4b-960.webp",
+        "bytes": 30534
+      },
+      {
+        "width": 1280,
+        "height": 512,
+        "src": "/assets/optimized/painter-815c53cc4b-1280.webp",
+        "bytes": 51940
+      },
+      {
+        "width": 1600,
+        "height": 640,
+        "src": "/assets/optimized/painter-815c53cc4b-1600.webp",
+        "bytes": 67058
+      }
+    ]
+  },
+  "/assets/home-services/waterproofing.jpg": {
+    "hash": "a6e2d2ed5f",
+    "width": 1983,
+    "height": 793,
+    "originalBytes": 228102,
+    "variants": [
+      {
+        "width": 320,
+        "height": 128,
+        "src": "/assets/optimized/waterproofing-a6e2d2ed5f-320.webp",
+        "bytes": 9524
+      },
+      {
+        "width": 640,
+        "height": 256,
+        "src": "/assets/optimized/waterproofing-a6e2d2ed5f-640.webp",
+        "bytes": 27148
+      },
+      {
+        "width": 960,
+        "height": 384,
+        "src": "/assets/optimized/waterproofing-a6e2d2ed5f-960.webp",
+        "bytes": 44124
+      },
+      {
+        "width": 1280,
+        "height": 512,
+        "src": "/assets/optimized/waterproofing-a6e2d2ed5f-1280.webp",
+        "bytes": 74908
+      },
+      {
+        "width": 1600,
+        "height": 640,
+        "src": "/assets/optimized/waterproofing-a6e2d2ed5f-1600.webp",
+        "bytes": 100062
+      }
+    ]
+  },
+  "/assets/home-services/carpenter.jpg": {
+    "hash": "98b14ab189",
+    "width": 1983,
+    "height": 793,
+    "originalBytes": 216884,
+    "variants": [
+      {
+        "width": 320,
+        "height": 128,
+        "src": "/assets/optimized/carpenter-98b14ab189-320.webp",
+        "bytes": 9946
+      },
+      {
+        "width": 640,
+        "height": 256,
+        "src": "/assets/optimized/carpenter-98b14ab189-640.webp",
+        "bytes": 27222
+      },
+      {
+        "width": 960,
+        "height": 384,
+        "src": "/assets/optimized/carpenter-98b14ab189-960.webp",
+        "bytes": 42644
+      },
+      {
+        "width": 1280,
+        "height": 512,
+        "src": "/assets/optimized/carpenter-98b14ab189-1280.webp",
+        "bytes": 70308
+      },
+      {
+        "width": 1600,
+        "height": 640,
+        "src": "/assets/optimized/carpenter-98b14ab189-1600.webp",
+        "bytes": 90994
+      }
+    ]
+  },
+  "/assets/home-services/electrician.jpg": {
+    "hash": "fa17b762e9",
+    "width": 1983,
+    "height": 793,
+    "originalBytes": 132905,
+    "variants": [
+      {
+        "width": 320,
+        "height": 128,
+        "src": "/assets/optimized/electrician-fa17b762e9-320.webp",
+        "bytes": 6648
+      },
+      {
+        "width": 640,
+        "height": 256,
+        "src": "/assets/optimized/electrician-fa17b762e9-640.webp",
+        "bytes": 16136
+      },
+      {
+        "width": 960,
+        "height": 384,
+        "src": "/assets/optimized/electrician-fa17b762e9-960.webp",
+        "bytes": 24760
+      },
+      {
+        "width": 1280,
+        "height": 512,
+        "src": "/assets/optimized/electrician-fa17b762e9-1280.webp",
+        "bytes": 38584
+      },
+      {
+        "width": 1600,
+        "height": 640,
+        "src": "/assets/optimized/electrician-fa17b762e9-1600.webp",
+        "bytes": 48796
+      }
+    ]
+  },
+  "/assets/home-services/plumber.jpg": {
+    "hash": "9ca7f777e4",
+    "width": 1983,
+    "height": 793,
+    "originalBytes": 184982,
+    "variants": [
+      {
+        "width": 320,
+        "height": 128,
+        "src": "/assets/optimized/plumber-9ca7f777e4-320.webp",
+        "bytes": 9416
+      },
+      {
+        "width": 640,
+        "height": 256,
+        "src": "/assets/optimized/plumber-9ca7f777e4-640.webp",
+        "bytes": 24410
+      },
+      {
+        "width": 960,
+        "height": 384,
+        "src": "/assets/optimized/plumber-9ca7f777e4-960.webp",
+        "bytes": 37608
+      },
+      {
+        "width": 1280,
+        "height": 512,
+        "src": "/assets/optimized/plumber-9ca7f777e4-1280.webp",
+        "bytes": 60320
+      },
+      {
+        "width": 1600,
+        "height": 640,
+        "src": "/assets/optimized/plumber-9ca7f777e4-1600.webp",
+        "bytes": 77928
+      }
+    ]
+  },
+  "/assets/home-services/stone-cleaning.jpg": {
+    "hash": "31608c49a7",
+    "width": 1983,
+    "height": 793,
+    "originalBytes": 217049,
+    "variants": [
+      {
+        "width": 320,
+        "height": 128,
+        "src": "/assets/optimized/stone-cleaning-31608c49a7-320.webp",
+        "bytes": 10244
+      },
+      {
+        "width": 640,
+        "height": 256,
+        "src": "/assets/optimized/stone-cleaning-31608c49a7-640.webp",
+        "bytes": 28594
+      },
+      {
+        "width": 960,
+        "height": 384,
+        "src": "/assets/optimized/stone-cleaning-31608c49a7-960.webp",
+        "bytes": 45680
+      },
+      {
+        "width": 1280,
+        "height": 512,
+        "src": "/assets/optimized/stone-cleaning-31608c49a7-1280.webp",
+        "bytes": 73130
+      },
+      {
+        "width": 1600,
+        "height": 640,
+        "src": "/assets/optimized/stone-cleaning-31608c49a7-1600.webp",
+        "bytes": 94594
+      }
+    ]
+  },
+  "/assets/home-services/deep-cleaning.jpg": {
+    "hash": "da0e7b7510",
+    "width": 1983,
+    "height": 793,
+    "originalBytes": 229253,
+    "variants": [
+      {
+        "width": 320,
+        "height": 128,
+        "src": "/assets/optimized/deep-cleaning-da0e7b7510-320.webp",
+        "bytes": 9854
+      },
+      {
+        "width": 640,
+        "height": 256,
+        "src": "/assets/optimized/deep-cleaning-da0e7b7510-640.webp",
+        "bytes": 28530
+      },
+      {
+        "width": 960,
+        "height": 384,
+        "src": "/assets/optimized/deep-cleaning-da0e7b7510-960.webp",
+        "bytes": 44418
+      },
+      {
+        "width": 1280,
+        "height": 512,
+        "src": "/assets/optimized/deep-cleaning-da0e7b7510-1280.webp",
+        "bytes": 78106
+      },
+      {
+        "width": 1600,
+        "height": 640,
+        "src": "/assets/optimized/deep-cleaning-da0e7b7510-1600.webp",
+        "bytes": 103718
+      }
+    ]
+  },
+  "/assets/videos/project-showcase-01-poster.jpg": {
+    "hash": "67ca46904f",
+    "width": 540,
+    "height": 960,
+    "originalBytes": 107342,
+    "variants": [
+      {
+        "width": 320,
+        "height": 569,
+        "src": "/assets/optimized/project-showcase-01-poster-67ca46904f-320.webp",
+        "bytes": 28994
+      },
+      {
+        "width": 540,
+        "height": 960,
+        "src": "/assets/optimized/project-showcase-01-poster-67ca46904f-540.webp",
+        "bytes": 63638
+      }
+    ]
+  },
+  "/assets/videos/project-showcase-02-poster.jpg": {
+    "hash": "847f133944",
+    "width": 540,
+    "height": 960,
+    "originalBytes": 63124,
+    "variants": [
+      {
+        "width": 320,
+        "height": 569,
+        "src": "/assets/optimized/project-showcase-02-poster-847f133944-320.webp",
+        "bytes": 11954
+      },
+      {
+        "width": 540,
+        "height": 960,
+        "src": "/assets/optimized/project-showcase-02-poster-847f133944-540.webp",
+        "bytes": 29162
+      }
+    ]
+  },
+  "/assets/videos/project-showcase-03-poster.jpg": {
+    "hash": "daaa1ffa49",
+    "width": 540,
+    "height": 960,
+    "originalBytes": 117250,
+    "variants": [
+      {
+        "width": 320,
+        "height": 569,
+        "src": "/assets/optimized/project-showcase-03-poster-daaa1ffa49-320.webp",
+        "bytes": 32682
+      },
+      {
+        "width": 540,
+        "height": 960,
+        "src": "/assets/optimized/project-showcase-03-poster-daaa1ffa49-540.webp",
+        "bytes": 73800
+      }
+    ]
+  },
+  "/assets/transformations/office-after.jpeg": {
+    "hash": "84c2c444fa",
+    "width": 630,
+    "height": 1400,
+    "originalBytes": 44751,
+    "variants": [
+      {
+        "width": 320,
+        "height": 711,
+        "src": "/assets/optimized/finished-executive-office-with-wood-tone-desk-and-illuminated-sh-84c2c444fa-320.webp",
+        "bytes": 12786
+      },
+      {
+        "width": 630,
+        "height": 1400,
+        "src": "/assets/optimized/finished-executive-office-with-wood-tone-desk-and-illuminated-sh-84c2c444fa-630.webp",
+        "bytes": 27644
+      }
+    ]
+  },
+  "/assets/transformations/office-before.jpeg": {
+    "hash": "c0b568bab1",
+    "width": 630,
+    "height": 1400,
+    "originalBytes": 58317,
+    "variants": [
+      {
+        "width": 320,
+        "height": 711,
+        "src": "/assets/optimized/office-renovation-site-before-transformation-c0b568bab1-320.webp",
+        "bytes": 18928
+      },
+      {
+        "width": 630,
+        "height": 1400,
+        "src": "/assets/optimized/office-renovation-site-before-transformation-c0b568bab1-630.webp",
+        "bytes": 41170
+      }
+    ]
+  },
+  "/assets/transformations/lobby-after.jpeg": {
+    "hash": "b77053cc6f",
+    "width": 1280,
+    "height": 720,
+    "originalBytes": 137256,
+    "variants": [
+      {
+        "width": 320,
+        "height": 180,
+        "src": "/assets/optimized/completed-lobby-lounge-with-curved-seating-and-illuminated-wall--b77053cc6f-320.webp",
+        "bytes": 15874
+      },
+      {
+        "width": 640,
+        "height": 360,
+        "src": "/assets/optimized/completed-lobby-lounge-with-curved-seating-and-illuminated-wall--b77053cc6f-640.webp",
+        "bytes": 47158
+      },
+      {
+        "width": 960,
+        "height": 540,
+        "src": "/assets/optimized/completed-lobby-lounge-with-curved-seating-and-illuminated-wall--b77053cc6f-960.webp",
+        "bytes": 82308
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "src": "/assets/optimized/completed-lobby-lounge-with-curved-seating-and-illuminated-wall--b77053cc6f-1280.webp",
+        "bytes": 131516
+      }
+    ]
+  },
+  "/assets/transformations/lobby-before.jpeg": {
+    "hash": "fab6590699",
+    "width": 1600,
+    "height": 1204,
+    "originalBytes": 114220,
+    "variants": [
+      {
+        "width": 320,
+        "height": 241,
+        "src": "/assets/optimized/plain-reception-wall-before-lobby-lounge-transformation-fab6590699-320.webp",
+        "bytes": 8132
+      },
+      {
+        "width": 640,
+        "height": 482,
+        "src": "/assets/optimized/plain-reception-wall-before-lobby-lounge-transformation-fab6590699-640.webp",
+        "bytes": 20928
+      },
+      {
+        "width": 960,
+        "height": 722,
+        "src": "/assets/optimized/plain-reception-wall-before-lobby-lounge-transformation-fab6590699-960.webp",
+        "bytes": 37020
+      },
+      {
+        "width": 1280,
+        "height": 963,
+        "src": "/assets/optimized/plain-reception-wall-before-lobby-lounge-transformation-fab6590699-1280.webp",
+        "bytes": 49914
+      },
+      {
+        "width": 1600,
+        "height": 1204,
+        "src": "/assets/optimized/plain-reception-wall-before-lobby-lounge-transformation-fab6590699-1600.webp",
+        "bytes": 69884
+      }
+    ]
+  },
+  "/assets/transformations/restaurant-after.jpeg": {
+    "hash": "bb3da72e58",
+    "width": 1428,
+    "height": 1071,
+    "originalBytes": 226656,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/finished-restaurant-buffet-counter-and-hospitality-interior-bb3da72e58-320.webp",
+        "bytes": 16688
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/finished-restaurant-buffet-counter-and-hospitality-interior-bb3da72e58-640.webp",
+        "bytes": 52926
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/finished-restaurant-buffet-counter-and-hospitality-interior-bb3da72e58-960.webp",
+        "bytes": 111844
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/finished-restaurant-buffet-counter-and-hospitality-interior-bb3da72e58-1280.webp",
+        "bytes": 155834
+      },
+      {
+        "width": 1428,
+        "height": 1071,
+        "src": "/assets/optimized/finished-restaurant-buffet-counter-and-hospitality-interior-bb3da72e58-1428.webp",
+        "bytes": 202822
+      }
+    ]
+  },
+  "/assets/transformations/restaurant-before.jpeg": {
+    "hash": "b02b8ec482",
+    "width": 1280,
+    "height": 960,
+    "originalBytes": 136470,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/restaurant-dining-area-during-renovation-before-transformation-b02b8ec482-320.webp",
+        "bytes": 16220
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/restaurant-dining-area-during-renovation-before-transformation-b02b8ec482-640.webp",
+        "bytes": 44406
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/restaurant-dining-area-during-renovation-before-transformation-b02b8ec482-960.webp",
+        "bytes": 71268
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/restaurant-dining-area-during-renovation-before-transformation-b02b8ec482-1280.webp",
+        "bytes": 109030
+      }
+    ]
+  },
+  "/assets/projects/project-06.jpeg": {
+    "hash": "b689ee9849",
+    "width": 960,
+    "height": 1280,
+    "originalBytes": 75225,
+    "variants": [
+      {
+        "width": 320,
+        "height": 427,
+        "src": "/assets/optimized/kennedia-blu-building-exterior-signage-project-b689ee9849-320.webp",
+        "bytes": 11154
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "/assets/optimized/kennedia-blu-building-exterior-signage-project-b689ee9849-640.webp",
+        "bytes": 30662
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "src": "/assets/optimized/kennedia-blu-building-exterior-signage-project-b689ee9849-960.webp",
+        "bytes": 54256
+      }
+    ]
+  },
+  "/assets/projects/project-07.jpeg": {
+    "hash": "f84714c0c5",
+    "width": 1280,
+    "height": 960,
+    "originalBytes": 129982,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/private-dining-room-with-long-marble-table-and-brown-chairs-f84714c0c5-320.webp",
+        "bytes": 13982
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/private-dining-room-with-long-marble-table-and-brown-chairs-f84714c0c5-640.webp",
+        "bytes": 39946
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/private-dining-room-with-long-marble-table-and-brown-chairs-f84714c0c5-960.webp",
+        "bytes": 68884
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/private-dining-room-with-long-marble-table-and-brown-chairs-f84714c0c5-1280.webp",
+        "bytes": 111758
+      }
+    ]
+  },
+  "/assets/projects/project-08.jpeg": {
+    "hash": "bec6fbd805",
+    "width": 1280,
+    "height": 960,
+    "originalBytes": 171727,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/kennedia-blu-dining-area-with-feature-wall-and-greenery-bec6fbd805-320.webp",
+        "bytes": 19634
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/kennedia-blu-dining-area-with-feature-wall-and-greenery-bec6fbd805-640.webp",
+        "bytes": 60014
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/kennedia-blu-dining-area-with-feature-wall-and-greenery-bec6fbd805-960.webp",
+        "bytes": 102954
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/kennedia-blu-dining-area-with-feature-wall-and-greenery-bec6fbd805-1280.webp",
+        "bytes": 160110
+      }
+    ]
+  },
+  "/assets/projects/project-09.jpeg": {
+    "hash": "d29443c842",
+    "width": 960,
+    "height": 1280,
+    "originalBytes": 211428,
+    "variants": [
+      {
+        "width": 320,
+        "height": 427,
+        "src": "/assets/optimized/long-dining-hall-with-patterned-floor-and-hanging-greenery-d29443c842-320.webp",
+        "bytes": 36308
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "/assets/optimized/long-dining-hall-with-patterned-floor-and-hanging-greenery-d29443c842-640.webp",
+        "bytes": 117280
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "src": "/assets/optimized/long-dining-hall-with-patterned-floor-and-hanging-greenery-d29443c842-960.webp",
+        "bytes": 218226
+      }
+    ]
+  },
+  "/assets/projects/project-10.jpeg": {
+    "hash": "629d67a08a",
+    "width": 1280,
+    "height": 960,
+    "originalBytes": 122128,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/private-dining-room-with-glass-partition-and-marble-table-629d67a08a-320.webp",
+        "bytes": 12882
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/private-dining-room-with-glass-partition-and-marble-table-629d67a08a-640.webp",
+        "bytes": 35980
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/private-dining-room-with-glass-partition-and-marble-table-629d67a08a-960.webp",
+        "bytes": 62426
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/private-dining-room-with-glass-partition-and-marble-table-629d67a08a-1280.webp",
+        "bytes": 100156
+      }
+    ]
+  },
+  "/assets/projects/project-12.jpeg": {
+    "hash": "d1eca397d3",
+    "width": 1280,
+    "height": 720,
+    "originalBytes": 109840,
+    "variants": [
+      {
+        "width": 320,
+        "height": 180,
+        "src": "/assets/optimized/office-lounge-and-work-area-by-siddaspace-d1eca397d3-320.webp",
+        "bytes": 12910
+      },
+      {
+        "width": 640,
+        "height": 360,
+        "src": "/assets/optimized/office-lounge-and-work-area-by-siddaspace-d1eca397d3-640.webp",
+        "bytes": 36906
+      },
+      {
+        "width": 960,
+        "height": 540,
+        "src": "/assets/optimized/office-lounge-and-work-area-by-siddaspace-d1eca397d3-960.webp",
+        "bytes": 60164
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "src": "/assets/optimized/office-lounge-and-work-area-by-siddaspace-d1eca397d3-1280.webp",
+        "bytes": 92660
+      }
+    ]
+  },
+  "/assets/projects/project-13.jpeg": {
+    "hash": "faf4498018",
+    "width": 1280,
+    "height": 960,
+    "originalBytes": 133037,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/executive-office-cabin-faf4498018-320.webp",
+        "bytes": 14398
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/executive-office-cabin-faf4498018-640.webp",
+        "bytes": 41482
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/executive-office-cabin-faf4498018-960.webp",
+        "bytes": 70494
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/executive-office-cabin-faf4498018-1280.webp",
+        "bytes": 112662
+      }
+    ]
+  },
+  "/assets/projects/project-14.jpeg": {
+    "hash": "cd94344047",
+    "width": 1280,
+    "height": 960,
+    "originalBytes": 173594,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/commercial-lobby-lounge-with-curved-blue-sofas-and-illuminated-w-cd94344047-320.webp",
+        "bytes": 19622
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/commercial-lobby-lounge-with-curved-blue-sofas-and-illuminated-w-cd94344047-640.webp",
+        "bytes": 58696
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/commercial-lobby-lounge-with-curved-blue-sofas-and-illuminated-w-cd94344047-960.webp",
+        "bytes": 103444
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/commercial-lobby-lounge-with-curved-blue-sofas-and-illuminated-w-cd94344047-1280.webp",
+        "bytes": 161580
+      }
+    ]
+  },
+  "/assets/projects/project-21.jpeg": {
+    "hash": "713053e9ee",
+    "width": 960,
+    "height": 1280,
+    "originalBytes": 116897,
+    "variants": [
+      {
+        "width": 320,
+        "height": 427,
+        "src": "/assets/optimized/completed-executive-office-with-coordinated-furniture-and-storag-713053e9ee-320.webp",
+        "bytes": 16088
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "/assets/optimized/completed-executive-office-with-coordinated-furniture-and-storag-713053e9ee-640.webp",
+        "bytes": 46124
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "src": "/assets/optimized/completed-executive-office-with-coordinated-furniture-and-storag-713053e9ee-960.webp",
+        "bytes": 84716
+      }
+    ]
+  },
+  "/assets/projects/project-29.jpeg": {
+    "hash": "33651461ab",
+    "width": 960,
+    "height": 1280,
+    "originalBytes": 180321,
+    "variants": [
+      {
+        "width": 320,
+        "height": 427,
+        "src": "/assets/optimized/commercial-lounge-seating-and-table-by-siddaspace-33651461ab-320.webp",
+        "bytes": 29340
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "/assets/optimized/commercial-lounge-seating-and-table-by-siddaspace-33651461ab-640.webp",
+        "bytes": 94356
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "src": "/assets/optimized/commercial-lounge-seating-and-table-by-siddaspace-33651461ab-960.webp",
+        "bytes": 179392
+      }
+    ]
+  },
+  "/assets/projects/project-23.jpeg": {
+    "hash": "7dbe9f9e64",
+    "width": 1280,
+    "height": 720,
+    "originalBytes": 118067,
+    "variants": [
+      {
+        "width": 320,
+        "height": 180,
+        "src": "/assets/optimized/office-waiting-lounge-7dbe9f9e64-320.webp",
+        "bytes": 13662
+      },
+      {
+        "width": 640,
+        "height": 360,
+        "src": "/assets/optimized/office-waiting-lounge-7dbe9f9e64-640.webp",
+        "bytes": 40602
+      },
+      {
+        "width": 960,
+        "height": 540,
+        "src": "/assets/optimized/office-waiting-lounge-7dbe9f9e64-960.webp",
+        "bytes": 68954
+      },
+      {
+        "width": 1280,
+        "height": 720,
+        "src": "/assets/optimized/office-waiting-lounge-7dbe9f9e64-1280.webp",
+        "bytes": 107180
+      }
+    ]
+  },
+  "/assets/projects/project-25.jpeg": {
+    "hash": "d5021a3b4d",
+    "width": 1600,
+    "height": 1200,
+    "originalBytes": 433948,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/custom-resin-and-wood-feature-panel-under-production-d5021a3b4d-320.webp",
+        "bytes": 21604
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/custom-resin-and-wood-feature-panel-under-production-d5021a3b4d-640.webp",
+        "bytes": 79424
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/custom-resin-and-wood-feature-panel-under-production-d5021a3b4d-960.webp",
+        "bytes": 190918
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/custom-resin-and-wood-feature-panel-under-production-d5021a3b4d-1280.webp",
+        "bytes": 271876
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "src": "/assets/optimized/custom-resin-and-wood-feature-panel-under-production-d5021a3b4d-1600.webp",
+        "bytes": 423326
+      }
+    ]
+  },
+  "/assets/projects/project-26.jpeg": {
+    "hash": "d87914c792",
+    "width": 960,
+    "height": 1280,
+    "originalBytes": 254926,
+    "variants": [
+      {
+        "width": 320,
+        "height": 427,
+        "src": "/assets/optimized/restaurant-feature-wall-d87914c792-320.webp",
+        "bytes": 43304
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "/assets/optimized/restaurant-feature-wall-d87914c792-640.webp",
+        "bytes": 141732
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "src": "/assets/optimized/restaurant-feature-wall-d87914c792-960.webp",
+        "bytes": 273570
+      }
+    ]
+  },
+  "/assets/projects/project-27.jpeg": {
+    "hash": "a39f745384",
+    "width": 960,
+    "height": 1280,
+    "originalBytes": 88387,
+    "variants": [
+      {
+        "width": 320,
+        "height": 427,
+        "src": "/assets/optimized/bedroom-interior-a39f745384-320.webp",
+        "bytes": 14506
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "/assets/optimized/bedroom-interior-a39f745384-640.webp",
+        "bytes": 36716
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "src": "/assets/optimized/bedroom-interior-a39f745384-960.webp",
+        "bytes": 67122
+      }
+    ]
+  },
+  "/assets/projects/project-15.jpeg": {
+    "hash": "a91ac607e5",
+    "width": 1600,
+    "height": 1200,
+    "originalBytes": 185555,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/restaurant-seating-with-framed-mirrors-and-pendant-lighting-a91ac607e5-320.webp",
+        "bytes": 12132
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/restaurant-seating-with-framed-mirrors-and-pendant-lighting-a91ac607e5-640.webp",
+        "bytes": 34928
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/restaurant-seating-with-framed-mirrors-and-pendant-lighting-a91ac607e5-960.webp",
+        "bytes": 70298
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/restaurant-seating-with-framed-mirrors-and-pendant-lighting-a91ac607e5-1280.webp",
+        "bytes": 96960
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "src": "/assets/optimized/restaurant-seating-with-framed-mirrors-and-pendant-lighting-a91ac607e5-1600.webp",
+        "bytes": 143056
+      }
+    ]
+  },
+  "/assets/projects/project-28.jpeg": {
+    "hash": "b09a457e99",
+    "width": 1280,
+    "height": 960,
+    "originalBytes": 168287,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/completed-restaurant-dining-area-b09a457e99-320.webp",
+        "bytes": 17690
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/completed-restaurant-dining-area-b09a457e99-640.webp",
+        "bytes": 53672
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/completed-restaurant-dining-area-b09a457e99-960.webp",
+        "bytes": 92720
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/completed-restaurant-dining-area-b09a457e99-1280.webp",
+        "bytes": 149544
+      }
+    ]
+  },
+  "/assets/projects/project-32.jpeg": {
+    "hash": "494a488160",
+    "width": 1280,
+    "height": 960,
+    "originalBytes": 232874,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/restaurant-dining-area-with-patterned-flooring-pendant-lights-an-494a488160-320.webp",
+        "bytes": 24000
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/restaurant-dining-area-with-patterned-flooring-pendant-lights-an-494a488160-640.webp",
+        "bytes": 76122
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/restaurant-dining-area-with-patterned-flooring-pendant-lights-an-494a488160-960.webp",
+        "bytes": 130530
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/restaurant-dining-area-with-patterned-flooring-pendant-lights-an-494a488160-1280.webp",
+        "bytes": 196654
+      }
+    ]
+  },
+  "/assets/projects/project-30.jpeg": {
+    "hash": "2f29ccbe2a",
+    "width": 900,
+    "height": 1600,
+    "originalBytes": 113361,
+    "variants": [
+      {
+        "width": 320,
+        "height": 569,
+        "src": "/assets/optimized/restaurant-lighting-design-2f29ccbe2a-320.webp",
+        "bytes": 22774
+      },
+      {
+        "width": 640,
+        "height": 1138,
+        "src": "/assets/optimized/restaurant-lighting-design-2f29ccbe2a-640.webp",
+        "bytes": 56096
+      },
+      {
+        "width": 900,
+        "height": 1600,
+        "src": "/assets/optimized/restaurant-lighting-design-2f29ccbe2a-900.webp",
+        "bytes": 86240
+      }
+    ]
+  },
+  "/assets/projects/project-31.jpeg": {
+    "hash": "a8f6c9e32f",
+    "width": 900,
+    "height": 1600,
+    "originalBytes": 111883,
+    "variants": [
+      {
+        "width": 320,
+        "height": 569,
+        "src": "/assets/optimized/pizza-table-setup-with-star-ceiling-and-blue-accent-lighting-a8f6c9e32f-320.webp",
+        "bytes": 22314
+      },
+      {
+        "width": 640,
+        "height": 1138,
+        "src": "/assets/optimized/pizza-table-setup-with-star-ceiling-and-blue-accent-lighting-a8f6c9e32f-640.webp",
+        "bytes": 55546
+      },
+      {
+        "width": 900,
+        "height": 1600,
+        "src": "/assets/optimized/pizza-table-setup-with-star-ceiling-and-blue-accent-lighting-a8f6c9e32f-900.webp",
+        "bytes": 86214
+      }
+    ]
+  },
+  "/assets/projects/residential-project-01.jpeg": {
+    "hash": "fa0104b5cb",
+    "width": 3120,
+    "height": 4160,
+    "originalBytes": 893751,
+    "variants": [
+      {
+        "width": 320,
+        "height": 427,
+        "src": "/assets/optimized/bedroom-wardrobe-with-wood-and-cream-shutters-fa0104b5cb-320.webp",
+        "bytes": 12752
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "/assets/optimized/bedroom-wardrobe-with-wood-and-cream-shutters-fa0104b5cb-640.webp",
+        "bytes": 37802
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "src": "/assets/optimized/bedroom-wardrobe-with-wood-and-cream-shutters-fa0104b5cb-960.webp",
+        "bytes": 86174
+      },
+      {
+        "width": 1280,
+        "height": 1707,
+        "src": "/assets/optimized/bedroom-wardrobe-with-wood-and-cream-shutters-fa0104b5cb-1280.webp",
+        "bytes": 122774
+      },
+      {
+        "width": 1600,
+        "height": 2133,
+        "src": "/assets/optimized/bedroom-wardrobe-with-wood-and-cream-shutters-fa0104b5cb-1600.webp",
+        "bytes": 214602
+      }
+    ]
+  },
+  "/assets/projects/residential-project-02.jpeg": {
+    "hash": "eae7be7f1a",
+    "width": 3024,
+    "height": 4032,
+    "originalBytes": 891855,
+    "variants": [
+      {
+        "width": 320,
+        "height": 427,
+        "src": "/assets/optimized/wood-study-unit-with-overhead-storage-and-warm-task-lighting-eae7be7f1a-320.webp",
+        "bytes": 17228
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "/assets/optimized/wood-study-unit-with-overhead-storage-and-warm-task-lighting-eae7be7f1a-640.webp",
+        "bytes": 53418
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "src": "/assets/optimized/wood-study-unit-with-overhead-storage-and-warm-task-lighting-eae7be7f1a-960.webp",
+        "bytes": 107912
+      },
+      {
+        "width": 1280,
+        "height": 1707,
+        "src": "/assets/optimized/wood-study-unit-with-overhead-storage-and-warm-task-lighting-eae7be7f1a-1280.webp",
+        "bytes": 157022
+      },
+      {
+        "width": 1600,
+        "height": 2133,
+        "src": "/assets/optimized/wood-study-unit-with-overhead-storage-and-warm-task-lighting-eae7be7f1a-1600.webp",
+        "bytes": 249644
+      }
+    ]
+  },
+  "/assets/projects/residential-project-03.jpeg": {
+    "hash": "a8169a2a31",
+    "width": 4096,
+    "height": 3072,
+    "originalBytes": 1240761,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/modern-residential-exterior-with-glass-balcony-and-gate-design-a8169a2a31-320.webp",
+        "bytes": 15618
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/modern-residential-exterior-with-glass-balcony-and-gate-design-a8169a2a31-640.webp",
+        "bytes": 50856
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/modern-residential-exterior-with-glass-balcony-and-gate-design-a8169a2a31-960.webp",
+        "bytes": 84728
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/modern-residential-exterior-with-glass-balcony-and-gate-design-a8169a2a31-1280.webp",
+        "bytes": 166502
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "src": "/assets/optimized/modern-residential-exterior-with-glass-balcony-and-gate-design-a8169a2a31-1600.webp",
+        "bytes": 227444
+      }
+    ]
+  },
+  "/assets/projects/residential-project-04.jpeg": {
+    "hash": "96f1e6ad5b",
+    "width": 4032,
+    "height": 3024,
+    "originalBytes": 1120203,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/false-ceiling-with-wood-detailing-and-linear-lights-96f1e6ad5b-320.webp",
+        "bytes": 10440
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/false-ceiling-with-wood-detailing-and-linear-lights-96f1e6ad5b-640.webp",
+        "bytes": 29242
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/false-ceiling-with-wood-detailing-and-linear-lights-96f1e6ad5b-960.webp",
+        "bytes": 48002
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/false-ceiling-with-wood-detailing-and-linear-lights-96f1e6ad5b-1280.webp",
+        "bytes": 103966
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "src": "/assets/optimized/false-ceiling-with-wood-detailing-and-linear-lights-96f1e6ad5b-1600.webp",
+        "bytes": 138644
+      }
+    ]
+  },
+  "/assets/projects/residential-project-05.jpeg": {
+    "hash": "a2b0d603fb",
+    "width": 3024,
+    "height": 4032,
+    "originalBytes": 644071,
+    "variants": [
+      {
+        "width": 320,
+        "height": 427,
+        "src": "/assets/optimized/bedroom-dressing-unit-with-round-mirror-and-open-shelves-a2b0d603fb-320.webp",
+        "bytes": 11572
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "/assets/optimized/bedroom-dressing-unit-with-round-mirror-and-open-shelves-a2b0d603fb-640.webp",
+        "bytes": 32478
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "src": "/assets/optimized/bedroom-dressing-unit-with-round-mirror-and-open-shelves-a2b0d603fb-960.webp",
+        "bytes": 63706
+      },
+      {
+        "width": 1280,
+        "height": 1707,
+        "src": "/assets/optimized/bedroom-dressing-unit-with-round-mirror-and-open-shelves-a2b0d603fb-1280.webp",
+        "bytes": 91142
+      },
+      {
+        "width": 1600,
+        "height": 2133,
+        "src": "/assets/optimized/bedroom-dressing-unit-with-round-mirror-and-open-shelves-a2b0d603fb-1600.webp",
+        "bytes": 144476
+      }
+    ]
+  },
+  "/assets/projects/residential-project-06.jpeg": {
+    "hash": "3775e91edc",
+    "width": 4032,
+    "height": 3024,
+    "originalBytes": 1092634,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/modular-kitchen-with-glossy-cabinets-and-a-marble-pattern-backsp-3775e91edc-320.webp",
+        "bytes": 9816
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/modular-kitchen-with-glossy-cabinets-and-a-marble-pattern-backsp-3775e91edc-640.webp",
+        "bytes": 26352
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/modular-kitchen-with-glossy-cabinets-and-a-marble-pattern-backsp-3775e91edc-960.webp",
+        "bytes": 41218
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/modular-kitchen-with-glossy-cabinets-and-a-marble-pattern-backsp-3775e91edc-1280.webp",
+        "bytes": 87382
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "src": "/assets/optimized/modular-kitchen-with-glossy-cabinets-and-a-marble-pattern-backsp-3775e91edc-1600.webp",
+        "bytes": 117732
+      }
+    ]
+  },
+  "/assets/projects/residential-project-07.jpeg": {
+    "hash": "b7fe3e7902",
+    "width": 4160,
+    "height": 3120,
+    "originalBytes": 949648,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/bedroom-wardrobe-and-window-seating-with-neutral-finishes-b7fe3e7902-320.webp",
+        "bytes": 10900
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/bedroom-wardrobe-and-window-seating-with-neutral-finishes-b7fe3e7902-640.webp",
+        "bytes": 33470
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/bedroom-wardrobe-and-window-seating-with-neutral-finishes-b7fe3e7902-960.webp",
+        "bytes": 54370
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/bedroom-wardrobe-and-window-seating-with-neutral-finishes-b7fe3e7902-1280.webp",
+        "bytes": 105996
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "src": "/assets/optimized/bedroom-wardrobe-and-window-seating-with-neutral-finishes-b7fe3e7902-1600.webp",
+        "bytes": 140870
+      }
+    ]
+  },
+  "/assets/projects/residential-project-08.jpeg": {
+    "hash": "82f8b1bce6",
+    "width": 4032,
+    "height": 3024,
+    "originalBytes": 604842,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/completed-l-shaped-kitchen-with-wood-tone-cabinets-and-dark-coun-82f8b1bce6-320.webp",
+        "bytes": 10248
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/completed-l-shaped-kitchen-with-wood-tone-cabinets-and-dark-coun-82f8b1bce6-640.webp",
+        "bytes": 27320
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/completed-l-shaped-kitchen-with-wood-tone-cabinets-and-dark-coun-82f8b1bce6-960.webp",
+        "bytes": 43368
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/completed-l-shaped-kitchen-with-wood-tone-cabinets-and-dark-coun-82f8b1bce6-1280.webp",
+        "bytes": 71908
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "src": "/assets/optimized/completed-l-shaped-kitchen-with-wood-tone-cabinets-and-dark-coun-82f8b1bce6-1600.webp",
+        "bytes": 93884
+      }
+    ]
+  },
+  "/assets/projects/residential-project-09.jpeg": {
+    "hash": "6b970ddfde",
+    "width": 3024,
+    "height": 4032,
+    "originalBytes": 827588,
+    "variants": [
+      {
+        "width": 320,
+        "height": 427,
+        "src": "/assets/optimized/home-theatre-room-with-star-ceiling-and-wall-panels-6b970ddfde-320.webp",
+        "bytes": 14100
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "/assets/optimized/home-theatre-room-with-star-ceiling-and-wall-panels-6b970ddfde-640.webp",
+        "bytes": 38514
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "src": "/assets/optimized/home-theatre-room-with-star-ceiling-and-wall-panels-6b970ddfde-960.webp",
+        "bytes": 81068
+      },
+      {
+        "width": 1280,
+        "height": 1707,
+        "src": "/assets/optimized/home-theatre-room-with-star-ceiling-and-wall-panels-6b970ddfde-1280.webp",
+        "bytes": 113708
+      },
+      {
+        "width": 1600,
+        "height": 2133,
+        "src": "/assets/optimized/home-theatre-room-with-star-ceiling-and-wall-panels-6b970ddfde-1600.webp",
+        "bytes": 189372
+      }
+    ]
+  },
+  "/assets/projects/residential-project-10.jpeg": {
+    "hash": "2de5a76ffd",
+    "width": 4160,
+    "height": 3120,
+    "originalBytes": 579032,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/sliding-wardrobe-and-dressing-unit-with-full-length-mirror-2de5a76ffd-320.webp",
+        "bytes": 5284
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/sliding-wardrobe-and-dressing-unit-with-full-length-mirror-2de5a76ffd-640.webp",
+        "bytes": 12906
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/sliding-wardrobe-and-dressing-unit-with-full-length-mirror-2de5a76ffd-960.webp",
+        "bytes": 21502
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/sliding-wardrobe-and-dressing-unit-with-full-length-mirror-2de5a76ffd-1280.webp",
+        "bytes": 35946
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "src": "/assets/optimized/sliding-wardrobe-and-dressing-unit-with-full-length-mirror-2de5a76ffd-1600.webp",
+        "bytes": 48074
+      }
+    ]
+  },
+  "/assets/projects/residential-project-11.jpeg": {
+    "hash": "caf4e1e59e",
+    "width": 4160,
+    "height": 3120,
+    "originalBytes": 950629,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/wooden-bedroom-cot-with-matching-side-tables-caf4e1e59e-320.webp",
+        "bytes": 11132
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/wooden-bedroom-cot-with-matching-side-tables-caf4e1e59e-640.webp",
+        "bytes": 32798
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/wooden-bedroom-cot-with-matching-side-tables-caf4e1e59e-960.webp",
+        "bytes": 53492
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/wooden-bedroom-cot-with-matching-side-tables-caf4e1e59e-1280.webp",
+        "bytes": 101500
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "src": "/assets/optimized/wooden-bedroom-cot-with-matching-side-tables-caf4e1e59e-1600.webp",
+        "bytes": 132748
+      }
+    ]
+  },
+  "/assets/projects/residential-project-12.jpeg": {
+    "hash": "0ceeac89dd",
+    "width": 3024,
+    "height": 4032,
+    "originalBytes": 741240,
+    "variants": [
+      {
+        "width": 320,
+        "height": 427,
+        "src": "/assets/optimized/bathroom-vanity-and-glass-shower-partition-with-black-marble-til-0ceeac89dd-320.webp",
+        "bytes": 15570
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "/assets/optimized/bathroom-vanity-and-glass-shower-partition-with-black-marble-til-0ceeac89dd-640.webp",
+        "bytes": 47244
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "src": "/assets/optimized/bathroom-vanity-and-glass-shower-partition-with-black-marble-til-0ceeac89dd-960.webp",
+        "bytes": 95466
+      },
+      {
+        "width": 1280,
+        "height": 1707,
+        "src": "/assets/optimized/bathroom-vanity-and-glass-shower-partition-with-black-marble-til-0ceeac89dd-1280.webp",
+        "bytes": 132422
+      },
+      {
+        "width": 1600,
+        "height": 2133,
+        "src": "/assets/optimized/bathroom-vanity-and-glass-shower-partition-with-black-marble-til-0ceeac89dd-1600.webp",
+        "bytes": 207248
+      }
+    ]
+  },
+  "/assets/projects/residential-project-13.jpeg": {
+    "hash": "ab6fd36750",
+    "width": 3024,
+    "height": 4032,
+    "originalBytes": 947718,
+    "variants": [
+      {
+        "width": 320,
+        "height": 427,
+        "src": "/assets/optimized/pooja-and-living-area-with-wooden-swing-and-wall-paneling-ab6fd36750-320.webp",
+        "bytes": 18516
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "/assets/optimized/pooja-and-living-area-with-wooden-swing-and-wall-paneling-ab6fd36750-640.webp",
+        "bytes": 51270
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "src": "/assets/optimized/pooja-and-living-area-with-wooden-swing-and-wall-paneling-ab6fd36750-960.webp",
+        "bytes": 106150
+      },
+      {
+        "width": 1280,
+        "height": 1707,
+        "src": "/assets/optimized/pooja-and-living-area-with-wooden-swing-and-wall-paneling-ab6fd36750-1280.webp",
+        "bytes": 150010
+      },
+      {
+        "width": 1600,
+        "height": 2133,
+        "src": "/assets/optimized/pooja-and-living-area-with-wooden-swing-and-wall-paneling-ab6fd36750-1600.webp",
+        "bytes": 253758
+      }
+    ]
+  },
+  "/assets/projects/residential-project-14.jpeg": {
+    "hash": "2ef933ec4d",
+    "width": 4032,
+    "height": 3024,
+    "originalBytes": 1069030,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/backlit-false-ceiling-with-wood-border-and-fan-2ef933ec4d-320.webp",
+        "bytes": 10842
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/backlit-false-ceiling-with-wood-border-and-fan-2ef933ec4d-640.webp",
+        "bytes": 34200
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/backlit-false-ceiling-with-wood-border-and-fan-2ef933ec4d-960.webp",
+        "bytes": 59466
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/backlit-false-ceiling-with-wood-border-and-fan-2ef933ec4d-1280.webp",
+        "bytes": 113400
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "src": "/assets/optimized/backlit-false-ceiling-with-wood-border-and-fan-2ef933ec4d-1600.webp",
+        "bytes": 153678
+      }
+    ]
+  },
+  "/assets/projects/residential-project-15.jpeg": {
+    "hash": "c173f7fd23",
+    "width": 4032,
+    "height": 3024,
+    "originalBytes": 1064637,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/tv-wall-unit-with-fluted-wood-panel-and-warm-lighting-c173f7fd23-320.webp",
+        "bytes": 10598
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/tv-wall-unit-with-fluted-wood-panel-and-warm-lighting-c173f7fd23-640.webp",
+        "bytes": 40106
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/tv-wall-unit-with-fluted-wood-panel-and-warm-lighting-c173f7fd23-960.webp",
+        "bytes": 71866
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/tv-wall-unit-with-fluted-wood-panel-and-warm-lighting-c173f7fd23-1280.webp",
+        "bytes": 142060
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "src": "/assets/optimized/tv-wall-unit-with-fluted-wood-panel-and-warm-lighting-c173f7fd23-1600.webp",
+        "bytes": 194564
+      }
+    ]
+  },
+  "/assets/projects/residential-project-16.jpeg": {
+    "hash": "1fb0fb9a28",
+    "width": 3120,
+    "height": 4160,
+    "originalBytes": 918178,
+    "variants": [
+      {
+        "width": 320,
+        "height": 427,
+        "src": "/assets/optimized/glass-sliding-wardrobe-with-dark-frame-1fb0fb9a28-320.webp",
+        "bytes": 16116
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "/assets/optimized/glass-sliding-wardrobe-with-dark-frame-1fb0fb9a28-640.webp",
+        "bytes": 46740
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "src": "/assets/optimized/glass-sliding-wardrobe-with-dark-frame-1fb0fb9a28-960.webp",
+        "bytes": 96404
+      },
+      {
+        "width": 1280,
+        "height": 1707,
+        "src": "/assets/optimized/glass-sliding-wardrobe-with-dark-frame-1fb0fb9a28-1280.webp",
+        "bytes": 140796
+      },
+      {
+        "width": 1600,
+        "height": 2133,
+        "src": "/assets/optimized/glass-sliding-wardrobe-with-dark-frame-1fb0fb9a28-1600.webp",
+        "bytes": 220190
+      }
+    ]
+  },
+  "/assets/projects/residential-project-17.jpeg": {
+    "hash": "a480be74d5",
+    "width": 4160,
+    "height": 3120,
+    "originalBytes": 1111449,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/wooden-bed-with-upholstered-headboard-and-side-tables-a480be74d5-320.webp",
+        "bytes": 13334
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/wooden-bed-with-upholstered-headboard-and-side-tables-a480be74d5-640.webp",
+        "bytes": 43104
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/wooden-bed-with-upholstered-headboard-and-side-tables-a480be74d5-960.webp",
+        "bytes": 72874
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/wooden-bed-with-upholstered-headboard-and-side-tables-a480be74d5-1280.webp",
+        "bytes": 145934
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "src": "/assets/optimized/wooden-bed-with-upholstered-headboard-and-side-tables-a480be74d5-1600.webp",
+        "bytes": 190588
+      }
+    ]
+  },
+  "/assets/projects/residential-project-18.jpeg": {
+    "hash": "e389614544",
+    "width": 4032,
+    "height": 3024,
+    "originalBytes": 1305132,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/living-room-ceiling-with-wood-panel-and-chandelier-e389614544-320.webp",
+        "bytes": 15318
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/living-room-ceiling-with-wood-panel-and-chandelier-e389614544-640.webp",
+        "bytes": 46174
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/living-room-ceiling-with-wood-panel-and-chandelier-e389614544-960.webp",
+        "bytes": 73910
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/living-room-ceiling-with-wood-panel-and-chandelier-e389614544-1280.webp",
+        "bytes": 150518
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "src": "/assets/optimized/living-room-ceiling-with-wood-panel-and-chandelier-e389614544-1600.webp",
+        "bytes": 199356
+      }
+    ]
+  },
+  "/assets/projects/residential-project-19.jpeg": {
+    "hash": "43586fdbd5",
+    "width": 4032,
+    "height": 3024,
+    "originalBytes": 1149413,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/entry-foyer-partition-with-floral-display-shelves-43586fdbd5-320.webp",
+        "bytes": 15240
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/entry-foyer-partition-with-floral-display-shelves-43586fdbd5-640.webp",
+        "bytes": 47220
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/entry-foyer-partition-with-floral-display-shelves-43586fdbd5-960.webp",
+        "bytes": 75968
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/entry-foyer-partition-with-floral-display-shelves-43586fdbd5-1280.webp",
+        "bytes": 145428
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "src": "/assets/optimized/entry-foyer-partition-with-floral-display-shelves-43586fdbd5-1600.webp",
+        "bytes": 193362
+      }
+    ]
+  },
+  "/assets/projects/residential-project-20.jpeg": {
+    "hash": "b94dc29867",
+    "width": 4032,
+    "height": 3024,
+    "originalBytes": 1073774,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/living-room-with-wood-panelling-tv-storage-and-decorative-wall-a-b94dc29867-320.webp",
+        "bytes": 16066
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/living-room-with-wood-panelling-tv-storage-and-decorative-wall-a-b94dc29867-640.webp",
+        "bytes": 48368
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/living-room-with-wood-panelling-tv-storage-and-decorative-wall-a-b94dc29867-960.webp",
+        "bytes": 77970
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/living-room-with-wood-panelling-tv-storage-and-decorative-wall-a-b94dc29867-1280.webp",
+        "bytes": 143250
+      },
+      {
+        "width": 1600,
+        "height": 1200,
+        "src": "/assets/optimized/living-room-with-wood-panelling-tv-storage-and-decorative-wall-a-b94dc29867-1600.webp",
+        "bytes": 186730
+      }
+    ]
+  },
+  "/assets/projects/residential-project-21.jpeg": {
+    "hash": "7125e4b9a6",
+    "width": 3024,
+    "height": 4032,
+    "originalBytes": 1289439,
+    "variants": [
+      {
+        "width": 320,
+        "height": 427,
+        "src": "/assets/optimized/glossy-sliding-wardrobe-with-overhead-storage-7125e4b9a6-320.webp",
+        "bytes": 9362
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "src": "/assets/optimized/glossy-sliding-wardrobe-with-overhead-storage-7125e4b9a6-640.webp",
+        "bytes": 32056
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "src": "/assets/optimized/glossy-sliding-wardrobe-with-overhead-storage-7125e4b9a6-960.webp",
+        "bytes": 98858
+      },
+      {
+        "width": 1280,
+        "height": 1707,
+        "src": "/assets/optimized/glossy-sliding-wardrobe-with-overhead-storage-7125e4b9a6-1280.webp",
+        "bytes": 151128
+      },
+      {
+        "width": 1600,
+        "height": 2133,
+        "src": "/assets/optimized/glossy-sliding-wardrobe-with-overhead-storage-7125e4b9a6-1600.webp",
+        "bytes": 393308
+      }
+    ]
+  },
+  "/assets/projects/office-chairs-gallery.png": {
+    "hash": "af580d5868",
+    "width": 1254,
+    "height": 1254,
+    "originalBytes": 1294101,
+    "variants": [
+      {
+        "width": 320,
+        "height": 320,
+        "src": "/assets/optimized/office-chair-product-options-by-siddaspace-af580d5868-320.webp",
+        "bytes": 11292
+      },
+      {
+        "width": 640,
+        "height": 640,
+        "src": "/assets/optimized/office-chair-product-options-by-siddaspace-af580d5868-640.webp",
+        "bytes": 28410
+      },
+      {
+        "width": 960,
+        "height": 960,
+        "src": "/assets/optimized/office-chair-product-options-by-siddaspace-af580d5868-960.webp",
+        "bytes": 45584
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "src": "/assets/optimized/office-chair-product-options-by-siddaspace-af580d5868-1254.webp",
+        "bytes": 68098
+      }
+    ]
+  },
+  "/assets/projects/office-chairs-more.png": {
+    "hash": "35784d0f16",
+    "width": 1254,
+    "height": 1254,
+    "originalBytes": 1847842,
+    "variants": [
+      {
+        "width": 320,
+        "height": 320,
+        "src": "/assets/optimized/additional-office-chair-product-options-by-siddaspace-35784d0f16-320.webp",
+        "bytes": 17686
+      },
+      {
+        "width": 640,
+        "height": 640,
+        "src": "/assets/optimized/additional-office-chair-product-options-by-siddaspace-35784d0f16-640.webp",
+        "bytes": 46390
+      },
+      {
+        "width": 960,
+        "height": 960,
+        "src": "/assets/optimized/additional-office-chair-product-options-by-siddaspace-35784d0f16-960.webp",
+        "bytes": 77010
+      },
+      {
+        "width": 1254,
+        "height": 1254,
+        "src": "/assets/optimized/additional-office-chair-product-options-by-siddaspace-35784d0f16-1254.webp",
+        "bytes": 125028
+      }
+    ]
+  },
+  "/assets/projects/office-chair-product.png": {
+    "hash": "d723f6ddc6",
+    "width": 1448,
+    "height": 1086,
+    "originalBytes": 1818126,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/cream-office-chair-by-siddaspace-d723f6ddc6-320.webp",
+        "bytes": 11714
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/cream-office-chair-by-siddaspace-d723f6ddc6-640.webp",
+        "bytes": 28150
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/cream-office-chair-by-siddaspace-d723f6ddc6-960.webp",
+        "bytes": 50902
+      },
+      {
+        "width": 1280,
+        "height": 960,
+        "src": "/assets/optimized/cream-office-chair-by-siddaspace-d723f6ddc6-1280.webp",
+        "bytes": 70376
+      },
+      {
+        "width": 1448,
+        "height": 1086,
+        "src": "/assets/optimized/cream-office-chair-by-siddaspace-d723f6ddc6-1448.webp",
+        "bytes": 89050
+      }
+    ]
+  },
+  "/assets/videos/project-showcase-04-poster.jpg": {
+    "hash": "c2e81548df",
+    "width": 540,
+    "height": 960,
+    "originalBytes": 75716,
+    "variants": [
+      {
+        "width": 320,
+        "height": 569,
+        "src": "/assets/optimized/project-showcase-04-poster-c2e81548df-320.webp",
+        "bytes": 19266
+      },
+      {
+        "width": 540,
+        "height": 960,
+        "src": "/assets/optimized/project-showcase-04-poster-c2e81548df-540.webp",
+        "bytes": 37432
+      }
+    ]
+  },
+  "/assets/videos/project-showcase-05-poster.jpg": {
+    "hash": "2f07fb3232",
+    "width": 540,
+    "height": 960,
+    "originalBytes": 51233,
+    "variants": [
+      {
+        "width": 320,
+        "height": 569,
+        "src": "/assets/optimized/project-showcase-05-poster-2f07fb3232-320.webp",
+        "bytes": 12292
+      },
+      {
+        "width": 540,
+        "height": 960,
+        "src": "/assets/optimized/project-showcase-05-poster-2f07fb3232-540.webp",
+        "bytes": 22780
+      }
+    ]
+  },
+  "/assets/projects/../transformations/office-before.jpeg": {
+    "hash": "c0b568bab1",
+    "width": 630,
+    "height": 1400,
+    "originalBytes": 58317,
+    "variants": [
+      {
+        "width": 320,
+        "height": 711,
+        "src": "/assets/optimized/an-interior-renovation-site-before-furniture-and-finish-installa-c0b568bab1-320.webp",
+        "bytes": 18928
+      },
+      {
+        "width": 630,
+        "height": 1400,
+        "src": "/assets/optimized/an-interior-renovation-site-before-furniture-and-finish-installa-c0b568bab1-630.webp",
+        "bytes": 41170
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.13 PM (1).jpeg": {
+    "hash": "bf5e29083b",
+    "width": 1071,
+    "height": 1179,
+    "originalBytes": 63645,
+    "variants": [
+      {
+        "width": 320,
+        "height": 352,
+        "src": "/assets/optimized/sofa-design-1-bf5e29083b-320.webp",
+        "bytes": 8226
+      },
+      {
+        "width": 640,
+        "height": 705,
+        "src": "/assets/optimized/sofa-design-1-bf5e29083b-640.webp",
+        "bytes": 19878
+      },
+      {
+        "width": 960,
+        "height": 1057,
+        "src": "/assets/optimized/sofa-design-1-bf5e29083b-960.webp",
+        "bytes": 31282
+      },
+      {
+        "width": 1071,
+        "height": 1179,
+        "src": "/assets/optimized/sofa-design-1-bf5e29083b-1071.webp",
+        "bytes": 38932
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.14 PM (3).jpeg": {
+    "hash": "a9ddfc6b72",
+    "width": 904,
+    "height": 459,
+    "originalBytes": 197205,
+    "variants": [
+      {
+        "width": 320,
+        "height": 162,
+        "src": "/assets/optimized/sofa-design-2-a9ddfc6b72-320.webp",
+        "bytes": 8758
+      },
+      {
+        "width": 640,
+        "height": 325,
+        "src": "/assets/optimized/sofa-design-2-a9ddfc6b72-640.webp",
+        "bytes": 32704
+      },
+      {
+        "width": 904,
+        "height": 459,
+        "src": "/assets/optimized/sofa-design-2-a9ddfc6b72-904.webp",
+        "bytes": 67342
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.14 PM (4).jpeg": {
+    "hash": "8ae72abc58",
+    "width": 779,
+    "height": 394,
+    "originalBytes": 98895,
+    "variants": [
+      {
+        "width": 320,
+        "height": 162,
+        "src": "/assets/optimized/sofa-design-3-8ae72abc58-320.webp",
+        "bytes": 4352
+      },
+      {
+        "width": 640,
+        "height": 324,
+        "src": "/assets/optimized/sofa-design-3-8ae72abc58-640.webp",
+        "bytes": 11538
+      },
+      {
+        "width": 779,
+        "height": 394,
+        "src": "/assets/optimized/sofa-design-3-8ae72abc58-779.webp",
+        "bytes": 18144
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.14 PM.jpeg": {
+    "hash": "7d8951100e",
+    "width": 1079,
+    "height": 613,
+    "originalBytes": 230677,
+    "variants": [
+      {
+        "width": 320,
+        "height": 182,
+        "src": "/assets/optimized/sofa-design-4-7d8951100e-320.webp",
+        "bytes": 9346
+      },
+      {
+        "width": 640,
+        "height": 364,
+        "src": "/assets/optimized/sofa-design-4-7d8951100e-640.webp",
+        "bytes": 18290
+      },
+      {
+        "width": 960,
+        "height": 545,
+        "src": "/assets/optimized/sofa-design-4-7d8951100e-960.webp",
+        "bytes": 26872
+      },
+      {
+        "width": 1079,
+        "height": 613,
+        "src": "/assets/optimized/sofa-design-4-7d8951100e-1079.webp",
+        "bytes": 31320
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.15 PM (1).jpeg": {
+    "hash": "051c44ec6b",
+    "width": 1061,
+    "height": 567,
+    "originalBytes": 301439,
+    "variants": [
+      {
+        "width": 320,
+        "height": 171,
+        "src": "/assets/optimized/sofa-design-5-051c44ec6b-320.webp",
+        "bytes": 10002
+      },
+      {
+        "width": 640,
+        "height": 342,
+        "src": "/assets/optimized/sofa-design-5-051c44ec6b-640.webp",
+        "bytes": 24150
+      },
+      {
+        "width": 960,
+        "height": 513,
+        "src": "/assets/optimized/sofa-design-5-051c44ec6b-960.webp",
+        "bytes": 37820
+      },
+      {
+        "width": 1061,
+        "height": 567,
+        "src": "/assets/optimized/sofa-design-5-051c44ec6b-1061.webp",
+        "bytes": 48364
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.15 PM (2).jpeg": {
+    "hash": "64e11853e9",
+    "width": 1018,
+    "height": 424,
+    "originalBytes": 108020,
+    "variants": [
+      {
+        "width": 320,
+        "height": 133,
+        "src": "/assets/optimized/sofa-design-6-64e11853e9-320.webp",
+        "bytes": 3808
+      },
+      {
+        "width": 640,
+        "height": 267,
+        "src": "/assets/optimized/sofa-design-6-64e11853e9-640.webp",
+        "bytes": 8276
+      },
+      {
+        "width": 960,
+        "height": 400,
+        "src": "/assets/optimized/sofa-design-6-64e11853e9-960.webp",
+        "bytes": 12596
+      },
+      {
+        "width": 1018,
+        "height": 424,
+        "src": "/assets/optimized/sofa-design-6-64e11853e9-1018.webp",
+        "bytes": 14026
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.15 PM (3).jpeg": {
+    "hash": "428473fb3f",
+    "width": 1080,
+    "height": 700,
+    "originalBytes": 125637,
+    "variants": [
+      {
+        "width": 320,
+        "height": 207,
+        "src": "/assets/optimized/sofa-design-7-428473fb3f-320.webp",
+        "bytes": 4020
+      },
+      {
+        "width": 640,
+        "height": 415,
+        "src": "/assets/optimized/sofa-design-7-428473fb3f-640.webp",
+        "bytes": 8598
+      },
+      {
+        "width": 960,
+        "height": 622,
+        "src": "/assets/optimized/sofa-design-7-428473fb3f-960.webp",
+        "bytes": 13544
+      },
+      {
+        "width": 1080,
+        "height": 700,
+        "src": "/assets/optimized/sofa-design-7-428473fb3f-1080.webp",
+        "bytes": 16454
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.15 PM.jpeg": {
+    "hash": "d908407465",
+    "width": 1079,
+    "height": 394,
+    "originalBytes": 107141,
+    "variants": [
+      {
+        "width": 320,
+        "height": 117,
+        "src": "/assets/optimized/sofa-design-8-d908407465-320.webp",
+        "bytes": 3630
+      },
+      {
+        "width": 640,
+        "height": 234,
+        "src": "/assets/optimized/sofa-design-8-d908407465-640.webp",
+        "bytes": 7446
+      },
+      {
+        "width": 960,
+        "height": 351,
+        "src": "/assets/optimized/sofa-design-8-d908407465-960.webp",
+        "bytes": 11368
+      },
+      {
+        "width": 1079,
+        "height": 394,
+        "src": "/assets/optimized/sofa-design-8-d908407465-1079.webp",
+        "bytes": 13502
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.16 PM (1).jpeg": {
+    "hash": "5aab60a8f0",
+    "width": 1080,
+    "height": 737,
+    "originalBytes": 346448,
+    "variants": [
+      {
+        "width": 320,
+        "height": 218,
+        "src": "/assets/optimized/sofa-design-9-5aab60a8f0-320.webp",
+        "bytes": 11184
+      },
+      {
+        "width": 640,
+        "height": 437,
+        "src": "/assets/optimized/sofa-design-9-5aab60a8f0-640.webp",
+        "bytes": 32084
+      },
+      {
+        "width": 960,
+        "height": 655,
+        "src": "/assets/optimized/sofa-design-9-5aab60a8f0-960.webp",
+        "bytes": 49648
+      },
+      {
+        "width": 1080,
+        "height": 737,
+        "src": "/assets/optimized/sofa-design-9-5aab60a8f0-1080.webp",
+        "bytes": 63440
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.16 PM (2).jpeg": {
+    "hash": "3bf3f10056",
+    "width": 1080,
+    "height": 803,
+    "originalBytes": 389226,
+    "variants": [
+      {
+        "width": 320,
+        "height": 238,
+        "src": "/assets/optimized/sofa-design-10-3bf3f10056-320.webp",
+        "bytes": 10550
+      },
+      {
+        "width": 640,
+        "height": 476,
+        "src": "/assets/optimized/sofa-design-10-3bf3f10056-640.webp",
+        "bytes": 28648
+      },
+      {
+        "width": 960,
+        "height": 714,
+        "src": "/assets/optimized/sofa-design-10-3bf3f10056-960.webp",
+        "bytes": 47208
+      },
+      {
+        "width": 1080,
+        "height": 803,
+        "src": "/assets/optimized/sofa-design-10-3bf3f10056-1080.webp",
+        "bytes": 61276
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.16 PM.jpeg": {
+    "hash": "d14f54f702",
+    "width": 1013,
+    "height": 448,
+    "originalBytes": 137361,
+    "variants": [
+      {
+        "width": 320,
+        "height": 142,
+        "src": "/assets/optimized/sofa-design-11-d14f54f702-320.webp",
+        "bytes": 5148
+      },
+      {
+        "width": 640,
+        "height": 283,
+        "src": "/assets/optimized/sofa-design-11-d14f54f702-640.webp",
+        "bytes": 10488
+      },
+      {
+        "width": 960,
+        "height": 425,
+        "src": "/assets/optimized/sofa-design-11-d14f54f702-960.webp",
+        "bytes": 16106
+      },
+      {
+        "width": 1013,
+        "height": 448,
+        "src": "/assets/optimized/sofa-design-11-d14f54f702-1013.webp",
+        "bytes": 17342
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.17 PM (1).jpeg": {
+    "hash": "d4a89b8f87",
+    "width": 1080,
+    "height": 480,
+    "originalBytes": 221016,
+    "variants": [
+      {
+        "width": 320,
+        "height": 142,
+        "src": "/assets/optimized/sofa-design-12-d4a89b8f87-320.webp",
+        "bytes": 8980
+      },
+      {
+        "width": 640,
+        "height": 284,
+        "src": "/assets/optimized/sofa-design-12-d4a89b8f87-640.webp",
+        "bytes": 25018
+      },
+      {
+        "width": 960,
+        "height": 427,
+        "src": "/assets/optimized/sofa-design-12-d4a89b8f87-960.webp",
+        "bytes": 39700
+      },
+      {
+        "width": 1080,
+        "height": 480,
+        "src": "/assets/optimized/sofa-design-12-d4a89b8f87-1080.webp",
+        "bytes": 53122
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.17 PM (2).jpeg": {
+    "hash": "918355e16f",
+    "width": 1061,
+    "height": 756,
+    "originalBytes": 409015,
+    "variants": [
+      {
+        "width": 320,
+        "height": 228,
+        "src": "/assets/optimized/sofa-design-13-918355e16f-320.webp",
+        "bytes": 12242
+      },
+      {
+        "width": 640,
+        "height": 456,
+        "src": "/assets/optimized/sofa-design-13-918355e16f-640.webp",
+        "bytes": 30320
+      },
+      {
+        "width": 960,
+        "height": 684,
+        "src": "/assets/optimized/sofa-design-13-918355e16f-960.webp",
+        "bytes": 48766
+      },
+      {
+        "width": 1061,
+        "height": 756,
+        "src": "/assets/optimized/sofa-design-13-918355e16f-1061.webp",
+        "bytes": 62032
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.17 PM (3).jpeg": {
+    "hash": "cc235dc409",
+    "width": 1079,
+    "height": 774,
+    "originalBytes": 307782,
+    "variants": [
+      {
+        "width": 320,
+        "height": 230,
+        "src": "/assets/optimized/sofa-design-14-cc235dc409-320.webp",
+        "bytes": 8744
+      },
+      {
+        "width": 640,
+        "height": 459,
+        "src": "/assets/optimized/sofa-design-14-cc235dc409-640.webp",
+        "bytes": 22458
+      },
+      {
+        "width": 960,
+        "height": 689,
+        "src": "/assets/optimized/sofa-design-14-cc235dc409-960.webp",
+        "bytes": 35972
+      },
+      {
+        "width": 1079,
+        "height": 774,
+        "src": "/assets/optimized/sofa-design-14-cc235dc409-1079.webp",
+        "bytes": 45086
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.18 PM (1).jpeg": {
+    "hash": "5d5f08b7d7",
+    "width": 1061,
+    "height": 800,
+    "originalBytes": 403478,
+    "variants": [
+      {
+        "width": 320,
+        "height": 241,
+        "src": "/assets/optimized/sofa-design-15-5d5f08b7d7-320.webp",
+        "bytes": 16158
+      },
+      {
+        "width": 640,
+        "height": 483,
+        "src": "/assets/optimized/sofa-design-15-5d5f08b7d7-640.webp",
+        "bytes": 48136
+      },
+      {
+        "width": 960,
+        "height": 724,
+        "src": "/assets/optimized/sofa-design-15-5d5f08b7d7-960.webp",
+        "bytes": 78986
+      },
+      {
+        "width": 1061,
+        "height": 800,
+        "src": "/assets/optimized/sofa-design-15-5d5f08b7d7-1061.webp",
+        "bytes": 101438
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.18 PM (2).jpeg": {
+    "hash": "2aad91ca40",
+    "width": 1080,
+    "height": 481,
+    "originalBytes": 236620,
+    "variants": [
+      {
+        "width": 320,
+        "height": 143,
+        "src": "/assets/optimized/sofa-design-16-2aad91ca40-320.webp",
+        "bytes": 8600
+      },
+      {
+        "width": 640,
+        "height": 285,
+        "src": "/assets/optimized/sofa-design-16-2aad91ca40-640.webp",
+        "bytes": 20478
+      },
+      {
+        "width": 960,
+        "height": 428,
+        "src": "/assets/optimized/sofa-design-16-2aad91ca40-960.webp",
+        "bytes": 31074
+      },
+      {
+        "width": 1080,
+        "height": 481,
+        "src": "/assets/optimized/sofa-design-16-2aad91ca40-1080.webp",
+        "bytes": 39458
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.18 PM (3).jpeg": {
+    "hash": "c5ea453e85",
+    "width": 1044,
+    "height": 498,
+    "originalBytes": 57474,
+    "variants": [
+      {
+        "width": 320,
+        "height": 153,
+        "src": "/assets/optimized/sofa-design-17-c5ea453e85-320.webp",
+        "bytes": 9040
+      },
+      {
+        "width": 640,
+        "height": 305,
+        "src": "/assets/optimized/sofa-design-17-c5ea453e85-640.webp",
+        "bytes": 24368
+      },
+      {
+        "width": 960,
+        "height": 458,
+        "src": "/assets/optimized/sofa-design-17-c5ea453e85-960.webp",
+        "bytes": 39134
+      },
+      {
+        "width": 1044,
+        "height": 498,
+        "src": "/assets/optimized/sofa-design-17-c5ea453e85-1044.webp",
+        "bytes": 49002
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.18 PM (4).jpeg": {
+    "hash": "0dab81fc0a",
+    "width": 1080,
+    "height": 770,
+    "originalBytes": 116707,
+    "variants": [
+      {
+        "width": 320,
+        "height": 228,
+        "src": "/assets/optimized/sofa-design-18-0dab81fc0a-320.webp",
+        "bytes": 18936
+      },
+      {
+        "width": 640,
+        "height": 456,
+        "src": "/assets/optimized/sofa-design-18-0dab81fc0a-640.webp",
+        "bytes": 54916
+      },
+      {
+        "width": 960,
+        "height": 684,
+        "src": "/assets/optimized/sofa-design-18-0dab81fc0a-960.webp",
+        "bytes": 84326
+      },
+      {
+        "width": 1080,
+        "height": 770,
+        "src": "/assets/optimized/sofa-design-18-0dab81fc0a-1080.webp",
+        "bytes": 105526
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.18 PM.jpeg": {
+    "hash": "ae578f0321",
+    "width": 1078,
+    "height": 450,
+    "originalBytes": 275650,
+    "variants": [
+      {
+        "width": 320,
+        "height": 134,
+        "src": "/assets/optimized/sofa-design-19-ae578f0321-320.webp",
+        "bytes": 9326
+      },
+      {
+        "width": 640,
+        "height": 267,
+        "src": "/assets/optimized/sofa-design-19-ae578f0321-640.webp",
+        "bytes": 25612
+      },
+      {
+        "width": 960,
+        "height": 401,
+        "src": "/assets/optimized/sofa-design-19-ae578f0321-960.webp",
+        "bytes": 40734
+      },
+      {
+        "width": 1078,
+        "height": 450,
+        "src": "/assets/optimized/sofa-design-19-ae578f0321-1078.webp",
+        "bytes": 54698
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.19 PM (1).jpeg": {
+    "hash": "ed4eb89fbf",
+    "width": 1080,
+    "height": 520,
+    "originalBytes": 42243,
+    "variants": [
+      {
+        "width": 320,
+        "height": 154,
+        "src": "/assets/optimized/sofa-design-20-ed4eb89fbf-320.webp",
+        "bytes": 5586
+      },
+      {
+        "width": 640,
+        "height": 308,
+        "src": "/assets/optimized/sofa-design-20-ed4eb89fbf-640.webp",
+        "bytes": 13312
+      },
+      {
+        "width": 960,
+        "height": 462,
+        "src": "/assets/optimized/sofa-design-20-ed4eb89fbf-960.webp",
+        "bytes": 21166
+      },
+      {
+        "width": 1080,
+        "height": 520,
+        "src": "/assets/optimized/sofa-design-20-ed4eb89fbf-1080.webp",
+        "bytes": 27072
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.19 PM (2).jpeg": {
+    "hash": "685ae7683c",
+    "width": 1004,
+    "height": 851,
+    "originalBytes": 475462,
+    "variants": [
+      {
+        "width": 320,
+        "height": 271,
+        "src": "/assets/optimized/sofa-design-21-685ae7683c-320.webp",
+        "bytes": 19186
+      },
+      {
+        "width": 640,
+        "height": 542,
+        "src": "/assets/optimized/sofa-design-21-685ae7683c-640.webp",
+        "bytes": 52860
+      },
+      {
+        "width": 960,
+        "height": 814,
+        "src": "/assets/optimized/sofa-design-21-685ae7683c-960.webp",
+        "bytes": 83912
+      },
+      {
+        "width": 1004,
+        "height": 851,
+        "src": "/assets/optimized/sofa-design-21-685ae7683c-1004.webp",
+        "bytes": 94380
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.19 PM (3).jpeg": {
+    "hash": "586dcacccc",
+    "width": 1029,
+    "height": 797,
+    "originalBytes": 48449,
+    "variants": [
+      {
+        "width": 320,
+        "height": 248,
+        "src": "/assets/optimized/sofa-design-22-586dcacccc-320.webp",
+        "bytes": 7256
+      },
+      {
+        "width": 640,
+        "height": 496,
+        "src": "/assets/optimized/sofa-design-22-586dcacccc-640.webp",
+        "bytes": 16860
+      },
+      {
+        "width": 960,
+        "height": 744,
+        "src": "/assets/optimized/sofa-design-22-586dcacccc-960.webp",
+        "bytes": 27182
+      },
+      {
+        "width": 1029,
+        "height": 797,
+        "src": "/assets/optimized/sofa-design-22-586dcacccc-1029.webp",
+        "bytes": 31250
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.19 PM (4).jpeg": {
+    "hash": "0e2ca23c4a",
+    "width": 1080,
+    "height": 1066,
+    "originalBytes": 177786,
+    "variants": [
+      {
+        "width": 320,
+        "height": 316,
+        "src": "/assets/optimized/sofa-design-23-0e2ca23c4a-320.webp",
+        "bytes": 26866
+      },
+      {
+        "width": 640,
+        "height": 632,
+        "src": "/assets/optimized/sofa-design-23-0e2ca23c4a-640.webp",
+        "bytes": 86298
+      },
+      {
+        "width": 960,
+        "height": 948,
+        "src": "/assets/optimized/sofa-design-23-0e2ca23c4a-960.webp",
+        "bytes": 142338
+      },
+      {
+        "width": 1080,
+        "height": 1066,
+        "src": "/assets/optimized/sofa-design-23-0e2ca23c4a-1080.webp",
+        "bytes": 177336
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.19 PM.jpeg": {
+    "hash": "97577d17b5",
+    "width": 1080,
+    "height": 459,
+    "originalBytes": 42920,
+    "variants": [
+      {
+        "width": 320,
+        "height": 136,
+        "src": "/assets/optimized/sofa-design-24-97577d17b5-320.webp",
+        "bytes": 7226
+      },
+      {
+        "width": 640,
+        "height": 272,
+        "src": "/assets/optimized/sofa-design-24-97577d17b5-640.webp",
+        "bytes": 17166
+      },
+      {
+        "width": 960,
+        "height": 408,
+        "src": "/assets/optimized/sofa-design-24-97577d17b5-960.webp",
+        "bytes": 27330
+      },
+      {
+        "width": 1080,
+        "height": 459,
+        "src": "/assets/optimized/sofa-design-24-97577d17b5-1080.webp",
+        "bytes": 33556
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.20 PM (1).jpeg": {
+    "hash": "94866cd5cc",
+    "width": 1064,
+    "height": 828,
+    "originalBytes": 81254,
+    "variants": [
+      {
+        "width": 320,
+        "height": 249,
+        "src": "/assets/optimized/sofa-design-25-94866cd5cc-320.webp",
+        "bytes": 14108
+      },
+      {
+        "width": 640,
+        "height": 498,
+        "src": "/assets/optimized/sofa-design-25-94866cd5cc-640.webp",
+        "bytes": 34180
+      },
+      {
+        "width": 960,
+        "height": 747,
+        "src": "/assets/optimized/sofa-design-25-94866cd5cc-960.webp",
+        "bytes": 53154
+      },
+      {
+        "width": 1064,
+        "height": 828,
+        "src": "/assets/optimized/sofa-design-25-94866cd5cc-1064.webp",
+        "bytes": 63330
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.20 PM (2).jpeg": {
+    "hash": "335795f1dc",
+    "width": 1046,
+    "height": 803,
+    "originalBytes": 166091,
+    "variants": [
+      {
+        "width": 320,
+        "height": 246,
+        "src": "/assets/optimized/sofa-design-26-335795f1dc-320.webp",
+        "bytes": 22776
+      },
+      {
+        "width": 640,
+        "height": 491,
+        "src": "/assets/optimized/sofa-design-26-335795f1dc-640.webp",
+        "bytes": 83780
+      },
+      {
+        "width": 960,
+        "height": 737,
+        "src": "/assets/optimized/sofa-design-26-335795f1dc-960.webp",
+        "bytes": 144636
+      },
+      {
+        "width": 1046,
+        "height": 803,
+        "src": "/assets/optimized/sofa-design-26-335795f1dc-1046.webp",
+        "bytes": 182842
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.20 PM (3).jpeg": {
+    "hash": "37e42c58ee",
+    "width": 1058,
+    "height": 770,
+    "originalBytes": 92936,
+    "variants": [
+      {
+        "width": 320,
+        "height": 233,
+        "src": "/assets/optimized/sofa-design-27-37e42c58ee-320.webp",
+        "bytes": 16684
+      },
+      {
+        "width": 640,
+        "height": 466,
+        "src": "/assets/optimized/sofa-design-27-37e42c58ee-640.webp",
+        "bytes": 46146
+      },
+      {
+        "width": 960,
+        "height": 699,
+        "src": "/assets/optimized/sofa-design-27-37e42c58ee-960.webp",
+        "bytes": 70192
+      },
+      {
+        "width": 1058,
+        "height": 770,
+        "src": "/assets/optimized/sofa-design-27-37e42c58ee-1058.webp",
+        "bytes": 82776
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.20 PM.jpeg": {
+    "hash": "a39f8db866",
+    "width": 1059,
+    "height": 812,
+    "originalBytes": 92973,
+    "variants": [
+      {
+        "width": 320,
+        "height": 245,
+        "src": "/assets/optimized/sofa-design-28-a39f8db866-320.webp",
+        "bytes": 15954
+      },
+      {
+        "width": 640,
+        "height": 491,
+        "src": "/assets/optimized/sofa-design-28-a39f8db866-640.webp",
+        "bytes": 42736
+      },
+      {
+        "width": 960,
+        "height": 736,
+        "src": "/assets/optimized/sofa-design-28-a39f8db866-960.webp",
+        "bytes": 66176
+      },
+      {
+        "width": 1059,
+        "height": 812,
+        "src": "/assets/optimized/sofa-design-28-a39f8db866-1059.webp",
+        "bytes": 78730
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.21 PM (1).jpeg": {
+    "hash": "9b4d0ccba5",
+    "width": 1042,
+    "height": 896,
+    "originalBytes": 86389,
+    "variants": [
+      {
+        "width": 320,
+        "height": 275,
+        "src": "/assets/optimized/sofa-design-29-9b4d0ccba5-320.webp",
+        "bytes": 14608
+      },
+      {
+        "width": 640,
+        "height": 550,
+        "src": "/assets/optimized/sofa-design-29-9b4d0ccba5-640.webp",
+        "bytes": 37562
+      },
+      {
+        "width": 960,
+        "height": 825,
+        "src": "/assets/optimized/sofa-design-29-9b4d0ccba5-960.webp",
+        "bytes": 58956
+      },
+      {
+        "width": 1042,
+        "height": 896,
+        "src": "/assets/optimized/sofa-design-29-9b4d0ccba5-1042.webp",
+        "bytes": 69032
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.21 PM (2).jpeg": {
+    "hash": "84a378ae96",
+    "width": 1040,
+    "height": 1079,
+    "originalBytes": 105669,
+    "variants": [
+      {
+        "width": 320,
+        "height": 332,
+        "src": "/assets/optimized/sofa-design-30-84a378ae96-320.webp",
+        "bytes": 17636
+      },
+      {
+        "width": 640,
+        "height": 664,
+        "src": "/assets/optimized/sofa-design-30-84a378ae96-640.webp",
+        "bytes": 45772
+      },
+      {
+        "width": 960,
+        "height": 996,
+        "src": "/assets/optimized/sofa-design-30-84a378ae96-960.webp",
+        "bytes": 73958
+      },
+      {
+        "width": 1040,
+        "height": 1079,
+        "src": "/assets/optimized/sofa-design-30-84a378ae96-1040.webp",
+        "bytes": 85842
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.21 PM (3).jpeg": {
+    "hash": "285505637a",
+    "width": 920,
+    "height": 1280,
+    "originalBytes": 122661,
+    "variants": [
+      {
+        "width": 320,
+        "height": 445,
+        "src": "/assets/optimized/sofa-design-31-285505637a-320.webp",
+        "bytes": 27010
+      },
+      {
+        "width": 640,
+        "height": 890,
+        "src": "/assets/optimized/sofa-design-31-285505637a-640.webp",
+        "bytes": 68226
+      },
+      {
+        "width": 920,
+        "height": 1280,
+        "src": "/assets/optimized/sofa-design-31-285505637a-920.webp",
+        "bytes": 104566
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.21 PM (4).jpeg": {
+    "hash": "0d74cd52cc",
+    "width": 1037,
+    "height": 1061,
+    "originalBytes": 96542,
+    "variants": [
+      {
+        "width": 320,
+        "height": 327,
+        "src": "/assets/optimized/sofa-design-32-0d74cd52cc-320.webp",
+        "bytes": 18672
+      },
+      {
+        "width": 640,
+        "height": 655,
+        "src": "/assets/optimized/sofa-design-32-0d74cd52cc-640.webp",
+        "bytes": 49694
+      },
+      {
+        "width": 960,
+        "height": 982,
+        "src": "/assets/optimized/sofa-design-32-0d74cd52cc-960.webp",
+        "bytes": 81378
+      },
+      {
+        "width": 1037,
+        "height": 1061,
+        "src": "/assets/optimized/sofa-design-32-0d74cd52cc-1037.webp",
+        "bytes": 93010
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.21 PM.jpeg": {
+    "hash": "bceeece2f8",
+    "width": 1054,
+    "height": 994,
+    "originalBytes": 90773,
+    "variants": [
+      {
+        "width": 320,
+        "height": 302,
+        "src": "/assets/optimized/sofa-design-33-bceeece2f8-320.webp",
+        "bytes": 12976
+      },
+      {
+        "width": 640,
+        "height": 604,
+        "src": "/assets/optimized/sofa-design-33-bceeece2f8-640.webp",
+        "bytes": 37044
+      },
+      {
+        "width": 960,
+        "height": 905,
+        "src": "/assets/optimized/sofa-design-33-bceeece2f8-960.webp",
+        "bytes": 60544
+      },
+      {
+        "width": 1054,
+        "height": 994,
+        "src": "/assets/optimized/sofa-design-33-bceeece2f8-1054.webp",
+        "bytes": 74376
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.22 PM (1).jpeg": {
+    "hash": "9122491419",
+    "width": 1074,
+    "height": 476,
+    "originalBytes": 196912,
+    "variants": [
+      {
+        "width": 320,
+        "height": 142,
+        "src": "/assets/optimized/sofa-design-34-9122491419-320.webp",
+        "bytes": 5002
+      },
+      {
+        "width": 640,
+        "height": 284,
+        "src": "/assets/optimized/sofa-design-34-9122491419-640.webp",
+        "bytes": 11996
+      },
+      {
+        "width": 960,
+        "height": 425,
+        "src": "/assets/optimized/sofa-design-34-9122491419-960.webp",
+        "bytes": 18918
+      },
+      {
+        "width": 1074,
+        "height": 476,
+        "src": "/assets/optimized/sofa-design-34-9122491419-1074.webp",
+        "bytes": 25344
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.22 PM (2).jpeg": {
+    "hash": "184b064b80",
+    "width": 1080,
+    "height": 474,
+    "originalBytes": 189189,
+    "variants": [
+      {
+        "width": 320,
+        "height": 140,
+        "src": "/assets/optimized/sofa-design-35-184b064b80-320.webp",
+        "bytes": 5052
+      },
+      {
+        "width": 640,
+        "height": 281,
+        "src": "/assets/optimized/sofa-design-35-184b064b80-640.webp",
+        "bytes": 12160
+      },
+      {
+        "width": 960,
+        "height": 421,
+        "src": "/assets/optimized/sofa-design-35-184b064b80-960.webp",
+        "bytes": 19210
+      },
+      {
+        "width": 1080,
+        "height": 474,
+        "src": "/assets/optimized/sofa-design-35-184b064b80-1080.webp",
+        "bytes": 24772
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.22 PM (3).jpeg": {
+    "hash": "1a0c7652ce",
+    "width": 1080,
+    "height": 473,
+    "originalBytes": 187443,
+    "variants": [
+      {
+        "width": 320,
+        "height": 140,
+        "src": "/assets/optimized/sofa-design-36-1a0c7652ce-320.webp",
+        "bytes": 5374
+      },
+      {
+        "width": 640,
+        "height": 280,
+        "src": "/assets/optimized/sofa-design-36-1a0c7652ce-640.webp",
+        "bytes": 12890
+      },
+      {
+        "width": 960,
+        "height": 420,
+        "src": "/assets/optimized/sofa-design-36-1a0c7652ce-960.webp",
+        "bytes": 20160
+      },
+      {
+        "width": 1080,
+        "height": 473,
+        "src": "/assets/optimized/sofa-design-36-1a0c7652ce-1080.webp",
+        "bytes": 26406
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.22 PM (4).jpeg": {
+    "hash": "64e11853e9",
+    "width": 1018,
+    "height": 424,
+    "originalBytes": 108020,
+    "variants": [
+      {
+        "width": 320,
+        "height": 133,
+        "src": "/assets/optimized/sofa-design-37-64e11853e9-320.webp",
+        "bytes": 3808
+      },
+      {
+        "width": 640,
+        "height": 267,
+        "src": "/assets/optimized/sofa-design-37-64e11853e9-640.webp",
+        "bytes": 8276
+      },
+      {
+        "width": 960,
+        "height": 400,
+        "src": "/assets/optimized/sofa-design-37-64e11853e9-960.webp",
+        "bytes": 12596
+      },
+      {
+        "width": 1018,
+        "height": 424,
+        "src": "/assets/optimized/sofa-design-37-64e11853e9-1018.webp",
+        "bytes": 14026
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.22 PM.jpeg": {
+    "hash": "087dfd47eb",
+    "width": 1080,
+    "height": 638,
+    "originalBytes": 220075,
+    "variants": [
+      {
+        "width": 320,
+        "height": 189,
+        "src": "/assets/optimized/sofa-design-38-087dfd47eb-320.webp",
+        "bytes": 9202
+      },
+      {
+        "width": 640,
+        "height": 378,
+        "src": "/assets/optimized/sofa-design-38-087dfd47eb-640.webp",
+        "bytes": 27192
+      },
+      {
+        "width": 960,
+        "height": 567,
+        "src": "/assets/optimized/sofa-design-38-087dfd47eb-960.webp",
+        "bytes": 42554
+      },
+      {
+        "width": 1080,
+        "height": 638,
+        "src": "/assets/optimized/sofa-design-38-087dfd47eb-1080.webp",
+        "bytes": 54572
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.23 PM (1).jpeg": {
+    "hash": "a3f3c3583d",
+    "width": 1052,
+    "height": 678,
+    "originalBytes": 46449,
+    "variants": [
+      {
+        "width": 320,
+        "height": 206,
+        "src": "/assets/optimized/sofa-design-39-a3f3c3583d-320.webp",
+        "bytes": 7344
+      },
+      {
+        "width": 640,
+        "height": 412,
+        "src": "/assets/optimized/sofa-design-39-a3f3c3583d-640.webp",
+        "bytes": 17422
+      },
+      {
+        "width": 960,
+        "height": 619,
+        "src": "/assets/optimized/sofa-design-39-a3f3c3583d-960.webp",
+        "bytes": 27768
+      },
+      {
+        "width": 1052,
+        "height": 678,
+        "src": "/assets/optimized/sofa-design-39-a3f3c3583d-1052.webp",
+        "bytes": 32960
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.23 PM (2).jpeg": {
+    "hash": "e3e2998304",
+    "width": 1062,
+    "height": 719,
+    "originalBytes": 44203,
+    "variants": [
+      {
+        "width": 320,
+        "height": 217,
+        "src": "/assets/optimized/sofa-design-40-e3e2998304-320.webp",
+        "bytes": 6614
+      },
+      {
+        "width": 640,
+        "height": 433,
+        "src": "/assets/optimized/sofa-design-40-e3e2998304-640.webp",
+        "bytes": 14258
+      },
+      {
+        "width": 960,
+        "height": 650,
+        "src": "/assets/optimized/sofa-design-40-e3e2998304-960.webp",
+        "bytes": 22370
+      },
+      {
+        "width": 1062,
+        "height": 719,
+        "src": "/assets/optimized/sofa-design-40-e3e2998304-1062.webp",
+        "bytes": 25918
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.23 PM (3).jpeg": {
+    "hash": "084d07e45f",
+    "width": 1079,
+    "height": 978,
+    "originalBytes": 455998,
+    "variants": [
+      {
+        "width": 320,
+        "height": 290,
+        "src": "/assets/optimized/sofa-design-41-084d07e45f-320.webp",
+        "bytes": 14360
+      },
+      {
+        "width": 640,
+        "height": 580,
+        "src": "/assets/optimized/sofa-design-41-084d07e45f-640.webp",
+        "bytes": 37360
+      },
+      {
+        "width": 960,
+        "height": 870,
+        "src": "/assets/optimized/sofa-design-41-084d07e45f-960.webp",
+        "bytes": 59192
+      },
+      {
+        "width": 1079,
+        "height": 978,
+        "src": "/assets/optimized/sofa-design-41-084d07e45f-1079.webp",
+        "bytes": 74472
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.23 PM (4).jpeg": {
+    "hash": "aa7f62e32d",
+    "width": 1043,
+    "height": 782,
+    "originalBytes": 73857,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/sofa-design-42-aa7f62e32d-320.webp",
+        "bytes": 12274
+      },
+      {
+        "width": 640,
+        "height": 480,
+        "src": "/assets/optimized/sofa-design-42-aa7f62e32d-640.webp",
+        "bytes": 29996
+      },
+      {
+        "width": 960,
+        "height": 720,
+        "src": "/assets/optimized/sofa-design-42-aa7f62e32d-960.webp",
+        "bytes": 45750
+      },
+      {
+        "width": 1043,
+        "height": 782,
+        "src": "/assets/optimized/sofa-design-42-aa7f62e32d-1043.webp",
+        "bytes": 54776
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.23 PM.jpeg": {
+    "hash": "9e319a7566",
+    "width": 1072,
+    "height": 782,
+    "originalBytes": 321596,
+    "variants": [
+      {
+        "width": 320,
+        "height": 233,
+        "src": "/assets/optimized/sofa-design-43-9e319a7566-320.webp",
+        "bytes": 10474
+      },
+      {
+        "width": 640,
+        "height": 467,
+        "src": "/assets/optimized/sofa-design-43-9e319a7566-640.webp",
+        "bytes": 23392
+      },
+      {
+        "width": 960,
+        "height": 700,
+        "src": "/assets/optimized/sofa-design-43-9e319a7566-960.webp",
+        "bytes": 35554
+      },
+      {
+        "width": 1072,
+        "height": 782,
+        "src": "/assets/optimized/sofa-design-43-9e319a7566-1072.webp",
+        "bytes": 42538
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.24 PM (1).jpeg": {
+    "hash": "f1f96d5a94",
+    "width": 1015,
+    "height": 746,
+    "originalBytes": 60549,
+    "variants": [
+      {
+        "width": 320,
+        "height": 235,
+        "src": "/assets/optimized/sofa-design-44-f1f96d5a94-320.webp",
+        "bytes": 10116
+      },
+      {
+        "width": 640,
+        "height": 470,
+        "src": "/assets/optimized/sofa-design-44-f1f96d5a94-640.webp",
+        "bytes": 23258
+      },
+      {
+        "width": 960,
+        "height": 706,
+        "src": "/assets/optimized/sofa-design-44-f1f96d5a94-960.webp",
+        "bytes": 36562
+      },
+      {
+        "width": 1015,
+        "height": 746,
+        "src": "/assets/optimized/sofa-design-44-f1f96d5a94-1015.webp",
+        "bytes": 40924
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.24 PM (2).jpeg": {
+    "hash": "f0a62e03fd",
+    "width": 1068,
+    "height": 796,
+    "originalBytes": 76105,
+    "variants": [
+      {
+        "width": 320,
+        "height": 239,
+        "src": "/assets/optimized/sofa-design-45-f0a62e03fd-320.webp",
+        "bytes": 10936
+      },
+      {
+        "width": 640,
+        "height": 477,
+        "src": "/assets/optimized/sofa-design-45-f0a62e03fd-640.webp",
+        "bytes": 30400
+      },
+      {
+        "width": 960,
+        "height": 716,
+        "src": "/assets/optimized/sofa-design-45-f0a62e03fd-960.webp",
+        "bytes": 48852
+      },
+      {
+        "width": 1068,
+        "height": 796,
+        "src": "/assets/optimized/sofa-design-45-f0a62e03fd-1068.webp",
+        "bytes": 61896
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.24 PM (3).jpeg": {
+    "hash": "5d5f08b7d7",
+    "width": 1061,
+    "height": 800,
+    "originalBytes": 403478,
+    "variants": [
+      {
+        "width": 320,
+        "height": 241,
+        "src": "/assets/optimized/sofa-design-46-5d5f08b7d7-320.webp",
+        "bytes": 16158
+      },
+      {
+        "width": 640,
+        "height": 483,
+        "src": "/assets/optimized/sofa-design-46-5d5f08b7d7-640.webp",
+        "bytes": 48136
+      },
+      {
+        "width": 960,
+        "height": 724,
+        "src": "/assets/optimized/sofa-design-46-5d5f08b7d7-960.webp",
+        "bytes": 78986
+      },
+      {
+        "width": 1061,
+        "height": 800,
+        "src": "/assets/optimized/sofa-design-46-5d5f08b7d7-1061.webp",
+        "bytes": 101438
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.24 PM.jpeg": {
+    "hash": "35f2f19146",
+    "width": 1045,
+    "height": 773,
+    "originalBytes": 67700,
+    "variants": [
+      {
+        "width": 320,
+        "height": 237,
+        "src": "/assets/optimized/sofa-design-47-35f2f19146-320.webp",
+        "bytes": 10672
+      },
+      {
+        "width": 640,
+        "height": 473,
+        "src": "/assets/optimized/sofa-design-47-35f2f19146-640.webp",
+        "bytes": 26288
+      },
+      {
+        "width": 960,
+        "height": 710,
+        "src": "/assets/optimized/sofa-design-47-35f2f19146-960.webp",
+        "bytes": 42106
+      },
+      {
+        "width": 1045,
+        "height": 773,
+        "src": "/assets/optimized/sofa-design-47-35f2f19146-1045.webp",
+        "bytes": 49646
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.25 PM (1).jpeg": {
+    "hash": "e67fe81f6c",
+    "width": 1008,
+    "height": 837,
+    "originalBytes": 55975,
+    "variants": [
+      {
+        "width": 320,
+        "height": 266,
+        "src": "/assets/optimized/sofa-design-48-e67fe81f6c-320.webp",
+        "bytes": 8982
+      },
+      {
+        "width": 640,
+        "height": 531,
+        "src": "/assets/optimized/sofa-design-48-e67fe81f6c-640.webp",
+        "bytes": 19762
+      },
+      {
+        "width": 960,
+        "height": 797,
+        "src": "/assets/optimized/sofa-design-48-e67fe81f6c-960.webp",
+        "bytes": 30722
+      },
+      {
+        "width": 1008,
+        "height": 837,
+        "src": "/assets/optimized/sofa-design-48-e67fe81f6c-1008.webp",
+        "bytes": 34724
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.25 PM (2).jpeg": {
+    "hash": "662fad1d7f",
+    "width": 1076,
+    "height": 660,
+    "originalBytes": 74340,
+    "variants": [
+      {
+        "width": 320,
+        "height": 196,
+        "src": "/assets/optimized/sofa-design-49-662fad1d7f-320.webp",
+        "bytes": 10086
+      },
+      {
+        "width": 640,
+        "height": 393,
+        "src": "/assets/optimized/sofa-design-49-662fad1d7f-640.webp",
+        "bytes": 28446
+      },
+      {
+        "width": 960,
+        "height": 589,
+        "src": "/assets/optimized/sofa-design-49-662fad1d7f-960.webp",
+        "bytes": 46784
+      },
+      {
+        "width": 1076,
+        "height": 660,
+        "src": "/assets/optimized/sofa-design-49-662fad1d7f-1076.webp",
+        "bytes": 60170
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.25 PM.jpeg": {
+    "hash": "b2ebb9d650",
+    "width": 1068,
+    "height": 800,
+    "originalBytes": 91324,
+    "variants": [
+      {
+        "width": 320,
+        "height": 240,
+        "src": "/assets/optimized/sofa-design-50-b2ebb9d650-320.webp",
+        "bytes": 11252
+      },
+      {
+        "width": 640,
+        "height": 479,
+        "src": "/assets/optimized/sofa-design-50-b2ebb9d650-640.webp",
+        "bytes": 36188
+      },
+      {
+        "width": 960,
+        "height": 719,
+        "src": "/assets/optimized/sofa-design-50-b2ebb9d650-960.webp",
+        "bytes": 62792
+      },
+      {
+        "width": 1068,
+        "height": 800,
+        "src": "/assets/optimized/sofa-design-50-b2ebb9d650-1068.webp",
+        "bytes": 83044
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.30 PM (1).jpeg": {
+    "hash": "bceeece2f8",
+    "width": 1054,
+    "height": 994,
+    "originalBytes": 90773,
+    "variants": [
+      {
+        "width": 320,
+        "height": 302,
+        "src": "/assets/optimized/sofa-design-51-bceeece2f8-320.webp",
+        "bytes": 12976
+      },
+      {
+        "width": 640,
+        "height": 604,
+        "src": "/assets/optimized/sofa-design-51-bceeece2f8-640.webp",
+        "bytes": 37044
+      },
+      {
+        "width": 960,
+        "height": 905,
+        "src": "/assets/optimized/sofa-design-51-bceeece2f8-960.webp",
+        "bytes": 60544
+      },
+      {
+        "width": 1054,
+        "height": 994,
+        "src": "/assets/optimized/sofa-design-51-bceeece2f8-1054.webp",
+        "bytes": 74376
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.30 PM (2).jpeg": {
+    "hash": "64e11853e9",
+    "width": 1018,
+    "height": 424,
+    "originalBytes": 108020,
+    "variants": [
+      {
+        "width": 320,
+        "height": 133,
+        "src": "/assets/optimized/sofa-design-52-64e11853e9-320.webp",
+        "bytes": 3808
+      },
+      {
+        "width": 640,
+        "height": 267,
+        "src": "/assets/optimized/sofa-design-52-64e11853e9-640.webp",
+        "bytes": 8276
+      },
+      {
+        "width": 960,
+        "height": 400,
+        "src": "/assets/optimized/sofa-design-52-64e11853e9-960.webp",
+        "bytes": 12596
+      },
+      {
+        "width": 1018,
+        "height": 424,
+        "src": "/assets/optimized/sofa-design-52-64e11853e9-1018.webp",
+        "bytes": 14026
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.30 PM.jpeg": {
+    "hash": "d4a89b8f87",
+    "width": 1080,
+    "height": 480,
+    "originalBytes": 221016,
+    "variants": [
+      {
+        "width": 320,
+        "height": 142,
+        "src": "/assets/optimized/sofa-design-53-d4a89b8f87-320.webp",
+        "bytes": 8980
+      },
+      {
+        "width": 640,
+        "height": 284,
+        "src": "/assets/optimized/sofa-design-53-d4a89b8f87-640.webp",
+        "bytes": 25018
+      },
+      {
+        "width": 960,
+        "height": 427,
+        "src": "/assets/optimized/sofa-design-53-d4a89b8f87-960.webp",
+        "bytes": 39700
+      },
+      {
+        "width": 1080,
+        "height": 480,
+        "src": "/assets/optimized/sofa-design-53-d4a89b8f87-1080.webp",
+        "bytes": 53122
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.31 PM (1).jpeg": {
+    "hash": "94866cd5cc",
+    "width": 1064,
+    "height": 828,
+    "originalBytes": 81254,
+    "variants": [
+      {
+        "width": 320,
+        "height": 249,
+        "src": "/assets/optimized/sofa-design-54-94866cd5cc-320.webp",
+        "bytes": 14108
+      },
+      {
+        "width": 640,
+        "height": 498,
+        "src": "/assets/optimized/sofa-design-54-94866cd5cc-640.webp",
+        "bytes": 34180
+      },
+      {
+        "width": 960,
+        "height": 747,
+        "src": "/assets/optimized/sofa-design-54-94866cd5cc-960.webp",
+        "bytes": 53154
+      },
+      {
+        "width": 1064,
+        "height": 828,
+        "src": "/assets/optimized/sofa-design-54-94866cd5cc-1064.webp",
+        "bytes": 63330
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.31 PM (2).jpeg": {
+    "hash": "9b4d0ccba5",
+    "width": 1042,
+    "height": 896,
+    "originalBytes": 86389,
+    "variants": [
+      {
+        "width": 320,
+        "height": 275,
+        "src": "/assets/optimized/sofa-design-55-9b4d0ccba5-320.webp",
+        "bytes": 14608
+      },
+      {
+        "width": 640,
+        "height": 550,
+        "src": "/assets/optimized/sofa-design-55-9b4d0ccba5-640.webp",
+        "bytes": 37562
+      },
+      {
+        "width": 960,
+        "height": 825,
+        "src": "/assets/optimized/sofa-design-55-9b4d0ccba5-960.webp",
+        "bytes": 58956
+      },
+      {
+        "width": 1042,
+        "height": 896,
+        "src": "/assets/optimized/sofa-design-55-9b4d0ccba5-1042.webp",
+        "bytes": 69032
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.31 PM (3).jpeg": {
+    "hash": "335795f1dc",
+    "width": 1046,
+    "height": 803,
+    "originalBytes": 166091,
+    "variants": [
+      {
+        "width": 320,
+        "height": 246,
+        "src": "/assets/optimized/sofa-design-56-335795f1dc-320.webp",
+        "bytes": 22776
+      },
+      {
+        "width": 640,
+        "height": 491,
+        "src": "/assets/optimized/sofa-design-56-335795f1dc-640.webp",
+        "bytes": 83780
+      },
+      {
+        "width": 960,
+        "height": 737,
+        "src": "/assets/optimized/sofa-design-56-335795f1dc-960.webp",
+        "bytes": 144636
+      },
+      {
+        "width": 1046,
+        "height": 803,
+        "src": "/assets/optimized/sofa-design-56-335795f1dc-1046.webp",
+        "bytes": 182842
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.32 PM (1).jpeg": {
+    "hash": "37e42c58ee",
+    "width": 1058,
+    "height": 770,
+    "originalBytes": 92936,
+    "variants": [
+      {
+        "width": 320,
+        "height": 233,
+        "src": "/assets/optimized/sofa-design-57-37e42c58ee-320.webp",
+        "bytes": 16684
+      },
+      {
+        "width": 640,
+        "height": 466,
+        "src": "/assets/optimized/sofa-design-57-37e42c58ee-640.webp",
+        "bytes": 46146
+      },
+      {
+        "width": 960,
+        "height": 699,
+        "src": "/assets/optimized/sofa-design-57-37e42c58ee-960.webp",
+        "bytes": 70192
+      },
+      {
+        "width": 1058,
+        "height": 770,
+        "src": "/assets/optimized/sofa-design-57-37e42c58ee-1058.webp",
+        "bytes": 82776
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.32 PM (2).jpeg": {
+    "hash": "7bb906b838",
+    "width": 1071,
+    "height": 627,
+    "originalBytes": 301334,
+    "variants": [
+      {
+        "width": 320,
+        "height": 187,
+        "src": "/assets/optimized/sofa-design-58-7bb906b838-320.webp",
+        "bytes": 11532
+      },
+      {
+        "width": 640,
+        "height": 375,
+        "src": "/assets/optimized/sofa-design-58-7bb906b838-640.webp",
+        "bytes": 33846
+      },
+      {
+        "width": 960,
+        "height": 562,
+        "src": "/assets/optimized/sofa-design-58-7bb906b838-960.webp",
+        "bytes": 55454
+      },
+      {
+        "width": 1071,
+        "height": 627,
+        "src": "/assets/optimized/sofa-design-58-7bb906b838-1071.webp",
+        "bytes": 73448
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.32 PM (3).jpeg": {
+    "hash": "21201e2fc2",
+    "width": 910,
+    "height": 475,
+    "originalBytes": 129884,
+    "variants": [
+      {
+        "width": 320,
+        "height": 167,
+        "src": "/assets/optimized/sofa-design-59-21201e2fc2-320.webp",
+        "bytes": 4748
+      },
+      {
+        "width": 640,
+        "height": 334,
+        "src": "/assets/optimized/sofa-design-59-21201e2fc2-640.webp",
+        "bytes": 10748
+      },
+      {
+        "width": 910,
+        "height": 475,
+        "src": "/assets/optimized/sofa-design-59-21201e2fc2-910.webp",
+        "bytes": 18936
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.32 PM (4).jpeg": {
+    "hash": "4a4e38c171",
+    "width": 1050,
+    "height": 846,
+    "originalBytes": 21529,
+    "variants": []
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.32 PM.jpeg": {
+    "hash": "bd56777783",
+    "width": 1066,
+    "height": 634,
+    "originalBytes": 383666,
+    "variants": [
+      {
+        "width": 320,
+        "height": 190,
+        "src": "/assets/optimized/sofa-design-61-bd56777783-320.webp",
+        "bytes": 11240
+      },
+      {
+        "width": 640,
+        "height": 381,
+        "src": "/assets/optimized/sofa-design-61-bd56777783-640.webp",
+        "bytes": 29738
+      },
+      {
+        "width": 960,
+        "height": 571,
+        "src": "/assets/optimized/sofa-design-61-bd56777783-960.webp",
+        "bytes": 48776
+      },
+      {
+        "width": 1066,
+        "height": 634,
+        "src": "/assets/optimized/sofa-design-61-bd56777783-1066.webp",
+        "bytes": 62302
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.33 PM (1).jpeg": {
+    "hash": "cc235dc409",
+    "width": 1079,
+    "height": 774,
+    "originalBytes": 307782,
+    "variants": [
+      {
+        "width": 320,
+        "height": 230,
+        "src": "/assets/optimized/sofa-design-62-cc235dc409-320.webp",
+        "bytes": 8744
+      },
+      {
+        "width": 640,
+        "height": 459,
+        "src": "/assets/optimized/sofa-design-62-cc235dc409-640.webp",
+        "bytes": 22458
+      },
+      {
+        "width": 960,
+        "height": 689,
+        "src": "/assets/optimized/sofa-design-62-cc235dc409-960.webp",
+        "bytes": 35972
+      },
+      {
+        "width": 1079,
+        "height": 774,
+        "src": "/assets/optimized/sofa-design-62-cc235dc409-1079.webp",
+        "bytes": 45086
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.33 PM (2).jpeg": {
+    "hash": "428473fb3f",
+    "width": 1080,
+    "height": 700,
+    "originalBytes": 125637,
+    "variants": [
+      {
+        "width": 320,
+        "height": 207,
+        "src": "/assets/optimized/sofa-design-63-428473fb3f-320.webp",
+        "bytes": 4020
+      },
+      {
+        "width": 640,
+        "height": 415,
+        "src": "/assets/optimized/sofa-design-63-428473fb3f-640.webp",
+        "bytes": 8598
+      },
+      {
+        "width": 960,
+        "height": 622,
+        "src": "/assets/optimized/sofa-design-63-428473fb3f-960.webp",
+        "bytes": 13544
+      },
+      {
+        "width": 1080,
+        "height": 700,
+        "src": "/assets/optimized/sofa-design-63-428473fb3f-1080.webp",
+        "bytes": 16454
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.33 PM (3).jpeg": {
+    "hash": "d14f54f702",
+    "width": 1013,
+    "height": 448,
+    "originalBytes": 137361,
+    "variants": [
+      {
+        "width": 320,
+        "height": 142,
+        "src": "/assets/optimized/sofa-design-64-d14f54f702-320.webp",
+        "bytes": 5148
+      },
+      {
+        "width": 640,
+        "height": 283,
+        "src": "/assets/optimized/sofa-design-64-d14f54f702-640.webp",
+        "bytes": 10488
+      },
+      {
+        "width": 960,
+        "height": 425,
+        "src": "/assets/optimized/sofa-design-64-d14f54f702-960.webp",
+        "bytes": 16106
+      },
+      {
+        "width": 1013,
+        "height": 448,
+        "src": "/assets/optimized/sofa-design-64-d14f54f702-1013.webp",
+        "bytes": 17342
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.33 PM.jpeg": {
+    "hash": "a9ddfc6b72",
+    "width": 904,
+    "height": 459,
+    "originalBytes": 197205,
+    "variants": [
+      {
+        "width": 320,
+        "height": 162,
+        "src": "/assets/optimized/sofa-design-65-a9ddfc6b72-320.webp",
+        "bytes": 8758
+      },
+      {
+        "width": 640,
+        "height": 325,
+        "src": "/assets/optimized/sofa-design-65-a9ddfc6b72-640.webp",
+        "bytes": 32704
+      },
+      {
+        "width": 904,
+        "height": 459,
+        "src": "/assets/optimized/sofa-design-65-a9ddfc6b72-904.webp",
+        "bytes": 67342
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.34 PM (1).jpeg": {
+    "hash": "5aab60a8f0",
+    "width": 1080,
+    "height": 737,
+    "originalBytes": 346448,
+    "variants": [
+      {
+        "width": 320,
+        "height": 218,
+        "src": "/assets/optimized/sofa-design-66-5aab60a8f0-320.webp",
+        "bytes": 11184
+      },
+      {
+        "width": 640,
+        "height": 437,
+        "src": "/assets/optimized/sofa-design-66-5aab60a8f0-640.webp",
+        "bytes": 32084
+      },
+      {
+        "width": 960,
+        "height": 655,
+        "src": "/assets/optimized/sofa-design-66-5aab60a8f0-960.webp",
+        "bytes": 49648
+      },
+      {
+        "width": 1080,
+        "height": 737,
+        "src": "/assets/optimized/sofa-design-66-5aab60a8f0-1080.webp",
+        "bytes": 63440
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.34 PM (2).jpeg": {
+    "hash": "0e2ca23c4a",
+    "width": 1080,
+    "height": 1066,
+    "originalBytes": 177786,
+    "variants": [
+      {
+        "width": 320,
+        "height": 316,
+        "src": "/assets/optimized/sofa-design-67-0e2ca23c4a-320.webp",
+        "bytes": 26866
+      },
+      {
+        "width": 640,
+        "height": 632,
+        "src": "/assets/optimized/sofa-design-67-0e2ca23c4a-640.webp",
+        "bytes": 86298
+      },
+      {
+        "width": 960,
+        "height": 948,
+        "src": "/assets/optimized/sofa-design-67-0e2ca23c4a-960.webp",
+        "bytes": 142338
+      },
+      {
+        "width": 1080,
+        "height": 1066,
+        "src": "/assets/optimized/sofa-design-67-0e2ca23c4a-1080.webp",
+        "bytes": 177336
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.34 PM (3).jpeg": {
+    "hash": "e4c9b85aaf",
+    "width": 1080,
+    "height": 626,
+    "originalBytes": 434315,
+    "variants": [
+      {
+        "width": 320,
+        "height": 185,
+        "src": "/assets/optimized/sofa-design-68-e4c9b85aaf-320.webp",
+        "bytes": 13052
+      },
+      {
+        "width": 640,
+        "height": 371,
+        "src": "/assets/optimized/sofa-design-68-e4c9b85aaf-640.webp",
+        "bytes": 37654
+      },
+      {
+        "width": 960,
+        "height": 556,
+        "src": "/assets/optimized/sofa-design-68-e4c9b85aaf-960.webp",
+        "bytes": 60248
+      },
+      {
+        "width": 1080,
+        "height": 626,
+        "src": "/assets/optimized/sofa-design-68-e4c9b85aaf-1080.webp",
+        "bytes": 83520
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.34 PM (4).jpeg": {
+    "hash": "0d74cd52cc",
+    "width": 1037,
+    "height": 1061,
+    "originalBytes": 96542,
+    "variants": [
+      {
+        "width": 320,
+        "height": 327,
+        "src": "/assets/optimized/sofa-design-69-0d74cd52cc-320.webp",
+        "bytes": 18672
+      },
+      {
+        "width": 640,
+        "height": 655,
+        "src": "/assets/optimized/sofa-design-69-0d74cd52cc-640.webp",
+        "bytes": 49694
+      },
+      {
+        "width": 960,
+        "height": 982,
+        "src": "/assets/optimized/sofa-design-69-0d74cd52cc-960.webp",
+        "bytes": 81378
+      },
+      {
+        "width": 1037,
+        "height": 1061,
+        "src": "/assets/optimized/sofa-design-69-0d74cd52cc-1037.webp",
+        "bytes": 93010
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.34 PM.jpeg": {
+    "hash": "285505637a",
+    "width": 920,
+    "height": 1280,
+    "originalBytes": 122661,
+    "variants": [
+      {
+        "width": 320,
+        "height": 445,
+        "src": "/assets/optimized/sofa-design-70-285505637a-320.webp",
+        "bytes": 27010
+      },
+      {
+        "width": 640,
+        "height": 890,
+        "src": "/assets/optimized/sofa-design-70-285505637a-640.webp",
+        "bytes": 68226
+      },
+      {
+        "width": 920,
+        "height": 1280,
+        "src": "/assets/optimized/sofa-design-70-285505637a-920.webp",
+        "bytes": 104566
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.35 PM (1).jpeg": {
+    "hash": "d908407465",
+    "width": 1079,
+    "height": 394,
+    "originalBytes": 107141,
+    "variants": [
+      {
+        "width": 320,
+        "height": 117,
+        "src": "/assets/optimized/sofa-design-71-d908407465-320.webp",
+        "bytes": 3630
+      },
+      {
+        "width": 640,
+        "height": 234,
+        "src": "/assets/optimized/sofa-design-71-d908407465-640.webp",
+        "bytes": 7446
+      },
+      {
+        "width": 960,
+        "height": 351,
+        "src": "/assets/optimized/sofa-design-71-d908407465-960.webp",
+        "bytes": 11368
+      },
+      {
+        "width": 1079,
+        "height": 394,
+        "src": "/assets/optimized/sofa-design-71-d908407465-1079.webp",
+        "bytes": 13502
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.35 PM (2).jpeg": {
+    "hash": "8ae72abc58",
+    "width": 779,
+    "height": 394,
+    "originalBytes": 98895,
+    "variants": [
+      {
+        "width": 320,
+        "height": 162,
+        "src": "/assets/optimized/sofa-design-72-8ae72abc58-320.webp",
+        "bytes": 4352
+      },
+      {
+        "width": 640,
+        "height": 324,
+        "src": "/assets/optimized/sofa-design-72-8ae72abc58-640.webp",
+        "bytes": 11538
+      },
+      {
+        "width": 779,
+        "height": 394,
+        "src": "/assets/optimized/sofa-design-72-8ae72abc58-779.webp",
+        "bytes": 18144
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.35 PM (3).jpeg": {
+    "hash": "97577d17b5",
+    "width": 1080,
+    "height": 459,
+    "originalBytes": 42920,
+    "variants": [
+      {
+        "width": 320,
+        "height": 136,
+        "src": "/assets/optimized/sofa-design-73-97577d17b5-320.webp",
+        "bytes": 7226
+      },
+      {
+        "width": 640,
+        "height": 272,
+        "src": "/assets/optimized/sofa-design-73-97577d17b5-640.webp",
+        "bytes": 17166
+      },
+      {
+        "width": 960,
+        "height": 408,
+        "src": "/assets/optimized/sofa-design-73-97577d17b5-960.webp",
+        "bytes": 27330
+      },
+      {
+        "width": 1080,
+        "height": 459,
+        "src": "/assets/optimized/sofa-design-73-97577d17b5-1080.webp",
+        "bytes": 33556
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.35 PM.jpeg": {
+    "hash": "5e1771061a",
+    "width": 1078,
+    "height": 846,
+    "originalBytes": 125744,
+    "variants": [
+      {
+        "width": 320,
+        "height": 251,
+        "src": "/assets/optimized/sofa-design-74-5e1771061a-320.webp",
+        "bytes": 16064
+      },
+      {
+        "width": 640,
+        "height": 502,
+        "src": "/assets/optimized/sofa-design-74-5e1771061a-640.webp",
+        "bytes": 59102
+      },
+      {
+        "width": 960,
+        "height": 753,
+        "src": "/assets/optimized/sofa-design-74-5e1771061a-960.webp",
+        "bytes": 95588
+      },
+      {
+        "width": 1078,
+        "height": 846,
+        "src": "/assets/optimized/sofa-design-74-5e1771061a-1078.webp",
+        "bytes": 129082
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.36 PM (1).jpeg": {
+    "hash": "5d5f08b7d7",
+    "width": 1061,
+    "height": 800,
+    "originalBytes": 403478,
+    "variants": [
+      {
+        "width": 320,
+        "height": 241,
+        "src": "/assets/optimized/sofa-design-75-5d5f08b7d7-320.webp",
+        "bytes": 16158
+      },
+      {
+        "width": 640,
+        "height": 483,
+        "src": "/assets/optimized/sofa-design-75-5d5f08b7d7-640.webp",
+        "bytes": 48136
+      },
+      {
+        "width": 960,
+        "height": 724,
+        "src": "/assets/optimized/sofa-design-75-5d5f08b7d7-960.webp",
+        "bytes": 78986
+      },
+      {
+        "width": 1061,
+        "height": 800,
+        "src": "/assets/optimized/sofa-design-75-5d5f08b7d7-1061.webp",
+        "bytes": 101438
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.36 PM (2).jpeg": {
+    "hash": "3bf3f10056",
+    "width": 1080,
+    "height": 803,
+    "originalBytes": 389226,
+    "variants": [
+      {
+        "width": 320,
+        "height": 238,
+        "src": "/assets/optimized/sofa-design-76-3bf3f10056-320.webp",
+        "bytes": 10550
+      },
+      {
+        "width": 640,
+        "height": 476,
+        "src": "/assets/optimized/sofa-design-76-3bf3f10056-640.webp",
+        "bytes": 28648
+      },
+      {
+        "width": 960,
+        "height": 714,
+        "src": "/assets/optimized/sofa-design-76-3bf3f10056-960.webp",
+        "bytes": 47208
+      },
+      {
+        "width": 1080,
+        "height": 803,
+        "src": "/assets/optimized/sofa-design-76-3bf3f10056-1080.webp",
+        "bytes": 61276
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.36 PM (3).jpeg": {
+    "hash": "84a378ae96",
+    "width": 1040,
+    "height": 1079,
+    "originalBytes": 105669,
+    "variants": [
+      {
+        "width": 320,
+        "height": 332,
+        "src": "/assets/optimized/sofa-design-77-84a378ae96-320.webp",
+        "bytes": 17636
+      },
+      {
+        "width": 640,
+        "height": 664,
+        "src": "/assets/optimized/sofa-design-77-84a378ae96-640.webp",
+        "bytes": 45772
+      },
+      {
+        "width": 960,
+        "height": 996,
+        "src": "/assets/optimized/sofa-design-77-84a378ae96-960.webp",
+        "bytes": 73958
+      },
+      {
+        "width": 1040,
+        "height": 1079,
+        "src": "/assets/optimized/sofa-design-77-84a378ae96-1040.webp",
+        "bytes": 85842
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.36 PM.jpeg": {
+    "hash": "685ae7683c",
+    "width": 1004,
+    "height": 851,
+    "originalBytes": 475462,
+    "variants": [
+      {
+        "width": 320,
+        "height": 271,
+        "src": "/assets/optimized/sofa-design-78-685ae7683c-320.webp",
+        "bytes": 19186
+      },
+      {
+        "width": 640,
+        "height": 542,
+        "src": "/assets/optimized/sofa-design-78-685ae7683c-640.webp",
+        "bytes": 52860
+      },
+      {
+        "width": 960,
+        "height": 814,
+        "src": "/assets/optimized/sofa-design-78-685ae7683c-960.webp",
+        "bytes": 83912
+      },
+      {
+        "width": 1004,
+        "height": 851,
+        "src": "/assets/optimized/sofa-design-78-685ae7683c-1004.webp",
+        "bytes": 94380
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.37 PM (1).jpeg": {
+    "hash": "586dcacccc",
+    "width": 1029,
+    "height": 797,
+    "originalBytes": 48449,
+    "variants": [
+      {
+        "width": 320,
+        "height": 248,
+        "src": "/assets/optimized/sofa-design-79-586dcacccc-320.webp",
+        "bytes": 7256
+      },
+      {
+        "width": 640,
+        "height": 496,
+        "src": "/assets/optimized/sofa-design-79-586dcacccc-640.webp",
+        "bytes": 16860
+      },
+      {
+        "width": 960,
+        "height": 744,
+        "src": "/assets/optimized/sofa-design-79-586dcacccc-960.webp",
+        "bytes": 27182
+      },
+      {
+        "width": 1029,
+        "height": 797,
+        "src": "/assets/optimized/sofa-design-79-586dcacccc-1029.webp",
+        "bytes": 31250
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.37 PM (2).jpeg": {
+    "hash": "75ecec47dc",
+    "width": 1047,
+    "height": 702,
+    "originalBytes": 74769,
+    "variants": [
+      {
+        "width": 320,
+        "height": 215,
+        "src": "/assets/optimized/sofa-design-80-75ecec47dc-320.webp",
+        "bytes": 13252
+      },
+      {
+        "width": 640,
+        "height": 429,
+        "src": "/assets/optimized/sofa-design-80-75ecec47dc-640.webp",
+        "bytes": 33324
+      },
+      {
+        "width": 960,
+        "height": 644,
+        "src": "/assets/optimized/sofa-design-80-75ecec47dc-960.webp",
+        "bytes": 50618
+      },
+      {
+        "width": 1047,
+        "height": 702,
+        "src": "/assets/optimized/sofa-design-80-75ecec47dc-1047.webp",
+        "bytes": 59060
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.37 PM (3).jpeg": {
+    "hash": "ed4eb89fbf",
+    "width": 1080,
+    "height": 520,
+    "originalBytes": 42243,
+    "variants": [
+      {
+        "width": 320,
+        "height": 154,
+        "src": "/assets/optimized/sofa-design-81-ed4eb89fbf-320.webp",
+        "bytes": 5586
+      },
+      {
+        "width": 640,
+        "height": 308,
+        "src": "/assets/optimized/sofa-design-81-ed4eb89fbf-640.webp",
+        "bytes": 13312
+      },
+      {
+        "width": 960,
+        "height": 462,
+        "src": "/assets/optimized/sofa-design-81-ed4eb89fbf-960.webp",
+        "bytes": 21166
+      },
+      {
+        "width": 1080,
+        "height": 520,
+        "src": "/assets/optimized/sofa-design-81-ed4eb89fbf-1080.webp",
+        "bytes": 27072
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.37 PM (4).jpeg": {
+    "hash": "7d8951100e",
+    "width": 1079,
+    "height": 613,
+    "originalBytes": 230677,
+    "variants": [
+      {
+        "width": 320,
+        "height": 182,
+        "src": "/assets/optimized/sofa-design-82-7d8951100e-320.webp",
+        "bytes": 9346
+      },
+      {
+        "width": 640,
+        "height": 364,
+        "src": "/assets/optimized/sofa-design-82-7d8951100e-640.webp",
+        "bytes": 18290
+      },
+      {
+        "width": 960,
+        "height": 545,
+        "src": "/assets/optimized/sofa-design-82-7d8951100e-960.webp",
+        "bytes": 26872
+      },
+      {
+        "width": 1079,
+        "height": 613,
+        "src": "/assets/optimized/sofa-design-82-7d8951100e-1079.webp",
+        "bytes": 31320
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.37 PM.jpeg": {
+    "hash": "66fc17db60",
+    "width": 1068,
+    "height": 485,
+    "originalBytes": 60730,
+    "variants": [
+      {
+        "width": 320,
+        "height": 145,
+        "src": "/assets/optimized/sofa-design-83-66fc17db60-320.webp",
+        "bytes": 10028
+      },
+      {
+        "width": 640,
+        "height": 291,
+        "src": "/assets/optimized/sofa-design-83-66fc17db60-640.webp",
+        "bytes": 26946
+      },
+      {
+        "width": 960,
+        "height": 436,
+        "src": "/assets/optimized/sofa-design-83-66fc17db60-960.webp",
+        "bytes": 42756
+      },
+      {
+        "width": 1068,
+        "height": 485,
+        "src": "/assets/optimized/sofa-design-83-66fc17db60-1068.webp",
+        "bytes": 53098
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.38 PM (1).jpeg": {
+    "hash": "2aad91ca40",
+    "width": 1080,
+    "height": 481,
+    "originalBytes": 236620,
+    "variants": [
+      {
+        "width": 320,
+        "height": 143,
+        "src": "/assets/optimized/sofa-design-84-2aad91ca40-320.webp",
+        "bytes": 8600
+      },
+      {
+        "width": 640,
+        "height": 285,
+        "src": "/assets/optimized/sofa-design-84-2aad91ca40-640.webp",
+        "bytes": 20478
+      },
+      {
+        "width": 960,
+        "height": 428,
+        "src": "/assets/optimized/sofa-design-84-2aad91ca40-960.webp",
+        "bytes": 31074
+      },
+      {
+        "width": 1080,
+        "height": 481,
+        "src": "/assets/optimized/sofa-design-84-2aad91ca40-1080.webp",
+        "bytes": 39458
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.38 PM (2).jpeg": {
+    "hash": "918355e16f",
+    "width": 1061,
+    "height": 756,
+    "originalBytes": 409015,
+    "variants": [
+      {
+        "width": 320,
+        "height": 228,
+        "src": "/assets/optimized/sofa-design-85-918355e16f-320.webp",
+        "bytes": 12242
+      },
+      {
+        "width": 640,
+        "height": 456,
+        "src": "/assets/optimized/sofa-design-85-918355e16f-640.webp",
+        "bytes": 30320
+      },
+      {
+        "width": 960,
+        "height": 684,
+        "src": "/assets/optimized/sofa-design-85-918355e16f-960.webp",
+        "bytes": 48766
+      },
+      {
+        "width": 1061,
+        "height": 756,
+        "src": "/assets/optimized/sofa-design-85-918355e16f-1061.webp",
+        "bytes": 62032
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.38 PM (3).jpeg": {
+    "hash": "ae578f0321",
+    "width": 1078,
+    "height": 450,
+    "originalBytes": 275650,
+    "variants": [
+      {
+        "width": 320,
+        "height": 134,
+        "src": "/assets/optimized/sofa-design-86-ae578f0321-320.webp",
+        "bytes": 9326
+      },
+      {
+        "width": 640,
+        "height": 267,
+        "src": "/assets/optimized/sofa-design-86-ae578f0321-640.webp",
+        "bytes": 25612
+      },
+      {
+        "width": 960,
+        "height": 401,
+        "src": "/assets/optimized/sofa-design-86-ae578f0321-960.webp",
+        "bytes": 40734
+      },
+      {
+        "width": 1078,
+        "height": 450,
+        "src": "/assets/optimized/sofa-design-86-ae578f0321-1078.webp",
+        "bytes": 54698
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.38 PM.jpeg": {
+    "hash": "54cbbb353e",
+    "width": 1080,
+    "height": 545,
+    "originalBytes": 33702,
+    "variants": [
+      {
+        "width": 320,
+        "height": 161,
+        "src": "/assets/optimized/sofa-design-87-54cbbb353e-320.webp",
+        "bytes": 4932
+      },
+      {
+        "width": 640,
+        "height": 323,
+        "src": "/assets/optimized/sofa-design-87-54cbbb353e-640.webp",
+        "bytes": 11100
+      },
+      {
+        "width": 960,
+        "height": 484,
+        "src": "/assets/optimized/sofa-design-87-54cbbb353e-960.webp",
+        "bytes": 17068
+      },
+      {
+        "width": 1080,
+        "height": 545,
+        "src": "/assets/optimized/sofa-design-87-54cbbb353e-1080.webp",
+        "bytes": 20780
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.39 PM (2).jpeg": {
+    "hash": "2e8587f0ab",
+    "width": 1600,
+    "height": 702,
+    "originalBytes": 82672,
+    "variants": [
+      {
+        "width": 320,
+        "height": 140,
+        "src": "/assets/optimized/sofa-design-88-2e8587f0ab-320.webp",
+        "bytes": 8076
+      },
+      {
+        "width": 640,
+        "height": 281,
+        "src": "/assets/optimized/sofa-design-88-2e8587f0ab-640.webp",
+        "bytes": 19930
+      },
+      {
+        "width": 960,
+        "height": 421,
+        "src": "/assets/optimized/sofa-design-88-2e8587f0ab-960.webp",
+        "bytes": 32482
+      },
+      {
+        "width": 1280,
+        "height": 562,
+        "src": "/assets/optimized/sofa-design-88-2e8587f0ab-1280.webp",
+        "bytes": 43708
+      },
+      {
+        "width": 1600,
+        "height": 702,
+        "src": "/assets/optimized/sofa-design-88-2e8587f0ab-1600.webp",
+        "bytes": 57794
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.39 PM (3).jpeg": {
+    "hash": "c5ea453e85",
+    "width": 1044,
+    "height": 498,
+    "originalBytes": 57474,
+    "variants": [
+      {
+        "width": 320,
+        "height": 153,
+        "src": "/assets/optimized/sofa-design-89-c5ea453e85-320.webp",
+        "bytes": 9040
+      },
+      {
+        "width": 640,
+        "height": 305,
+        "src": "/assets/optimized/sofa-design-89-c5ea453e85-640.webp",
+        "bytes": 24368
+      },
+      {
+        "width": 960,
+        "height": 458,
+        "src": "/assets/optimized/sofa-design-89-c5ea453e85-960.webp",
+        "bytes": 39134
+      },
+      {
+        "width": 1044,
+        "height": 498,
+        "src": "/assets/optimized/sofa-design-89-c5ea453e85-1044.webp",
+        "bytes": 49002
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.39 PM (4).jpeg": {
+    "hash": "0dab81fc0a",
+    "width": 1080,
+    "height": 770,
+    "originalBytes": 116707,
+    "variants": [
+      {
+        "width": 320,
+        "height": 228,
+        "src": "/assets/optimized/sofa-design-90-0dab81fc0a-320.webp",
+        "bytes": 18936
+      },
+      {
+        "width": 640,
+        "height": 456,
+        "src": "/assets/optimized/sofa-design-90-0dab81fc0a-640.webp",
+        "bytes": 54916
+      },
+      {
+        "width": 960,
+        "height": 684,
+        "src": "/assets/optimized/sofa-design-90-0dab81fc0a-960.webp",
+        "bytes": 84326
+      },
+      {
+        "width": 1080,
+        "height": 770,
+        "src": "/assets/optimized/sofa-design-90-0dab81fc0a-1080.webp",
+        "bytes": 105526
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.39 PM.jpeg": {
+    "hash": "051c44ec6b",
+    "width": 1061,
+    "height": 567,
+    "originalBytes": 301439,
+    "variants": [
+      {
+        "width": 320,
+        "height": 171,
+        "src": "/assets/optimized/sofa-design-91-051c44ec6b-320.webp",
+        "bytes": 10002
+      },
+      {
+        "width": 640,
+        "height": 342,
+        "src": "/assets/optimized/sofa-design-91-051c44ec6b-640.webp",
+        "bytes": 24150
+      },
+      {
+        "width": 960,
+        "height": 513,
+        "src": "/assets/optimized/sofa-design-91-051c44ec6b-960.webp",
+        "bytes": 37820
+      },
+      {
+        "width": 1061,
+        "height": 567,
+        "src": "/assets/optimized/sofa-design-91-051c44ec6b-1061.webp",
+        "bytes": 48364
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.40 PM (1).jpeg": {
+    "hash": "a39f8db866",
+    "width": 1059,
+    "height": 812,
+    "originalBytes": 92973,
+    "variants": [
+      {
+        "width": 320,
+        "height": 245,
+        "src": "/assets/optimized/sofa-design-92-a39f8db866-320.webp",
+        "bytes": 15954
+      },
+      {
+        "width": 640,
+        "height": 491,
+        "src": "/assets/optimized/sofa-design-92-a39f8db866-640.webp",
+        "bytes": 42736
+      },
+      {
+        "width": 960,
+        "height": 736,
+        "src": "/assets/optimized/sofa-design-92-a39f8db866-960.webp",
+        "bytes": 66176
+      },
+      {
+        "width": 1059,
+        "height": 812,
+        "src": "/assets/optimized/sofa-design-92-a39f8db866-1059.webp",
+        "bytes": 78730
+      }
+    ]
+  },
+  "/assets/gallery/WhatsApp Image 2026-09-07 at 12.50.40 PM.jpeg": {
+    "hash": "3979935737",
+    "width": 1074,
+    "height": 555,
+    "originalBytes": 304283,
+    "variants": [
+      {
+        "width": 320,
+        "height": 165,
+        "src": "/assets/optimized/sofa-design-93-3979935737-320.webp",
+        "bytes": 10238
+      },
+      {
+        "width": 640,
+        "height": 331,
+        "src": "/assets/optimized/sofa-design-93-3979935737-640.webp",
+        "bytes": 29824
+      },
+      {
+        "width": 960,
+        "height": 496,
+        "src": "/assets/optimized/sofa-design-93-3979935737-960.webp",
+        "bytes": 46828
+      },
+      {
+        "width": 1074,
+        "height": 555,
+        "src": "/assets/optimized/sofa-design-93-3979935737-1074.webp",
+        "bytes": 61542
+      }
+    ]
+  }
+}

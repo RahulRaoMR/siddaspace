@@ -1,0 +1,15 @@
+{
+  "source": "/assets/videos/hero-background.mp4",
+  "hero": "/assets/videos/hero-e1a19f75ca-720p-v1.webm",
+  "originalBytes": 308611515,
+  "optimizedBytes": 21547497,
+  "posters": {
+    "project-showcase-01": "/assets/videos/project-showcase-01-c185eb7e5b-poster.webp",
+    "project-showcase-02": "/assets/videos/project-showcase-02-7066284650-poster.webp",
+    "project-showcase-03": "/assets/videos/project-showcase-03-6583788762-poster.webp"
+  },
+  "duration": 203.290703,
+  "width": 1280,
+  "height": 720,
+  "containerFinalized": true
+}

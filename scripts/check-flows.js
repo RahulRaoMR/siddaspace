@@ -1,0 +1,47 @@
+// Local UI checks intercept window.open; no WhatsApp message is sent.
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const {withBrowser}=require('./browser-session');
+const base=process.env.SIDDA_PREVIEW_URL||'http://localhost:3000';
+withBrowser(async({call,evaluate,pause})=>{
+ await call('Network.setBlockedURLs',{urls:['*media.githubusercontent.com*','*hero-*-720p-v1.webm']});
+ const ready=async route=>{for(let i=0;i<100;i++){if(await evaluate(`location.pathname===${JSON.stringify(route)}&&document.readyState==='complete'`))return;await pause(100);}throw new Error('Page did not finish loading: '+route);};
+ const go=async route=>{await call('Page.navigate',{url:base+route});await ready(route);};
+ await call('Emulation.setDeviceMetricsOverride',{width:390,height:900,deviceScaleFactor:1,mobile:true});
+ await go('/');
+ await evaluate(`window.__opened=null;window.open=(url)=>{window.__opened=url;return {};};document.querySelector('[data-open-consultation]').click();`);
+ assert(await evaluate(`document.querySelector('.consultation-modal').getAttribute('aria-hidden')==='false'`),'Consultation dialog');
+ await evaluate(`(()=>{const f=document.querySelector('.consultation-popup-card');f.elements.name.value='Local QA';f.elements.phone.value='123';f.elements.homeType.value='2 BHK';f.requestSubmit();})()`);
+ assert(await evaluate(`!window.__opened&&document.querySelector('input[name=phone]').validity.customError`),'Phone validation');
+ await evaluate(`(()=>{const f=document.querySelector('.consultation-popup-card');f.elements.phone.value='+91 90000 00000';f.elements.phone.dispatchEvent(new Event('input',{bubbles:true}));f.requestSubmit();})()`);
+ const consultation=await evaluate('window.__opened');
+ assert(new URL(consultation).hostname==='wa.me'&&new URL(consultation).searchParams.get('text').includes('Source page: /'),'Consultation WhatsApp context');
+ await go('/services/3-bhk-interiors');
+ await evaluate(`document.querySelector('.seo-hero a[href="/estimate"]').click()`);await ready('/estimate');
+ await evaluate(`window.__opened=null;window.open=(url)=>{window.__opened=url;return {};};document.querySelector('.wizard-next').click();`);
+ assert(await evaluate(`document.querySelector('.wizard-step[data-step="0"]').classList.contains('is-active')`),'Wizard rejects empty home type');
+ await evaluate(`document.querySelector('input[value="3 BHK"]').click();document.querySelector('.wizard-next').click()`);
+ assert.equal(await evaluate(`document.querySelector('.room-row[data-room="Bedroom"] [data-count]').textContent`),'3','3 BHK room defaults');
+ await evaluate(`document.querySelector('.wizard-next').click();document.querySelector('input[name=packageType][value=Premium]').click();document.querySelector('.wizard-next').click();`);
+ await evaluate(`(()=>{const f=document.querySelector('.estimate-form');f.elements.estimateName.value='Local QA';f.elements.estimateEmail.value='qa@example.com';f.elements.estimatePhone.value='+91 90000 00000';f.elements.estimateCity.value='Bengaluru';f.requestSubmit();})()`);
+ const estimate=await evaluate('window.__opened');
+ const message=new URL(estimate).searchParams.get('text');
+ assert(message.includes('BHK type: 3 BHK')&&message.includes('Package: Premium')&&message.includes('Source page: /services/3-bhk-interiors'),'Estimate submission and referring service');
+ await call('Emulation.setScriptExecutionDisabled',{value:true});await go('/gallery');
+ assert((await evaluate(`document.querySelectorAll('a[data-gallery-image] img[width][height]').length`))>90,'Crawlable gallery without JavaScript');
+ await call('Emulation.setScriptExecutionDisabled',{value:false});await go('/gallery');
+ await evaluate(`document.querySelector('[data-gallery-image]').click()`);
+ assert(await evaluate(`document.querySelector('[data-gallery-lightbox]').open`),'Gallery dialog');
+ await evaluate(`document.querySelector('[data-gallery-close]').click()`);
+ await pause(75);
+ assert(await evaluate(`document.activeElement.matches('[data-gallery-image]')`),'Gallery focus restoration');
+ await call('Emulation.setEmulatedMedia',{features:[{name:'prefers-reduced-motion',value:'reduce'}]});await go('/');
+ assert(await evaluate(`!document.querySelector('.hero-bg').dataset.sourceReady`),'Reduced-motion hero behaviour');
+ const media=JSON.parse(fs.readFileSync('assets/videos/media-manifest.json','utf8'));
+ await go('/404');
+ // Actual local decoding/seek check of the compressed hero (no external host).
+ await call('Network.setBlockedURLs',{urls:['*media.githubusercontent.com*']});
+ const decoded=await evaluate(`(async()=>{const v=document.createElement('video');v.preload='metadata';v.src=${JSON.stringify(media.hero)};await new Promise((r,j)=>{v.onloadedmetadata=r;v.onerror=()=>j(new Error('Video decode failed'));});const duration=v.duration;v.currentTime=100;await new Promise(r=>v.onseeked=r);return{duration,width:v.videoWidth,height:v.videoHeight,seek:v.currentTime};})()`);
+ assert(Number.isFinite(decoded.duration)&&Math.abs(decoded.duration-media.duration)<2&&decoded.width===1280&&decoded.seek===100,'Compressed full video duration/seek');
+ console.log('Flow checks passed: consultation validation, WhatsApp handoff/context, 3 BHK estimate, static/no-JS gallery, gallery focus, reduced motion, and compressed-video decoding/seeking. No lead was sent.');
+}).catch(error=>{console.error(error);process.exitCode=1;});

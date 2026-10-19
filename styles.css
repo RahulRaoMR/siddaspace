@@ -31,6 +31,164 @@ body {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
+}
+
+.skip-link {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  z-index: 200;
+  padding: 12px 18px;
+  color: #151515;
+  background: #ffd200;
+  border-radius: 6px;
+  transform: translateY(-180%);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+:focus-visible {
+  outline: 3px solid #896617;
+  outline-offset: 4px;
+}
+
+.home-entity-intro {
+  width: min(1180px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 30px 0;
+  color: var(--muted);
+}
+
+.home-entity-intro p {
+  max-width: 940px;
+  margin: 0 0 12px;
+}
+
+.home-entity-intro a,
+.proof-section a,
+.google-reviews a,
+.about-team-link a {
+  color: #725824;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.direct-answer {
+  font-size: 1.1rem;
+}
+
+.service-facts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px 32px;
+  margin: 28px 0;
+}
+
+.service-facts dt {
+  margin-bottom: 6px;
+  font-weight: 750;
+}
+
+.service-facts dd {
+  margin: 0;
+  color: var(--muted);
+}
+
+.seo-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 18px 24px;
+  margin: 28px 0 12px;
+}
+
+.seo-content .primary-btn {
+  color: #ffffff;
+}
+
+.seo-actions .seo-text-link {
+  margin-top: 0;
+}
+
+.service-evidence {
+  margin: 32px 0 0;
+}
+
+.service-evidence img {
+  width: 100%;
+  max-height: 600px;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+.service-evidence figcaption {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 0.93rem;
+}
+
+.seo-table-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 24px 0;
+}
+
+.seo-table-scroll table {
+  width: 100%;
+  min-width: 560px;
+  border-collapse: collapse;
+  background: var(--paper);
+}
+
+.seo-table-scroll caption {
+  margin-bottom: 14px;
+  text-align: left;
+  font-weight: 750;
+}
+
+.seo-table-scroll th,
+.seo-table-scroll td {
+  padding: 16px;
+  border: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.seo-table-scroll thead {
+  background: var(--soft);
+}
+
+.guide-publisher {
+  margin-top: 20px;
+  font-size: 0.95rem !important;
+}
+
+.guide-publisher a {
+  color: #725824;
+  text-decoration: underline;
+}
+
+.estimator-page .seo-breadcrumbs {
+  margin-top: 22px;
+}
+
+.google-rating-card h2 {
+  font-size: clamp(1.6rem, 3vw, 2.3rem);
+  line-height: 1.2;
+}
+
+.about-capability-grid strong {
+  font-size: clamp(1.2rem, 2vw, 1.8rem) !important;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 640px) {
+  .service-facts {
+    grid-template-columns: 1fr;
+  }
 }
 
 a {
@@ -2098,7 +2256,7 @@ h1 {
   color: var(--paper);
   background:
     linear-gradient(90deg, rgba(15, 13, 18, 0.84), rgba(15, 13, 18, 0.48), rgba(15, 13, 18, 0.84)),
-    url("https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1800&q=82");
+    url("/assets/optimized/living-room-with-wood-panelling-tv-storage-and-decorative-wall-a-b94dc29867-1600.webp");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -2851,6 +3009,122 @@ h1 {
 .seo-card a:hover,
 .seo-text-link:hover {
   color: #c8a96a;
+}
+
+.seo-content {
+  max-width: 860px;
+}
+
+.seo-content h2 {
+  margin: 0 0 18px;
+  color: #26242b;
+  font-size: clamp(1.65rem, 3.5vw, 2.5rem);
+  line-height: 1.15;
+}
+
+.seo-content h3 {
+  margin: 28px 0 12px;
+}
+
+.seo-content p,
+.seo-content li {
+  line-height: 1.8;
+}
+
+.seo-content p,
+.seo-content ul,
+.seo-content ol {
+  margin-bottom: 20px;
+}
+
+.seo-content ul,
+.seo-content ol {
+  padding-left: 24px;
+}
+
+.seo-content a,
+.seo-related-links a,
+.seo-breadcrumbs a {
+  color: #725824;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.seo-related-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  margin-top: 28px;
+}
+
+.seo-breadcrumbs {
+  width: min(1180px, calc(100% - 40px));
+  margin: 68px auto 0;
+  font-size: 0.9rem;
+}
+
+.seo-breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  padding: 0;
+  list-style: none;
+}
+
+.seo-breadcrumbs li + li::before {
+  content: "/";
+  margin-right: 14px;
+  color: var(--muted);
+}
+
+.seo-breadcrumbs + .seo-hero {
+  padding-top: clamp(34px, 5vw, 64px);
+}
+
+.seo-card address {
+  margin-bottom: 20px;
+  color: var(--muted);
+  font-style: normal;
+}
+
+.seo-content address {
+  margin-bottom: 20px;
+  color: var(--muted);
+  font-style: normal;
+  line-height: 1.8;
+}
+
+.home-seo-section .section-heading p:last-child {
+  max-width: 800px;
+  margin-top: 18px;
+  color: var(--muted);
+}
+
+.footer-office-link {
+  display: inline-block;
+  margin-bottom: 18px;
+  text-decoration: underline;
+}
+
+.estimate-seo-heading {
+  padding: 28px 24px 0;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.estimate-seo-heading h1 {
+  margin-bottom: 12px;
+  color: #3a3040;
+  font-size: clamp(1.7rem, 3.4vw, 2.35rem);
+  line-height: 1.15;
+}
+
+.estimate-seo-heading p {
+  color: #5a505c;
+}
+
+.estimate-seo-heading a {
+  text-decoration: underline;
 }
 
 .team-section {
@@ -3606,7 +3880,7 @@ h1 {
 }
 
 .living-image {
-  background-image: url("https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80");
+  background-image: url("/assets/optimized/living-room-with-wood-panelling-tv-storage-and-decorative-wall-a-b94dc29867-1600.webp");
 }
 
 .section-heading {
@@ -3659,7 +3933,7 @@ h1 {
   color: var(--paper);
   background:
     linear-gradient(90deg, rgba(49, 95, 90, 0.96), rgba(34, 33, 41, 0.88)),
-    url("https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1600&q=80");
+    url("/assets/optimized/living-room-with-wood-panelling-tv-storage-and-decorative-wall-a-b94dc29867-1600.webp");
   background-position: center;
   background-size: cover;
 }
@@ -3946,7 +4220,7 @@ button.contact-btn {
   padding: 88px max(40px, calc((100% - 1460px) / 2)) 52px;
   background:
     linear-gradient(90deg, #111111 0%, rgba(17, 17, 17, 0.98) 65%, rgba(17, 17, 17, 0.76) 100%),
-    url("/assets/projects/project-29.jpeg") right center / cover no-repeat;
+    url("/assets/optimized/commercial-lounge-seating-and-table-by-siddaspace-33651461ab-960.webp") right center / cover no-repeat;
 }
 
 .footer-grid {
@@ -5736,8 +6010,8 @@ button.contact-btn {
 
 .gallery-lightbox-close {
   display: inline-grid;
-  width: 38px;
-  height: 38px;
+  width: 44px;
+  height: 44px;
   place-items: center;
   padding: 0;
   color: var(--ink);
@@ -5801,7 +6075,7 @@ body.image-preview-open {
 }
 
 .project-lightbox .gallery-lightbox-close {
-  flex: 0 0 38px;
+  flex: 0 0 44px;
 }
 
 .project-lightbox-stage {
@@ -6183,7 +6457,7 @@ body.image-preview-open {
 
 @media (max-width: 480px) {
   .home-page .hero h1 {
-    font-size: 36px;
+    font-size: clamp(25px, 8vw, 34px);
   }
 
   .home-page .hero .budget-btn {
@@ -6194,7 +6468,7 @@ body.image-preview-open {
 
 @media (max-width: 360px) {
   .home-page .hero h1 {
-    font-size: 32px;
+    font-size: clamp(25px, 8vw, 28.8px);
   }
 }
 

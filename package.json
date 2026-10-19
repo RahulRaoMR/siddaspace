@@ -2,9 +2,16 @@
   "name": "sidda-space",
   "version": "1.0.0",
   "private": true,
-  "description": "Static website for Sidda Space.",
+  "description": "Static website for Siddaspace.",
   "scripts": {
     "dev": "node server.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "seo:generate": "node scripts/update-seo.js",
+    "seo:check": "node scripts/check-seo.js",
+    "seo:routes": "node scripts/check-routes.js",
+    "seo:browser": "node scripts/audit-browser.js",
+    "seo:flows": "node scripts/check-flows.js",
+    "seo:report": "node scripts/report-seo.js",
+    "seo:production": "node scripts/check-production.js"
   }
 }
