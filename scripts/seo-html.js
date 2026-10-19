@@ -19,16 +19,17 @@ function imageTag(tag, manifest, { eager = false, sizes = "(max-width: 640px) ca
   const source = sourcePath(attrs["data-original-src"] || attrs.src);
   if (!source || !manifest[source]) return tag;
   const image = manifest[source];
+  const cityIcon = /\/icons\/city-/.test(source);
   tag = attribute(attribute(tag, "width", image.width), "height", image.height);
   tag = attribute(tag, "decoding", "async");
   const decorativeHeader = /logo|symbol|whatsapp|icons\//i.test(source);
   tag = attribute(tag, "loading", eager || attrs.loading === "eager" || decorativeHeader ? "eager" : "lazy");
   if (image.variants.length) {
-    const selected = image.variants.find(item => item.width >= (/\/team\//.test(source) ? 640 : 960)) || image.variants.at(-1);
+    const selected = image.variants.find(item => item.width >= (cityIcon ? 104 : /\/team\//.test(source) ? 640 : 960)) || image.variants.at(-1);
     tag = attribute(tag, "data-original-src", source);
     tag = attribute(tag, "src", selected.src);
     tag = attribute(tag, "srcset", image.variants.map(item => `${item.src} ${item.width}w`).join(", "));
-    tag = attribute(tag, "sizes", sizes);
+    tag = attribute(tag, "sizes", cityIcon ? '52px' : sizes);
   }
   return tag;
 }

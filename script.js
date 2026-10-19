@@ -89,10 +89,10 @@ function createSiteNavigation() {
     location.innerHTML = `
       <span class="header-location-window" aria-hidden="true">
         <span class="header-location-track">
-          <span><span class="header-location-city-icon"><img src="/assets/icons/city-bangalore.png" alt="" width="52" height="26"></span><span class="header-location-name">Bangalore</span></span>
+          <span><span class="header-location-city-icon"><img src="/assets/optimized/city-bangalore-e4f7159ba5-104.webp" alt="" width="52" height="26" decoding="async"></span><span class="header-location-name">Bangalore</span></span>
           <span><span class="header-location-city-icon"><span class="header-location-icon"></span></span><span class="header-location-name">Tumakur</span></span>
-          <span><span class="header-location-city-icon"><img src="/assets/icons/city-mysore.png" alt="" width="52" height="26"></span><span class="header-location-name">Mysore</span></span>
-          <span><span class="header-location-city-icon"><img src="/assets/icons/city-bangalore.png" alt="" width="52" height="26"></span><span class="header-location-name">Bangalore</span></span>
+          <span><span class="header-location-city-icon"><img src="/assets/optimized/city-mysore-aac4e7515f-104.webp" alt="" width="52" height="26" decoding="async"></span><span class="header-location-name">Mysore</span></span>
+          <span><span class="header-location-city-icon"><img src="/assets/optimized/city-bangalore-e4f7159ba5-104.webp" alt="" width="52" height="26" decoding="async"></span><span class="header-location-name">Bangalore</span></span>
         </span>
       </span>
     `;

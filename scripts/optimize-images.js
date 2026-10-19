@@ -35,14 +35,15 @@ withBrowser(async ({ call, evaluate }) => {
     const filename = path.join(root, source.slice(1));
     const data = fs.readFileSync(filename);
     const hash = crypto.createHash("sha256").update(data).digest("hex").slice(0, 10);
-    if (manifest[source]?.hash === hash) continue;
-    const small = data.length < 25000 || /logo|symbol|favicon|icon/i.test(source) || source.endsWith(".svg");
+    const cityIcon = /\/icons\/city-/.test(source);
+    if (manifest[source]?.hash === hash && (!cityIcon || manifest[source].variants.length)) continue;
+    const small = !cityIcon && (data.length < 25000 || /logo|symbol|favicon|icon/i.test(source) || source.endsWith(".svg"));
     const result = await evaluate(`(async()=>{
       const image=new Image();image.src=${JSON.stringify(`${base}${source.split('/').map(encodeURIComponent).join('/')}`)};
       await image.decode();
       const width=image.naturalWidth,height=image.naturalHeight;
       const variants=[];
-      if(!${small})for(const target of [...new Set([320,640,960,1280,1600].filter(w=>w<width).concat(Math.min(width,1600)))]){
+      if(!${small})for(const target of [...new Set(${JSON.stringify(cityIcon ? [52,104,208] : [320,640,960,1280,1600])}.filter(w=>w<width).concat(Math.min(width,${cityIcon ? 208 : 1600})))]){
         const canvas=document.createElement('canvas');canvas.width=target;canvas.height=Math.round(height*target/width);
         const ctx=canvas.getContext('2d');ctx.drawImage(image,0,0,canvas.width,canvas.height);
         const encoded=canvas.toDataURL('image/webp',${source.includes('/team/') ? 0.88 : 0.84});

@@ -103,14 +103,52 @@
     "width": 1774,
     "height": 887,
     "originalBytes": 483645,
-    "variants": []
+    "variants": [
+      {
+        "width": 52,
+        "height": 26,
+        "src": "/assets/optimized/city-bangalore-e4f7159ba5-52.webp",
+        "bytes": 1502
+      },
+      {
+        "width": 104,
+        "height": 52,
+        "src": "/assets/optimized/city-bangalore-e4f7159ba5-104.webp",
+        "bytes": 3124
+      },
+      {
+        "width": 208,
+        "height": 104,
+        "src": "/assets/optimized/city-bangalore-e4f7159ba5-208.webp",
+        "bytes": 7656
+      }
+    ]
   },
   "/assets/icons/city-mysore.png": {
     "hash": "aac4e7515f",
     "width": 1989,
     "height": 791,
     "originalBytes": 685943,
-    "variants": []
+    "variants": [
+      {
+        "width": 52,
+        "height": 21,
+        "src": "/assets/optimized/city-mysore-aac4e7515f-52.webp",
+        "bytes": 1542
+      },
+      {
+        "width": 104,
+        "height": 41,
+        "src": "/assets/optimized/city-mysore-aac4e7515f-104.webp",
+        "bytes": 3908
+      },
+      {
+        "width": 208,
+        "height": 83,
+        "src": "/assets/optimized/city-mysore-aac4e7515f-208.webp",
+        "bytes": 9342
+      }
+    ]
   },
   "/assets/projects/project-01.jpeg": {
     "hash": "b09a457e99",
@@ -5574,5 +5612,33 @@
         "bytes": 61542
       }
     ]
+  },
+  "/assets/icons/lucide/map-pin.svg": {
+    "hash": "ad781fbeaa",
+    "width": 24,
+    "height": 24,
+    "originalBytes": 438,
+    "variants": []
+  },
+  "/assets/home/consultation-background.svg": {
+    "hash": "30b765b8bd",
+    "width": 1600,
+    "height": 360,
+    "originalBytes": 3829,
+    "variants": []
+  },
+  "/assets/icons/lucide/arrow-right.svg": {
+    "hash": "12b97a4d28",
+    "width": 24,
+    "height": 24,
+    "originalBytes": 344,
+    "variants": []
+  },
+  "/assets/icons/lucide/chevron-down.svg": {
+    "hash": "04458777b8",
+    "width": 24,
+    "height": 24,
+    "originalBytes": 320,
+    "variants": []
   }
 }

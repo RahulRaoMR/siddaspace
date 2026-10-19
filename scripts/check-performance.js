@@ -33,6 +33,6 @@ withBrowser(async ({ call, evaluate, pause }) => {
     }
   }
 }).then(() => {
-  const report = { checkedAt: new Date().toISOString(), environment: 'Isolated headless Edge, browser cache disabled, all media enabled. Mobile: 390px, 1.6Mbps down, 150ms added latency, CPU 4x. Desktop: 1440px, 10Mbps down, 20ms added latency. Single observations 10 seconds after HTML parsing; incomplete media transfers are not included in completedResourceBytes. These are not Lighthouse, field Core Web Vitals or measured INP scores.', results };
+  const report = { checkedAt: new Date().toISOString(), environment: 'Isolated headless Edge, browser cache disabled, all media enabled. Mobile: 390px, 1.6Mbps down, 150ms added latency, CPU 4x. Desktop: 1440px, 10Mbps down, 20ms added latency. Single observations 10 seconds after HTML parsing. completedResourceBytes includes only completed transfers exposed by Resource Timing; cross-origin byte sizes may be unavailable. These are not Lighthouse, field Core Web Vitals or measured INP scores.', results };
   fs.writeFileSync('reports/production-performance.json', JSON.stringify(report, null, 2) + '\n');
 }).catch(error => { console.error(error); process.exitCode = 1; });
