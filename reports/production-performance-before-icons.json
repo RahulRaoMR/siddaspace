@@ -1,0 +1,72 @@
+{
+  "checkedAt": "2026-10-19T09:54:11.454Z",
+  "environment": "Isolated headless Edge, browser cache disabled, all media enabled. Mobile: 390px, 1.6Mbps down, 150ms added latency, CPU 4x. Desktop: 1440px, 10Mbps down, 20ms added latency. Single observations 10 seconds after HTML parsing. completedResourceBytes includes only completed transfers exposed by Resource Timing; cross-origin byte sizes may be unavailable. These are not Lighthouse, field Core Web Vitals or measured INP scores.",
+  "results": [
+    {
+      "route": "/",
+      "device": "mobile",
+      "title": "Interior Designers in Bangalore | Siddaspace",
+      "observedAtMs": 12150,
+      "ttfbMs": 1725,
+      "domReadyMs": 11188,
+      "loadMs": 0,
+      "observedLcpMs": 10612,
+      "observedCls": 0,
+      "completedResourceBytes": 1283202,
+      "horizontalOverflow": false,
+      "hero": {
+        "readyState": 0,
+        "currentTime": 0,
+        "paused": false,
+        "currentSrc": "https://www.siddaspace.com/assets/videos/hero-e1a19f75ca-720p-v1.webm"
+      }
+    },
+    {
+      "route": "/services/home-interiors",
+      "device": "mobile",
+      "title": "Home Interior Designers in Bangalore | Siddaspace",
+      "observedAtMs": 10627,
+      "ttfbMs": 149,
+      "domReadyMs": 2482,
+      "loadMs": 0,
+      "observedLcpMs": 2332,
+      "observedCls": 0,
+      "completedResourceBytes": 374240,
+      "horizontalOverflow": false,
+      "hero": null
+    },
+    {
+      "route": "/",
+      "device": "desktop",
+      "title": "Interior Designers in Bangalore | Siddaspace",
+      "observedAtMs": 10323,
+      "ttfbMs": 167,
+      "domReadyMs": 952,
+      "loadMs": 4784,
+      "observedLcpMs": 960,
+      "observedCls": 0.0004,
+      "completedResourceBytes": 2773469,
+      "horizontalOverflow": false,
+      "hero": {
+        "readyState": 4,
+        "currentTime": 6.35932,
+        "paused": false,
+        "currentSrc": "https://www.siddaspace.com/assets/videos/hero-e1a19f75ca-720p-v1.webm"
+      }
+    },
+    {
+      "route": "/services/home-interiors",
+      "device": "desktop",
+      "title": "Home Interior Designers in Bangalore | Siddaspace",
+      "observedAtMs": 10410,
+      "ttfbMs": 147,
+      "domReadyMs": 808,
+      "loadMs": 5336,
+      "observedLcpMs": 620,
+      "observedCls": 0.0004,
+      "completedResourceBytes": 1754533,
+      "horizontalOverflow": false,
+      "hero": null
+    }
+  ]
+}

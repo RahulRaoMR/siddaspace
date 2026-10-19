@@ -29,8 +29,12 @@ withBrowser(async ({ call, evaluate, pause }) => {
         const video=document.querySelector('.hero-bg');
         return {title:document.title,observedAtMs:Math.round(performance.now()),ttfbMs:Math.round(navigation.responseStart),domReadyMs:Math.round(navigation.domContentLoadedEventEnd),loadMs:Math.round(navigation.loadEventEnd),observedLcpMs:Math.round(window.__lab.lcp),lcpElement:window.__lab.element,lcpUrl:window.__lab.url,observedCls:Number(window.__lab.cls.toFixed(4)),completedResourceBytes:resources.reduce((sum,r)=>sum+(r.encodedBodySize||0),0),largestResources:resources.filter(r=>r.encodedBodySize).sort((a,b)=>b.encodedBodySize-a.encodedBodySize).slice(0,10).map(r=>({url:r.name,bytes:r.encodedBodySize,start:Math.round(r.startTime),end:Math.round(r.responseEnd),initiator:r.initiatorType})),horizontalOverflow:document.documentElement.scrollWidth>innerWidth,hero:video?{readyState:video.readyState,currentTime:video.currentTime,paused:video.paused,currentSrc:video.currentSrc}:null};
       })()`);
+      if (data.observedLcpMs === 0) {
+        data.observedLcpMs = null;
+        data.paintObservation = 'No LCP event was reported during this observation; paint time is unavailable.';
+      }
       results.push({ route, device: mobile ? 'mobile' : 'desktop', ...data });
-      console.log(JSON.stringify(results.at(-1)));
+      console.log(JSON.stringify({route,device:results.at(-1).device,ttfbMs:data.ttfbMs,observedLcpMs:data.observedLcpMs,observedCls:data.observedCls,horizontalOverflow:data.horizontalOverflow}));
     }
   }
 }).then(() => {

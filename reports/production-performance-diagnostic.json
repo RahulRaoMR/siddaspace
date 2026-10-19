@@ -1,0 +1,99 @@
+{
+  "checkedAt": "2026-10-19T10:00:34.860Z",
+  "environment": "Isolated headless Edge, browser cache disabled, all media enabled. Mobile: 390px, 1.6Mbps down, 150ms added latency, CPU 4x. Desktop: 1440px, 10Mbps down, 20ms added latency. Single observations 10 seconds after HTML parsing. completedResourceBytes includes only completed transfers exposed by Resource Timing; cross-origin byte sizes may be unavailable. These are not Lighthouse, field Core Web Vitals or measured INP scores.",
+  "results": [
+    {
+      "route": "/",
+      "device": "mobile",
+      "title": "Interior Designers in Bangalore | Siddaspace",
+      "observedAtMs": 21057,
+      "ttfbMs": 1049,
+      "domReadyMs": 11836,
+      "loadMs": 12590,
+      "observedLcpMs": 10600,
+      "lcpElement": "VIDEO.hero-bg",
+      "lcpUrl": "https://www.siddaspace.com/assets/optimized/restaurant-dining-interior-b09a457e99-1280.webp",
+      "observedCls": 0,
+      "completedResourceBytes": 1495550,
+      "largestResources": [
+        {
+          "url": "https://www.siddaspace.com/assets/optimized/living-room-with-wood-panelling-tv-storage-and-decorative-wall-a-b94dc29867-1600.webp",
+          "bytes": 186730,
+          "start": 2100,
+          "end": 6220,
+          "initiator": "css"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/videos/project-showcase-03-6583788762-poster.webp",
+          "bytes": 149934,
+          "start": 1602,
+          "end": 5959,
+          "initiator": "video"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/optimized/restaurant-dining-interior-b09a457e99-1280.webp",
+          "bytes": 149544,
+          "start": 1134,
+          "end": 5770,
+          "initiator": "link"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/videos/project-showcase-01-c185eb7e5b-poster.webp",
+          "bytes": 134970,
+          "start": 1598,
+          "end": 5722,
+          "initiator": "video"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/sidda-space-logo-on-dark.png",
+          "bytes": 113072,
+          "start": 1135,
+          "end": 4905,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/videos/project-showcase-02-7066284650-poster.webp",
+          "bytes": 64984,
+          "start": 1600,
+          "end": 4216,
+          "initiator": "video"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/optimized/commercial-office-lounge-seating-by-siddaspace-0203369c7b-640.webp",
+          "bytes": 41924,
+          "start": 7612,
+          "end": 8870,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/optimized/product-materials-99fc308a8a-640.webp",
+          "bytes": 41186,
+          "start": 7613,
+          "end": 8826,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/optimized/art-and-craft-7726f12450-640.webp",
+          "bytes": 38022,
+          "start": 12480,
+          "end": 14774,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/optimized/haribabu-g-cafd95b2dc-640.webp",
+          "bytes": 35212,
+          "start": 12484,
+          "end": 14829,
+          "initiator": "img"
+        }
+      ],
+      "horizontalOverflow": false,
+      "hero": {
+        "readyState": 4,
+        "currentTime": 5.25857,
+        "paused": false,
+        "currentSrc": "https://www.siddaspace.com/assets/videos/hero-e1a19f75ca-720p-v1.webm"
+      }
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "checkedAt": "2026-10-19T10:11:07.060Z",
+  "environment": "Isolated headless Edge, browser cache disabled, all media enabled. Mobile: 390px, 1.6Mbps down, 150ms added latency, CPU 4x. Desktop: 1440px, 10Mbps down, 20ms added latency. Single observations 10 seconds after HTML parsing. completedResourceBytes includes only completed transfers exposed by Resource Timing; cross-origin byte sizes may be unavailable. These are not Lighthouse, field Core Web Vitals or measured INP scores.",
+  "results": [
+    {
+      "route": "/",
+      "device": "mobile",
+      "title": "Interior Designers in Bangalore | Siddaspace",
+      "observedAtMs": 13300,
+      "ttfbMs": 1139,
+      "domReadyMs": 12524,
+      "loadMs": 0,
+      "observedLcpMs": null,
+      "observedCls": 0,
+      "completedResourceBytes": 817261,
+      "largestResources": [
+        {
+          "url": "https://www.siddaspace.com/assets/optimized/living-room-with-wood-panelling-tv-storage-and-decorative-wall-a-b94dc29867-1600.webp",
+          "bytes": 186730,
+          "start": 3068,
+          "end": 5336,
+          "initiator": "css"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/optimized/restaurant-dining-interior-b09a457e99-1280.webp",
+          "bytes": 149544,
+          "start": 1176,
+          "end": 3161,
+          "initiator": "link"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/sidda-space-logo-on-dark.png",
+          "bytes": 113072,
+          "start": 1183,
+          "end": 3316,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/optimized/living-room-with-wood-panelling-tv-storage-and-decorative-wall-a-b94dc29867-640.webp",
+          "bytes": 48368,
+          "start": 3057,
+          "end": 4117,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/optimized/commercial-office-lounge-seating-by-siddaspace-0203369c7b-640.webp",
+          "bytes": 41924,
+          "start": 11130,
+          "end": 12436,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/optimized/product-materials-99fc308a8a-640.webp",
+          "bytes": 41186,
+          "start": 11131,
+          "end": 12453,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/sidda-space-symbol.png",
+          "bytes": 34125,
+          "start": 1183,
+          "end": 2592,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/sidda-space-footer-logo.png",
+          "bytes": 33437,
+          "start": 1300,
+          "end": 2701,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/optimized/structural-designer-1ad60429eb-640.webp",
+          "bytes": 27766,
+          "start": 11127,
+          "end": 12185,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/styles.css",
+          "bytes": 24814,
+          "start": 1174,
+          "end": 2339,
+          "initiator": "link"
+        }
+      ],
+      "horizontalOverflow": false,
+      "hero": {
+        "readyState": 0,
+        "currentTime": 0,
+        "paused": true,
+        "currentSrc": ""
+      },
+      "paintObservation": "No LCP event was reported during this observation; paint time is unavailable."
+    },
+    {
+      "route": "/services/home-interiors",
+      "device": "mobile",
+      "title": "Home Interior Designers in Bangalore | Siddaspace",
+      "observedAtMs": 11131,
+      "ttfbMs": 166,
+      "domReadyMs": 3152,
+      "loadMs": 3952,
+      "observedLcpMs": 3836,
+      "lcpElement": "P.",
+      "lcpUrl": "",
+      "observedCls": 0,
+      "completedResourceBytes": 385710,
+      "largestResources": [
+        {
+          "url": "https://www.siddaspace.com/assets/sidda-space-logo-on-dark.png",
+          "bytes": 113072,
+          "start": 3148,
+          "end": 3923,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/sidda-space-logo-on-light.png",
+          "bytes": 98764,
+          "start": 886,
+          "end": 3193,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/optimized/living-room-with-wood-panelling-tv-storage-and-decorative-wall-a-b94dc29867-640.webp",
+          "bytes": 48368,
+          "start": 3823,
+          "end": 4232,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/sidda-space-symbol.png",
+          "bytes": 34125,
+          "start": 887,
+          "end": 2663,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/sidda-space-footer-logo.png",
+          "bytes": 33437,
+          "start": 887,
+          "end": 2679,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/styles.css",
+          "bytes": 24814,
+          "start": 884,
+          "end": 2515,
+          "initiator": "link"
+        },
+        {
+          "url": "https://www.siddaspace.com/script.js",
+          "bytes": 13602,
+          "start": 889,
+          "end": 2319,
+          "initiator": "script"
+        },
+        {
+          "url": "https://www.siddaspace.com/favicon.ico?v=4",
+          "bytes": 4133,
+          "start": 4198,
+          "end": 4501,
+          "initiator": "other"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/optimized/city-mysore-aac4e7515f-104.webp",
+          "bytes": 3908,
+          "start": 3150,
+          "end": 3434,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/optimized/city-bangalore-e4f7159ba5-104.webp",
+          "bytes": 3124,
+          "start": 3149,
+          "end": 3379,
+          "initiator": "img"
+        }
+      ],
+      "horizontalOverflow": false,
+      "hero": null
+    },
+    {
+      "route": "/",
+      "device": "desktop",
+      "title": "Interior Designers in Bangalore | Siddaspace",
+      "observedAtMs": 10420,
+      "ttfbMs": 149,
+      "domReadyMs": 678,
+      "loadMs": 2527,
+      "observedLcpMs": 684,
+      "lcpElement": "SPAN.",
+      "lcpUrl": "",
+      "observedCls": 0.0004,
+      "completedResourceBytes": 1253209,
+      "largestResources": [
+        {
+          "url": "https://www.siddaspace.com/assets/optimized/living-room-with-wood-panelling-tv-storage-and-decorative-wall-a-b94dc29867-1600.webp",
+          "bytes": 186730,
+          "start": 512,
+          "end": 2525,
+          "initiator": "css"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/optimized/commercial-lounge-seating-and-table-by-siddaspace-33651461ab-960.webp",
+          "bytes": 179392,
+          "start": 514,
+          "end": 2509,
+          "initiator": "css"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/optimized/restaurant-dining-interior-b09a457e99-1280.webp",
+          "bytes": 149544,
+          "start": 301,
+          "end": 2371,
+          "initiator": "link"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/sidda-space-logo-on-dark.png",
+          "bytes": 113072,
+          "start": 301,
+          "end": 2067,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/optimized/commercial-office-lounge-seating-by-siddaspace-0203369c7b-640.webp",
+          "bytes": 41924,
+          "start": 697,
+          "end": 2195,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/optimized/product-materials-99fc308a8a-640.webp",
+          "bytes": 41186,
+          "start": 697,
+          "end": 2130,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/optimized/art-and-craft-7726f12450-640.webp",
+          "bytes": 38022,
+          "start": 698,
+          "end": 2172,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/optimized/haribabu-g-cafd95b2dc-640.webp",
+          "bytes": 35212,
+          "start": 699,
+          "end": 2091,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/sidda-space-symbol.png",
+          "bytes": 34125,
+          "start": 301,
+          "end": 698,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/sidda-space-footer-logo.png",
+          "bytes": 33437,
+          "start": 333,
+          "end": 703,
+          "initiator": "img"
+        }
+      ],
+      "horizontalOverflow": false,
+      "hero": {
+        "readyState": 4,
+        "currentTime": 7.464937,
+        "paused": false,
+        "currentSrc": "https://www.siddaspace.com/assets/videos/hero-e1a19f75ca-720p-v1.webm"
+      }
+    },
+    {
+      "route": "/services/home-interiors",
+      "device": "desktop",
+      "title": "Home Interior Designers in Bangalore | Siddaspace",
+      "observedAtMs": 10422,
+      "ttfbMs": 149,
+      "domReadyMs": 606,
+      "loadMs": 1771,
+      "observedLcpMs": 640,
+      "lcpElement": "H1.",
+      "lcpUrl": "",
+      "observedCls": 0,
+      "completedResourceBytes": 592282,
+      "largestResources": [
+        {
+          "url": "https://www.siddaspace.com/assets/optimized/commercial-lounge-seating-and-table-by-siddaspace-33651461ab-960.webp",
+          "bytes": 179392,
+          "start": 599,
+          "end": 1770,
+          "initiator": "css"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/sidda-space-logo-on-dark.png",
+          "bytes": 113072,
+          "start": 606,
+          "end": 1706,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/sidda-space-logo-on-light.png",
+          "bytes": 98764,
+          "start": 320,
+          "end": 911,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/optimized/living-room-with-wood-panelling-tv-storage-and-decorative-wall-a-b94dc29867-960.webp",
+          "bytes": 77970,
+          "start": 616,
+          "end": 1642,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/sidda-space-symbol.png",
+          "bytes": 34125,
+          "start": 320,
+          "end": 851,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/sidda-space-footer-logo.png",
+          "bytes": 33437,
+          "start": 322,
+          "end": 853,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/styles.css",
+          "bytes": 24814,
+          "start": 319,
+          "end": 588,
+          "initiator": "link"
+        },
+        {
+          "url": "https://www.siddaspace.com/script.js",
+          "bytes": 13602,
+          "start": 322,
+          "end": 570,
+          "initiator": "script"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/optimized/city-mysore-aac4e7515f-104.webp",
+          "bytes": 3908,
+          "start": 606,
+          "end": 1370,
+          "initiator": "img"
+        },
+        {
+          "url": "https://www.siddaspace.com/assets/optimized/city-bangalore-e4f7159ba5-104.webp",
+          "bytes": 3124,
+          "start": 606,
+          "end": 1410,
+          "initiator": "img"
+        }
+      ],
+      "horizontalOverflow": false,
+      "hero": null
+    }
+  ]
+}

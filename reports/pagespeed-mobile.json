@@ -1,0 +1,7 @@
+{
+  "checkedAt": "2026-10-19T10:13:40.926Z",
+  "http": 429,
+  "requestedUrl": "https://www.siddaspace.com/",
+  "strategy": "mobile",
+  "error": "Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'pagespeedonline.googleapis.com' for consumer 'project_number:583797351490'."
+}

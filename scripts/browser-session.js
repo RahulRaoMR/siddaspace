@@ -49,6 +49,7 @@ async function withBrowser(work) {
       return result.result?.value;
     };
     await call("Page.enable"); await call("Runtime.enable"); await call("Network.enable");
+    await call("Page.bringToFront");
     return await work({ call, evaluate, pause, onEvent: listener => listeners.add(listener), profile });
   } finally {
     socket?.close(); browser.kill();
