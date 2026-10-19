@@ -73,7 +73,12 @@ for(const [slug,title,description,label,serviceType,pageImage,articleType]of pag
   if(!hero&&match&&media?.posters[match])block=block.replace(/<video\b[^>]*>/,tag=>attribute(attribute(tag,'data-original-poster',null),'poster',media.posters[match]));
   if(hero&&media&&!block.includes(media.hero))block=block.replace(/(<source\b)/,`<source data-src="${media.hero}" type="video/webm">\n        $1`);
   block=block.replace(/<source\b[^>]*>/g,tag=>{const a=attributes(tag);return a.src?attribute(attribute(tag,'src',null),'data-src',a.src):tag;});
-  return block.replace(/<video\b[^>]*>/,tag=>attribute(tag,'preload','none'));
+  return block.replace(/<video\b[^>]*>/,tag=>{
+    tag=attribute(tag,'preload','none');
+    const poster=attributes(tag).poster;
+    if(!hero&&poster)tag=attribute(attribute(tag,'poster',null),'data-poster',poster);
+    return tag;
+  });
  });
  html=html.replace(/Sidda Space|Siddha Space/g,'Siddaspace').replace(/%20Sidda%20Space/g,'%20Siddaspace').replace('"alternateName": "Siddaspace"','"alternateName": "Sidda Space"');
  fs.writeFileSync(file,enhanceImages(html,manifest));

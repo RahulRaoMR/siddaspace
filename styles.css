@@ -11,6 +11,14 @@
   --shadow: 0 22px 60px rgba(24, 20, 18, 0.18);
 }
 
+@media (max-width: 640px) {
+  .home-page .luxury-parallax {
+    background-image:
+      linear-gradient(90deg, rgba(15, 13, 18, 0.84), rgba(15, 13, 18, 0.48), rgba(15, 13, 18, 0.84)),
+      url("/assets/optimized/living-room-with-wood-panelling-tv-storage-and-decorative-wall-a-b94dc29867-640.webp");
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -5201,7 +5209,7 @@ button.contact-btn {
     grid-template-columns: 1fr;
   }
 
-  .luxury-parallax {
+  .home-page .luxury-parallax {
     min-height: 400px;
     background-attachment: scroll;
   }

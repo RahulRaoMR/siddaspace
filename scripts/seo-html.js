@@ -41,10 +41,10 @@ function enhanceImages(html, manifest) {
   }));
   body = body.replace(/<video\b[^>]*>/g, tag => {
     const attrs = attributes(tag);
-    const source = sourcePath(attrs["data-original-poster"] || attrs.poster);
+    const source = sourcePath(attrs["data-original-poster"] || attrs['data-poster'] || attrs.poster);
     if (source && manifest[source]?.variants.length) {
       const selected = manifest[source].variants.at(-1);
-      tag = attribute(attribute(tag, "data-original-poster", source), "poster", selected.src);
+      tag = attribute(attribute(tag, "data-original-poster", source), attrs['data-poster'] ? 'data-poster' : "poster", selected.src);
     }
     if (!tag.includes("autoplay")) tag = attribute(tag, "preload", "none");
     return tag;

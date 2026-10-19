@@ -125,7 +125,7 @@ The gallery is pre-rendered HTML with ordinary full-image links. Its JavaScript 
 
 Original images remain available. `assets/optimized/manifest.json` records image dimensions and responsive WebP variants. There are 698 derivative files covering 182 normalised source references. The two location icons have 52px, 104px and 208px variants; their combined default 104px files are about 7 KB, compared with 1.17 MB for the originals. Use accurate alternative text; decorative images have an empty alternative. Preserve explicit dimensions and lazy loading below the fold.
 
-The hero video is now a full-duration 1280x720 WebM, reduced from 308,611,515 to 21,547,497 bytes, approximately 93%. `assets/videos/media-manifest.json` records its provenance and dimensions. Sources are loaded after the poster appears, with reduced-motion and data-saving preferences respected. Original long project walkthroughs remain available on demand.
+The hero video is now a full-duration 1280x720 WebM, reduced from 308,611,515 to 21,547,497 bytes, approximately 93%. `assets/videos/media-manifest.json` records its provenance and dimensions. The hero waits for initial document loading and an idle opportunity before loading its video. Offscreen video posters and sources are assigned when they approach the viewport. Reduced-motion and data-saving preferences are respected. Original long project walkthroughs remain available on demand.
 
 Optional media tooling uses installed software without adding package dependencies:
 

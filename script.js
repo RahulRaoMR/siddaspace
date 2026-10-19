@@ -48,6 +48,7 @@ function prepareVideos() {
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const saveData = navigator.connection?.saveData;
   const start = (video, userInitiated = false) => {
+    if (video.dataset.poster && !video.poster) video.poster = video.dataset.poster;
     if ((reducedMotion || saveData) && video.autoplay && !userInitiated) return;
     if (!video.dataset.sourceReady) {
       video.querySelectorAll("source[data-src]").forEach((source) => { source.src = source.dataset.src; });
@@ -65,7 +66,15 @@ function prepareVideos() {
   document.querySelectorAll("video").forEach((video) => {
     video.addEventListener("pointerdown", () => start(video, true), { once: true });
     video.addEventListener("focus", () => start(video, true), { once: true });
-    if (video.classList.contains("hero-bg")) requestAnimationFrame(() => requestAnimationFrame(() => start(video)));
+    if (video.classList.contains("hero-bg")) {
+      const afterPoster = () => {
+        const begin = () => requestAnimationFrame(() => start(video));
+        if ('requestIdleCallback' in window) requestIdleCallback(begin, { timeout: 2000 });
+        else setTimeout(begin, 0);
+      };
+      if (document.readyState === 'complete') afterPoster();
+      else window.addEventListener('load', afterPoster, { once: true });
+    }
     else if (observer) observer.observe(video);
     else if (video.autoplay) start(video);
   });
@@ -1201,7 +1210,7 @@ estimateForm.addEventListener("submit", (event) => {
     .filter(Boolean)
     .join(", ");
   const message = [
-    "Hello Siddaspace, I want an instant interior estimate.",
+    "Hello Siddaspace, I would like a quotation for my home interiors.",
     "",
     `BHK type: ${formData.get("bhkType")}`,
     `Rooms to design: ${rooms || "Not selected"}`,
@@ -1217,7 +1226,7 @@ estimateForm.addEventListener("submit", (event) => {
   const whatsappUrl = `https://wa.me/916364309878?text=${encodeURIComponent(message)}`;
 
   window.open(whatsappUrl, "_blank", "noopener");
-  showToast("Opening WhatsApp with your complete estimate details.");
+  showToast("Opening WhatsApp with your quotation request details.");
 });
 
   updateWizard();

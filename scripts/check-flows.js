@@ -37,11 +37,16 @@ withBrowser(async({call,evaluate,pause})=>{
  assert(await evaluate(`document.activeElement.matches('[data-gallery-image]')`),'Gallery focus restoration');
  await call('Emulation.setEmulatedMedia',{features:[{name:'prefers-reduced-motion',value:'reduce'}]});await go('/');
  assert(await evaluate(`!document.querySelector('.hero-bg').dataset.sourceReady`),'Reduced-motion hero behaviour');
+ await call('Emulation.setEmulatedMedia',{features:[]});await go('/');
+ assert(await evaluate(`[...document.querySelectorAll('video:not(.hero-bg)')].every(v=>v.dataset.poster&&!v.getAttribute('poster'))`),'Offscreen video posters remain deferred');
+ await evaluate(`document.querySelector('video:not(.hero-bg)').scrollIntoView({block:'center'})`);
+ for(let i=0;i<30&&!await evaluate(`!!document.querySelector('video:not(.hero-bg)').poster`);i++)await pause(100);
+ assert(await evaluate(`(()=>{const v=document.querySelector('video:not(.hero-bg)');return v.poster===new URL(v.dataset.poster,location.origin).href&&v.dataset.sourceReady==='true';})()`),'Visible video restores its poster and sources');
  const media=JSON.parse(fs.readFileSync('assets/videos/media-manifest.json','utf8'));
  await go('/404');
  // Actual local decoding/seek check of the compressed hero (no external host).
  await call('Network.setBlockedURLs',{urls:['*media.githubusercontent.com*']});
  const decoded=await evaluate(`(async()=>{const v=document.createElement('video');v.preload='metadata';v.src=${JSON.stringify(media.hero)};await new Promise((r,j)=>{v.onloadedmetadata=r;v.onerror=()=>j(new Error('Video decode failed'));});const duration=v.duration;v.currentTime=100;await new Promise(r=>v.onseeked=r);return{duration,width:v.videoWidth,height:v.videoHeight,seek:v.currentTime};})()`);
  assert(Number.isFinite(decoded.duration)&&Math.abs(decoded.duration-media.duration)<2&&decoded.width===1280&&decoded.seek===100,'Compressed full video duration/seek');
- console.log('Flow checks passed: consultation validation, WhatsApp handoff/context, 3 BHK estimate, static/no-JS gallery, gallery focus, reduced motion, and compressed-video decoding/seeking. No lead was sent.');
+ console.log('Flow checks passed: consultation validation, WhatsApp handoff/context, 3 BHK estimate, static/no-JS gallery, gallery focus, reduced motion, deferred video posters, and compressed-video decoding/seeking. No lead was sent.');
 }).catch(error=>{console.error(error);process.exitCode=1;});
