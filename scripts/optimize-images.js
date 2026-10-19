@@ -36,17 +36,20 @@ withBrowser(async ({ call, evaluate }) => {
     const data = fs.readFileSync(filename);
     const hash = crypto.createHash("sha256").update(data).digest("hex").slice(0, 10);
     const cityIcon = /\/icons\/city-/.test(source);
-    if (manifest[source]?.hash === hash && (!cityIcon || manifest[source].variants.length)) continue;
-    const small = !cityIcon && (data.length < 25000 || /logo|symbol|favicon|icon/i.test(source) || source.endsWith(".svg"));
+    const brandImage = /\/sidda-space-(?:logo-on-(?:dark|light)|symbol|footer-logo)\.png$/.test(source);
+    const widths = cityIcon ? [52,104,208] : brandImage ? (source.includes('symbol') ? [64,128,256,500] : [256,512,1024]) : [320,640,960,1280,1600];
+    const maxWidth = cityIcon ? 208 : brandImage ? (source.includes('symbol') ? 500 : 1024) : 1600;
+    if (manifest[source]?.hash === hash && (!(cityIcon || brandImage) || manifest[source].variants.length)) continue;
+    const small = !(cityIcon || brandImage) && (data.length < 25000 || /logo|symbol|favicon|icon/i.test(source) || source.endsWith(".svg"));
     const result = await evaluate(`(async()=>{
       const image=new Image();image.src=${JSON.stringify(`${base}${source.split('/').map(encodeURIComponent).join('/')}`)};
       await image.decode();
       const width=image.naturalWidth,height=image.naturalHeight;
       const variants=[];
-      if(!${small})for(const target of [...new Set(${JSON.stringify(cityIcon ? [52,104,208] : [320,640,960,1280,1600])}.filter(w=>w<width).concat(Math.min(width,${cityIcon ? 208 : 1600})))]){
+      if(!${small})for(const target of [...new Set(${JSON.stringify(widths)}.filter(w=>w<width).concat(Math.min(width,${maxWidth})))]){
         const canvas=document.createElement('canvas');canvas.width=target;canvas.height=Math.round(height*target/width);
         const ctx=canvas.getContext('2d');ctx.drawImage(image,0,0,canvas.width,canvas.height);
-        const encoded=canvas.toDataURL('image/webp',${source.includes('/team/') ? 0.88 : 0.84});
+        const encoded=canvas.toDataURL('image/webp',${brandImage ? 1 : source.includes('/team/') ? 0.88 : 0.84});
         variants.push({width:canvas.width,height:canvas.height,data:encoded.split(',')[1]});
       }
       return {width,height,variants};

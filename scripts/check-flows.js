@@ -9,8 +9,10 @@ withBrowser(async({call,evaluate,pause})=>{
  const go=async route=>{await call('Page.navigate',{url:base+route});await ready(route);};
  await call('Emulation.setDeviceMetricsOverride',{width:390,height:900,deviceScaleFactor:1,mobile:true});
  await go('/');
+ assert(await evaluate(`document.querySelector('.consultation-modal').inert`),'Closed consultation dialog is excluded from keyboard focus');
  await evaluate(`window.__opened=null;window.open=(url)=>{window.__opened=url;return {};};document.querySelector('[data-open-consultation]').click();`);
  assert(await evaluate(`document.querySelector('.consultation-modal').getAttribute('aria-hidden')==='false'`),'Consultation dialog');
+ assert(await evaluate(`!document.querySelector('.consultation-modal').inert&&document.querySelector('.consultation-dialog').getAttribute('aria-modal')==='true'`),'Open consultation dialog is interactive and modal');
  await evaluate(`(()=>{const f=document.querySelector('.consultation-popup-card');f.elements.name.value='Local QA';f.elements.phone.value='123';f.elements.homeType.value='2 BHK';f.requestSubmit();})()`);
  assert(await evaluate(`!window.__opened&&document.querySelector('input[name=phone]').validity.customError`),'Phone validation');
  await evaluate(`(()=>{const f=document.querySelector('.consultation-popup-card');f.elements.phone.value='+91 90000 00000';f.elements.phone.dispatchEvent(new Event('input',{bubbles:true}));f.requestSubmit();})()`);

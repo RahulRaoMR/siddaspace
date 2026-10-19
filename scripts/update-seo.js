@@ -80,7 +80,8 @@ for(const [slug,title,description,label,serviceType,pageImage,articleType]of pag
     return tag;
   });
  });
- html=html.replace(/Sidda Space|Siddha Space/g,'Siddaspace').replace(/%20Sidda%20Space/g,'%20Siddaspace').replace('"alternateName": "Siddaspace"','"alternateName": "Sidda Space"');
+ html=html.replace(/\b(?:Sidda\s+Space|Siddha\s+Space)\b/gi,'Siddaspace').replace(/%20Sidda%20Space/g,'%20Siddaspace');
+ html=html.replace(/<button\b[^>]*>/g,tag=>(attributes(tag).class||'').split(/\s+/).includes('booking-card')?attribute(tag,'aria-label',null):tag);
  fs.writeFileSync(file,enhanceImages(html,manifest));
 }
 const urls=pages.map(([slug])=>`  <url><loc>${origin}${slug==='index'?'/':'/'+slug}</loc></url>`).join('\n');

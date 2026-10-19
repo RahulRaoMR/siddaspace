@@ -42,6 +42,10 @@ for (const url of urls) {
   const filename = resolveFile(location.pathname);
   if (!filename) { errors.push(`${url}: missing HTML file`); continue; }
   const page = inspect(fs.readFileSync(filename, "utf8"));
+  const publicText = require('./seo-html').visibleText(page.html);
+  assert(!/\b(?:Sidda\s+Space|Siddha\s+Space)\b/i.test(publicText), `${url}: inconsistent visible brand spelling`);
+  assert(!/(?:^|[\s"'=<(])(?:[A-Za-z]:[\\/]|file:\/\/|https?:\/\/(?:localhost|127\.0\.0\.1|\[::1\]))/i.test(page.html), `${url}: local path or environment URL in public HTML`);
+  assert(!/4\.5\s*\/\s*5|100\s+happy\s+clients|based\s+on\s+100/i.test(publicText), `${url}: unverified legacy rating/client claim`);
   pages.set(url, page);
   assert(page.titles.length === 1 && page.titles[0], `${url}: expected one title`);
   assert(!titles.has(page.titles[0]), `${url}: duplicate title`);
@@ -72,6 +76,7 @@ for (const url of urls) {
   const business = graph.find(node => node["@id"] === `${origin}/#business`);
   assert(business?.telephone === "+916364309878" && business?.address?.postalCode === "560078", `${url}: inconsistent business details`);
   assert(business?.name==='Siddaspace'&&business?.description,`${url}: incomplete canonical business entity`);
+  assert(!business?.alternateName, `${url}: unexpected alternative text brand`);
   const entityIds=graph.map(node=>node['@id']);
   assert(new Set(entityIds).size===entityIds.length,`${url}: duplicate structured-data entities`);
   function references(value){if(!value||typeof value!=='object')return;for(const [key,v]of Object.entries(value)){if(key==='@id')assert(entityIds.includes(v),`${url}: unresolved entity ${v}`);else if(typeof v==='object')references(v);}}

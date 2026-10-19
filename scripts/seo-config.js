@@ -256,7 +256,6 @@ const business={
   "@type": "HomeAndConstructionBusiness",
   "@id": "https://www.siddaspace.com/#business",
   "name": "Siddaspace",
-  "alternateName": "Sidda Space",
   "url": "https://www.siddaspace.com/",
   "logo": "https://www.siddaspace.com/assets/siddaspace-icon-512.png",
   "image": "https://www.siddaspace.com/assets/projects/project-01.jpeg",

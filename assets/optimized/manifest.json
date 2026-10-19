@@ -4,21 +4,84 @@
     "width": 973,
     "height": 256,
     "originalBytes": 98764,
-    "variants": []
+    "variants": [
+      {
+        "width": 256,
+        "height": 67,
+        "src": "/assets/optimized/siddaspace-a100a90826-256.webp",
+        "bytes": 13872
+      },
+      {
+        "width": 512,
+        "height": 135,
+        "src": "/assets/optimized/siddaspace-a100a90826-512.webp",
+        "bytes": 39984
+      },
+      {
+        "width": 973,
+        "height": 256,
+        "src": "/assets/optimized/siddaspace-a100a90826-973.webp",
+        "bytes": 129902
+      }
+    ]
   },
   "/assets/sidda-space-symbol.png": {
     "hash": "5621b31e4e",
     "width": 500,
     "height": 500,
     "originalBytes": 34125,
-    "variants": []
+    "variants": [
+      {
+        "width": 64,
+        "height": 64,
+        "src": "/assets/optimized/siddaspace-5621b31e4e-64.webp",
+        "bytes": 4334
+      },
+      {
+        "width": 128,
+        "height": 128,
+        "src": "/assets/optimized/siddaspace-5621b31e4e-128.webp",
+        "bytes": 10578
+      },
+      {
+        "width": 256,
+        "height": 256,
+        "src": "/assets/optimized/siddaspace-5621b31e4e-256.webp",
+        "bytes": 29258
+      },
+      {
+        "width": 500,
+        "height": 500,
+        "src": "/assets/optimized/siddaspace-5621b31e4e-500.webp",
+        "bytes": 40604
+      }
+    ]
   },
   "/assets/sidda-space-footer-logo.png": {
     "hash": "1c2fc975ed",
     "width": 1169,
     "height": 649,
     "originalBytes": 33437,
-    "variants": []
+    "variants": [
+      {
+        "width": 256,
+        "height": 142,
+        "src": "/assets/optimized/siddaspace-beyond-ideas-1c2fc975ed-256.webp",
+        "bytes": 15644
+      },
+      {
+        "width": 512,
+        "height": 284,
+        "src": "/assets/optimized/siddaspace-beyond-ideas-1c2fc975ed-512.webp",
+        "bytes": 50866
+      },
+      {
+        "width": 1024,
+        "height": 568,
+        "src": "/assets/optimized/siddaspace-beyond-ideas-1c2fc975ed-1024.webp",
+        "bytes": 172284
+      }
+    ]
   },
   "/assets/whatsapp-logo.svg": {
     "hash": "f0f8f8f3d3",
@@ -96,7 +159,26 @@
     "width": 973,
     "height": 256,
     "originalBytes": 113072,
-    "variants": []
+    "variants": [
+      {
+        "width": 256,
+        "height": 67,
+        "src": "/assets/optimized/siddaspace-c1ac75834f-256.webp",
+        "bytes": 13684
+      },
+      {
+        "width": 512,
+        "height": 135,
+        "src": "/assets/optimized/siddaspace-c1ac75834f-512.webp",
+        "bytes": 39874
+      },
+      {
+        "width": 973,
+        "height": 256,
+        "src": "/assets/optimized/siddaspace-c1ac75834f-973.webp",
+        "bytes": 130986
+      }
+    ]
   },
   "/assets/icons/city-bangalore.png": {
     "hash": "e4f7159ba5",

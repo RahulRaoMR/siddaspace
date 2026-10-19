@@ -20,25 +20,31 @@ function imageTag(tag, manifest, { eager = false, sizes = "(max-width: 640px) ca
   if (!source || !manifest[source]) return tag;
   const image = manifest[source];
   const cityIcon = /\/icons\/city-/.test(source);
+  const wordmark = /logo-on-/.test(source);
+  const symbol = /sidda-space-symbol/.test(source);
+  const footerLogo = /footer-logo/.test(source);
   tag = attribute(attribute(tag, "width", image.width), "height", image.height);
   tag = attribute(tag, "decoding", "async");
   const decorativeHeader = /logo|symbol|whatsapp|icons\//i.test(source);
-  tag = attribute(tag, "loading", eager || attrs.loading === "eager" || decorativeHeader ? "eager" : "lazy");
+  tag = attribute(tag, "loading", footerLogo ? "lazy" : eager || attrs.loading === "eager" || decorativeHeader ? "eager" : "lazy");
   if (image.variants.length) {
-    const selected = image.variants.find(item => item.width >= (cityIcon ? 104 : /\/team\//.test(source) ? 640 : 960)) || image.variants.at(-1);
+    const selected = image.variants.find(item => item.width >= (cityIcon ? 104 : wordmark || footerLogo ? 512 : symbol ? 128 : /\/team\//.test(source) ? 640 : 960)) || image.variants.at(-1);
     tag = attribute(tag, "data-original-src", source);
     tag = attribute(tag, "src", selected.src);
     tag = attribute(tag, "srcset", image.variants.map(item => `${item.src} ${item.width}w`).join(", "));
-    tag = attribute(tag, "sizes", cityIcon ? '52px' : sizes);
+    tag = attribute(tag, "sizes", cityIcon ? '52px' : wordmark ? '(max-width: 640px) 220px, 320px' : symbol ? '64px' : footerLogo ? '260px' : sizes);
   }
   return tag;
 }
 function enhanceImages(html, manifest) {
   const split = html.indexOf("</head>") + 7;
   let body = html.slice(split);
-  body = body.replace(/<img\b[^>]*>/g, (tag, offset) => imageTag(tag, manifest, {
-    sizes: /service-evidence/.test(body.slice(Math.max(0, offset - 90), offset)) ? "(max-width: 900px) calc(100vw - 40px), 860px" : undefined
-  }));
+  body = body.replace(/<img\b[^>]*>/g, (tag, offset) => {
+    const attrs=attributes(tag);
+    if((attrs.class||'').split(/\s+/).includes('brand-logo'))tag=attribute(attribute(tag,'data-original-src','/assets/sidda-space-logo-on-dark.png'),'src','/assets/sidda-space-logo-on-dark.png');
+    const context=body.slice(Math.max(0,offset-120),offset);
+    return imageTag(tag,manifest,{sizes:/sidda-person-photo/.test(context)?'180px':/service-evidence/.test(context)?'(max-width: 900px) calc(100vw - 40px), 860px':undefined});
+  });
   body = body.replace(/<video\b[^>]*>/g, tag => {
     const attrs = attributes(tag);
     const source = sourcePath(attrs["data-original-poster"] || attrs['data-poster'] || attrs.poster);

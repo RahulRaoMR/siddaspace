@@ -180,7 +180,7 @@ const server = http.createServer((request, response) => {
 });
 
 server.listen(port, () => {
-  console.log(`Sidda Space website running at http://localhost:${port}`);
+  console.log(`Siddaspace website running at http://localhost:${port}`);
 });
 
 server.on("error", (error) => {

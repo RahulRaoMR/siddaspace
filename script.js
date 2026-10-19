@@ -86,7 +86,7 @@ function createSiteNavigation() {
   }
 
   const wordmark = header.querySelector(".brand-logo");
-  if (wordmark) {
+  if (wordmark && !wordmark.dataset.originalSrc) {
     wordmark.src = "/assets/sidda-space-logo-on-dark.png";
   }
 
@@ -405,6 +405,7 @@ function createConsultationWidget() {
   const modal = document.createElement("div");
   modal.className = "consultation-modal";
   modal.setAttribute("aria-hidden", "true");
+  modal.inert = true;
   modal.innerHTML = `
     <div class="consultation-backdrop" data-consultation-close></div>
     <section class="consultation-dialog" role="dialog" aria-modal="false" aria-labelledby="consultation-title">
@@ -421,9 +422,6 @@ function createConsultationWidget() {
   document.body.append(modal);
 
   const popupForm = modal.querySelector(".consultation-popup-card");
-  popupForm.addEventListener("input", (event) => {
-    if (event.target.matches('input[type="tel"]')) event.target.setCustomValidity("");
-  });
   popupForm.addEventListener("input", (event) => {
     if (event.target.matches('input[type="tel"]')) event.target.setCustomValidity("");
   });
@@ -451,7 +449,9 @@ function createConsultationWidget() {
     window.clearTimeout(focusTimer);
     isPopupOpen = false;
     modal.classList.remove("is-open");
+    modal.querySelector(".consultation-dialog").setAttribute("aria-modal", "false");
     modal.setAttribute("aria-hidden", "true");
+    modal.inert = true;
   };
 
   const closeModal = () => {
@@ -473,7 +473,9 @@ function createConsultationWidget() {
   const showModal = () => {
     isPopupOpen = true;
     modal.classList.add("is-open");
+    modal.inert = false;
     modal.setAttribute("aria-hidden", "false");
+    modal.querySelector(".consultation-dialog").setAttribute("aria-modal", "true");
     focusTimer = window.setTimeout(() => modal.querySelector("input")?.focus(), 140);
   };
 

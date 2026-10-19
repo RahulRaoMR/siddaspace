@@ -136,9 +136,9 @@ async function each(items, work, concurrency = 8) {
     assert.equal((await response.arrayBuffer()).byteLength, 100);
     return { status: response.status };
   });
-  for (const route of ['/SEO.md', '/reports/owner-confirmation.json', '/scripts/check-flows.js']) await check('developer file ' + route, async () => {
+  for (const route of ['/SEO.md', '/reports/owner-confirmation.json', '/scripts/check-flows.js', '/server.js']) await check('developer file ' + route, async () => {
     const response = await request(route, { method: 'HEAD' });
-    assert(response.status === 404 || /noindex/.test(response.headers.get('x-robots-tag') || ''), 'Developer file must be excluded or noindex');
+    assert(route==='/server.js'?response.status===404:response.status === 404 || /noindex/.test(response.headers.get('x-robots-tag') || ''), 'Developer file must be excluded or noindex; server source must be excluded');
     return { status: response.status, noindex: response.headers.get('x-robots-tag') };
   });
   const report = { checkedAt: new Date().toISOString(), base, publicPages: routes.length, assetCount: assets.size, externalVideoCount: externalVideos.size, results, failures };
