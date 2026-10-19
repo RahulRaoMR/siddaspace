@@ -6681,4 +6681,4 @@ body.image-preview-open {
 .project-video-copy { padding: 16px; color: #fff; }
 .project-video-copy h3 { margin-bottom: 8px; font-size: 1rem; }
 .project-video-copy p { margin-bottom: 0; color: #ede6f3; }
-.project-video-copy a { color: #ffe08a; }
+.project-video-copy a { color: #ffe08a; text-decoration: underline; text-underline-offset: 3px; }
