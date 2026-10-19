@@ -1,0 +1,79 @@
+{
+  "checkedAt": "2026-10-19T12:07:07.818Z",
+  "base": "https://www.siddaspace.com",
+  "environment": "Headless installed Chromium; actual remote video metadata and frame decoding, no autoplay enabled by the test.",
+  "results": [
+    {
+      "url": "https://media.githubusercontent.com/media/RahulRaoMR/siddaspace/main/assets/videos/project-showcase-01.mp4",
+      "caption": "Lobby and lounge walkthrough",
+      "duration": 54.985011,
+      "width": 1080,
+      "height": 1920,
+      "readyState": 3,
+      "seek": 1,
+      "controls": true,
+      "autoplay": false,
+      "responsive": true,
+      "decoded": true,
+      "contextLinks": 1
+    },
+    {
+      "url": "https://media.githubusercontent.com/media/RahulRaoMR/siddaspace/main/assets/videos/project-showcase-02.mp4",
+      "caption": "Executive office walkthrough",
+      "duration": 53.336009,
+      "width": 1080,
+      "height": 1920,
+      "readyState": 4,
+      "seek": 1,
+      "controls": true,
+      "autoplay": false,
+      "responsive": true,
+      "decoded": true,
+      "contextLinks": 1
+    },
+    {
+      "url": "https://media.githubusercontent.com/media/RahulRaoMR/siddaspace/main/assets/videos/project-showcase-03.mp4",
+      "caption": "Reception and seating walkthrough",
+      "duration": 47.971995,
+      "width": 1080,
+      "height": 1920,
+      "readyState": 4,
+      "seek": 1,
+      "controls": true,
+      "autoplay": false,
+      "responsive": true,
+      "decoded": true,
+      "contextLinks": 1
+    },
+    {
+      "url": "https://media.githubusercontent.com/media/RahulRaoMR/siddaspace/main/assets/videos/project-showcase-04.mp4",
+      "caption": "Bedroom interiors walkthrough",
+      "duration": 31.207007,
+      "width": 2160,
+      "height": 3840,
+      "readyState": 4,
+      "seek": 1,
+      "controls": true,
+      "autoplay": false,
+      "responsive": true,
+      "decoded": true,
+      "contextLinks": 1
+    },
+    {
+      "url": "https://media.githubusercontent.com/media/RahulRaoMR/siddaspace/main/assets/videos/project-showcase-05.mp4",
+      "caption": "Modular kitchen walkthrough",
+      "duration": 10.566667,
+      "width": 720,
+      "height": 1280,
+      "readyState": 4,
+      "seek": 1,
+      "controls": true,
+      "autoplay": false,
+      "responsive": true,
+      "decoded": true,
+      "contextLinks": 1
+    }
+  ],
+  "runtimeErrors": [],
+  "failures": []
+}

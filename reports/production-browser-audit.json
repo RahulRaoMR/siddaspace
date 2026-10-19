@@ -1,5 +1,5 @@
 {
-  "auditedOn": "2026-10-19T09:48:14.118Z",
+  "auditedOn": "2026-10-19T12:10:04.323Z",
   "base": "https://www.siddaspace.com",
   "environment": "Headless browser; external stock imagery, GitHub video downloads and hero playback blocked. Lab observations are not field Core Web Vitals or Lighthouse scores.",
   "results": [
@@ -8,7 +8,7 @@
       "width": 390,
       "title": "Interior Designers in Bangalore | Siddaspace",
       "h1": [
-        "Interior Designers & Turnkey Interiors in Bangalore"
+        "Interior Designers & Turnkey Interior Solutions in Bangalore"
       ],
       "horizontalOverflow": false,
       "footers": 1,
@@ -17,9 +17,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 2285020,
+      "localResourceBytes": 754285,
       "lab": {
-        "lcp": 2832,
+        "lcp": 1220,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -42,9 +42,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 103943,
+      "localResourceBytes": 26096,
       "lab": {
-        "lcp": 6016,
+        "lcp": 676,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -67,9 +67,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 132478,
+      "localResourceBytes": 157528,
       "lab": {
-        "lcp": 1048,
+        "lcp": 848,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -92,82 +92,7 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 251374,
-      "lab": {
-        "lcp": 684,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "mobileMenu": true,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/services/office-interiors",
-      "width": 390,
-      "title": "Office Interior Designers in Bangalore | Siddaspace",
-      "h1": [
-        "Office interior designers in Bangalore"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 11,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 161624,
-      "lab": {
-        "lcp": 716,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "mobileMenu": true,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/services/restaurant-interiors",
-      "width": 390,
-      "title": "Restaurant Interior Designers in Bangalore | Siddaspace",
-      "h1": [
-        "Restaurant interior designers in Bangalore"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 11,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 350872,
-      "lab": {
-        "lcp": 480,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "mobileMenu": true,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/services/modular-kitchens",
-      "width": 390,
-      "title": "Modular Kitchen Designers in Bangalore | Siddaspace",
-      "h1": [
-        "Modular kitchen designers in Bangalore"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 8,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 27928,
+      "localResourceBytes": 249104,
       "lab": {
         "lcp": 468,
         "cls": 0
@@ -179,22 +104,22 @@
       "runtimeErrors": []
     },
     {
-      "route": "/services/wardrobes-custom-furniture",
+      "route": "/services/office-interiors",
       "width": 390,
-      "title": "Wardrobe Designers & Custom Furniture Bangalore | Siddaspace",
+      "title": "Office Interior Designers in Bangalore | Siddaspace",
       "h1": [
-        "Wardrobe designers and custom furniture in Bangalore"
+        "Office interior designers in Bangalore"
       ],
       "horizontalOverflow": false,
       "footers": 1,
       "breadcrumbsClear": true,
-      "images": 8,
+      "images": 11,
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 38410,
+      "localResourceBytes": 113264,
       "lab": {
-        "lcp": 932,
+        "lcp": 724,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -204,22 +129,22 @@
       "runtimeErrors": []
     },
     {
-      "route": "/services/2-bhk-interiors",
+      "route": "/services/restaurant-interiors",
       "width": 390,
-      "title": "2 BHK Interior Design in Bangalore | Siddaspace",
+      "title": "Restaurant Interior Designers in Bangalore | Siddaspace",
       "h1": [
-        "2 BHK interior design in Bangalore"
+        "Restaurant interior designers in Bangalore"
       ],
       "horizontalOverflow": false,
       "footers": 1,
       "breadcrumbsClear": true,
-      "images": 8,
+      "images": 11,
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 187338,
+      "localResourceBytes": 79330,
       "lab": {
-        "lcp": 672,
+        "lcp": 732,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -229,11 +154,11 @@
       "runtimeErrors": []
     },
     {
-      "route": "/services/3-bhk-interiors",
+      "route": "/services/modular-kitchens",
       "width": 390,
-      "title": "3 BHK Interior Design in Bangalore | Siddaspace",
+      "title": "Modular Kitchen Designers in Bangalore | Siddaspace",
       "h1": [
-        "3 BHK interior design in Bangalore"
+        "Modular kitchen designers in Bangalore"
       ],
       "horizontalOverflow": false,
       "footers": 1,
@@ -242,57 +167,7 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 132842,
-      "lab": {
-        "lcp": 680,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "mobileMenu": true,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/services/home-renovation",
-      "width": 390,
-      "title": "Home Renovation & Civil Contractors Bangalore | Siddaspace",
-      "h1": [
-        "Home renovation and civil interior contractors in Bangalore"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 8,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 41778,
-      "lab": {
-        "lcp": 688,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "mobileMenu": true,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/services/turnkey-interiors",
-      "width": 390,
-      "title": "Turnkey Interior Designers in Bangalore | Siddaspace",
-      "h1": [
-        "Turnkey interior designers in Bangalore"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 8,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 46732,
+      "localResourceBytes": 52978,
       "lab": {
         "lcp": 656,
         "cls": 0
@@ -304,6 +179,131 @@
       "runtimeErrors": []
     },
     {
+      "route": "/services/wardrobes-custom-furniture",
+      "width": 390,
+      "title": "Wardrobe Designers & Custom Furniture Bangalore | Siddaspace",
+      "h1": [
+        "Wardrobe designers and custom furniture in Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 8,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 63460,
+      "lab": {
+        "lcp": 568,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "mobileMenu": true,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/services/2-bhk-interiors",
+      "width": 390,
+      "title": "2 BHK Interior Design in Bangalore | Siddaspace",
+      "h1": [
+        "2 BHK interior design in Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 8,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 212388,
+      "lab": {
+        "lcp": 928,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "mobileMenu": true,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/services/3-bhk-interiors",
+      "width": 390,
+      "title": "3 BHK Interior Design in Bangalore | Siddaspace",
+      "h1": [
+        "3 BHK interior design in Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 8,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 59128,
+      "lab": {
+        "lcp": 664,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "mobileMenu": true,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/services/home-renovation",
+      "width": 390,
+      "title": "Home Renovation & Civil Contractors Bangalore | Siddaspace",
+      "h1": [
+        "Home renovation and civil interior contractors in Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 8,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 66828,
+      "lab": {
+        "lcp": 648,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "mobileMenu": true,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/services/turnkey-interiors",
+      "width": 390,
+      "title": "Turnkey Interior Designers in Bangalore | Siddaspace",
+      "h1": [
+        "Turnkey interior designers in Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 8,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 71782,
+      "lab": {
+        "lcp": 1200,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "mobileMenu": true,
+      "runtimeErrors": []
+    },
+    {
       "route": "/projects",
       "width": 390,
       "title": "Home & Commercial Interior Projects Bangalore | Siddaspace",
@@ -317,9 +317,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 410708,
+      "localResourceBytes": 160628,
       "lab": {
-        "lcp": 544,
+        "lcp": 480,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -338,86 +338,11 @@
       "horizontalOverflow": false,
       "footers": 1,
       "breadcrumbsClear": true,
-      "images": 98,
+      "images": 101,
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 2140915,
-      "lab": {
-        "lcp": 576,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "mobileMenu": false,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/team",
-      "width": 390,
-      "title": "Meet Our Bangalore Interior Design Team | Siddaspace",
-      "h1": [
-        "The people behind Siddaspace execution."
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 13,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 211674,
-      "lab": {
-        "lcp": 1152,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "mobileMenu": true,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/packages",
-      "width": 390,
-      "title": "Home Interior Packages in Bangalore | Siddaspace",
-      "h1": [
-        "Home interior packages in Bangalore"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 7,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 99372,
-      "lab": {
-        "lcp": 776,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "mobileMenu": true,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/blog",
-      "width": 390,
-      "title": "Interior Design Ideas & Cost Guides Bangalore | Siddaspace",
-      "h1": [
-        "Interior design ideas and planning guides for Bangalore"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 7,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 608,
+      "localResourceBytes": 2897494,
       "lab": {
         "lcp": 476,
         "cls": 0
@@ -429,6 +354,81 @@
       "runtimeErrors": []
     },
     {
+      "route": "/team",
+      "width": 390,
+      "title": "Meet Our Bangalore Interior Design Team | Siddaspace",
+      "h1": [
+        "The people behind Siddaspace execution."
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 13,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 145344,
+      "lab": {
+        "lcp": 668,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "mobileMenu": true,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/packages",
+      "width": 390,
+      "title": "Home Interior Packages in Bangalore | Siddaspace",
+      "h1": [
+        "Home interior packages in Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 7,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 25658,
+      "lab": {
+        "lcp": 644,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "mobileMenu": true,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/blog",
+      "width": 390,
+      "title": "Interior Design Ideas & Cost Guides Bangalore | Siddaspace",
+      "h1": [
+        "Interior design ideas and planning guides for Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 7,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 76524,
+      "lab": {
+        "lcp": 724,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "mobileMenu": true,
+      "runtimeErrors": []
+    },
+    {
       "route": "/blog/interior-design-cost-bangalore",
       "width": 390,
       "title": "2 & 3 BHK Interior Design Cost Bangalore | Siddaspace Guide",
@@ -442,9 +442,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 187338,
+      "localResourceBytes": 263254,
       "lab": {
-        "lcp": 824,
+        "lcp": 692,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -467,9 +467,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 34078,
+      "localResourceBytes": 109994,
       "lab": {
-        "lcp": 764,
+        "lcp": 656,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -492,281 +492,7 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 46732,
-      "lab": {
-        "lcp": 508,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "mobileMenu": true,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/locations/kanakapura-road",
-      "width": 390,
-      "title": "Interior Designers on Kanakapura Road | Siddaspace Bangalore",
-      "h1": [
-        "Interior designers on Kanakapura Road, Bangalore"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 7,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 608,
-      "lab": {
-        "lcp": 704,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "mobileMenu": true,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/products",
-      "width": 390,
-      "title": "Interior Products & Office Furniture Bangalore | Siddaspace",
-      "h1": [
-        "Interior products and office furniture in Bangalore"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 13,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 145496,
-      "lab": {
-        "lcp": 844,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "mobileMenu": true,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/office-chairs",
-      "width": 390,
-      "title": "Office Chairs in Bangalore | Siddaspace",
-      "h1": [
-        "Office chairs for Bangalore workspaces"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 8,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 75408,
-      "lab": {
-        "lcp": 1600,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "mobileMenu": true,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/workstations",
-      "width": 390,
-      "title": "Office Workstations in Bangalore | Siddaspace",
-      "h1": [
-        "Office workstation planning in Bangalore"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 14,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 366792,
-      "lab": {
-        "lcp": 724,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "mobileMenu": true,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/conference-tables",
-      "width": 390,
-      "title": "Conference Tables in Bangalore | Siddaspace",
-      "h1": [
-        "Conference tables and meeting rooms in Bangalore"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 9,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 65398,
-      "lab": {
-        "lcp": 684,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "mobileMenu": true,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/reception-tables",
-      "width": 390,
-      "title": "Office Reception Tables Bangalore | Siddaspace",
-      "h1": [
-        "Reception furniture planning in Bangalore"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 10,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 177490,
-      "lab": {
-        "lcp": 744,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "mobileMenu": true,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/storage-solutions",
-      "width": 390,
-      "title": "Office Storage Solutions Bangalore | Siddaspace",
-      "h1": [
-        "Office storage solutions in Bangalore"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 10,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 125120,
-      "lab": {
-        "lcp": 684,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "mobileMenu": true,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/contact",
-      "width": 390,
-      "title": "Contact Interior Designers in Bangalore | Siddaspace",
-      "h1": [
-        "Contact our interior designers in Bangalore."
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 7,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 608,
-      "lab": {
-        "lcp": 712,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "mobileMenu": true,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/estimate",
-      "width": 390,
-      "title": "Home Interior Cost Calculator Bangalore | Siddaspace",
-      "h1": [
-        "Home interior cost calculator for Bangalore"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 6,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 187338,
-      "lab": {
-        "lcp": 1348,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/privacy-policy",
-      "width": 390,
-      "title": "Privacy Policy | Siddaspace",
-      "h1": [
-        "How Siddaspace handles enquiry information."
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 7,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 608,
-      "lab": {
-        "lcp": 812,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "mobileMenu": true,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/terms",
-      "width": 390,
-      "title": "Terms & Conditions | Siddaspace",
-      "h1": [
-        "Terms & Conditions"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 7,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 608,
+      "localResourceBytes": 122648,
       "lab": {
         "lcp": 660,
         "cls": 0
@@ -778,6 +504,280 @@
       "runtimeErrors": []
     },
     {
+      "route": "/locations/kanakapura-road",
+      "width": 390,
+      "title": "Interior Designers on Kanakapura Road | Siddaspace Bangalore",
+      "h1": [
+        "Interior designers on Kanakapura Road, Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 7,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 76524,
+      "lab": {
+        "lcp": 516,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "mobileMenu": true,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/products",
+      "width": 390,
+      "title": "Interior Products & Office Furniture Bangalore | Siddaspace",
+      "h1": [
+        "Interior products and office furniture in Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 13,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 136520,
+      "lab": {
+        "lcp": 584,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "mobileMenu": true,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/office-chairs",
+      "width": 390,
+      "title": "Office Chairs in Bangalore | Siddaspace",
+      "h1": [
+        "Office chairs for Bangalore workspaces"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 8,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 76524,
+      "lab": {
+        "lcp": 664,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "mobileMenu": true,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/workstations",
+      "width": 390,
+      "title": "Office Workstations in Bangalore | Siddaspace",
+      "h1": [
+        "Office workstation planning in Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 14,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 315544,
+      "lab": {
+        "lcp": 920,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "mobileMenu": true,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/conference-tables",
+      "width": 390,
+      "title": "Conference Tables in Bangalore | Siddaspace",
+      "h1": [
+        "Conference tables and meeting rooms in Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 9,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 141314,
+      "lab": {
+        "lcp": 656,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "mobileMenu": true,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/reception-tables",
+      "width": 390,
+      "title": "Office Reception Tables Bangalore | Siddaspace",
+      "h1": [
+        "Reception furniture planning in Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 10,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 253406,
+      "lab": {
+        "lcp": 1024,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "mobileMenu": true,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/storage-solutions",
+      "width": 390,
+      "title": "Office Storage Solutions Bangalore | Siddaspace",
+      "h1": [
+        "Office storage solutions in Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 10,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 201036,
+      "lab": {
+        "lcp": 680,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "mobileMenu": true,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/contact",
+      "width": 390,
+      "title": "Contact Interior Designers in Bangalore | Siddaspace",
+      "h1": [
+        "Contact our interior designers in Bangalore."
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 7,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 76524,
+      "lab": {
+        "lcp": 704,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "mobileMenu": true,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/estimate",
+      "width": 390,
+      "title": "Home Interior Quote Planner Bangalore | Siddaspace",
+      "h1": [
+        "Home interior quote planner for Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 6,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 252076,
+      "lab": {
+        "lcp": 704,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/privacy-policy",
+      "width": 390,
+      "title": "Privacy Policy | Siddaspace",
+      "h1": [
+        "How Siddaspace handles enquiry information."
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 7,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 76524,
+      "lab": {
+        "lcp": 660,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "mobileMenu": true,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/terms",
+      "width": 390,
+      "title": "Terms & Conditions | Siddaspace",
+      "h1": [
+        "Terms & Conditions"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 7,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 76524,
+      "lab": {
+        "lcp": 740,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "mobileMenu": true,
+      "runtimeErrors": []
+    },
+    {
       "route": "/projects/executive-office",
       "width": 390,
       "title": "Executive Office Interior in Bangalore | Siddaspace",
@@ -791,9 +791,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 28252,
+      "localResourceBytes": 104168,
       "lab": {
-        "lcp": 508,
+        "lcp": 548,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -816,9 +816,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 47766,
+      "localResourceBytes": 123682,
       "lab": {
-        "lcp": 1332,
+        "lcp": 480,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -841,9 +841,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 53534,
+      "localResourceBytes": 129450,
       "lab": {
-        "lcp": 592,
+        "lcp": 1020,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -857,7 +857,7 @@
       "width": 768,
       "title": "Interior Designers in Bangalore | Siddaspace",
       "h1": [
-        "Interior Designers & Turnkey Interiors in Bangalore"
+        "Interior Designers & Turnkey Interior Solutions in Bangalore"
       ],
       "horizontalOverflow": false,
       "footers": 1,
@@ -866,9 +866,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 1752372,
+      "localResourceBytes": 1154450,
       "lab": {
-        "lcp": 1872,
+        "lcp": 1536,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -890,7 +890,7 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 180000,
+      "localResourceBytes": 282106,
       "lab": {
         "lcp": 732,
         "cls": 0
@@ -914,9 +914,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 311870,
+      "localResourceBytes": 413976,
       "lab": {
-        "lcp": 760,
+        "lcp": 724,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -938,9 +938,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 430766,
+      "localResourceBytes": 505552,
       "lab": {
-        "lcp": 760,
+        "lcp": 544,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -962,9 +962,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 379608,
+      "localResourceBytes": 448906,
       "lab": {
-        "lcp": 704,
+        "lcp": 548,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -986,271 +986,7 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 622984,
-      "lab": {
-        "lcp": 704,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/services/modular-kitchens",
-      "width": 768,
-      "title": "Modular Kitchen Designers in Bangalore | Siddaspace",
-      "h1": [
-        "Modular kitchen designers in Bangalore"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 8,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 223368,
-      "lab": {
-        "lcp": 704,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/services/wardrobes-custom-furniture",
-      "width": 768,
-      "title": "Wardrobe Designers & Custom Furniture Bangalore | Siddaspace",
-      "h1": [
-        "Wardrobe designers and custom furniture in Bangalore"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 8,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 180000,
-      "lab": {
-        "lcp": 748,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/services/2-bhk-interiors",
-      "width": 768,
-      "title": "2 BHK Interior Design in Bangalore | Siddaspace",
-      "h1": [
-        "2 BHK interior design in Bangalore"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 8,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 366730,
-      "lab": {
-        "lcp": 580,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/services/3-bhk-interiors",
-      "width": 768,
-      "title": "3 BHK Interior Design in Bangalore | Siddaspace",
-      "h1": [
-        "3 BHK interior design in Bangalore"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 8,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 333134,
-      "lab": {
-        "lcp": 544,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/services/home-renovation",
-      "width": 768,
-      "title": "Home Renovation & Civil Contractors Bangalore | Siddaspace",
-      "h1": [
-        "Home renovation and civil interior contractors in Bangalore"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 8,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 221170,
-      "lab": {
-        "lcp": 732,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/services/turnkey-interiors",
-      "width": 768,
-      "title": "Turnkey Interior Designers in Bangalore | Siddaspace",
-      "h1": [
-        "Turnkey interior designers in Bangalore"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 8,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 264716,
-      "lab": {
-        "lcp": 760,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/projects",
-      "width": 768,
-      "title": "Home & Commercial Interior Projects Bangalore | Siddaspace",
-      "h1": [
-        "Home and commercial interior projects in Bangalore"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 10,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 590100,
-      "lab": {
-        "lcp": 744,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/gallery",
-      "width": 768,
-      "title": "Sofa & Living Room Design Gallery Bangalore | Siddaspace",
-      "h1": [
-        "Sofa and living-room design gallery"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 101,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 3032418,
-      "lab": {
-        "lcp": 748,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/team",
-      "width": 768,
-      "title": "Meet Our Bangalore Interior Design Team | Siddaspace",
-      "h1": [
-        "The people behind Siddaspace execution."
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 13,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 344244,
-      "lab": {
-        "lcp": 724,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/packages",
-      "width": 768,
-      "title": "Home Interior Packages in Bangalore | Siddaspace",
-      "h1": [
-        "Home interior packages in Bangalore"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 7,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 180000,
-      "lab": {
-        "lcp": 708,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "runtimeErrors": []
-    },
-    {
-      "route": "/blog",
-      "width": 768,
-      "title": "Interior Design Ideas & Cost Guides Bangalore | Siddaspace",
-      "h1": [
-        "Interior design ideas and planning guides for Bangalore"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 7,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 278764,
+      "localResourceBytes": 428498,
       "lab": {
         "lcp": 696,
         "cls": 0
@@ -1261,6 +997,270 @@
       "runtimeErrors": []
     },
     {
+      "route": "/services/modular-kitchens",
+      "width": 768,
+      "title": "Modular Kitchen Designers in Bangalore | Siddaspace",
+      "h1": [
+        "Modular kitchen designers in Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 8,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 325474,
+      "lab": {
+        "lcp": 528,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/services/wardrobes-custom-furniture",
+      "width": 768,
+      "title": "Wardrobe Designers & Custom Furniture Bangalore | Siddaspace",
+      "h1": [
+        "Wardrobe designers and custom furniture in Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 8,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 368280,
+      "lab": {
+        "lcp": 540,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/services/2-bhk-interiors",
+      "width": 768,
+      "title": "2 BHK Interior Design in Bangalore | Siddaspace",
+      "h1": [
+        "2 BHK interior design in Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 8,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 468836,
+      "lab": {
+        "lcp": 516,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/services/3-bhk-interiors",
+      "width": 768,
+      "title": "3 BHK Interior Design in Bangalore | Siddaspace",
+      "h1": [
+        "3 BHK interior design in Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 8,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 336476,
+      "lab": {
+        "lcp": 708,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/services/home-renovation",
+      "width": 768,
+      "title": "Home Renovation & Civil Contractors Bangalore | Siddaspace",
+      "h1": [
+        "Home renovation and civil interior contractors in Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 8,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 323276,
+      "lab": {
+        "lcp": 704,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/services/turnkey-interiors",
+      "width": 768,
+      "title": "Turnkey Interior Designers in Bangalore | Siddaspace",
+      "h1": [
+        "Turnkey interior designers in Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 8,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 366822,
+      "lab": {
+        "lcp": 740,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/projects",
+      "width": 768,
+      "title": "Home & Commercial Interior Projects Bangalore | Siddaspace",
+      "h1": [
+        "Home and commercial interior projects in Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 10,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 417076,
+      "lab": {
+        "lcp": 764,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/gallery",
+      "width": 768,
+      "title": "Sofa & Living Room Design Gallery Bangalore | Siddaspace",
+      "h1": [
+        "Sofa and living-room design gallery"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 101,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 3153473,
+      "lab": {
+        "lcp": 736,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/team",
+      "width": 768,
+      "title": "Meet Our Bangalore Interior Design Team | Siddaspace",
+      "h1": [
+        "The people behind Siddaspace execution."
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 13,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 446350,
+      "lab": {
+        "lcp": 540,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/packages",
+      "width": 768,
+      "title": "Home Interior Packages in Bangalore | Siddaspace",
+      "h1": [
+        "Home interior packages in Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 7,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 282106,
+      "lab": {
+        "lcp": 724,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "runtimeErrors": []
+    },
+    {
+      "route": "/blog",
+      "width": 768,
+      "title": "Interior Design Ideas & Cost Guides Bangalore | Siddaspace",
+      "h1": [
+        "Interior design ideas and planning guides for Bangalore"
+      ],
+      "horizontalOverflow": false,
+      "footers": 1,
+      "breadcrumbsClear": true,
+      "images": 7,
+      "imagesWithoutDimensions": 0,
+      "imagesWithoutAlt": 0,
+      "brokenLocalImages": [],
+      "localResourceBytes": 282106,
+      "lab": {
+        "lcp": 536,
+        "cls": 0
+      },
+      "mainLandmarks": 1,
+      "skipLink": true,
+      "unnamedInputs": 0,
+      "runtimeErrors": []
+    },
+    {
       "route": "/blog/interior-design-cost-bangalore",
       "width": 768,
       "title": "2 & 3 BHK Interior Design Cost Bangalore | Siddaspace Guide",
@@ -1274,9 +1274,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 444700,
+      "localResourceBytes": 546806,
       "lab": {
-        "lcp": 556,
+        "lcp": 356,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -1298,9 +1298,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 234370,
+      "localResourceBytes": 336476,
       "lab": {
-        "lcp": 528,
+        "lcp": 708,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -1322,9 +1322,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 264716,
+      "localResourceBytes": 366822,
       "lab": {
-        "lcp": 736,
+        "lcp": 720,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -1346,7 +1346,7 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 180000,
+      "localResourceBytes": 282106,
       "lab": {
         "lcp": 716,
         "cls": 0
@@ -1370,9 +1370,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 264716,
+      "localResourceBytes": 406806,
       "lab": {
-        "lcp": 764,
+        "lcp": 1992,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -1394,9 +1394,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 254800,
+      "localResourceBytes": 356906,
       "lab": {
-        "lcp": 724,
+        "lcp": 716,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -1418,9 +1418,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 490420,
+      "localResourceBytes": 519116,
       "lab": {
-        "lcp": 732,
+        "lcp": 716,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -1442,9 +1442,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 244790,
+      "localResourceBytes": 346896,
       "lab": {
-        "lcp": 716,
+        "lcp": 532,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -1466,9 +1466,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 356882,
+      "localResourceBytes": 418386,
       "lab": {
-        "lcp": 576,
+        "lcp": 748,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -1490,9 +1490,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 389228,
+      "localResourceBytes": 491334,
       "lab": {
-        "lcp": 756,
+        "lcp": 524,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -1514,9 +1514,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 180000,
+      "localResourceBytes": 282106,
       "lab": {
-        "lcp": 724,
+        "lcp": 548,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -1527,9 +1527,9 @@
     {
       "route": "/estimate",
       "width": 768,
-      "title": "Home Interior Cost Calculator Bangalore | Siddaspace",
+      "title": "Home Interior Quote Planner Bangalore | Siddaspace",
       "h1": [
-        "Home interior cost calculator for Bangalore"
+        "Home interior quote planner for Bangalore"
       ],
       "horizontalOverflow": false,
       "footers": 1,
@@ -1538,9 +1538,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 366730,
+      "localResourceBytes": 457580,
       "lab": {
-        "lcp": 852,
+        "lcp": 712,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -1562,9 +1562,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 180000,
+      "localResourceBytes": 282106,
       "lab": {
-        "lcp": 736,
+        "lcp": 716,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -1586,9 +1586,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 180000,
+      "localResourceBytes": 282106,
       "lab": {
-        "lcp": 544,
+        "lcp": 736,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -1610,9 +1610,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 207644,
+      "localResourceBytes": 309750,
       "lab": {
-        "lcp": 560,
+        "lcp": 524,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -1634,9 +1634,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 262308,
+      "localResourceBytes": 364414,
       "lab": {
-        "lcp": 3004,
+        "lcp": 2756,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -1658,9 +1658,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 291844,
+      "localResourceBytes": 393950,
       "lab": {
-        "lcp": 712,
+        "lcp": 736,
         "cls": 0
       },
       "mainLandmarks": 1,
@@ -1673,7 +1673,7 @@
       "width": 1440,
       "title": "Interior Designers in Bangalore | Siddaspace",
       "h1": [
-        "Interior Designers & Turnkey Interiors in Bangalore"
+        "Interior Designers & Turnkey Interior Solutions in Bangalore"
       ],
       "horizontalOverflow": false,
       "footers": 1,
@@ -1682,9 +1682,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 1969141,
+      "localResourceBytes": 1503717,
       "lab": {
-        "lcp": 776,
+        "lcp": 724,
         "cls": 0.00043950061557402275
       },
       "mainLandmarks": 1,
@@ -1706,9 +1706,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 180000,
+      "localResourceBytes": 282106,
       "lab": {
-        "lcp": 496,
+        "lcp": 764,
         "cls": 0.00043950061557402275
       },
       "mainLandmarks": 1,
@@ -1730,9 +1730,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 311870,
+      "localResourceBytes": 413976,
       "lab": {
-        "lcp": 736,
+        "lcp": 732,
         "cls": 0.00043950061557402275
       },
       "mainLandmarks": 1,
@@ -1754,9 +1754,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 430766,
+      "localResourceBytes": 532872,
       "lab": {
-        "lcp": 748,
+        "lcp": 536,
         "cls": 0.00043950061557402275
       },
       "mainLandmarks": 1,
@@ -1778,10 +1778,10 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 379608,
+      "localResourceBytes": 481714,
       "lab": {
-        "lcp": 552,
-        "cls": 0.00043950061557402275
+        "lcp": 744,
+        "cls": 0
       },
       "mainLandmarks": 1,
       "skipLink": true,
@@ -1802,7 +1802,7 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 524220,
+      "localResourceBytes": 626326,
       "lab": {
         "lcp": 536,
         "cls": 0.00043950061557402275
@@ -1826,10 +1826,10 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 223688,
+      "localResourceBytes": 325794,
       "lab": {
-        "lcp": 712,
-        "cls": 0.00043950061557402275
+        "lcp": 748,
+        "cls": 0
       },
       "mainLandmarks": 1,
       "skipLink": true,
@@ -1850,10 +1850,10 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 266494,
+      "localResourceBytes": 368600,
       "lab": {
-        "lcp": 728,
-        "cls": 0.00043950061557402275
+        "lcp": 720,
+        "cls": 0
       },
       "mainLandmarks": 1,
       "skipLink": true,
@@ -1874,9 +1874,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 367050,
+      "localResourceBytes": 469156,
       "lab": {
-        "lcp": 736,
+        "lcp": 708,
         "cls": 0.00043950061557402275
       },
       "mainLandmarks": 1,
@@ -1898,9 +1898,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 234690,
+      "localResourceBytes": 336796,
       "lab": {
-        "lcp": 552,
+        "lcp": 700,
         "cls": 0.00043950061557402275
       },
       "mainLandmarks": 1,
@@ -1922,9 +1922,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 221490,
+      "localResourceBytes": 323596,
       "lab": {
-        "lcp": 716,
+        "lcp": 524,
         "cls": 0.00043950061557402275
       },
       "mainLandmarks": 1,
@@ -1946,9 +1946,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 265036,
+      "localResourceBytes": 367142,
       "lab": {
-        "lcp": 720,
+        "lcp": 544,
         "cls": 0.00043950061557402275
       },
       "mainLandmarks": 1,
@@ -1970,10 +1970,10 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 718148,
+      "localResourceBytes": 282426,
       "lab": {
-        "lcp": 584,
-        "cls": 0.00043950061557402275
+        "lcp": 728,
+        "cls": 0
       },
       "mainLandmarks": 1,
       "skipLink": true,
@@ -1994,9 +1994,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 3051687,
+      "localResourceBytes": 3153793,
       "lab": {
-        "lcp": 608,
+        "lcp": 756,
         "cls": 0.00043950061557402275
       },
       "mainLandmarks": 1,
@@ -2018,9 +2018,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 344564,
+      "localResourceBytes": 446670,
       "lab": {
-        "lcp": 700,
+        "lcp": 528,
         "cls": 0.00043950061557402275
       },
       "mainLandmarks": 1,
@@ -2042,9 +2042,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 180320,
+      "localResourceBytes": 282426,
       "lab": {
-        "lcp": 776,
+        "lcp": 696,
         "cls": 0.00043950061557402275
       },
       "mainLandmarks": 1,
@@ -2066,9 +2066,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 180320,
+      "localResourceBytes": 282426,
       "lab": {
-        "lcp": 524,
+        "lcp": 512,
         "cls": 0.00043950061557402275
       },
       "mainLandmarks": 1,
@@ -2090,10 +2090,10 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 258290,
+      "localResourceBytes": 360396,
       "lab": {
         "lcp": 732,
-        "cls": 0.00043950061557402275
+        "cls": 0
       },
       "mainLandmarks": 1,
       "skipLink": true,
@@ -2114,9 +2114,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 234690,
+      "localResourceBytes": 336796,
       "lab": {
-        "lcp": 708,
+        "lcp": 524,
         "cls": 0.00043950061557402275
       },
       "mainLandmarks": 1,
@@ -2138,10 +2138,10 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 265036,
+      "localResourceBytes": 367142,
       "lab": {
-        "lcp": 552,
-        "cls": 0.00043950061557402275
+        "lcp": 748,
+        "cls": 0
       },
       "mainLandmarks": 1,
       "skipLink": true,
@@ -2162,9 +2162,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 180320,
+      "localResourceBytes": 282426,
       "lab": {
-        "lcp": 556,
+        "lcp": 520,
         "cls": 0.00043950061557402275
       },
       "mainLandmarks": 1,
@@ -2186,9 +2186,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 265036,
+      "localResourceBytes": 407126,
       "lab": {
-        "lcp": 764,
+        "lcp": 724,
         "cls": 0.00043950061557402275
       },
       "mainLandmarks": 1,
@@ -2210,9 +2210,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 255120,
+      "localResourceBytes": 357226,
       "lab": {
-        "lcp": 704,
+        "lcp": 732,
         "cls": 0.00043950061557402275
       },
       "mainLandmarks": 1,
@@ -2234,10 +2234,10 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 417330,
+      "localResourceBytes": 445530,
       "lab": {
-        "lcp": 704,
-        "cls": 0.00043950061557402275
+        "lcp": 740,
+        "cls": 0
       },
       "mainLandmarks": 1,
       "skipLink": true,
@@ -2258,9 +2258,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 245110,
+      "localResourceBytes": 347216,
       "lab": {
-        "lcp": 552,
+        "lcp": 760,
         "cls": 0.00043950061557402275
       },
       "mainLandmarks": 1,
@@ -2282,9 +2282,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 357202,
+      "localResourceBytes": 376782,
       "lab": {
-        "lcp": 728,
+        "lcp": 524,
         "cls": 0.00043950061557402275
       },
       "mainLandmarks": 1,
@@ -2306,9 +2306,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 389548,
+      "localResourceBytes": 491654,
       "lab": {
-        "lcp": 704,
+        "lcp": 512,
         "cls": 0.00043950061557402275
       },
       "mainLandmarks": 1,
@@ -2330,9 +2330,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 180320,
+      "localResourceBytes": 282426,
       "lab": {
-        "lcp": 724,
+        "lcp": 696,
         "cls": 0.00043950061557402275
       },
       "mainLandmarks": 1,
@@ -2343,9 +2343,9 @@
     {
       "route": "/estimate",
       "width": 1440,
-      "title": "Home Interior Cost Calculator Bangalore | Siddaspace",
+      "title": "Home Interior Quote Planner Bangalore | Siddaspace",
       "h1": [
-        "Home interior cost calculator for Bangalore"
+        "Home interior quote planner for Bangalore"
       ],
       "horizontalOverflow": false,
       "footers": 1,
@@ -2354,7 +2354,7 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 257970,
+      "localResourceBytes": 270850,
       "lab": {
         "lcp": 724,
         "cls": 0
@@ -2378,9 +2378,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 180320,
+      "localResourceBytes": 282426,
       "lab": {
-        "lcp": 704,
+        "lcp": 728,
         "cls": 0.00043950061557402275
       },
       "mainLandmarks": 1,
@@ -2402,10 +2402,10 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 180320,
+      "localResourceBytes": 282426,
       "lab": {
-        "lcp": 756,
-        "cls": 0
+        "lcp": 536,
+        "cls": 0.00043950061557402275
       },
       "mainLandmarks": 1,
       "skipLink": true,
@@ -2426,9 +2426,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 207964,
+      "localResourceBytes": 310070,
       "lab": {
-        "lcp": 536,
+        "lcp": 524,
         "cls": 0.00043950061557402275
       },
       "mainLandmarks": 1,
@@ -2450,7 +2450,7 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 262628,
+      "localResourceBytes": 364734,
       "lab": {
         "lcp": 712,
         "cls": 0.00043950061557402275
@@ -2474,9 +2474,9 @@
       "imagesWithoutDimensions": 0,
       "imagesWithoutAlt": 0,
       "brokenLocalImages": [],
-      "localResourceBytes": 292164,
+      "localResourceBytes": 394270,
       "lab": {
-        "lcp": 748,
+        "lcp": 516,
         "cls": 0.00043950061557402275
       },
       "mainLandmarks": 1,
@@ -2485,36 +2485,5 @@
       "runtimeErrors": []
     }
   ],
-  "failures": [
-    {
-      "route": "/gallery",
-      "width": 390,
-      "error": "Document did not complete loading"
-    },
-    {
-      "route": "/gallery",
-      "width": 390,
-      "title": "Sofa & Living Room Design Gallery Bangalore | Siddaspace",
-      "h1": [
-        "Sofa and living-room design gallery"
-      ],
-      "horizontalOverflow": false,
-      "footers": 1,
-      "breadcrumbsClear": true,
-      "images": 98,
-      "imagesWithoutDimensions": 0,
-      "imagesWithoutAlt": 0,
-      "brokenLocalImages": [],
-      "localResourceBytes": 2140915,
-      "lab": {
-        "lcp": 576,
-        "cls": 0
-      },
-      "mainLandmarks": 1,
-      "skipLink": true,
-      "unnamedInputs": 0,
-      "mobileMenu": false,
-      "runtimeErrors": []
-    }
-  ]
+  "failures": []
 }

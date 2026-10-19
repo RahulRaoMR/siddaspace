@@ -1,0 +1,1990 @@
+{
+  "auditedAt": "2026-10-19T12:24:58.502Z",
+  "base": "https://www.siddaspace.com",
+  "live": true,
+  "publicUrlCount": 34,
+  "validation": {
+    "http": {
+      "checkedAt": "2026-10-19T12:06:09.026Z",
+      "pages": 34,
+      "assets": 991,
+      "checks": 1053,
+      "failures": 0
+    },
+    "browser": {
+      "checkedAt": "2026-10-19T12:10:04.323Z",
+      "cases": 102,
+      "failures": 0,
+      "environment": "Headless browser; external stock imagery, GitHub video downloads and hero playback blocked. Lab observations are not field Core Web Vitals or Lighthouse scores."
+    },
+    "videos": {
+      "checkedAt": "2026-10-19T12:07:07.818Z",
+      "cases": 5,
+      "failures": 0,
+      "environment": "Headless installed Chromium; actual remote video metadata and frame decoding, no autoplay enabled by the test."
+    },
+    "lighthouse": [
+      {
+        "label": "Homepage mobile baseline",
+        "file": "lighthouse-mobile-before.json",
+        "url": "https://www.siddaspace.com/",
+        "measuredAt": "2026-10-19T11:45:07.164Z",
+        "version": "13.5.0",
+        "scores": {
+          "performance": 94,
+          "accessibility": 93,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "lcpMs": 2891.4125,
+        "cls": 0.004727306445719607,
+        "tbtMs": 37.5,
+        "fcpMs": 1478.4125,
+        "transferredBytes": 5087445,
+        "mainThreadMs": 2671.4359999999906,
+        "javascriptExecutionMs": 101.68,
+        "videoTransferredBytes": 3450037,
+        "opportunities": {
+          "images": "Est savings of 640 KiB",
+          "unusedCss": "Est savings of 13 KiB",
+          "sharedCssBytes": 24850,
+          "renderBlockingSavings": {
+            "FCP": 0,
+            "LCP": 0
+          },
+          "fontDisplayPass": true
+        },
+        "conditions": {
+          "formFactor": "mobile",
+          "throttlingMethod": "simulate",
+          "throttling": {
+            "rttMs": 150,
+            "throughputKbps": 1638.4,
+            "requestLatencyMs": 562.5,
+            "downloadThroughputKbps": 1474.5600000000002,
+            "uploadThroughputKbps": 675,
+            "cpuSlowdownMultiplier": 4
+          }
+        },
+        "runtimeError": null
+      },
+      {
+        "label": "Homepage mobile final",
+        "file": "lighthouse-mobile-final.json",
+        "url": "https://www.siddaspace.com/",
+        "measuredAt": "2026-10-19T12:10:12.477Z",
+        "version": "13.5.0",
+        "scores": {
+          "performance": 95,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "lcpMs": 2556.304,
+        "cls": 0.00297284219782367,
+        "tbtMs": 67.5,
+        "fcpMs": 1562.304,
+        "transferredBytes": 4737630,
+        "mainThreadMs": 2615.8799999999856,
+        "javascriptExecutionMs": 114.76799999999996,
+        "videoTransferredBytes": 3449987,
+        "opportunities": {
+          "images": "Est savings of 270 KiB",
+          "unusedCss": "Est savings of 13 KiB",
+          "sharedCssBytes": 24883,
+          "renderBlockingSavings": {
+            "FCP": 0,
+            "LCP": 0
+          },
+          "fontDisplayPass": true
+        },
+        "conditions": {
+          "formFactor": "mobile",
+          "throttlingMethod": "simulate",
+          "throttling": {
+            "rttMs": 150,
+            "throughputKbps": 1638.4,
+            "requestLatencyMs": 562.5,
+            "downloadThroughputKbps": 1474.5600000000002,
+            "uploadThroughputKbps": 675,
+            "cpuSlowdownMultiplier": 4
+          }
+        },
+        "runtimeError": null
+      },
+      {
+        "label": "Homepage desktop final",
+        "file": "lighthouse-desktop-final.json",
+        "url": "https://www.siddaspace.com/",
+        "measuredAt": "2026-10-19T12:10:39.088Z",
+        "version": "13.5.0",
+        "scores": {
+          "performance": 98,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "lcpMs": 705.697,
+        "cls": 0,
+        "tbtMs": 0,
+        "fcpMs": 580.697,
+        "transferredBytes": 4852324,
+        "mainThreadMs": 796.7789999999965,
+        "javascriptExecutionMs": 29.608999999999995,
+        "videoTransferredBytes": 3507446,
+        "opportunities": {
+          "images": "Est savings of 164 KiB",
+          "unusedCss": "Est savings of 15 KiB",
+          "sharedCssBytes": 24883,
+          "renderBlockingSavings": {
+            "FCP": 0,
+            "LCP": 0
+          },
+          "fontDisplayPass": true
+        },
+        "conditions": {
+          "formFactor": "desktop",
+          "throttlingMethod": "simulate",
+          "throttling": {
+            "rttMs": 40,
+            "throughputKbps": 10240,
+            "requestLatencyMs": 0,
+            "downloadThroughputKbps": 0,
+            "uploadThroughputKbps": 0,
+            "cpuSlowdownMultiplier": 1
+          }
+        },
+        "runtimeError": null
+      },
+      {
+        "label": "Projects mobile final",
+        "file": "lighthouse-projects-mobile-final.json",
+        "url": "https://www.siddaspace.com/projects",
+        "measuredAt": "2026-10-19T12:22:34.578Z",
+        "version": "13.5.0",
+        "scores": {
+          "performance": 90,
+          "accessibility": 100,
+          "best-practices": 100,
+          "seo": 100
+        },
+        "lcpMs": 2122.433,
+        "cls": 0,
+        "tbtMs": 373,
+        "fcpMs": 1317.433,
+        "transferredBytes": 1154888,
+        "mainThreadMs": 3240.8039999999987,
+        "javascriptExecutionMs": 57.43599999999999,
+        "videoTransferredBytes": 901778,
+        "opportunities": {
+          "images": "Est savings of 45 KiB",
+          "unusedCss": "Est savings of 20 KiB",
+          "sharedCssBytes": 24887,
+          "renderBlockingSavings": {
+            "FCP": 0,
+            "LCP": 0
+          },
+          "fontDisplayPass": true
+        },
+        "conditions": {
+          "formFactor": "mobile",
+          "throttlingMethod": "simulate",
+          "throttling": {
+            "rttMs": 150,
+            "throughputKbps": 1638.4,
+            "requestLatencyMs": 562.5,
+            "downloadThroughputKbps": 1474.5600000000002,
+            "uploadThroughputKbps": 675,
+            "cpuSlowdownMultiplier": 4
+          }
+        },
+        "runtimeError": null
+      }
+    ]
+  },
+  "pages": [
+    {
+      "url": "https://www.siddaspace.com/",
+      "slug": "index",
+      "primaryQueryCluster": "Interior designers in Bangalore",
+      "searchIntent": "Commercial",
+      "title": "Interior Designers in Bangalore | Siddaspace",
+      "description": "Siddaspace designs and executes home and office interiors in Bangalore. Explore modular kitchens, custom furniture, renovation and turnkey interior solutions.",
+      "h1": "Interior Designers & Turnkey Interior Solutions in Bangalore",
+      "canonical": "https://www.siddaspace.com/",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "Construction and Turnkey Interiors Homes, Offices and Commercial Spaces Siddaspace is a Bangalore-based interior design, construction and execution company. We plan residential and commercial interiors, custom kitchens and furniture, renovation and turnkey projects around your space, materials and agreed scope.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": true,
+        "timelineFactors": true,
+        "enquiry": true
+      },
+      "headings": [
+        "Our Projects",
+        "Our Products",
+        "Art & Craft",
+        "Our People Are Our Brand .",
+        "Yashas Sidda",
+        "Viswaradhya",
+        "Haribabu G",
+        "Manoj M",
+        "Amrutha D R",
+        "Shankar C",
+        "Before & After",
+        "Raw Office Shell to Executive Workspace",
+        "Plain Reception Wall to Grand Lobby Lounge",
+        "Under-Construction Restaurant to Luxe Dining Experience",
+        "Ready to Bring Your Vision to Life?",
+        "Commercial Project Executions",
+        "A clear plan for your space",
+        "Measured requirements",
+        "Materials and scope",
+        "Coordinated execution",
+        "Luxury interiors crafted with precision, premium materials, and timeless aesthetics.",
+        "Meet the people planning your project",
+        "Real project photographs",
+        "People behind the work",
+        "A defined quotation",
+        "Residential Project Executions",
+        "Complete interiors for every room",
+        "Modular Kitchens",
+        "Bedrooms & Wardrobes",
+        "Living Spaces",
+        "An interior design company for your whole project",
+        "Residential interiors",
+        "Commercial & office interiors",
+        "Civil work & renovation",
+        "Get a clear estimate before you begin.",
+        "Looks that feel premium, practical, and personal",
+        "Start with the scope that fits your home",
+        "Essential",
+        "Complete Home",
+        "Signature",
+        "A professional process from first call to final handover.",
+        "Consultation",
+        "Design & estimate",
+        "Production",
+        "Installation",
+        "Frequently Asked Questions",
+        "Connect with us",
+        "Social Links"
+      ],
+      "internalLinks": 36,
+      "internalLinkTargets": [
+        "/services",
+        "/projects",
+        "/products",
+        "/gallery",
+        "/team",
+        "/projects/executive-office",
+        "/projects/lobby-lounge",
+        "/projects/restaurant-dining",
+        "/contact",
+        "/estimate",
+        "/locations/kanakapura-road",
+        "/blog/interior-design-cost-bangalore",
+        "/services/modular-kitchens",
+        "/services/wardrobes-custom-furniture",
+        "/services/home-interiors",
+        "/services/office-interiors",
+        "/services/home-renovation",
+        "/services/2-bhk-interiors",
+        "/services/3-bhk-interiors",
+        "/services/turnkey-interiors"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/about",
+      "slug": "about",
+      "primaryQueryCluster": "Interior design company in Bangalore",
+      "searchIntent": "Navigational",
+      "title": "Interior Design Company in Bangalore | About Siddaspace",
+      "description": "Meet Siddaspace, a Bangalore interior design company for residential interiors, commercial fit-outs, civil construction, renovation and turnkey execution.",
+      "h1": "An interior design and execution company in Bangalore",
+      "canonical": "https://www.siddaspace.com/about",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "AboutPage",
+        "BreadcrumbList"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "Siddaspace brings residential interiors, commercial fit-outs, custom furniture, construction and renovation together through design and coordinated site execution. From our Ganapathipura office on Kanakapura Main Road, we discuss your drawings, room requirements, materials and budget before defining the work.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": true,
+        "timelineFactors": true,
+        "enquiry": true
+      },
+      "headings": [
+        "Design decisions and site execution belong in the same plan.",
+        "Residential, commercial, and turnkey work handled end to end.",
+        "Residential",
+        "Corporate & Commercial",
+        "Construction & Turnkey",
+        "A hands-on team built for real site progress.",
+        "From your first plan to the finished space",
+        "If you are looking for an execution partner who treats your drawings like their own, we would love to build with you."
+      ],
+      "internalLinks": 6,
+      "internalLinkTargets": [
+        "/",
+        "/team",
+        "/projects",
+        "/services/turnkey-interiors",
+        "/locations/kanakapura-road",
+        "/contact"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/services",
+      "slug": "services",
+      "primaryQueryCluster": "Interior design services Bangalore",
+      "searchIntent": "Commercial",
+      "title": "Interior Design Services in Bangalore | Siddaspace",
+      "description": "Explore home interiors, office fit-outs, modular kitchens, wardrobes, civil work and renovation services in Bangalore with Siddaspace.",
+      "h1": "Interior design and execution services in Bangalore",
+      "canonical": "https://www.siddaspace.com/services",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "Explore residential and commercial interior design, custom furniture, civil work and renovation with Siddaspace in Bangalore. Choose a service to see how we plan the layout, materials, budget and execution.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": true,
+        "timelineFactors": true,
+        "enquiry": true
+      },
+      "headings": [
+        "Home Interiors",
+        "Office Interiors",
+        "Restaurant Interiors",
+        "Modular Kitchens",
+        "Wardrobes & Custom Furniture",
+        "Home Renovation & Civil Work",
+        "2 BHK Interiors",
+        "3 BHK Interiors",
+        "Turnkey Interior Solutions",
+        "Choose a scope that matches your project",
+        "Need a clear estimate?"
+      ],
+      "internalLinks": 14,
+      "internalLinkTargets": [
+        "/",
+        "/services/home-interiors",
+        "/services/office-interiors",
+        "/services/restaurant-interiors",
+        "/services/modular-kitchens",
+        "/services/wardrobes-custom-furniture",
+        "/services/home-renovation",
+        "/services/2-bhk-interiors",
+        "/services/3-bhk-interiors",
+        "/services/turnkey-interiors",
+        "/packages",
+        "/blog/interior-design-cost-bangalore",
+        "/locations/kanakapura-road",
+        "/estimate"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/services/home-interiors",
+      "slug": "services/home-interiors",
+      "primaryQueryCluster": "Home interior designers Bangalore",
+      "searchIntent": "Commercial",
+      "title": "Home Interior Designers in Bangalore | Siddaspace",
+      "description": "Residential interior designers in Bangalore for apartments and villas. Plan kitchens, wardrobes, living rooms, bedrooms and complete home interiors with Siddaspace.",
+      "h1": "Home interior designers in Bangalore",
+      "canonical": "https://www.siddaspace.com/services/home-interiors",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "ImageObject",
+        "Service"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "Siddaspace plans residential interiors for apartments, flats and villas in Bangalore (Bengaluru). Bring your floor plan to coordinate modular kitchens, wardrobes, bedrooms, living rooms and complete home execution.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": true,
+        "timelineFactors": true,
+        "enquiry": true
+      },
+      "headings": [
+        "What do home interior designers do?",
+        "Bedroom & Wardrobe",
+        "Living Spaces",
+        "Modular Kitchens",
+        "Apartment and villa interiors, planned room by room",
+        "Living rooms, bedrooms and the details between them",
+        "Compare scope, materials and the execution plan",
+        "Discuss the work with Siddaspace",
+        "Frequently asked questions",
+        "Plan your home interior budget."
+      ],
+      "internalLinks": 21,
+      "internalLinkTargets": [
+        "/",
+        "/services",
+        "/contact",
+        "/projects",
+        "/services/wardrobes-custom-furniture",
+        "/services/modular-kitchens",
+        "/services/2-bhk-interiors",
+        "/services/3-bhk-interiors",
+        "/blog/home-interior-styles",
+        "/blog/interior-design-cost-bangalore",
+        "/packages",
+        "/services/turnkey-interiors",
+        "/services/home-renovation",
+        "/team",
+        "/locations/kanakapura-road",
+        "/estimate"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/services/office-interiors",
+      "slug": "services/office-interiors",
+      "primaryQueryCluster": "Office interior designers Bangalore",
+      "searchIntent": "Commercial",
+      "title": "Office Interior Designers in Bangalore | Siddaspace",
+      "description": "Plan office interiors in Bangalore with Siddaspace: workstations, cabins, conference rooms, reception areas, cafeterias, renovation and commercial fit-outs.",
+      "h1": "Office interior designers in Bangalore",
+      "canonical": "https://www.siddaspace.com/services/office-interiors",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "ImageObject",
+        "Service"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "Siddaspace plans commercial office interiors in Bangalore, from workstations and executive cabins to meeting rooms, reception areas and complete office fit-outs.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": true,
+        "timelineFactors": true,
+        "enquiry": true
+      },
+      "headings": [
+        "What is an office interior fit-out?",
+        "Executive Cabins",
+        "Conference Rooms",
+        "Reception & Lounge",
+        "Commercial interiors built around your team",
+        "Office furniture and fit-out coordination",
+        "Office renovation and phased installation",
+        "Discuss the work with Siddaspace",
+        "Frequently asked questions",
+        "Renovation or a complete office fit-out?",
+        "Build a more professional workspace."
+      ],
+      "internalLinks": 18,
+      "internalLinkTargets": [
+        "/",
+        "/services",
+        "/contact",
+        "/projects",
+        "/workstations",
+        "/office-chairs",
+        "/conference-tables",
+        "/reception-tables",
+        "/storage-solutions",
+        "/services/turnkey-interiors",
+        "/blog/office-fit-out-checklist",
+        "/team",
+        "/locations/kanakapura-road",
+        "/projects/executive-office"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/services/restaurant-interiors",
+      "slug": "services/restaurant-interiors",
+      "primaryQueryCluster": "Restaurant interior designers Bangalore",
+      "searchIntent": "Commercial",
+      "title": "Restaurant Interior Designers in Bangalore | Siddaspace",
+      "description": "Restaurant interior design in Bangalore with dining layouts, seating, counters, ambient lighting, ceilings and durable hospitality finishes by Siddaspace.",
+      "h1": "Restaurant interior designers in Bangalore",
+      "canonical": "https://www.siddaspace.com/services/restaurant-interiors",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "ImageObject",
+        "Service"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "Siddaspace designs and executes restaurant interiors in Bangalore with dining layouts, seating, counters, lighting, ceiling details and durable finishes for hospitality spaces.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": true,
+        "timelineFactors": true,
+        "enquiry": true
+      },
+      "headings": [
+        "What is included in restaurant interior design?",
+        "Dining Layouts",
+        "Feature Walls",
+        "Lighting & Finish",
+        "Balance the guest experience with everyday operations",
+        "Materials, lighting and hospitality execution",
+        "Discuss the work with Siddaspace",
+        "Frequently asked questions",
+        "Design a restaurant guests remember."
+      ],
+      "internalLinks": 13,
+      "internalLinkTargets": [
+        "/",
+        "/services",
+        "/contact",
+        "/projects",
+        "/services/turnkey-interiors",
+        "/team",
+        "/locations/kanakapura-road",
+        "/projects/restaurant-dining"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/services/modular-kitchens",
+      "slug": "services/modular-kitchens",
+      "primaryQueryCluster": "Modular kitchen Bangalore",
+      "searchIntent": "Commercial",
+      "title": "Modular Kitchen Designers in Bangalore | Siddaspace",
+      "description": "Plan a modular kitchen in Bangalore with Siddaspace. Explore layouts, cabinets, countertop coordination, storage, finishes and installation for your home.",
+      "h1": "Modular kitchen designers in Bangalore",
+      "canonical": "https://www.siddaspace.com/services/modular-kitchens",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "ImageObject",
+        "Service"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "A kitchen should make cooking, cleaning and storage feel easier. Siddaspace plans modular kitchens around your measurements, appliances and daily routine, then coordinates cabinetry and installation with the rest of your home.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": true,
+        "timelineFactors": true,
+        "enquiry": true
+      },
+      "headings": [
+        "What is a modular kitchen?",
+        "Start with the layout, then choose the finish",
+        "Cabinets, storage and countertop coordination",
+        "What affects modular kitchen cost in Bangalore?",
+        "From measurements to installation",
+        "Discuss the work with Siddaspace",
+        "Frequently asked questions",
+        "Plan a kitchen around the way you live."
+      ],
+      "internalLinks": 14,
+      "internalLinkTargets": [
+        "/",
+        "/services",
+        "/contact",
+        "/projects",
+        "/estimate",
+        "/services/home-interiors",
+        "/services/wardrobes-custom-furniture",
+        "/blog/interior-design-cost-bangalore",
+        "/team",
+        "/locations/kanakapura-road"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/services/wardrobes-custom-furniture",
+      "slug": "services/wardrobes-custom-furniture",
+      "primaryQueryCluster": "Wardrobe designers Bangalore",
+      "searchIntent": "Commercial",
+      "title": "Wardrobe Designers & Custom Furniture Bangalore | Siddaspace",
+      "description": "Custom wardrobes and furniture in Bangalore: bedroom storage, TV units, crockery units, pooja units and study tables designed around your space by Siddaspace.",
+      "h1": "Wardrobe designers and custom furniture in Bangalore",
+      "canonical": "https://www.siddaspace.com/services/wardrobes-custom-furniture",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "ImageObject",
+        "Service"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "Make storage work harder without crowding your rooms. Siddaspace designs wardrobes and custom furniture around your floor plan, daily habits and the details you want to keep within reach.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": true,
+        "timelineFactors": true,
+        "enquiry": true
+      },
+      "headings": [
+        "What does custom wardrobe and furniture design include?",
+        "Wardrobes planned from the inside out",
+        "Furniture for living, dining and study spaces",
+        "Materials, finishes and installation details",
+        "Bring your room plan to the consultation",
+        "Discuss the work with Siddaspace",
+        "Frequently asked questions",
+        "Give every room a place for the things that matter."
+      ],
+      "internalLinks": 14,
+      "internalLinkTargets": [
+        "/",
+        "/services",
+        "/contact",
+        "/projects",
+        "/services/modular-kitchens",
+        "/services/home-interiors",
+        "/services/2-bhk-interiors",
+        "/storage-solutions",
+        "/team",
+        "/locations/kanakapura-road"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/services/2-bhk-interiors",
+      "slug": "services/2-bhk-interiors",
+      "primaryQueryCluster": "2 BHK interior design Bangalore",
+      "searchIntent": "Commercial",
+      "title": "2 BHK Interior Design in Bangalore | Siddaspace",
+      "description": "Plan your 2 BHK interiors in Bangalore with Siddaspace. Coordinate a modular kitchen, wardrobes, living room storage, bedrooms and a practical apartment budget.",
+      "h1": "2 BHK interior design in Bangalore",
+      "canonical": "https://www.siddaspace.com/services/2-bhk-interiors",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "ImageObject",
+        "Service"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "Plan a complete 2 BHK apartment around the way your family uses it. Siddaspace coordinates kitchen storage, two bedrooms, living and dining furniture, lighting and installation within an agreed scope.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": true,
+        "timelineFactors": true,
+        "enquiry": true
+      },
+      "headings": [
+        "What is included in a 2 BHK interior project?",
+        "Make the most of a compact apartment",
+        "Plan each room as part of the whole home",
+        "How to plan a 2 BHK interior design budget",
+        "What to share before your consultation",
+        "Discuss the work with Siddaspace",
+        "Frequently asked questions",
+        "Start planning your 2 BHK home."
+      ],
+      "internalLinks": 16,
+      "internalLinkTargets": [
+        "/",
+        "/services",
+        "/estimate",
+        "/projects",
+        "/blog/interior-design-cost-bangalore",
+        "/services/modular-kitchens",
+        "/services/wardrobes-custom-furniture",
+        "/services/3-bhk-interiors",
+        "/packages",
+        "/team",
+        "/locations/kanakapura-road"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/services/3-bhk-interiors",
+      "slug": "services/3-bhk-interiors",
+      "primaryQueryCluster": "3 BHK interior design Bangalore",
+      "searchIntent": "Commercial",
+      "title": "3 BHK Interior Design in Bangalore | Siddaspace",
+      "description": "Explore complete 3 BHK interior design in Bangalore with Siddaspace. Plan bedrooms, a modular kitchen, living and dining spaces, custom furniture and execution.",
+      "h1": "3 BHK interior design in Bangalore",
+      "canonical": "https://www.siddaspace.com/services/3-bhk-interiors",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "ImageObject",
+        "Service"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "Bring three bedrooms, shared living spaces and a kitchen together with a coordinated design. Siddaspace plans complete 3 BHK interiors for new homes and apartment upgrades, from furniture layouts to site execution.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": true,
+        "timelineFactors": true,
+        "enquiry": true
+      },
+      "headings": [
+        "What is included in complete 3 BHK interiors?",
+        "Give each bedroom a clear purpose",
+        "Connect the kitchen, dining and living spaces",
+        "What shapes 3 BHK interior design cost in Bangalore?",
+        "Coordinate the work before site installation",
+        "Discuss the work with Siddaspace",
+        "Frequently asked questions",
+        "Plan the details of your 3 BHK home."
+      ],
+      "internalLinks": 18,
+      "internalLinkTargets": [
+        "/",
+        "/services",
+        "/estimate",
+        "/projects",
+        "/blog/interior-design-cost-bangalore",
+        "/services/turnkey-interiors",
+        "/services/home-interiors",
+        "/services/wardrobes-custom-furniture",
+        "/blog/home-interior-styles",
+        "/packages",
+        "/team",
+        "/locations/kanakapura-road"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/services/home-renovation",
+      "slug": "services/home-renovation",
+      "primaryQueryCluster": "Home renovation Bangalore",
+      "searchIntent": "Commercial",
+      "title": "Home Renovation & Civil Contractors Bangalore | Siddaspace",
+      "description": "Siddaspace coordinates home renovation in Bangalore, from civil work and flooring to painting, waterproofing, electrical, plumbing and interior installation.",
+      "h1": "Home renovation and civil interior contractors in Bangalore",
+      "canonical": "https://www.siddaspace.com/services/home-renovation",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "ImageObject",
+        "Service"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "Upgrade an existing home with a coordinated plan for civil work, services, furniture and finishes. Siddaspace handles renovation and interior execution so the site work supports the way you want the finished space to function.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": true,
+        "timelineFactors": true,
+        "enquiry": true
+      },
+      "headings": [
+        "What does a home renovation involve?",
+        "Survey the existing space before fixing the scope",
+        "Civil work and finishing coordinated with interiors",
+        "Plan for access, dust and everyday life",
+        "How a renovation quotation should be organized",
+        "Discuss the work with Siddaspace",
+        "Frequently asked questions",
+        "Give your existing space a considered new beginning."
+      ],
+      "internalLinks": 18,
+      "internalLinkTargets": [
+        "/",
+        "/services",
+        "/contact",
+        "/projects",
+        "/services/home-interiors",
+        "/services/modular-kitchens",
+        "/services/office-interiors",
+        "/services/turnkey-interiors",
+        "/blog/interior-design-cost-bangalore",
+        "/estimate",
+        "/team",
+        "/locations/kanakapura-road",
+        "/projects/lobby-lounge"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/services/turnkey-interiors",
+      "slug": "services/turnkey-interiors",
+      "primaryQueryCluster": "Turnkey interior designers Bangalore",
+      "searchIntent": "Commercial",
+      "title": "Turnkey Interior Designers in Bangalore | Siddaspace",
+      "description": "End-to-end interior design in Bangalore with Siddaspace. Coordinate design, materials, custom furniture, civil work, installation and handover for homes and offices.",
+      "h1": "Turnkey interior designers in Bangalore",
+      "canonical": "https://www.siddaspace.com/services/turnkey-interiors",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "ImageObject",
+        "Service"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "Bring design decisions and site execution into one coordinated scope. Siddaspace offers end-to-end interior solutions for homes and commercial spaces, from planning and material selection to custom furniture, installation and handover.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": true,
+        "timelineFactors": true,
+        "enquiry": true
+      },
+      "headings": [
+        "What is turnkey interior design and execution?",
+        "What turnkey interior execution can include",
+        "A clear process from brief to handover",
+        "Turnkey home and commercial interiors",
+        "Compare turnkey quotations on the same scope",
+        "Discuss the work with Siddaspace",
+        "Frequently asked questions",
+        "Design-only and turnkey responsibilities",
+        "Coordinate your interior project from the first drawing."
+      ],
+      "internalLinks": 15,
+      "internalLinkTargets": [
+        "/",
+        "/services",
+        "/contact",
+        "/projects",
+        "/services/home-interiors",
+        "/services/office-interiors",
+        "/services/home-renovation",
+        "/team",
+        "/locations/kanakapura-road",
+        "/projects/executive-office"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/projects",
+      "slug": "projects",
+      "primaryQueryCluster": "Interior projects Bangalore",
+      "searchIntent": "Commercial",
+      "title": "Home & Commercial Interior Projects Bangalore | Siddaspace",
+      "description": "Explore Siddaspace interior projects in Bangalore, including office fit-outs, restaurant interiors, residential spaces and project walkthrough videos.",
+      "h1": "Home and commercial interior projects in Bangalore",
+      "canonical": "https://www.siddaspace.com/projects",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "Explore Siddaspace execution work across Bangalore office interiors, restaurants, commercial lounges and residential spaces. Watch the project walkthroughs and use the details to discuss your own interior brief.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": false,
+        "timelineFactors": false,
+        "enquiry": true
+      },
+      "headings": [
+        "Walk through our selected execution work.",
+        "Lobby and lounge walkthrough",
+        "Executive office walkthrough",
+        "Reception and seating walkthrough",
+        "Bedroom interiors walkthrough",
+        "Modular kitchen walkthrough",
+        "Executive Workspace",
+        "Commercial Lounge",
+        "Restaurant Interior",
+        "Want your space to look like this?"
+      ],
+      "internalLinks": 14,
+      "internalLinkTargets": [
+        "/",
+        "/services/office-interiors",
+        "/services/home-interiors",
+        "/services/modular-kitchens",
+        "/projects/executive-office",
+        "/projects/lobby-lounge",
+        "/projects/restaurant-dining",
+        "/services/restaurant-interiors",
+        "/services/home-renovation",
+        "/contact"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/gallery",
+      "slug": "gallery",
+      "primaryQueryCluster": "Sofa and living-room design gallery",
+      "searchIntent": "Commercial",
+      "title": "Sofa & Living Room Design Gallery Bangalore | Siddaspace",
+      "description": "Explore Siddaspace sofa and living room design inspiration, seating arrangements, custom furniture and interior details for Bangalore homes.",
+      "h1": "Sofa and living-room design gallery",
+      "canonical": "https://www.siddaspace.com/gallery",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "Explore sofa, recliner and lounge-seating references. Use the gallery to discuss dimensions, upholstery, seating needs and the furniture that suits your room; the final specification is agreed with Siddaspace. Share the design you like along with your room measurements and existing furniture. Review seating depth, passage space, upholstery and maintenance needs before choosing a specification. Gallery images are design references; they are not labelled as completed Siddaspace client projects.",
+      "geoSignals": {
+        "location": false,
+        "scope": true,
+        "execution": false,
+        "pricingFactors": false,
+        "timelineFactors": false,
+        "enquiry": true
+      },
+      "headings": [
+        "Comfort, detail, and a shape for every space.",
+        "From a reference image to your room"
+      ],
+      "internalLinks": 97,
+      "internalLinkTargets": [
+        "/",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.13%20PM%20(1).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.14%20PM%20(3).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.14%20PM%20(4).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.14%20PM.jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.15%20PM%20(1).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.15%20PM%20(2).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.15%20PM%20(3).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.15%20PM.jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.16%20PM%20(1).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.16%20PM%20(2).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.16%20PM.jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.17%20PM%20(1).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.17%20PM%20(2).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.17%20PM%20(3).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.18%20PM%20(1).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.18%20PM%20(2).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.18%20PM%20(3).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.18%20PM%20(4).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.18%20PM.jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.19%20PM%20(1).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.19%20PM%20(2).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.19%20PM%20(3).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.19%20PM%20(4).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.19%20PM.jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.20%20PM%20(1).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.20%20PM%20(2).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.20%20PM%20(3).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.20%20PM.jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.21%20PM%20(1).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.21%20PM%20(2).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.21%20PM%20(3).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.21%20PM%20(4).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.21%20PM.jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.22%20PM%20(1).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.22%20PM%20(2).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.22%20PM%20(3).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.22%20PM%20(4).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.22%20PM.jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.23%20PM%20(1).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.23%20PM%20(2).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.23%20PM%20(3).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.23%20PM%20(4).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.23%20PM.jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.24%20PM%20(1).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.24%20PM%20(2).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.24%20PM%20(3).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.24%20PM.jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.25%20PM%20(1).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.25%20PM%20(2).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.25%20PM.jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.30%20PM%20(1).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.30%20PM%20(2).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.30%20PM.jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.31%20PM%20(1).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.31%20PM%20(2).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.31%20PM%20(3).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.32%20PM%20(1).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.32%20PM%20(2).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.32%20PM%20(3).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.32%20PM%20(4).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.32%20PM.jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.33%20PM%20(1).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.33%20PM%20(2).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.33%20PM%20(3).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.33%20PM.jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.34%20PM%20(1).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.34%20PM%20(2).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.34%20PM%20(3).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.34%20PM%20(4).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.34%20PM.jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.35%20PM%20(1).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.35%20PM%20(2).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.35%20PM%20(3).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.35%20PM.jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.36%20PM%20(1).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.36%20PM%20(2).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.36%20PM%20(3).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.36%20PM.jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.37%20PM%20(1).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.37%20PM%20(2).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.37%20PM%20(3).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.37%20PM%20(4).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.37%20PM.jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.38%20PM%20(1).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.38%20PM%20(2).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.38%20PM%20(3).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.38%20PM.jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.39%20PM%20(2).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.39%20PM%20(3).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.39%20PM%20(4).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.39%20PM.jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.40%20PM%20(1).jpeg",
+        "/assets/gallery/WhatsApp%20Image%202026-09-07%20at%2012.50.40%20PM.jpeg",
+        "/services/wardrobes-custom-furniture",
+        "/services/home-interiors",
+        "/contact"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/team",
+      "slug": "team",
+      "primaryQueryCluster": "Siddaspace team",
+      "searchIntent": "Navigational",
+      "title": "Meet Our Bangalore Interior Design Team | Siddaspace",
+      "description": "Meet the Siddaspace team behind residential interior design, commercial fit-outs, civil construction and turnkey execution in Bangalore.",
+      "h1": "The people behind Siddaspace execution.",
+      "canonical": "https://www.siddaspace.com/team",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "ImageObject",
+        "Person"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "Meet the leadership, design, operations, and execution team bringing every Siddaspace project to life.",
+      "geoSignals": {
+        "location": false,
+        "scope": false,
+        "execution": true,
+        "pricingFactors": false,
+        "timelineFactors": false,
+        "enquiry": true
+      },
+      "headings": [
+        "Built by people who care about every detail.",
+        "Yashas Sidda",
+        "Viswaradhya",
+        "Haribabu G",
+        "Manoj M",
+        "Amrutha D R",
+        "Shankar C",
+        "Ready to meet the team behind your project?"
+      ],
+      "internalLinks": 2,
+      "internalLinkTargets": [
+        "/",
+        "/contact"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/packages",
+      "slug": "packages",
+      "primaryQueryCluster": "Home interior packages Bangalore",
+      "searchIntent": "Commercial",
+      "title": "Home Interior Packages in Bangalore | Siddaspace",
+      "description": "Compare Siddaspace home interior packages in Bangalore, from kitchen and wardrobe upgrades to complete 2 BHK, 3 BHK and premium custom interiors.",
+      "h1": "Home interior packages in Bangalore",
+      "canonical": "https://www.siddaspace.com/packages",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "Compare focused upgrades, complete 2 BHK and 3 BHK interiors, and premium custom work. Siddaspace packages are tailored to the agreed rooms, materials, furniture and site requirements.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": true,
+        "timelineFactors": true,
+        "enquiry": true
+      },
+      "headings": [
+        "Essential",
+        "Complete Home",
+        "Signature",
+        "Compare packages with the same room list",
+        "How your package is agreed",
+        "Package questions",
+        "Are package prices fixed for every 2 BHK or 3 BHK?",
+        "How do I request a package quotation?",
+        "Prepare your home interior quotation."
+      ],
+      "internalLinks": 10,
+      "internalLinkTargets": [
+        "/",
+        "/estimate",
+        "/services/2-bhk-interiors",
+        "/services/3-bhk-interiors",
+        "/blog/interior-design-cost-bangalore",
+        "/contact"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/blog",
+      "slug": "blog",
+      "primaryQueryCluster": "Bangalore interior planning guides",
+      "searchIntent": "Informational",
+      "title": "Interior Design Ideas & Cost Guides Bangalore | Siddaspace",
+      "description": "Read Siddaspace guides to interior design costs in Bangalore, apartment planning, modern home styles, renovation and office fit-outs.",
+      "h1": "Interior design ideas and planning guides for Bangalore",
+      "canonical": "https://www.siddaspace.com/blog",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "Explore practical guides to apartment interior costs, home styles and office fit-outs before you choose materials, compare proposals or begin site work.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": false,
+        "pricingFactors": true,
+        "timelineFactors": false,
+        "enquiry": false
+      },
+      "headings": [
+        "2 BHK & 3 BHK Interior Costs in Bangalore",
+        "Office Interior Planning Checklist",
+        "Modern, Minimalist & Scandinavian Interiors"
+      ],
+      "internalLinks": 4,
+      "internalLinkTargets": [
+        "/",
+        "/blog/interior-design-cost-bangalore",
+        "/blog/office-fit-out-checklist",
+        "/blog/home-interior-styles"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/blog/interior-design-cost-bangalore",
+      "slug": "blog/interior-design-cost-bangalore",
+      "primaryQueryCluster": "2 BHK and 3 BHK interior design cost Bangalore",
+      "searchIntent": "Informational",
+      "title": "2 & 3 BHK Interior Design Cost Bangalore | Siddaspace Guide",
+      "description": "Understand what shapes 2 BHK and 3 BHK interior design costs in Bangalore. Compare scope, materials, civil work, installation and exclusions before requesting a quote.",
+      "h1": "How to plan 2 BHK and 3 BHK interior design costs in Bangalore",
+      "canonical": "https://www.siddaspace.com/blog/interior-design-cost-bangalore",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "ImageObject",
+        "BlogPosting"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "A useful interior budget starts with a measured scope. Compare the rooms, furniture, materials and site work behind a quotation before deciding which package suits your home.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": true,
+        "timelineFactors": false,
+        "enquiry": true
+      },
+      "headings": [
+        "What affects home interior cost?",
+        "2 BHK and 3 BHK scope comparison",
+        "Begin with a room-by-room list",
+        "Build the estimate from quantities and specifications",
+        "Why two homes of the same BHK size can cost differently",
+        "Questions to ask before approving a quotation",
+        "Plan an affordable scope without guessing the final price",
+        "Frequently asked questions",
+        "Build a budget around your actual home."
+      ],
+      "internalLinks": 10,
+      "internalLinkTargets": [
+        "/",
+        "/blog",
+        "/about",
+        "/contact",
+        "/estimate",
+        "/services/2-bhk-interiors",
+        "/services/3-bhk-interiors",
+        "/services/home-renovation",
+        "/packages"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/blog/home-interior-styles",
+      "slug": "blog/home-interior-styles",
+      "primaryQueryCluster": "Modern interior design Bangalore",
+      "searchIntent": "Informational",
+      "title": "Modern & Scandinavian Home Interiors | Siddaspace Bangalore",
+      "description": "Compare modern, minimalist, Scandinavian and contemporary home interiors. Plan materials, storage, lighting and custom furniture for your Bangalore home.",
+      "h1": "Choose a modern, minimalist or Scandinavian interior for your home",
+      "canonical": "https://www.siddaspace.com/blog/home-interior-styles",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "ImageObject",
+        "BlogPosting"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "A style reference is a starting point for decisions about layout, storage, materials and light. Use these ideas to explain the mood you want, then adapt the details to your Bangalore home and everyday routine.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": true,
+        "timelineFactors": false,
+        "enquiry": true
+      },
+      "headings": [
+        "Modern and contemporary interiors",
+        "Minimalist interiors and space-saving design",
+        "Scandinavian-inspired home interiors",
+        "Luxury interiors with deliberate details",
+        "Turn references into a practical design brief",
+        "Find the details that make a home feel like yours."
+      ],
+      "internalLinks": 10,
+      "internalLinkTargets": [
+        "/",
+        "/blog",
+        "/about",
+        "/contact",
+        "/locations/kanakapura-road",
+        "/services/home-interiors",
+        "/services/wardrobes-custom-furniture",
+        "/services/3-bhk-interiors",
+        "/blog/interior-design-cost-bangalore"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/blog/office-fit-out-checklist",
+      "slug": "blog/office-fit-out-checklist",
+      "primaryQueryCluster": "Office fit-out planning Bangalore",
+      "searchIntent": "Informational",
+      "title": "Office Fit-Out Planning Checklist Bangalore | Siddaspace",
+      "description": "Plan an office fit-out in Bangalore with a checklist for workstations, meeting rooms, reception, cafeteria, services, approvals, budget and phased installation.",
+      "h1": "An office fit-out planning checklist for Bangalore workspaces",
+      "canonical": "https://www.siddaspace.com/blog/office-fit-out-checklist",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "ImageObject",
+        "BlogPosting"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "Start an office interior project with a clear brief for people, operations and site access. This checklist helps organize the decisions behind a practical commercial workspace and a comparable quotation.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": true,
+        "timelineFactors": true,
+        "enquiry": true
+      },
+      "headings": [
+        "1. Define how the team will use the space",
+        "2. Coordinate furniture and services",
+        "3. Specify the fit-out scope clearly",
+        "4. Plan installation around operations",
+        "5. Review the quote and handover plan",
+        "Plan an office that supports the way your team works."
+      ],
+      "internalLinks": 11,
+      "internalLinkTargets": [
+        "/",
+        "/blog",
+        "/about",
+        "/contact",
+        "/services/office-interiors",
+        "/workstations",
+        "/services/turnkey-interiors",
+        "/conference-tables",
+        "/services/home-renovation"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/locations/kanakapura-road",
+      "slug": "locations/kanakapura-road",
+      "primaryQueryCluster": "Interior designers Kanakapura Road",
+      "searchIntent": "Local + commercial",
+      "title": "Interior Designers on Kanakapura Road | Siddaspace Bangalore",
+      "description": "Visit Siddaspace in Ganapathipura on Kanakapura Main Road, Bangalore. Discuss home interiors, office fit-outs, modular kitchens, renovation and turnkey projects.",
+      "h1": "Interior designers on Kanakapura Road, Bangalore",
+      "canonical": "https://www.siddaspace.com/locations/kanakapura-road",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "Meet Siddaspace at our Ganapathipura office on Kanakapura Main Road. Bring your ideas, floor plan and priorities to discuss home interiors, office fit-outs, modular kitchens or a renovation project with our team.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": true,
+        "timelineFactors": true,
+        "enquiry": true
+      },
+      "headings": [
+        "Visit Siddaspace in Ganapathipura",
+        "What we can plan together",
+        "Make your first discussion useful",
+        "Planning a project elsewhere in Bangalore?",
+        "Frequently asked questions",
+        "Talk through your space with our Bangalore team."
+      ],
+      "internalLinks": 11,
+      "internalLinkTargets": [
+        "/",
+        "/services/2-bhk-interiors",
+        "/services/3-bhk-interiors",
+        "/services/modular-kitchens",
+        "/services/office-interiors",
+        "/services/home-renovation",
+        "/services/turnkey-interiors",
+        "/projects",
+        "/blog/interior-design-cost-bangalore",
+        "/estimate",
+        "/contact"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/products",
+      "slug": "products",
+      "primaryQueryCluster": "Interior products and office furniture Bangalore",
+      "searchIntent": "Commercial",
+      "title": "Interior Products & Office Furniture Bangalore | Siddaspace",
+      "description": "Explore Siddaspace interior products in Bangalore: architectural coatings, flooring solutions, home and office automation, and office furniture categories.",
+      "h1": "Interior products and office furniture in Bangalore",
+      "canonical": "https://www.siddaspace.com/products",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "CollectionPage",
+        "BreadcrumbList"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "Explore Siddaspace architectural coatings, flooring solutions, home and office automation, and furniture categories. Discuss product specifications and suitability as part of your interior project. Fan switch with regulator for smart-office and home-automation control.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": false,
+        "pricingFactors": false,
+        "timelineFactors": false,
+        "enquiry": false
+      },
+      "headings": [
+        "High-performance coating products for architectural applications.",
+        "Inshade Heat Shield Glass Nano Coating",
+        "Inshade Cool Roof Nano Coating",
+        "Technical flooring solutions for commercial use.",
+        "Inshade Epoxy Flooring",
+        "Automation products listed in the Siddaspace profile.",
+        "1 Gang IoT Switch",
+        "2 Gang IoT Switch",
+        "4 Gang IoT Switch",
+        "Fan Switch with Regulator",
+        "Furniture categories represented in the Siddaspace profile.",
+        "Workstations",
+        "Conference Tables",
+        "Reception Tables",
+        "Office Chairs",
+        "Storage Solutions"
+      ],
+      "internalLinks": 17,
+      "internalLinkTargets": [
+        "/",
+        "/products",
+        "/workstations",
+        "/conference-tables",
+        "/reception-tables",
+        "/office-chairs",
+        "/storage-solutions"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/office-chairs",
+      "slug": "office-chairs",
+      "primaryQueryCluster": "Office chairs Bangalore",
+      "searchIntent": "Commercial",
+      "title": "Office Chairs in Bangalore | Siddaspace",
+      "description": "Explore office chair options with Siddaspace in Bangalore. Discuss seating, desk coordination and furniture planning for your office interior project.",
+      "h1": "Office chairs for Bangalore workspaces",
+      "canonical": "https://www.siddaspace.com/office-chairs",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "Office chair options for commercial interiors, workspaces, reception areas, and seating-led furniture planning. Choose seating around the desk height, daily use, available space and the type of work. Discuss the required quantities and chair options with Siddaspace alongside the workstation layout.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": true,
+        "timelineFactors": false,
+        "enquiry": true
+      },
+      "headings": [
+        "Plan the furniture as part of the workspace"
+      ],
+      "internalLinks": 8,
+      "internalLinkTargets": [
+        "/",
+        "/products",
+        "/contact",
+        "/services/office-interiors",
+        "/blog/office-fit-out-checklist",
+        "/projects/executive-office"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/workstations",
+      "slug": "workstations",
+      "primaryQueryCluster": "Office workstations Bangalore",
+      "searchIntent": "Commercial",
+      "title": "Office Workstations in Bangalore | Siddaspace",
+      "description": "Explore office workstation designs with Siddaspace in Bangalore. Plan desk layouts, circulation, storage and furniture for commercial workspace interiors.",
+      "h1": "Office workstation planning in Bangalore",
+      "canonical": "https://www.siddaspace.com/workstations",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "Workspace planning, meeting rooms, executive desks, lounge seating, and commercial office furniture installations. Workstation design brings desk dimensions, circulation, seating, storage and power access into the same layout. Share team size and working patterns before fixing desk quantities.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": true,
+        "timelineFactors": false,
+        "enquiry": true
+      },
+      "headings": [
+        "Plan the furniture as part of the workspace"
+      ],
+      "internalLinks": 8,
+      "internalLinkTargets": [
+        "/",
+        "/products",
+        "/contact",
+        "/services/office-interiors",
+        "/blog/office-fit-out-checklist",
+        "/projects/executive-office"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/conference-tables",
+      "slug": "conference-tables",
+      "primaryQueryCluster": "Conference tables Bangalore",
+      "searchIntent": "Commercial",
+      "title": "Conference Tables in Bangalore | Siddaspace",
+      "description": "Explore conference and meeting table designs with Siddaspace in Bangalore. Plan office furniture, seating and meeting room layouts for your workspace.",
+      "h1": "Conference tables and meeting rooms in Bangalore",
+      "canonical": "https://www.siddaspace.com/conference-tables",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "Meeting tables, boardroom layouts, office chairs, storage walls, lighting, and commercial meeting room interiors. A conference table should fit the room, the intended number of users and the presentation equipment. Plan seating and circulation before choosing the final table size.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": false,
+        "timelineFactors": false,
+        "enquiry": true
+      },
+      "headings": [
+        "Plan the furniture as part of the workspace"
+      ],
+      "internalLinks": 8,
+      "internalLinkTargets": [
+        "/",
+        "/products",
+        "/contact",
+        "/services/office-interiors",
+        "/blog/office-fit-out-checklist",
+        "/projects/executive-office"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/reception-tables",
+      "slug": "reception-tables",
+      "primaryQueryCluster": "Reception tables Bangalore",
+      "searchIntent": "Commercial",
+      "title": "Office Reception Tables Bangalore | Siddaspace",
+      "description": "Explore office reception tables and visitor-facing furniture with Siddaspace in Bangalore. Coordinate seating, storage and your reception interior design.",
+      "h1": "Reception furniture planning in Bangalore",
+      "canonical": "https://www.siddaspace.com/reception-tables",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "Visitor-facing tables, lounge seating, reception planning, indoor planting, and front-office furniture installations. Reception furniture supports visitor handling, staff work and a clear arrival experience. Plan the desk, waiting seats, storage and movement together.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": false,
+        "timelineFactors": false,
+        "enquiry": true
+      },
+      "headings": [
+        "Plan the furniture as part of the workspace"
+      ],
+      "internalLinks": 8,
+      "internalLinkTargets": [
+        "/",
+        "/products",
+        "/contact",
+        "/services/office-interiors",
+        "/blog/office-fit-out-checklist",
+        "/projects/executive-office"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/storage-solutions",
+      "slug": "storage-solutions",
+      "primaryQueryCluster": "Office storage solutions Bangalore",
+      "searchIntent": "Commercial",
+      "title": "Office Storage Solutions Bangalore | Siddaspace",
+      "description": "Explore office storage units, display shelving and custom furniture with Siddaspace in Bangalore for practical commercial interior planning.",
+      "h1": "Office storage solutions in Bangalore",
+      "canonical": "https://www.siddaspace.com/storage-solutions",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "Office shelving, illuminated storage walls, executive cabin storage, display niches, and storage-led commercial spaces. Storage planning starts with what needs to be kept, who needs access and whether it should be displayed or concealed. Siddaspace coordinates office storage with workstations and meeting areas.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": true,
+        "timelineFactors": false,
+        "enquiry": true
+      },
+      "headings": [
+        "Plan the furniture as part of the workspace"
+      ],
+      "internalLinks": 8,
+      "internalLinkTargets": [
+        "/",
+        "/products",
+        "/contact",
+        "/services/office-interiors",
+        "/blog/office-fit-out-checklist",
+        "/projects/executive-office"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/contact",
+      "slug": "contact",
+      "primaryQueryCluster": "Contact Siddaspace Bangalore",
+      "searchIntent": "Local + navigational",
+      "title": "Contact Interior Designers in Bangalore | Siddaspace",
+      "description": "Contact Siddaspace for home interiors, office fit-outs, renovation and turnkey projects. Visit our Ganapathipura office on Kanakapura Main Road, Bangalore.",
+      "h1": "Contact our interior designers in Bangalore.",
+      "canonical": "https://www.siddaspace.com/contact",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "ContactPage",
+        "BreadcrumbList"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "Visit Siddaspace in Ganapathipura on Kanakapura Main Road, Bengaluru. Share your floor plan, timeline and budget to discuss home interiors, office fit-outs, renovation or turnkey execution.",
+      "geoSignals": {
+        "location": true,
+        "scope": false,
+        "execution": true,
+        "pricingFactors": true,
+        "timelineFactors": true,
+        "enquiry": true
+      },
+      "headings": [
+        "Phone",
+        "Email",
+        "Office Address",
+        "Ready to discuss your project?"
+      ],
+      "internalLinks": 2,
+      "internalLinkTargets": [
+        "/",
+        "/locations/kanakapura-road"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/estimate",
+      "slug": "estimate",
+      "primaryQueryCluster": "Home interior quotation request Bangalore",
+      "searchIntent": "Transactional",
+      "title": "Home Interior Quote Planner Bangalore | Siddaspace",
+      "description": "Plan your home interior budget in Bangalore. Select rooms and a package for a 2 BHK, 3 BHK or larger home, then prepare a quotation request with Siddaspace.",
+      "h1": "Home interior quote planner for Bangalore",
+      "canonical": "https://www.siddaspace.com/estimate",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "The estimate planner needs JavaScript. You can also call or WhatsApp Siddaspace with your room requirements . Prepare a 2 BHK, 3 BHK or larger home interior brief. Choose rooms and a finish preference, then review your quotation request in WhatsApp. Final costs follow measurements, materials and the agreed scope; approvals, site readiness and material availability affect the schedule. Read the interior cost guide .",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": true,
+        "timelineFactors": true,
+        "enquiry": true
+      },
+      "headings": [
+        "Select your BHK type",
+        "Select the rooms you'd like us to design",
+        "Pick your package",
+        "Your estimate request is almost ready"
+      ],
+      "internalLinks": 4,
+      "internalLinkTargets": [
+        "/contact",
+        "/",
+        "/blog/interior-design-cost-bangalore"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/privacy-policy",
+      "slug": "privacy-policy",
+      "primaryQueryCluster": "Siddaspace privacy policy",
+      "searchIntent": "Navigational",
+      "title": "Privacy Policy | Siddaspace",
+      "description": "Privacy policy for Siddaspace website enquiries, estimate requests, and consultation form submissions.",
+      "h1": "How Siddaspace handles enquiry information.",
+      "canonical": "https://www.siddaspace.com/privacy-policy",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "We collect basic contact and project details only to respond to enquiries, prepare estimates, and coordinate consultation requests.",
+      "geoSignals": {
+        "location": false,
+        "scope": false,
+        "execution": true,
+        "pricingFactors": false,
+        "timelineFactors": false,
+        "enquiry": true
+      },
+      "headings": [
+        "Information We Collect",
+        "How We Use It",
+        "Contact"
+      ],
+      "internalLinks": 1,
+      "internalLinkTargets": [
+        "/"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/terms",
+      "slug": "terms",
+      "primaryQueryCluster": "Siddaspace terms and conditions",
+      "searchIntent": "Navigational",
+      "title": "Terms & Conditions | Siddaspace",
+      "description": "Terms and conditions for using the Siddaspace website, requesting estimates, and discussing interior design, furniture, and construction projects.",
+      "h1": "Terms & Conditions",
+      "canonical": "https://www.siddaspace.com/terms",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "Terms for using our website and making enquiries about interiors, furniture, and construction services. These terms apply to your use of the Siddaspace website and its enquiry and estimate features. By using these features, you agree to use the website lawfully and in accordance with these terms.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": true,
+        "timelineFactors": true,
+        "enquiry": true
+      },
+      "headings": [
+        "On This Page",
+        "1. Website Use",
+        "2. Website Information",
+        "3. Enquiries & Estimates",
+        "4. Project Agreements & Changes",
+        "5. Project Timelines",
+        "6. Payments, Cancellations & Refunds",
+        "7. Warranty Support",
+        "8. Content & Design Rights",
+        "9. Privacy & External Services",
+        "10. Website Availability",
+        "11. Applicable Law & Your Rights",
+        "12. Updates to These Terms",
+        "13. Contact"
+      ],
+      "internalLinks": 16,
+      "internalLinkTargets": [
+        "/",
+        "/terms",
+        "/privacy-policy",
+        "/contact"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/projects/executive-office",
+      "slug": "projects/executive-office",
+      "primaryQueryCluster": "Executive office interior project Bangalore",
+      "searchIntent": "Informational + commercial",
+      "title": "Executive Office Interior in Bangalore | Siddaspace",
+      "description": "Explore Siddaspace’s executive office interior in Bangalore, with custom storage, desk planning, laminate finishes and warm lighting.",
+      "h1": "Executive Office Interior in Bangalore",
+      "canonical": "https://www.siddaspace.com/projects/executive-office",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "ImageObject",
+        "CreativeWork"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "A workspace with an executive desk, integrated storage, warm lighting and coordinated wall finishes.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": true,
+        "timelineFactors": false,
+        "enquiry": true
+      },
+      "headings": [
+        "Project details",
+        "Layout and furniture",
+        "Finishes and execution details",
+        "Plan the right scope for your premises",
+        "Bring your project brief to Siddaspace."
+      ],
+      "internalLinks": 8,
+      "internalLinkTargets": [
+        "/",
+        "/projects",
+        "/contact",
+        "/services/office-interiors",
+        "/services/turnkey-interiors"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/projects/lobby-lounge",
+      "slug": "projects/lobby-lounge",
+      "primaryQueryCluster": "Lobby lounge interior project Bangalore",
+      "searchIntent": "Informational + commercial",
+      "title": "Lobby Lounge Interior in Bangalore | Siddaspace",
+      "description": "Explore a Siddaspace Bangalore commercial lounge with curved seating, illuminated wood panels and coordinated furniture.",
+      "h1": "Lobby Lounge Interior in Bangalore",
+      "canonical": "https://www.siddaspace.com/projects/lobby-lounge",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "ImageObject",
+        "CreativeWork"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "A commercial lounge with curved seating, illuminated wood panels and coordinated furniture.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": true,
+        "timelineFactors": false,
+        "enquiry": true
+      },
+      "headings": [
+        "Project details",
+        "Layout and furniture",
+        "Finishes and execution details",
+        "Plan the right scope for your premises",
+        "Bring your project brief to Siddaspace."
+      ],
+      "internalLinks": 8,
+      "internalLinkTargets": [
+        "/",
+        "/projects",
+        "/contact",
+        "/services/office-interiors",
+        "/services/turnkey-interiors"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    },
+    {
+      "url": "https://www.siddaspace.com/projects/restaurant-dining",
+      "slug": "projects/restaurant-dining",
+      "primaryQueryCluster": "Restaurant interior execution project Bangalore",
+      "searchIntent": "Informational + commercial",
+      "title": "Restaurant Interior Execution Bangalore | Siddaspace",
+      "description": "Explore Siddaspace restaurant execution in Bangalore, with dining layouts, a completed service counter, ambient lighting and coordinated finishes.",
+      "h1": "Restaurant Interior Execution in Bangalore",
+      "canonical": "https://www.siddaspace.com/projects/restaurant-dining",
+      "schema": [
+        "HomeAndConstructionBusiness",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "ImageObject",
+        "CreativeWork"
+      ],
+      "indexability": "Eligible: 200, index, self-canonical; search inclusion not claimed",
+      "geoAnswerBlock": "A hospitality interior with dining layouts, ambient lighting, durable finishes and a completed service counter.",
+      "geoSignals": {
+        "location": true,
+        "scope": true,
+        "execution": true,
+        "pricingFactors": true,
+        "timelineFactors": false,
+        "enquiry": true
+      },
+      "headings": [
+        "Project details",
+        "Layout and furniture",
+        "Finishes and execution details",
+        "Plan the right scope for your premises",
+        "Bring your project brief to Siddaspace."
+      ],
+      "internalLinks": 8,
+      "internalLinkTargets": [
+        "/",
+        "/projects",
+        "/contact",
+        "/services/restaurant-interiors",
+        "/services/turnkey-interiors"
+      ],
+      "trustStatus": "No unverified rating/review; owner-supplied NAP, floor pending",
+      "sourceMatches": true
+    }
+  ],
+  "failures": []
+}

@@ -1,54 +1,72 @@
-# Siddaspace production deployment
+# Siddaspace production deployment and final verification
 
-Published on 19 October 2026 to **https://www.siddaspace.com/** through the existing GitHub main branch and Vercel project.
+Published on 19 October 2026 to **https://www.siddaspace.com/** through the existing GitHub main branch and Vercel project. This record supersedes the initial deployment handover; older probe and recheck files remain historical evidence.
 
-- [Content release de728ef](https://github.com/RahulRaoMR/siddaspace/commit/de728eff4a45a949e105d322cf910399cea1d01a)
-- [Successful Vercel production deployment](https://vercel.com/rahul-s-projects-f3944ce2/siddaspace/BHRUBroDdXoLKY9Vm8r6b5C4VQp6)
+- [Final SEO/entity/trust content release 65389a1](https://github.com/RahulRaoMR/siddaspace/commit/65389a11d3593c5c5b40170a8a90633e36683071), [successful Vercel deployment](https://vercel.com/rahul-s-projects-f3944ce2/siddaspace/7Nk29gkVbdsVjy2VBJQXmDdYXZzP).
+- [Project-link accessibility correction 297b0b1](https://github.com/RahulRaoMR/siddaspace/commit/297b0b177466e9ce4dfcff15e45a3de77bb98969), [successful Vercel deployment](https://vercel.com/rahul-s-projects-f3944ce2/siddaspace/BQjSkSrcGuzUNdJLr6oAwK88NBPS).
+- [Complete final live audit and 34-URL table](FINAL-PRODUCTION-AUDIT.md), [machine-readable crawl](final-production-audit.json).
+
+## Completed and live
+
+The homepage has one semantic H1: ?Interior Designers & Turnkey Interior Solutions in Bangalore?, followed by a factual Bangalore-based company definition. Normal text and the connected business entity use Siddaspace; the historical schema alias is removed. Original stylized artwork and existing official social handles are preserved.
+
+All 34 public pages have distinct query/intent ownership, unique metadata, canonical URLs and connected structured data. Service, package and quotation-request pages explain scope, execution, pricing factors, timeline factors and enquiry paths. The planner prepares a quotation request; it does not calculate numeric prices. The renovation page now links directly to that planner.
+
+No unsupported rating, testimonial, client total, review schema, hours or coordinates are published. Unknown project facts and article authors/dates remain omitted. The three project notes use existing photos and descriptions. Five project-video captions now provide useful service links, with underlines for accessible identification.
+
+Responsive WebP delivery now includes the existing wordmark, symbol and footer artwork, and team avatar sizes reflect their display size. The manifest covers 182 normalized source references with 711 WebP derivative files. The hero remains full length at 21,547,497 bytes, down from 308,611,515 bytes (about 93%). Originals are retained. Offscreen posters/sources remain deferred; project videos use controls and do not autoplay.
+
+Closed consultation dialogs are inert, open dialogs remain interactive, booking-card accessible names match visible text, and small coral/gold text contrast is improved. Developer-only server.js, scripts, reports and documentation return 404 in production.
 
 ## Production verification
 
-- All **34 public pages** match the release HTML, including metadata, canonicals and connected JSON-LD.
-- **977 referenced/responsive assets** checked; **1,038 production checks passed with no failures**. Original GitHub-hosted MP4 files and the new WebM support partial media requests.
-- Sitemap, robots, clean URLs, legacy presentation redirects, custom 404, image/video responses and cache controls checked.
-- Anonymous Live Projects access redirects to login. Encoded path variants return a safe noindex 404. Local tests also verified successful login, authenticated portal access, sessions and logout with disposable in-memory credentials. Owner credentials were not used for a production login.
-- Live consultation and quotation validation, intercepted WhatsApp draft contents, source attribution, static gallery links, gallery focus restoration, reduced motion, deferred video posters and actual WebM decoding/seeking passed. **No real enquiry was sent.**
-- The full live browser audit covered 102 page/viewport cases. Thirty targeted copy rechecks passed, followed by 12 final checks covering homepage, home interiors, projects and gallery at 390, 768 and 1440px. Representative production screenshots were inspected.
+- All **34 public pages** match the released HTML. Metadata, schema IDs/references, canonical URLs, NAP, index eligibility, required contextual links, image attributes, sitemap and robots checks pass.
+- **991 referenced/responsive assets; 1,053 HTTP/asset/routing checks; zero failures.** Videos support valid partial media responses. Clean URLs, presentation redirects, custom 404 and cache/MIME responses pass.
+- **102 production page/viewport checks pass** at 390, 768 and 1440px. The final project-link change also passes three targeted viewport rechecks. Heavy video downloads are blocked only in the layout suite and tested separately.
+- **All five production project videos load, seek and decode**, with controls, responsive dimensions and meaningful surrounding service context. No video runtime errors were recorded.
+- Live consultation/quotation validation, intercepted WhatsApp drafts, source attribution, no-JavaScript gallery, focus restoration, reduced motion and full compressed-hero decoding/seeking pass. **No real enquiry was sent.**
+- Anonymous Live Projects requests redirect to login; private/login routes are noindex and excluded from the sitemap. Local authentication/session/portal/logout tests pass using disposable in-memory credentials. Owner production credentials were not used.
 
-An initial mobile gallery run hit the QA readiness limit. Its raw failures are retained; subsequent isolated rechecks passed. Browser tooling now brings the tested tab to the foreground and allows up to 30 seconds for document readiness.
+The authenticated Live Projects handler retains the previous portal template; the old public static template was removed to prevent a Vercel rewrite bypass. Two former local LFS-pointer video URLs use the existing working GitHub media host. No public page was removed or new hosting workflow introduced.
 
-## Corrections found during deployment
+## Measured production performance
 
-The static Live Projects HTML took precedence over Vercel's authentication rewrite. Its unchanged page content now lives in the authenticated handler, and both the local and hosted routes use that handler. No public page URL was removed.
+| Production Lighthouse run | Performance | Accessibility | Best practices | SEO | LCP | CLS | TBT |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| [Homepage mobile](lighthouse-mobile-final.json) | 95 | 100 | 100 | 100 | 2.56 s | 0.003 | 68 ms |
+| [Homepage desktop](lighthouse-desktop-final.json) | 98 | 100 | 100 | 100 | 0.71 s | 0.000 | 0 ms |
+| [Projects mobile](lighthouse-projects-mobile-final.json) | 90 | 100 | 100 | 100 | 2.12 s | 0.000 | 373 ms |
 
-Two local project MP4 URLs returned Git LFS pointers on Vercel. They now use the same working GitHub media host as the other original walkthroughs. Legacy `.html` redirects may use Vercel's clean-URL hop before reaching their final destination.
+Lighthouse 13.5.0 ran locally against production in installed Chromium, using the simulated mobile/desktop configurations recorded in each raw file. Scores apply to those individual pages and runs. They are not an overall SEO/GEO rating, a full accessibility certification or field Core Web Vitals. TBT is not measured INP.
 
-The quotation planner collects room/package preferences and prepares a quotation request; it does not calculate a price. Titles, headings, related links, terms and WhatsApp wording now reflect that behavior.
+The [homepage mobile baseline](lighthouse-mobile-before.json) recorded performance 94, accessibility 93, LCP 2.89 s, CLS 0.005 and TBT 38 ms. The final homepage lab run records the changed image/accessibility delivery; ordinary run variation prevents attributing every timing difference to a particular edit.
 
-The hero remains full length while its file size falls from 308,611,515 to 21,547,497 bytes, about 93%. Two location icons now have responsive WebP variants: their combined default 104px versions total 7,032 bytes, compared with 1,169,588 original bytes. There are now 698 WebP derivatives. Offscreen video posters are deferred, and hero playback waits for initial loading and an idle opportunity.
+The [project run before the underline correction](lighthouse-projects-mobile-before-link-fix.json) measured LCP 1.17 s and TBT 58 ms; the final run above had more layout work and TBT 373 ms. Both records are retained. The link-identification accessibility finding is resolved. These samples do not establish a field interaction regression or improvement; investigate layout and loading under real traffic.
 
-## Performance evidence and limits
+The earlier custom browser probe lacked a reliable mobile-homepage LCP. Successful Lighthouse measurements now close that lab-measurement gap. The historical [PageSpeed API response](pagespeed-mobile.json) was HTTP 429 due to API quota, not a site-performance failure.
 
-[Production performance observations](production-performance.json) record synthetic mobile and desktop runs for the homepage and home-interior service page with all media enabled. The file states its network and CPU settings. These single observations are not Lighthouse scores, field Core Web Vitals, measured INP, ranking guarantees or an SEO/GEO rating.
+## Remaining weaknesses and follow-up
 
-Earlier samples are retained for diagnosis. They predate explicit browser foregrounding and include variable response/paint timing; they must not be used to claim a measured before/after LCP improvement. Asset byte reductions are directly verifiable. Monitor real-user LCP, INP and CLS after traffic accumulates, including cold mobile visits.
+- Mobile homepage LCP is 2.56 s in the final run, slightly above 2.5 s. Monitor cold mobile visits and field LCP, INP and CLS using the owner accounts and real traffic.
+- Homepage Lighthouse estimates another 270 KiB of image-delivery savings and 13 KiB of unused shared CSS. The shared stylesheet transfers about 24 KiB. Preserve image quality and layout when reviewing crop variants, compression or stylesheet splitting.
+- The homepage lab capture transferred about 4.5 MiB, including about 3.3 MiB of intentional hero playback. The full hero is 21.5 MB. The original 4K bedroom project clip is about 192 MB and loads on demand. Responsive/adaptive video variants need quality and audio review.
+- The final projects mobile TBT is 373 ms, with layout work dominating; keep this as a performance follow-up. JavaScript execution itself was about 0.1 s. Font-display checks pass, but the shared stylesheet remains render-blocking.
+- Richer, owner-supported project records, genuine editorial authors/dates and manufacturer datasheets would improve the evidence beyond the current supported descriptions.
 
-The mobile homepage's LCP observation was unavailable in this probe. Verify that page with Lighthouse/PageSpeed and Search Console field data before claiming it meets Core Web Vitals targets.
+## Owner and account actions
 
-An independent Google PageSpeed API request returned HTTP 429 because its daily quota was exhausted. [The recorded response](pagespeed-mobile.json) contains no Lighthouse result or performance score.
+Resolve the supplied address's conflicting ?1st floor? and ?3rd Floor? references. Confirm hours, exact entrance/map pin/coordinates, actual service coverage, social ownership and any further business or project claims before publication. Unknown facts are not filled in for schema completeness.
 
-An independent Google PageSpeed API request returned HTTP 429 because its daily quota was exhausted. [The recorded response](pagespeed-mobile.json) contains no Lighthouse result or performance score.
+Google Search Console verification, sitemap submission, priority URL inspection and monitoring require the owner account. Bing verification/submission and available AI Performance reports require its owner account. Google Business Profile fields, services, photos, categories, hours and service areas require its owner/admin account. **No search-account or profile action has been claimed or performed.**
 
-## Owner/account work remaining
-
-Google Search Console verification, sitemap submission and URL inspection; Bing Webmaster Tools submission and AI reporting; Google Business Profile updates require the respective owner/admin accounts. No search-account changes or submissions were performed.
-
-Confirm the address's conflicting floor references, hours, exact coordinates/map pin, service-area coverage and supporting records for any future business/performance claims. Unsupported facts remain omitted. See [SEO.md](../SEO.md) for the maintenance procedure and owner-confirmation list.
+[SEO.md](../SEO.md) contains the exact owner procedures and a 28-day search, conversion and measurable AI-visibility baseline plan. Account metrics are pending, not zero. Current forms prepare WhatsApp drafts, so draft opening must remain distinct from an enquiry actually received. No analytics provider or conversion totals were invented; search/AI inclusion cannot be guaranteed.
 
 ## Supporting records
 
-- [Full URL and implementation audit](SEO-AUDIT.md)
-- [Production HTTP and asset checks](production-check.json)
-- [Full live browser audit](production-browser-audit.json)
-- [Copy and gallery rechecks](production-browser-copy-recheck.json)
-- [Final responsive checks](production-browser-recheck.json)
+- [Full implementation inventory](SEO-AUDIT.md)
+- [Production HTTP/asset checks](production-check.json)
+- [Full production responsive audit](production-browser-audit.json)
+- [Final project viewport recheck](production-browser-recheck.json)
+- [Actual five-video playback checks](project-video-check.json)
 - [Project evidence](project-evidence.json)
+- [Claim archive for owner confirmation](owner-confirmation.json)

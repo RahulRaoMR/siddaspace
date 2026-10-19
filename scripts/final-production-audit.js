@@ -25,6 +25,61 @@ function firstParagraphs(main) {
   const text = hero || main;
   return [...text.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/g)].map(([, p]) => visibleText(p)).filter(p => p.length > 70).slice(0, 2).join(' ').slice(0, 650);
 }
+function validationEvidence() {
+  const read = file => fs.existsSync(path.join(root, 'reports', file)) ? JSON.parse(fs.readFileSync(path.join(root, 'reports', file), 'utf8')) : null;
+  const http = read('production-check.json');
+  const browser = read('production-browser-audit.json');
+  const videos = read('project-video-check.json');
+  const lighthouse = [
+    ['Homepage mobile baseline', 'lighthouse-mobile-before.json'],
+    ['Homepage mobile final', 'lighthouse-mobile-final.json'],
+    ['Homepage desktop final', 'lighthouse-desktop-final.json'],
+    ['Projects mobile final', 'lighthouse-projects-mobile-final.json']
+  ].flatMap(([label, file]) => {
+    const data = read(file);
+    if (!data) return [];
+    const metric = key => data.audits?.[key]?.numericValue;
+    return [{ label, file, url: data.finalDisplayedUrl || data.finalUrl, measuredAt: data.fetchTime, version: data.lighthouseVersion,
+      scores: Object.fromEntries(Object.entries(data.categories).map(([key, value]) => [key, Math.round(value.score * 100)])),
+      lcpMs: metric('largest-contentful-paint'), cls: metric('cumulative-layout-shift'), tbtMs: metric('total-blocking-time'),
+      fcpMs: metric('first-contentful-paint'), transferredBytes: metric('total-byte-weight'),
+      mainThreadMs: metric('mainthread-work-breakdown'), javascriptExecutionMs: metric('bootup-time'),
+      videoTransferredBytes: (data.audits['total-byte-weight']?.details?.items || []).filter(item => /\.(?:webm|mp4)(?:\?|$)/i.test(item.url)).reduce((sum, item) => sum + item.totalBytes, 0),
+      opportunities: { images: data.audits['image-delivery-insight']?.displayValue, unusedCss: data.audits['unused-css-rules']?.displayValue,
+        sharedCssBytes: data.audits['unused-css-rules']?.details?.items?.find(item => item.url.endsWith('/styles.css'))?.totalBytes,
+        renderBlockingSavings: data.audits['render-blocking-insight']?.metricSavings, fontDisplayPass: data.audits['font-display-insight']?.score === 1 },
+      conditions: { formFactor: data.configSettings.formFactor, throttlingMethod: data.configSettings.throttlingMethod, throttling: data.configSettings.throttling },
+      runtimeError: data.runtimeError || null }];
+  });
+  return { http: http && { checkedAt: http.checkedAt, pages: http.publicPages, assets: http.assetCount, checks: http.results.length, failures: http.failures.length },
+    browser: browser && { checkedAt: browser.auditedOn, cases: browser.results.length, failures: browser.failures.length, environment: browser.environment },
+    videos: videos && { checkedAt: videos.checkedAt, cases: videos.results.length, failures: videos.failures.length, environment: videos.environment }, lighthouse };
+}
+function validationMarkdown(evidence) {
+  const http = evidence.http, browser = evidence.browser, videos = evidence.videos;
+  const mobile = evidence.lighthouse.find(run => run.file === 'lighthouse-mobile-final.json');
+  const checks = [http && `Production HTTP/assets: ${http.pages} pages, ${http.assets} assets and ${http.checks} checks; ${http.failures} failures.`,
+    browser && `Responsive audit: ${browser.cases} page/viewport cases at 390, 768 and 1440px; ${browser.failures} failures. Heavy remote videos were blocked in this layout suite and verified separately.`,
+    videos && `Actual project playback: ${videos.cases} remote videos loaded and decoded; ${videos.failures} failures. Enquiry checks intercepted WhatsApp drafts; no real enquiry was sent.`].filter(Boolean);
+  const table = '| Lighthouse run | Performance | Accessibility | Best practices | SEO | LCP | CLS | TBT |\n| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |\n' + evidence.lighthouse.map(r => `| [${r.label}](${r.file}) | ${r.scores.performance} | ${r.scores.accessibility} | ${r.scores['best-practices']} | ${r.scores.seo} | ${(r.lcpMs / 1000).toFixed(2)} s | ${r.cls.toFixed(3)} | ${Math.round(r.tbtMs)} ms |`).join('\n');
+  const boundary = mobile && mobile.lcpMs > 2500 ? 'The final mobile homepage LCP is above 2.5 seconds. ' : '';
+  return '## Measured validation\n\n' + checks.map(c => '- ' + c).join('\n') + '\n\n' + table + `\n\nLighthouse ${[...new Set(evidence.lighthouse.map(run => run.version))].join(', ')} ran locally against production in installed Chromium with its recorded simulated mobile/desktop settings. These are individual lab observations, not field Core Web Vitals, measured INP, a full accessibility certification or an overall SEO/GEO rating. ${boundary}Prior custom browser observations and the PageSpeed quota response are historical; these successful Lighthouse runs provide the current lab measurements. Full conditions and raw results are linked above.\n\n`;
+}
+function performanceFollowUp(evidence) {
+  const mobile = evidence.lighthouse.find(run => run.file === 'lighthouse-mobile-final.json');
+  const projects = evidence.lighthouse.find(run => run.file === 'lighthouse-projects-mobile-final.json');
+  const media = JSON.parse(fs.readFileSync(path.join(root, 'assets/videos/media-manifest.json'), 'utf8'));
+  const points = [];
+  if (mobile) {
+    points.push(`Mobile homepage LCP measured ${(mobile.lcpMs / 1000).toFixed(2)} seconds in the final run; field LCP/INP/CLS remain unverified. TBT was ${Math.round(mobile.tbtMs)} ms, not a field INP measurement.`);
+    points.push(`Lighthouse image delivery: ${mobile.opportunities.images || 'see raw report'}; unused shared CSS: ${mobile.opportunities.unusedCss || 'see raw report'}. Further image compression/crop variants need visual review. The shared stylesheet transferred about ${Math.round((mobile.opportunities.sharedCssBytes || 0) / 1024)} KiB.`);
+    points.push(`The homepage run transferred ${(mobile.transferredBytes / 1048576).toFixed(1)} MiB, including ${(mobile.videoTransferredBytes / 1048576).toFixed(1)} MiB of intentional background-video playback. The full compressed hero remains ${(media.optimizedBytes / 1e6).toFixed(1)} MB. The original 4K bedroom walkthrough is about 192 MB and loads on demand; responsive video delivery is a follow-up with audio/quality review.`);
+    points.push(`JavaScript execution measured ${(mobile.javascriptExecutionMs / 1000).toFixed(1)} s on the simulated mobile run; layout/rendering dominate the ${(mobile.mainThreadMs / 1000).toFixed(1)} s main-thread work diagnostic. Font-display check: ${mobile.opportunities.fontDisplayPass ? 'pass' : 'see raw report'}. The shared stylesheet is render-blocking; estimated removal savings are ${JSON.stringify(mobile.opportunities.renderBlockingSavings || {})} milliseconds in that run.`);
+  }
+  if (projects) points.push(`The final projects mobile run measured LCP ${(projects.lcpMs / 1000).toFixed(2)} seconds, CLS ${projects.cls.toFixed(3)} and TBT ${Math.round(projects.tbtMs)} ms. The earlier pre-underline sample measured 1.17 seconds and 58 ms TBT; both raw runs are retained. Layout/loading variability and field INP need follow-up; the final accessibility link-identification check passes.`);
+  points.push('Project notes remain limited to supported photographs/descriptions. Confirmed client permissions, location, area, dates, budgets and outcomes would add useful evidence. Search/AI visibility and received-lead baselines need owner accounts and real traffic.');
+  return '\n\n## Remaining performance and evidence limits\n\n' + points.map(point => '- ' + point).join('\n') + '\n\n[Current deployment record](DEPLOYMENT.md) contains the released source revision and deployment link.\n';
+}
 async function auditPage([slug]) {
   const route = slug === 'index' ? '/' : '/' + slug;
   const url = origin + route;
@@ -125,7 +180,8 @@ async function auditPage([slug]) {
     const response = await get(route);
     check(response.status === 404, origin + route, 'Repository-only file must not be publicly served');
   }
-  const report = { auditedAt: new Date().toISOString(), base, live, publicUrlCount: results.length, pages: results, failures };
+  const evidence = live ? validationEvidence() : null;
+  const report = { auditedAt: new Date().toISOString(), base, live, publicUrlCount: results.length, validation: evidence, pages: results, failures };
   const stem = live ? 'final-production-audit' : 'final-local-audit';
   fs.writeFileSync(path.join(root, 'reports', stem + '.json'), JSON.stringify(report, null, 2) + '\n');
   const cell = s => String(s).replace(/\|/g, '\\|').replace(/\n/g, ' ');
@@ -133,7 +189,8 @@ async function auditPage([slug]) {
     const table = '| URL | Primary query cluster | Search intent | Title | H1 | Canonical | Schema | Indexability | GEO answer block | Internal links | Trust status | Status |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | ---: | --- | --- |\n' + results.map(r => '| ' + [r.url, r.primaryQueryCluster, r.searchIntent, r.title, r.h1, r.canonical, r.schema.join(', '), 'Eligible; indexing unconfirmed', r.geoAnswerBlock || 'Navigation/specification/legal context', r.internalLinks + ' in main content', r.trustStatus, failures.some(f => f.url === r.url) ? 'Needs attention' : 'PASS'].map(cell).join(' | ') + ' |').join('\n');
     const intro = `# Final live production SEO/GEO audit\n\nAudited: ${report.auditedAt}. ${results.length} canonical public URLs crawled from production; ${failures.length} technical/content failures. This is an implementation audit, not an overall rating, indexing confirmation or ranking prediction. [Detailed crawl data](final-production-audit.json).\n\nThe previous generic homepage H1 and numerical rating/testimonial block were already absent at the start of this review. This release uses the preferred H1, removes the historical schema alias, corrects remaining calculator/instant-price labels, improves package/request answers, fixes closed-dialog focus and contrast, and reduces image overdelivery. Existing artwork, confirmed contact details and protected Live Projects behavior are retained.\n\n`;
     const actions = '\n\n## COMPLETED AND LIVE\n\nCanonical Siddaspace text/entity naming; preferred homepage H1 and early factual entity paragraph; unique metadata/canonicals; connected business/service/article/project/breadcrumb schema; responsive image delivery; visible answer content; contextual internal links; private-route indexing controls; sitemap/robots; removal of repository-only server delivery. See the crawl and linked validation records for exact evidence.\n\n## OWNER CONFIRMATION REQUIRED\n\nResolve the supplied office floor discrepancy; confirm hours, exact map pin/coordinates, neighbourhood/service coverage and social ownership. Confirm richer project facts, editorial authors/dates, material datasheets and any future testimonials, ratings, totals, warranties or credentials before publication. Unknown facts remain omitted. Current project notes are limited to existing published descriptions/photos.\n\n## GOOGLE ACCOUNT ACTION REQUIRED\n\nVerify the Search Console property if needed; submit https://www.siddaspace.com/sitemap.xml; inspect the homepage, home/office/turnkey/2 BHK/3 BHK/renovation/kitchen service pages, the interior-cost guide and Kanakapura Road page. Request indexing where appropriate. Review selected canonicals, indexing, clicks, impressions, CTR, position and Core Web Vitals. No account action is claimed.\n\n## BING ACCOUNT ACTION REQUIRED\n\nVerify or import the site, submit the sitemap, inspect index status and monitor search performance. Use available AI Performance reporting for citations, cited pages and query themes when enabled. No submission or citation improvement is claimed.\n\n## GOOGLE BUSINESS PROFILE ACTION REQUIRED\n\nConfirm the real name, address/floor, phone, website, categories, services, photographs, business description, hours and actual service areas in the owner account. Keep NAP consistent after resolving the floor. No profile changes were performed.\n\n## PERFORMANCE FOLLOW-UP\n\nUse the local Lighthouse mobile/desktop reports and video checks linked below. Lab LCP/CLS and total blocking time describe the tested conditions; TBT is not field INP. Monitor real-user LCP, INP and CLS after launch. The previous PageSpeed API quota response is not evidence of a site failure. Shared CSS, long intentional video playback and richer real project evidence remain ongoing maintenance items. No overall 10/10 score is assigned.\n\n## Measurement baseline\n\nAt first account access, export the latest 28 complete days of Search Console/Bing data with dates/timezone: clicks, impressions, CTR, position and indexed URLs. Compare the next 28 complete days with the same definitions. Values are pending account access, not zero.\n\nRecord phone clicks, WhatsApp handoffs, consultation enquiries, estimate starts/completions, form interactions and confirmed leads separately. A prepared WhatsApp draft is not a sent enquiry. No analytics provider or conversion totals were invented. Track brand queries, measurable citations/cited pages/query themes and identifiable AI referrals; manual observations need engine, date and query context. ChatGPT, Gemini and Perplexity placement cannot be guaranteed.\n\n## Validation records\n\n- [HTTP, asset, redirect and private-route checks](production-check.json)\n- [Responsive production checks](production-browser-audit.json)\n- [Video playback checks](project-video-check.json)\n- [Mobile Lighthouse](lighthouse-mobile-final.json)\n- [Desktop Lighthouse](lighthouse-desktop-final.json)\n- [Maintenance and exact owner procedures](../SEO.md)\n';
-    fs.writeFileSync(path.join(root, 'reports/FINAL-PRODUCTION-AUDIT.md'), intro + table + actions + (failures.length ? '\n## Remaining crawl failures\n\n' + failures.map(f => '- ' + f.url + ': ' + f.issue).join('\n') + '\n' : ''));
+    const followUp = performanceFollowUp(evidence);
+    fs.writeFileSync(path.join(root, 'reports/FINAL-PRODUCTION-AUDIT.md'), intro + validationMarkdown(evidence) + table + actions + followUp + (failures.length ? '\n## Remaining crawl failures\n\n' + failures.map(f => '- ' + f.url + ': ' + f.issue).join('\n') + '\n' : ''));
   }
   console.log(`Final ${live ? 'production' : 'local'} audit: ${results.length} pages; ${failures.length} failures.`);
   if (failures.length) { console.error(JSON.stringify(failures, null, 2)); process.exitCode = 1; }

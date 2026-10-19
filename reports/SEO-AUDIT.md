@@ -2,14 +2,14 @@
 
 Audit date: 19 October 2026. **The SEO release is deployed to https://www.siddaspace.com/. Local checks and production verification are distinguished below. No search-account change, sitemap submission or real lead message was performed.**
 
-## Completed locally
+## Implementation inventory
 
 - 34 public URLs have distinct keyword/intent ownership, unique titles/descriptions, one H1, canonical HTTPS URLs, static metadata and connected JSON-LD.
 - Nine service pages now have answer-first definitions, audience, scope, preparation, cost/timeline factors, relevant images, FAQs and enquiry paths. The cost and office/turnkey content adds useful comparisons without fabricated rates.
 - Three new project notes use existing portfolio photographs and descriptions. No new clients, neighbourhoods, prices, dates or outcomes were inferred. Thirteen public SEO pages have been added across this working changeset, including the ten from the earlier local SEO pass. A new noindex 404 page is also present. No pages were removed.
 - Canonical business name, confirmed NAP and social references are consistent. Six team Person entries reflect published names/roles only. Unsupported author/date fields were omitted; no review, rating, offer or FAQ-rich-result schema was added.
 - The gallery contains static links/images and works without JavaScript. Shared footer links and visible/schema breadcrumbs align with the hierarchy.
-- 182 original image references have dimension records; 698 WebP derivative files provide responsive delivery. Originals are retained. The full hero video changed from 308.6 MB to 21.5 MB (93% reduction). The sequence, finite duration and seeking were checked.
+- 182 original image references have dimension records; 711 WebP derivative files provide responsive delivery. Originals are retained. The full hero video changed from 308.6 MB to 21.5 MB (93% reduction). The sequence, finite duration and seeking were checked.
 - Below-the-fold videos are deferred, scripts are deferred, image dimensions reserve layout space, the hero poster is preloaded, external stock room/background requests were replaced with existing portfolio images, and unused testimonial/counter code was removed.
 - Skip links, focus targets, image alternatives, scrollable tables, dialog focus restoration, phone validation/autocomplete, reduced motion and source-path lead context were checked. No new analytics system or dependency was installed.
 - Existing authentication is retained. Noindex headers cover private endpoints; encoded local paths are normalised before access checks. Anonymous and authenticated login/session/portal/logout tests passed with disposable in-memory credentials.
@@ -29,7 +29,7 @@ Audit date: 19 October 2026. **The SEO release is deployed to https://www.siddas
 
 ## Deployment verified
 
-Read-only production verification at 2026-10-19T10:08:50.910Z: 34 public pages match the release source, 977 referenced/responsive assets passed checks, and 6 GitHub-hosted original videos returned valid partial MP4 data. Canonicals, JSON-LD, indexing controls, redirects, 404 and WebM range responses passed. 102 production page/viewport cases were checked, with 12 targeted rechecks; no unresolved browser failures remain. The initial mobile gallery readiness timeout is retained in the raw audit and was resolved by the isolated recheck with a 30-second readiness limit. See [production checks](production-check.json) and [production browser checks](production-browser-audit.json).
+Read-only production verification at 2026-10-19T12:06:09.026Z: 34 public pages match the release source, 991 referenced/responsive assets passed checks, and 6 GitHub-hosted original videos returned valid partial MP4 data. Canonicals, JSON-LD, indexing controls, redirects, 404 and WebM range responses passed. 102 production page/viewport cases were checked, with 3 targeted rechecks; no unresolved browser failures remain. See [production checks](production-check.json) and [production browser checks](production-browser-audit.json).
 
 Live Projects uses an authenticated handler with its template embedded in the function; the former static HTML source was removed so Vercel cannot bypass the rewrite. The two formerly local LFS-backed project videos use the existing GitHub media host. Legacy .html URLs may pass through Vercel's clean-URL redirect before reaching the final destination. No public URL was removed.
 
@@ -49,7 +49,7 @@ Internal-link counts include links within main content; shared footer links also
 
 | URL | Primary keyword | Intent | Title | H1 | Schema | Internal links | Indexable? | GEO answer content? | Status |
 | --- | --- | --- | --- | --- | --- | ---: | --- | --- | --- |
-| [/](https://www.siddaspace.com/) | Interior designers in Bangalore | Commercial | Interior Designers in Bangalore \| Siddaspace | Interior Designers & Turnkey Interiors in Bangalore | HomeAndConstructionBusiness, WebSite, WebPage | 36 in main content; checked | Yes; canonical in sitemap | Factual summary and links | PASS: source + live; viewport checks linked |
+| [/](https://www.siddaspace.com/) | Interior designers in Bangalore | Commercial | Interior Designers in Bangalore \| Siddaspace | Interior Designers & Turnkey Interior Solutions in Bangalore | HomeAndConstructionBusiness, WebSite, WebPage | 36 in main content; checked | Yes; canonical in sitemap | Factual summary and links | PASS: source + live; viewport checks linked |
 | [/about](https://www.siddaspace.com/about) | Interior design company in Bangalore | Navigational | Interior Design Company in Bangalore \| About Siddaspace | An interior design and execution company in Bangalore | HomeAndConstructionBusiness, WebSite, AboutPage, BreadcrumbList | 6 in main content; checked | Yes; canonical in sitemap | Factual summary and links | PASS: source + live; viewport checks linked |
 | [/services](https://www.siddaspace.com/services) | Interior design services Bangalore | Commercial | Interior Design Services in Bangalore \| Siddaspace | Interior design and execution services in Bangalore | HomeAndConstructionBusiness, WebSite, CollectionPage, BreadcrumbList | 14 in main content; checked | Yes; canonical in sitemap | Service scope/routing | PASS: source + live; viewport checks linked |
 | [/services/home-interiors](https://www.siddaspace.com/services/home-interiors) | Home interior designers Bangalore | Commercial | Home Interior Designers in Bangalore \| Siddaspace | Home interior designers in Bangalore | HomeAndConstructionBusiness, WebSite, WebPage, BreadcrumbList, ImageObject, Service | 21 in main content; checked | Yes; canonical in sitemap | Direct answer + scope + FAQ | PASS: source + live; viewport checks linked |
@@ -59,12 +59,12 @@ Internal-link counts include links within main content; shared footer links also
 | [/services/wardrobes-custom-furniture](https://www.siddaspace.com/services/wardrobes-custom-furniture) | Wardrobe designers Bangalore | Commercial | Wardrobe Designers & Custom Furniture Bangalore \| Siddaspace | Wardrobe designers and custom furniture in Bangalore | HomeAndConstructionBusiness, WebSite, WebPage, BreadcrumbList, ImageObject, Service | 14 in main content; checked | Yes; canonical in sitemap | Direct answer + scope + FAQ | PASS: source + live; viewport checks linked |
 | [/services/2-bhk-interiors](https://www.siddaspace.com/services/2-bhk-interiors) | 2 BHK interior design Bangalore | Commercial | 2 BHK Interior Design in Bangalore \| Siddaspace | 2 BHK interior design in Bangalore | HomeAndConstructionBusiness, WebSite, WebPage, BreadcrumbList, ImageObject, Service | 16 in main content; checked | Yes; canonical in sitemap | Direct answer + scope + FAQ | PASS: source + live; viewport checks linked |
 | [/services/3-bhk-interiors](https://www.siddaspace.com/services/3-bhk-interiors) | 3 BHK interior design Bangalore | Commercial | 3 BHK Interior Design in Bangalore \| Siddaspace | 3 BHK interior design in Bangalore | HomeAndConstructionBusiness, WebSite, WebPage, BreadcrumbList, ImageObject, Service | 18 in main content; checked | Yes; canonical in sitemap | Direct answer + scope + FAQ | PASS: source + live; viewport checks linked |
-| [/services/home-renovation](https://www.siddaspace.com/services/home-renovation) | Home renovation Bangalore | Commercial | Home Renovation & Civil Contractors Bangalore \| Siddaspace | Home renovation and civil interior contractors in Bangalore | HomeAndConstructionBusiness, WebSite, WebPage, BreadcrumbList, ImageObject, Service | 17 in main content; checked | Yes; canonical in sitemap | Direct answer + scope + FAQ | PASS: source + live; viewport checks linked |
+| [/services/home-renovation](https://www.siddaspace.com/services/home-renovation) | Home renovation Bangalore | Commercial | Home Renovation & Civil Contractors Bangalore \| Siddaspace | Home renovation and civil interior contractors in Bangalore | HomeAndConstructionBusiness, WebSite, WebPage, BreadcrumbList, ImageObject, Service | 18 in main content; checked | Yes; canonical in sitemap | Direct answer + scope + FAQ | PASS: source + live; viewport checks linked |
 | [/services/turnkey-interiors](https://www.siddaspace.com/services/turnkey-interiors) | Turnkey interior designers Bangalore | Commercial | Turnkey Interior Designers in Bangalore \| Siddaspace | Turnkey interior designers in Bangalore | HomeAndConstructionBusiness, WebSite, WebPage, BreadcrumbList, ImageObject, Service | 15 in main content; checked | Yes; canonical in sitemap | Direct answer + scope + FAQ | PASS: source + live; viewport checks linked |
-| [/projects](https://www.siddaspace.com/projects) | Interior projects Bangalore | Commercial | Home & Commercial Interior Projects Bangalore \| Siddaspace | Home and commercial interior projects in Bangalore | HomeAndConstructionBusiness, WebSite, CollectionPage, BreadcrumbList | 9 in main content; checked | Yes; canonical in sitemap | Factual summary and links | PASS: source + live; viewport checks linked |
+| [/projects](https://www.siddaspace.com/projects) | Interior projects Bangalore | Commercial | Home & Commercial Interior Projects Bangalore \| Siddaspace | Home and commercial interior projects in Bangalore | HomeAndConstructionBusiness, WebSite, CollectionPage, BreadcrumbList | 14 in main content; checked | Yes; canonical in sitemap | Factual summary and links | PASS: source + live; viewport checks linked |
 | [/gallery](https://www.siddaspace.com/gallery) | Sofa and living-room design gallery | Commercial | Sofa & Living Room Design Gallery Bangalore \| Siddaspace | Sofa and living-room design gallery | HomeAndConstructionBusiness, WebSite, CollectionPage, BreadcrumbList | 97 in main content; checked | Yes; canonical in sitemap | Factual summary and links | PASS: source + live; viewport checks linked |
 | [/team](https://www.siddaspace.com/team) | Siddaspace team | Navigational | Meet Our Bangalore Interior Design Team \| Siddaspace | The people behind Siddaspace execution. | HomeAndConstructionBusiness, WebSite, WebPage, BreadcrumbList, ImageObject, Person | 2 in main content; checked | Yes; canonical in sitemap | Names and roles | PASS: source + live; viewport checks linked |
-| [/packages](https://www.siddaspace.com/packages) | Home interior packages Bangalore | Commercial | Home Interior Packages in Bangalore \| Siddaspace | Home interior packages in Bangalore | HomeAndConstructionBusiness, WebSite, WebPage, BreadcrumbList | 8 in main content; checked | Yes; canonical in sitemap | Factual summary and links | PASS: source + live; viewport checks linked |
+| [/packages](https://www.siddaspace.com/packages) | Home interior packages Bangalore | Commercial | Home Interior Packages in Bangalore \| Siddaspace | Home interior packages in Bangalore | HomeAndConstructionBusiness, WebSite, WebPage, BreadcrumbList | 10 in main content; checked | Yes; canonical in sitemap | Factual summary and links | PASS: source + live; viewport checks linked |
 | [/blog](https://www.siddaspace.com/blog) | Bangalore interior planning guides | Informational | Interior Design Ideas & Cost Guides Bangalore \| Siddaspace | Interior design ideas and planning guides for Bangalore | HomeAndConstructionBusiness, WebSite, CollectionPage, BreadcrumbList | 4 in main content; checked | Yes; canonical in sitemap | Guide navigation | PASS: source + live; viewport checks linked |
 | [/blog/interior-design-cost-bangalore](https://www.siddaspace.com/blog/interior-design-cost-bangalore) | 2 BHK and 3 BHK interior design cost Bangalore | Informational | 2 & 3 BHK Interior Design Cost Bangalore \| Siddaspace Guide | How to plan 2 BHK and 3 BHK interior design costs in Bangalore | HomeAndConstructionBusiness, WebSite, WebPage, BreadcrumbList, ImageObject, BlogPosting | 10 in main content; checked | Yes; canonical in sitemap | Definition/checklist/comparison | PASS: source + live; viewport checks linked |
 | [/blog/home-interior-styles](https://www.siddaspace.com/blog/home-interior-styles) | Modern interior design Bangalore | Informational | Modern & Scandinavian Home Interiors \| Siddaspace Bangalore | Choose a modern, minimalist or Scandinavian interior for your home | HomeAndConstructionBusiness, WebSite, WebPage, BreadcrumbList, ImageObject, BlogPosting | 10 in main content; checked | Yes; canonical in sitemap | Definition/checklist/comparison | PASS: source + live; viewport checks linked |
@@ -154,11 +154,11 @@ Additional implementation files: scripts/seo-config.js, scripts/seo-html.js, scr
 
 The quotation planner collects room and package preferences rather than calculating prices; titles, headings, links and terms now describe that behaviour. Live consultation/quotation validation, intercepted WhatsApp draft contents, source attribution, no-JavaScript gallery links, gallery focus restoration, reduced motion and actual compressed-video decoding/seeking passed without sending an enquiry.
 
-Targeted results, including the changed quotation-planner wording and gallery readiness retest: [production browser rechecks](production-browser-recheck.json).
+The [latest production browser rechecks](production-browser-recheck.json) record 3 targeted page/viewport cases. The full 102-case production audit above remains the complete layout record.
 
 [Synthetic performance observations](production-performance.json) cover homepage and home-interior pages on mobile and desktop with all media enabled. The report states its network/CPU conditions; these single observations are not Lighthouse scores, field Core Web Vitals or measured INP.
 
-The mobile homepage did not provide a reliable LCP event in the synthetic probe. An independent [PageSpeed API attempt](pagespeed-mobile.json) returned HTTP 429 due to its daily quota. A mobile performance score and field Core Web Vitals pass are not claimed; complete that verification with Lighthouse/PageSpeed and real-user data. See [the deployment handover](DEPLOYMENT.md).
+Current [production mobile Lighthouse](lighthouse-mobile-final.json) measured performance 95, LCP 2.56 seconds, CLS 0.003 and TBT 68 ms. This is a lab observation, not field INP or a site-wide SEO/GEO score. It supersedes the earlier custom probe's unavailable mobile LCP. The historical [PageSpeed API quota response](pagespeed-mobile.json) is not a site-performance failure. See the [final live URL/trust audit](FINAL-PRODUCTION-AUDIT.md) and [deployment handover](DEPLOYMENT.md) for current measurements, remaining weaknesses and owner actions.
 
 
 ## Additional new configuration and data files
@@ -168,26 +168,12 @@ The mobile homepage did not provide a reliable LCP event in the synthetic probe.
 - assets/gallery/gallery-data.json
 - assets/optimized/manifest.json
 - assets/videos/media-manifest.json
+- reports/DEPLOYMENT.md
 - reports/SEO-AUDIT.md
 - reports/browser-audit.json
+- reports/final-local-audit.json
+- reports/lighthouse-mobile-before.json
 - reports/owner-confirmation.json
-- reports/project-evidence.json
-- reports/seo-audit.json
-- reports/seo-baseline.json
-- scripts/audit-browser.js
-- scripts/browser-session.js
-- scripts/check-flows.js
-- scripts/check-performance.js
-- scripts/check-production.js
-- scripts/check-routes.js
-- scripts/check-seo.js
-- scripts/optimize-images.js
-- scripts/optimize-video.js
-- scripts/report-seo.js
-- scripts/seo-config.js
-- scripts/seo-html.js
-- scripts/update-seo.js
-- reports/DEPLOYMENT.md
 - reports/pagespeed-mobile.json
 - reports/production-browser-audit.json
 - reports/production-browser-copy-recheck.json
@@ -196,3 +182,28 @@ The mobile homepage did not provide a reliable LCP event in the synthetic probe.
 - reports/production-performance-before-icons.json
 - reports/production-performance-diagnostic.json
 - reports/production-performance.json
+- reports/project-evidence.json
+- reports/seo-audit.json
+- reports/seo-baseline.json
+- scripts/audit-browser.js
+- scripts/browser-session.js
+- scripts/check-flows.js
+- scripts/check-performance.js
+- scripts/check-production.js
+- scripts/check-project-videos.js
+- scripts/check-routes.js
+- scripts/check-seo.js
+- scripts/final-production-audit.js
+- scripts/optimize-images.js
+- scripts/optimize-video.js
+- scripts/report-seo.js
+- scripts/seo-config.js
+- scripts/seo-html.js
+- scripts/update-seo.js
+- reports/FINAL-PRODUCTION-AUDIT.md
+- reports/final-production-audit.json
+- reports/lighthouse-desktop-final.json
+- reports/lighthouse-mobile-final.json
+- reports/lighthouse-projects-mobile-before-link-fix.json
+- reports/lighthouse-projects-mobile-final.json
+- reports/project-video-check.json
