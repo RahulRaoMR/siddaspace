@@ -208,9 +208,9 @@ const pages=[
   ],
   [
     "estimate",
-    "Home Interior Cost Calculator Bangalore | Siddaspace",
+    "Home Interior Quote Planner Bangalore | Siddaspace",
     "Plan your home interior budget in Bangalore. Select rooms and a package for a 2 BHK, 3 BHK or larger home, then prepare a quotation request with Siddaspace.",
-    "Interior cost calculator"
+    "Interior quote planner"
   ],
   [
     "privacy-policy",
@@ -322,7 +322,7 @@ const keywords={
   "reception-tables": "Reception tables Bangalore",
   "storage-solutions": "Office storage solutions Bangalore",
   "contact": "Contact Siddaspace Bangalore",
-  "estimate": "Home interior cost calculator Bangalore",
+  "estimate": "Home interior quotation request Bangalore",
   "privacy-policy": "Siddaspace privacy policy",
   "terms": "Siddaspace terms and conditions",
   "projects/executive-office": "Executive office interior project Bangalore",

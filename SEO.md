@@ -184,6 +184,8 @@ Remove-Item Env:SIDDA_PREVIEW_URL
 
 The production checker makes read-only requests, compares all public HTML with the release source, checks referenced and responsive assets, and verifies canonicals, JSON-LD, indexing controls, redirects, 404 and video ranges. Browser results for the production host are written separately from the local results. Never test using a real enquiry submission.
 
+For targeted visual rechecks, set `SIDDA_AUDIT_ROUTES` to comma-separated public paths; these results are stored separately so the full audit remains available. `npm run seo:performance` records short synthetic mobile/desktop observations with all media enabled. Its report states the network and CPU conditions; it is not a Lighthouse or field performance score.
+
 `.vercelignore` excludes development reports, scripts and local artefacts from uploads. Verify actual deployment exclusion or noindex controls after a hosting change. Do not deploy environment files or local credentials. Keep the unrelated `gallery-contact-sheet.jpg` out of the release.
 
 ## Procedure for adding a public page

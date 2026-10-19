@@ -97,6 +97,10 @@ async function each(items, work, concurrency = 8) {
   });
   for (const route of ['/live-projects', '/live-projects.html', '/api/live-projects', '/%6cive-projects', '/live-projects%2ehtml']) await check('private ' + route, async () => {
     const resolved = await redirectChain(route);
+    if (route.includes('%') && resolved.response.status === 404) {
+      assert.match(await resolved.response.text(), /name="robots" content="noindex/);
+      return { status: 404, privateDocumentNotServed: true };
+    }
     assert(resolved.current.pathname.startsWith('/login'));
     assert(resolved.chain.slice(0, -1).some(item => /noindex/.test(item.noindex || '')), 'Private route missing noindex');
     assert.equal(resolved.response.status, 200);

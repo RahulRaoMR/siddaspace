@@ -12,6 +12,7 @@
     "seo:browser": "node scripts/audit-browser.js",
     "seo:flows": "node scripts/check-flows.js",
     "seo:report": "node scripts/report-seo.js",
-    "seo:production": "node scripts/check-production.js"
+    "seo:production": "node scripts/check-production.js",
+    "seo:performance": "node scripts/check-performance.js"
   }
 }

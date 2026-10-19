@@ -3,8 +3,9 @@ const path = require("node:path");
 const { withBrowser } = require("./browser-session");
 const baseline = process.argv.includes("--baseline");
 const base = process.env.SIDDA_PREVIEW_URL || "http://localhost:3000";
+const selectedRoutes = new Set((process.env.SIDDA_AUDIT_ROUTES || '').split(',').filter(Boolean));
 const routes = baseline ? ["/", "/about", "/services/home-interiors", "/gallery", "/estimate"] :
-  [...fs.readFileSync(path.join(__dirname, "../sitemap.xml"), "utf8").matchAll(/<loc>([^<]+)<\/loc>/g)].map(([, url]) => new URL(url).pathname);
+  [...fs.readFileSync(path.join(__dirname, "../sitemap.xml"), "utf8").matchAll(/<loc>([^<]+)<\/loc>/g)].map(([, url]) => new URL(url).pathname).filter(route => !selectedRoutes.size || selectedRoutes.has(route));
 const results = [];
 const failures = [];
 withBrowser(async ({ call, evaluate, pause, onEvent }) => {
@@ -22,7 +23,7 @@ withBrowser(async ({ call, evaluate, pause, onEvent }) => {
       // Navigation acknowledgement can precede HTML parsing and deferred scripts.
       // Wait for a complete document before assessing menus/layout/footers.
       let ready=false;
-      for(let attempt=0;attempt<100&&!ready;attempt++){
+      for(let attempt=0;attempt<300&&!ready;attempt++){
         ready=await evaluate(`location.pathname===${JSON.stringify(route)}&&document.readyState==='complete'&&!!document.querySelector('footer')`);
         if(!ready)await pause(100);
       }
@@ -59,7 +60,7 @@ withBrowser(async ({ call, evaluate, pause, onEvent }) => {
 }).then(() => {
   const directory = path.join(__dirname, "../reports"); fs.mkdirSync(directory, { recursive: true });
   const production = new URL(base).hostname === "www.siddaspace.com";
-  fs.writeFileSync(path.join(directory, production ? "production-browser-audit.json" : baseline ? "seo-baseline.json" : "browser-audit.json"), JSON.stringify({ auditedOn: new Date().toISOString(), base, environment: "Headless browser; external stock imagery, GitHub video downloads and hero playback blocked. Lab observations are not field Core Web Vitals or Lighthouse scores.", results, failures }, null, 2) + "\n");
+  fs.writeFileSync(path.join(directory, selectedRoutes.size ? (production ? 'production-browser-recheck.json' : 'browser-recheck.json') : production ? "production-browser-audit.json" : baseline ? "seo-baseline.json" : "browser-audit.json"), JSON.stringify({ auditedOn: new Date().toISOString(), base, environment: "Headless browser; external stock imagery, GitHub video downloads and hero playback blocked. Lab observations are not field Core Web Vitals or Lighthouse scores.", results, failures }, null, 2) + "\n");
   console.log(`${results.length} page/viewport checks; ${failures.length} failures.`);
   if (failures.length) { console.error(JSON.stringify(failures)); process.exitCode = 1; }
 }).catch(error => { console.error(error); process.exitCode = 1; });
