@@ -24,6 +24,7 @@ function inspect(html) {
   };
 }
 function resolveFile(pathname) {
+  if (/^\/live-projects(?:\.html)?$/.test(pathname)) return path.join(root, 'api/live-projects.js');
   const relative = decodeURIComponent(pathname).replace(/^\//, "");
   const base = path.join(root, relative || "index.html");
   return [base, `${base}.html`].find(file => fs.existsSync(file) && fs.statSync(file).isFile());
@@ -116,11 +117,14 @@ while (pending.length) {
   pending.push(...pages.get(url).links.map(link => new URL(link, url).href.split("#")[0]));
 }
 for (const url of urls) assert(visited.has(url), `${url}: orphan public page`);
-for (const slug of ["login", "live-projects", "presentation", "404"]) {
+for (const slug of ["login", "presentation", "404"]) {
   const page = inspect(fs.readFileSync(path.join(root, `${slug}.html`), "utf8"));
   assert(page.meta("robots").join().includes("noindex"), `${slug}: missing noindex`);
   assert(!urls.includes(`${origin}/${slug}`), `${slug}: excluded page in sitemap`);
 }
+assert(!fs.existsSync(path.join(root, 'live-projects.html')), 'Live Projects must not have an unprotected static HTML entry');
+assert(fs.readFileSync(path.join(root, 'api/live-projects.js'), 'utf8').includes('name="robots" content="noindex'), 'Live Projects handler template needs noindex');
+assert(!urls.includes(`${origin}/live-projects`), 'Live Projects excluded from sitemap');
 assert(fs.readFileSync(path.join(root, "robots.txt"), "utf8").includes(`Sitemap: ${origin}/sitemap.xml`), "robots.txt sitemap mismatch");
 if (errors.length) {
   console.error(errors.join("\n"));

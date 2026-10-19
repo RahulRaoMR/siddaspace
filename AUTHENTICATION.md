@@ -27,6 +27,8 @@ Copy the resulting JSON object into the `AUTH_USERS_JSON` array. To change a pas
 
 Configure the variables for the current terminal, then run `npm start`. Open `/live-projects`. Unauthenticated visitors are sent to `/login?returnTo=%2Flive-projects`. After a successful login they return to `/live-projects`. Use the Logout button to end the session.
 
+The protected page template is embedded in `api/live-projects.js`. Keep it behind this handler: placing `live-projects.html` in the static output lets Vercel's file routing take precedence over the authentication rewrite. Both `/live-projects` and the legacy `.html` path use the existing authentication handler. The local server uses the same handler. Run `npm run seo:routes` before publishing and `npm run seo:production` after deployment to verify access controls.
+
 ## Camera integration
 
 The camera area is only a protected placeholder. Do not place a TrueCloud/TrueView password, RTSP URL, or camera URL in frontend code. The actual integration needs a browser-compatible, authenticated stream or a secure server-side proxy from the camera provider. Confirm the provider's supported web-streaming method before wiring it in.

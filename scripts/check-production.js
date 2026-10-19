@@ -7,6 +7,7 @@ const root = path.resolve(__dirname, '..');
 const base = 'https://www.siddaspace.com';
 const results = [];
 const failures = [];
+const externalVideos = new Set();
 const hash = value => createHash('sha256').update(value).digest('hex');
 async function check(label, work) {
   try { results.push({ label, ...await work() }); }
@@ -14,6 +15,18 @@ async function check(label, work) {
 }
 async function request(route, options = {}) {
   return fetch(new URL(route, base), { redirect: 'manual', signal: AbortSignal.timeout(30000), ...options, headers: { 'Accept-Encoding': 'identity', ...options.headers } });
+}
+async function redirectChain(route) {
+  const chain = [];
+  let current = new URL(route, base);
+  for (let i = 0; i < 4; i++) {
+    const response = await request(current.href);
+    chain.push({ url: current.href, status: response.status, noindex: response.headers.get('x-robots-tag') });
+    if (![301, 302, 307, 308].includes(response.status)) return { response, current, chain };
+    current = new URL(response.headers.get('location'), current);
+    assert.equal(current.origin, base, 'Unexpected redirect origin');
+  }
+  throw new Error('Too many redirects');
 }
 async function each(items, work, concurrency = 8) {
   let next = 0;
@@ -40,6 +53,7 @@ async function each(items, work, concurrency = 8) {
     }
     assert(schemas > 0, 'Structured data missing');
     for (const [, asset] of html.matchAll(/(?:src|poster|href|data-src)="(\/assets\/[^"?#]+)"/g)) assets.add(asset);
+    for (const [, video] of html.matchAll(/data-src="(https:\/\/media\.githubusercontent\.com\/[^"?#]+\.mp4)"/g)) externalVideos.add(video);
     return { status: response.status, sourceMatches: true, schemas };
   }));
   for (const file of ['/robots.txt', '/sitemap.xml']) await check(file, async () => {
@@ -65,18 +79,28 @@ async function each(items, work, concurrency = 8) {
     if (asset.startsWith('/assets/optimized/') || asset === media.hero) assert.match(response.headers.get('cache-control') || '', /immutable/);
     return { status: response.status, bytes: size };
   }), 12);
+  await each([...externalVideos], video => check('video ' + video, async () => {
+    const response = await request(video, { headers: { Range: 'bytes=0-99' } });
+    if (response.status !== 206) { await response.body?.cancel(); assert.fail('Video host did not return a partial media response'); }
+    const bytes = Buffer.from(await response.arrayBuffer());
+    assert.equal(bytes.length, 100);
+    assert(bytes.subarray(0, 32).includes(Buffer.from('ftyp')), 'Response is not an MP4 media file');
+    return { status: response.status, range: response.headers.get('content-range') };
+  }), 3);
   for (const [route, target] of [['/index.html', '/'], ['/about.html', '/about'], ['/about/', '/about'], ['/presentation', '/products'], ['/presentation.html', '/products'], ['https://siddaspace.com/', base + '/'], ['http://www.siddaspace.com/', base + '/']]) await check('redirect ' + route, async () => {
     const response = await request(route);
     assert([301, 308].includes(response.status));
-    assert.equal(new URL(response.headers.get('location'), base).href, new URL(target, base).href);
-    return { status: response.status, location: response.headers.get('location') };
+    const resolved = await redirectChain(route);
+    assert.equal(resolved.current.href, new URL(target, base).href);
+    assert.equal(resolved.response.status, 200);
+    return { status: response.status, chain: resolved.chain };
   });
-  for (const route of ['/live-projects', '/live-projects.html', '/api/live-projects']) await check('private ' + route, async () => {
-    const response = await request(route);
-    assert([302, 307, 308].includes(response.status));
-    assert(new URL(response.headers.get('location'), base).pathname.startsWith('/login'));
-    assert.match(response.headers.get('x-robots-tag') || '', /noindex/);
-    return { status: response.status, noindex: true };
+  for (const route of ['/live-projects', '/live-projects.html', '/api/live-projects', '/%6cive-projects', '/live-projects%2ehtml']) await check('private ' + route, async () => {
+    const resolved = await redirectChain(route);
+    assert(resolved.current.pathname.startsWith('/login'));
+    assert(resolved.chain.slice(0, -1).some(item => /noindex/.test(item.noindex || '')), 'Private route missing noindex');
+    assert.equal(resolved.response.status, 200);
+    return { chain: resolved.chain, noindex: true };
   });
   await check('login indexing', async () => {
     const response = await request('/login');
@@ -84,6 +108,14 @@ async function each(items, work, concurrency = 8) {
     assert.match(response.headers.get('x-robots-tag') || '', /noindex/);
     assert.match(await response.text(), /name="robots" content="noindex/);
     return { status: response.status, noindex: true };
+  });
+  await check('anonymous session', async () => {
+    const response = await request('/api/auth/session');
+    assert.equal(response.status, 200);
+    const session = await response.json();
+    assert.equal(session.authenticated, false);
+    assert.equal(session.user, null);
+    return { status: response.status, authenticated: false };
   });
   await check('404', async () => {
     const response = await request('/this-page-does-not-exist-seo-check');
@@ -105,7 +137,7 @@ async function each(items, work, concurrency = 8) {
     assert(response.status === 404 || /noindex/.test(response.headers.get('x-robots-tag') || ''), 'Developer file must be excluded or noindex');
     return { status: response.status, noindex: response.headers.get('x-robots-tag') };
   });
-  const report = { checkedAt: new Date().toISOString(), base, publicPages: routes.length, assetCount: assets.size, results, failures };
+  const report = { checkedAt: new Date().toISOString(), base, publicPages: routes.length, assetCount: assets.size, externalVideoCount: externalVideos.size, results, failures };
   fs.writeFileSync(path.join(root, 'reports/production-check.json'), JSON.stringify(report, null, 2) + '\n');
   console.log(`Production checks: ${routes.length} pages, ${assets.size} assets, ${results.length} passed; ${failures.length} failures.`);
   if (failures.length) { console.error(JSON.stringify(failures, null, 2)); process.exitCode = 1; }

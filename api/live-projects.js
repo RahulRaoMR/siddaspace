@@ -1,6 +1,77 @@
-const fs = require("fs");
-const path = require("path");
 const auth = require("../auth");
+
+// Keep the protected page inside its handler: a root HTML file bypasses Vercel rewrites.
+const page = Buffer.from(`<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Live Interior Projects | Siddaspace Bengaluru</title>
+  <meta name="description" content="Follow current Siddaspace interior projects in Bengaluru, from design development and production to on-site installation.">
+  <link rel="canonical" href="https://www.siddaspace.com/live-projects">
+  <link rel="icon" type="image/svg+xml" href="/assets/siddaspace-favicon.svg?v=4">
+  <link rel="icon" href="/favicon.ico?v=4" sizes="any">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/siddaspace-icon-96.png?v=4">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/siddaspace-icon-192.png?v=4">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png?v=4">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="seo-page live-projects-page">
+  <header class="site-header" id="top">
+    <a class="brand" href="/" aria-label="Siddaspace home"><img class="brand-logo" src="/assets/sidda-space-logo-on-light.png" alt="Siddaspace"></a>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/services">Services</a>
+      <a href="/projects">Projects</a>
+      <a href="/gallery">Sofa & Living</a>
+      <a href="/team">Our Team</a>
+      <a class="is-active" href="/live-projects" aria-current="page">Live Projects</a>
+      <a href="/packages">Packages</a>
+      <a href="/blog">Blog</a>
+      <a href="/products">Products</a>
+      <a href="/contact">Contact</a>
+    </nav>
+    <a class="header-brand" href="/" aria-label="Siddaspace home"><img src="/assets/sidda-space-symbol.png" alt="Siddaspace"></a>
+  </header>
+
+  <main>
+    <section class="seo-hero">
+      <p class="eyebrow">Live Projects</p>
+      <h1>See what is taking shape right now.</h1>
+      <p>Follow the work behind the finished spaces: design development, production, installation, and the final details that bring each project together.</p>
+    </section>
+
+    <section class="seo-section live-camera-section" aria-label="Private live camera">
+      <div class="section-heading">
+        <p class="eyebrow">Private live camera</p>
+        <h2>Camera access is ready for secure setup.</h2>
+      </div>
+      <div class="live-camera-placeholder">
+        <span class="project-status">Authenticated access</span>
+        <h3>Live camera stream placeholder</h3>
+        <p>The private camera stream will appear here once a secure browser-compatible source is configured.</p>
+      </div>
+      <button class="auth-logout" type="button" data-auth-logout>Log Out</button>
+    </section>
+
+    <section class="seo-band">
+      <h2>Planning a project of your own?</h2>
+      <a class="primary-btn" href="/contact">Book Free Consultation</a>
+    </section>
+  </main>
+
+  <a class="whatsapp-float" href="https://wa.me/916364309878?text=Hello%20Siddaspace%2C%20I%20want%20to%20know%20more%20about%20your%20live%20projects." aria-label="Chat on WhatsApp" target="_blank" rel="noopener">
+    <img src="/assets/whatsapp-logo.svg" alt="" aria-hidden="true">
+  </a>
+  <script defer src="/script.js"></script>
+  <script defer src="/live-projects.js"></script>
+</body>
+</html>
+`);
 
 module.exports = function liveProjects(request, response) {
   response.setHeader("X-Robots-Tag", "noindex, nofollow");
@@ -16,14 +87,6 @@ module.exports = function liveProjects(request, response) {
     return;
   }
 
-  fs.readFile(path.join(process.cwd(), "live-projects.html"), (error, page) => {
-    if (error) {
-      response.writeHead(500, { "Content-Type": "text/plain; charset=utf-8" });
-      response.end("Unable to load Live Projects.");
-      return;
-    }
-
-    response.writeHead(200, { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "private, no-store", "Content-Length": page.length });
-    response.end(request.method === "HEAD" ? undefined : page);
-  });
+  response.writeHead(200, { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "private, no-store", "Content-Length": page.length });
+  response.end(request.method === "HEAD" ? undefined : page);
 };

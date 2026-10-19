@@ -1,7 +1,6 @@
 const http = require("http");
 const fs = require("fs");
 const path = require("path");
-const auth = require("./auth");
 const login = require("./api/auth/login");
 const logout = require("./api/auth/logout");
 const session = require("./api/auth/session");
@@ -138,14 +137,7 @@ const server = http.createServer((request, response) => {
   }
 
   if (pathname === "/live-projects" || pathname === "/live-projects.html") {
-    if (!auth.getAuthenticatedUser(request)) {
-      response.writeHead(302, { Location: "/login?returnTo=%2Flive-projects", "Cache-Control": "no-store" });
-      response.end();
-      return;
-    }
-
-    response.setHeader("Cache-Control", "private, no-store");
-    sendFile(response, path.join(rootDir, "live-projects.html"), request);
+    liveProjects(request, response);
     return;
   }
 
